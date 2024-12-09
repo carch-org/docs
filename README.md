@@ -26,11 +26,9 @@ This is the official documentation for [Carch Project](https://github.com/harilv
 
 ---
 
-<div align="left">
+<div align="center">
   
 ### 📚 Build Documentation
-
-</div>
 
 
 #### 🛠️ Clone Repository
