@@ -23,9 +23,11 @@ This is the official documentation for [Carch Project](https://github.com/harilv
 [![github actions build status][check]][link]
 
 </div>
+---
+
 <br>
 
-<div align="center">
+<div align="left">
   
 ### 📚 Build Documentation
 
