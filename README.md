@@ -12,10 +12,13 @@
 </p>
 
 <div align = "center"
+
+<br>
   
 [![github actions build status][check]][link]
 
 </div>
+<br><br>
 
 <div align="center">
   
