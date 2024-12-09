@@ -1,6 +1,6 @@
 <div align="center">
   
-## `Carch Official Documentation`
+# `Carch Official Documentation`
 
 </div>
 <br>
@@ -16,15 +16,20 @@
 [![github actions build status][check]][link]
 
 </div>
+<div align="center">
+  
+## `Build`
 
-## Build
+</div>
+
+### Clone 
 
 ```sh
 git clone https://github.com/carch-org/docs
 cd docs
 ```
 
-## Npm
+## Build
 
 ```sh
 npm run docs:build
