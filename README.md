@@ -1,4 +1,7 @@
+<div align="center"
+  
 ## `Carch Official Documentation`
+</div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Maintained%3F-Yes-1c1c29?style=for-the-badge&color=ef9f9c&logoColor=85e185&labelColor=1c1c29">
