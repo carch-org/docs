@@ -39,8 +39,8 @@ This is the official documentation for [Carch Project](https://github.com/harilv
 </div>
 
 ```sh
-git clone https://github.com/carch-org/docs
-cd docs
+        git clone https://github.com/carch-org/docs
+        cd docs
 ```
 
 <br>
