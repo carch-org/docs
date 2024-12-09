@@ -30,8 +30,13 @@ This is the official documentation for [Carch Project](https://github.com/harilv
   
 ### 📚 Build Documentation
 
+</div>
+
+<div align="center">
 
 #### 🛠️ Clone Repository
+
+</div>
 
 ```sh
 git clone https://github.com/carch-org/docs
@@ -40,8 +45,12 @@ cd docs
 
 <br>
 
+<div align="center">
+
 #### 🏗️ Build
 *To generate the static documentation files:*
+
+</div>
 
 ```sh
 npm run docs:build
@@ -49,26 +58,35 @@ npm run docs:build
 
 <br>
 
+<div align="center">
+  
 #### 👀 Preview 
 *To preview the generated build locally:*
+
+</div>
 
 ```sh
 npm run docs:preview
 ```
-
+<div align="center">
+  
 *Copy the local IP address provided and paste it into your browser to view the documentation.*
+
+</div>
 
 <br>
 
+<div align="center">
+  
 #### 🔄 Development Build
 
 *To see live changes while editing the documentation:*
 
+</div>
+
 ```sh
 npm run docs:dev
 ```
-
-</div>
 
 [check]: https://github.com/carch-org/docs/actions/workflows/docs.yml/badge.svg
 [link]: https://github.com/carch-org/docs/actions/workflows/docs.yml
