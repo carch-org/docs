@@ -1,6 +1,6 @@
 <div align="center"
   
-# `Carch Official Documentation`
+<h1> `Carch Official Documentation` </h1>
 </div>
 <br>
 <p align="center">
