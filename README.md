@@ -17,5 +17,34 @@
 
 </div>
 
+## Build
+
+```sh
+git clone https://github.com/carch-org/docs
+cd docs
+```
+
+## Npm
+
+```sh
+npm run docs:build
+```
+
+## Preview 
+
+```sh
+npm run docs:preview
+```
+
+*Then copy the local ip and paste in broswer to see the build*
+
+## Dev Build
+
+```sh
+npm run docs:dev
+```
+
+*You can see the changes at real time you changes something on docs*
+
 [check]: https://github.com/carch-org/docs/actions/workflows/docs.yml/badge.svg
 [link]: https://github.com/carch-org/docs/actions/workflows/docs.yml
