@@ -1,9 +1,7 @@
 <div align="center"
   
-<h1>
-  
-`Carch Official Documentation`
-</h1>
+# `Carch Official Documentation`
+
 </div>
 <br>
 <p align="center">
