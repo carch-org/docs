@@ -1,13 +1,11 @@
 <div align="center">
   
 <img src="/docs/public/package.png" width="50" />
-  
-## `Carch Official Documentation`
 
-<h4> 
+<h3> 
   
 This is the official documentation for [Carch](https://github.com/harilvfs/carch).
-</h4>
+</h3>
 
 </div>
 <br>
