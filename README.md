@@ -16,40 +16,47 @@
 [![github actions build status][check]][link]
 
 </div>
+
 <div align="center">
   
-## `Build`
+## Build Documentation
 
 </div>
 
-### Clone 
+---
+
+### Clone Repository
 
 ```sh
 git clone https://github.com/carch-org/docs
 cd docs
 ```
 
-## Build
+### Build
+*To generate the static documentation files:*
 
 ```sh
 npm run docs:build
 ```
 
-## Preview 
+### Preview 
+*To preview the generated build locally:*
 
 ```sh
 npm run docs:preview
 ```
 
-*Then copy the local ip and paste in broswer to see the build*
+*Copy the local IP address provided and paste it into your browser to view the documentation.*
 
-## Dev Build
+### Development Build
+
+*To see live changes while editing the documentation:*
 
 ```sh
 npm run docs:dev
 ```
 
-*You can see the changes at real time you changes something on docs*
+</div>
 
 [check]: https://github.com/carch-org/docs/actions/workflows/docs.yml/badge.svg
 [link]: https://github.com/carch-org/docs/actions/workflows/docs.yml
