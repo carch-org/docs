@@ -2,7 +2,7 @@
   
 <h1>
   
-`Carch Official Documentation` <img src="/docs/public/package.png" />
+`Carch Official Documentation` <img src="/docs/public/package.png" width="50" />
 
 </h1>
 
