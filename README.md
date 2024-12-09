@@ -2,10 +2,10 @@
   
 <img src="/docs/public/package.png" width="50" />
 
-<h3> 
+<h4> 
   
 This is the official documentation for [Carch Project](https://github.com/harilvfs/carch).
-</h3>
+</h4>
 
 </div>
 <br>
