@@ -1,10 +1,8 @@
 <div align="center">
   
-<h1>
+<img src="/docs/public/package.png" width="50" />
   
-`Carch Official Documentation` <img src="/docs/public/package.png" width="50" />
-
-</h1>
+## `Carch Official Documentation`
 
 <h4> 
   
