@@ -4,7 +4,7 @@
 
 <h4> 
   
-This is the official documentation for [Carch](https://github/harilvfs/carch) 
+This is the official documentation for [Carch](https://github/harilvfs/carch).
 </h4>
 
 </div>
