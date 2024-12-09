@@ -39,7 +39,7 @@ git clone https://github.com/carch-org/docs
 cd docs
 ```
 
-
+<br>
 
 #### 🏗️ Build
 *To generate the static documentation files:*
@@ -48,7 +48,7 @@ cd docs
 npm run docs:build
 ```
 
-
+<br>
 
 #### 👀 Preview 
 *To preview the generated build locally:*
@@ -59,8 +59,7 @@ npm run docs:preview
 
 *Copy the local IP address provided and paste it into your browser to view the documentation.*
 
-
-
+<br>
 
 #### 🔄 Development Build
 
