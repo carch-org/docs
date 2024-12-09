@@ -4,5 +4,5 @@
 
 </div>
 
-[check]: https://github.com/harilvfs/carch-org/actions/workflows/docs.yml/badge.svg
-[link]: https://github.com/harilvfs/carch-org/actions/workflows/docs.yml
+[check]: https://github.com/carch-org/docs/actions/workflows/docs.yml/badge.svg
+[link]: https://github.com/carch-org/docs/actions/workflows/docs.yml
