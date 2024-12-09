@@ -6,7 +6,7 @@ export default {
   lastUpdated: true,
 
   head: [
-        ["link", { rel: "icon", href: "/carch/package.png" }],
+        ["link", { rel: "icon", href: "/docs/package.png" }],
     ],
 
   themeConfig: {
