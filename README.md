@@ -2,6 +2,11 @@
   
 ## `Carch Official Documentation`
 
+<h4> 
+  
+This is the official documentation for [Carch](https://github/harilvfs/carch) 
+</h4>
+
 </div>
 <br>
 <p align="center">
@@ -22,26 +27,26 @@
 
 <div align="center">
   
-## 📚 Build Documentation
+### 📚 Build Documentation
 
 </div>
 
 
-### 🛠️ Clone Repository
+#### 🛠️ Clone Repository
 
 ```sh
 git clone https://github.com/carch-org/docs
 cd docs
 ```
 
-### 🏗️ Build
+#### 🏗️ Build
 *To generate the static documentation files:*
 
 ```sh
 npm run docs:build
 ```
 
-### 👀 Preview 
+#### 👀 Preview 
 *To preview the generated build locally:*
 
 ```sh
@@ -50,7 +55,7 @@ npm run docs:preview
 
 *Copy the local IP address provided and paste it into your browser to view the documentation.*
 
-### 🔄 Development Build
+#### 🔄 Development Build
 
 *To see live changes while editing the documentation:*
 
