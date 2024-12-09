@@ -1,6 +1,10 @@
 <div align="center">
   
-## `Carch Official Documentation`
+<h1>
+  
+`Carch Official Documentation` <img src="/docs/public/package.png" />
+
+</h1>
 
 <h4> 
   
