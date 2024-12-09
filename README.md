@@ -26,7 +26,6 @@
 
 </div>
 
----
 
 ### Clone Repository
 
