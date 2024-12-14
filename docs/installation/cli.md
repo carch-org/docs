@@ -2,6 +2,9 @@
 
 **To install Carch, execute the following command in your terminal:**
 
+> [!INFO]
+> **Make sure to install `curl` before running this command** **`sudo pacman -S curl`**
+
 :::code-group
 
 
