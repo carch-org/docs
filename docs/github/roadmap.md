@@ -1,92 +1,94 @@
-# Carch Project Roadmap 🚀
+# Carch Project Roadmap 
 
-**Current Phase: Advancing Script Development**  
-The project is now progressing through its development phase, focusing on creating scripts to simplify the Arch Linux setup process. 🛠️
+**Current Phase** *[ Advancing Script Development ]* <img src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png" width="20" /> 
 
----
+*The project is now progressing through its development phase, focusing on creating scripts to simplify the Arch Linux setup process.* 🛠️
 
 ## Upcoming Features and Improvements ✨
 
-1. **Expand Functionality for Different Distributions 🌐**
+- **Expand Functionality for Different Distributions 🌐**
    - Add full support for popular distributions:
-     - **Arch** (including Manjaro) 🖥️
-     - **Debian** 🐧
-     - **Fedora** 🍕
-     - **openSUSE** 🐢
-     - **Void** 🌌
+     - **Arch** (including Manjaro) 🖥️ <img src="https://img.icons8.com/?size=48&id=uIXgLv5iSlLJ&format=png" width="20" />
+     - **Debian** <img src="https://img.icons8.com/?size=48&id=17838&format=png" width="20" /> 
+     - **Fedora** <img src="https://img.icons8.com/?size=48&id=ZbBhBW0N2q3D&format=png" width="20" />
+     - **openSUSE** <img src="https://cdn0.iconfinder.com/data/icons/flat-round-system/512/opensuse-512.png" width="20" /> 
+     - **Void** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Void_Linux_logo.svg/256px-Void_Linux_logo.svg.png" width="20" /> 
    - Develop distribution-specific setup scripts.
 
-2. **Enhance Script Stability 🔧**
+- **Enhance Script Stability 🔧**
    - Refactor existing scripts for improved stability.
    - Implement error handling and logging for better debugging.
 
-3. **Improve TUI (Text-based User Interface) 🎨**
+- **Improve TUI (Text-based User Interface) 🎨**
    - Enhance user experience with better navigation and visuals.
    - Add more themes and customization options.
    - Integrate user feedback for continuous improvement.
    - Explore GTK integration for a graphical interface.
 
-4. **Implement Additional Programming Languages 💻**
+- **Implement Additional Programming Languages** <img src="https://img.icons8.com/?size=64&id=t7vIvDXazOGO&format=png" width="20" />
    - Add Rust implementations for performance-critical components.
    - Explore opportunities for parallel development in Rust.
 
-5. **Add Window Manager (WM) Setup Scripts 🪟**
+- **Add Window Manager (WM) Setup Scripts 🪟**
    - Create and improve installation/setup scripts for more window managers (e.g., i3, Sway).
    - Include configuration options tailored for each WM.
 
-6. **Core System Setup Scripts ⚙️**
+- **Core System Setup Scripts ⚙️**
    - Develop beginner-friendly scripts for core system setup (e.g., package management, user configuration).
    - Include guides and documentation to assist new users.
 
-7. **Enhance TUI with Rust 🦀**
+- **Enhance TUI with Rust 🦀**
    - Transition the TUI implementation to Rust for improved performance and maintainability.
    - Leverage Rust's features to create a more responsive interface.
 
----
-
-## Carch Project Checklist ✅
+## Carch Project Checklist 
+<img src="https://cdn-icons-png.flaticon.com/128/8090/8090840.png" width="30" />
 
 - **Expand support for popular distributions:**
-  - [x] Arch (including Manjaro) 🖥️
-  - [ ] Debian 🐧
-  - [ ] Fedora 🍕
-  - [ ] openSUSE 🐢
-  - [ ] Void 🌌
+
+  - Arch <img src="https://img.icons8.com/?size=48&id=uIXgLv5iSlLJ&format=png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />  
+  - Debian <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" /> 
+  - Fedora <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" /> 
+  - openSUSE <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - Void <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **Refactor scripts for stability:**
-  - [x] Implement error handling
-  - [ ] Add logging capabilities
+
+  - Implement error handling <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
+  - Add logging capabilities <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **Improve TUI:**
-  - [x] Enhance navigation
-  - [x] Add themes/customizations
-  - [x] GUI/GTK
-  - [ ] Gather user feedback
+
+  - Enhance Navigation <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
+  - Add themes/customizations <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
+  - GUI/GTK <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
+  - Gather user feedback <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 
 - **Implement additional programming languages:**
-  - [ ] Develop Rust components
-  - [ ] Assess areas for parallel development
+
+  - Develop Rust components <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - Assess areas for parallel development <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **Add WM setup scripts:**
-  - [x] i3 setup script
-  - [x] Sway setup script
-  - [x] Other window manager scripts
+
+  - i3 setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - Sway setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - Other window manager scripts <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
 
 - **Create core system setup scripts:**
-  - [ ] User configuration
-  - [x] Package management
-  - [x] Documentation for beginners
+  
+  - User configuration <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - Package management <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - Documentation for beginners <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
 
 - **Transition TUI to Rust:**
-  - [ ] Research best practices for TUI development in Rust
-  - [ ] Implement and test new TUI
-
----
+  - Research best practices for TUI development in Rust <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - Implement and test new TUI <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 ## Timeline (Tentative) 📅
 
-- **Q 2024**: Develop additional WM setup scripts and core system setup scripts. ✔
+- **Q 2024**: Develop additional WM setup scripts and core system setup scripts. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
 - **Q 2025**: Refactor existing scripts for stability and begin expanding distribution support.
 - **Q Mid 2025**: Rust Implementation
 

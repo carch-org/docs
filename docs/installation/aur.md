@@ -26,7 +26,7 @@ paru -S carch-git
 
 ```
 
-```sh [<i class="devicon-archlinuc-plain"></i> yay]
+```sh [<i class="devicon-archlinux-plain"></i> yay]
 yay -S carch
 #or
 yay -S carch-git
