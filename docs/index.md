@@ -15,10 +15,10 @@ hero:
       text: What is Carch? 
       link: /getting-started/introduction.md
     - theme: alt
-      text: Get Started
+      text: Install 
       link: /installation/cli.md
     - theme: alt
-      text: GitHub
+      text: GitHub ↗
       link: https://github.com/harilvfs/carch
 features:
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/10229/10229090.png" alt="setup"/>
@@ -30,7 +30,7 @@ features:
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/3131/3131638.png" alt="scripts"/>
     title: Multiple Scripts
     details: Automate the setup of various environments, including Dwm and Hyprland.
-  - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/4205/4205106.png" alt="development"/>
+  - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/3308/3308315.png" alt="development"/>
     title: Active Development
     details: Continuous updates and new features based on community feedback.
 ---

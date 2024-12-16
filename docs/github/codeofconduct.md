@@ -1,4 +1,5 @@
 # Contributor Covenant Code of Conduct
+<img src="https://img.icons8.com/?size=80&id=X8FDBhUFMq9b&format=png" width="50" />
 
 ## Our Pledge
 

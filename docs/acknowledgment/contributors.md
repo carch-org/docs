@@ -1,4 +1,4 @@
-<img src="https://cdn-icons-png.flaticon.com/128/4587/4587595.png" width="40" />
+<img src="https://cdn-icons-png.flaticon.com/128/4587/4587595.png" width="50" />
 
 **We thank everyone who has contributed to making `Carch` better. Your feedback and contributions are invaluable!**
 
