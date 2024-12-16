@@ -1,4 +1,5 @@
-# Aur
+# Aur [`Arch Linux`]
+<img src="https://img.icons8.com/?size=48&id=uIXgLv5iSlLJ&format=png" width="50" />
 
 ![AUR Version](https://img.shields.io/aur/version/carch-git?style=for-the-badge&color=dbb6ed&logo=arch-linux&label=%5BAUR%5D%20carch-git&logocolor=85e185&labelColor=1c1c29)
 

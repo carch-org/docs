@@ -1,4 +1,5 @@
 # CLI Commands  
+<img src="https://cdn-icons-png.flaticon.com/128/2581/2581117.png" width="40" />
 
 Carch now supports CLI commands! Use `carchcli` with the following options:  
 

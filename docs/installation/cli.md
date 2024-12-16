@@ -1,4 +1,5 @@
-# Installation
+# Terminal
+<img src="https://img.icons8.com/?size=80&id=v8LYQxpvZ4xX&format=png" width="60" />
 
 **To install Carch, execute the following command in your terminal:**
 

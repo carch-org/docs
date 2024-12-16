@@ -1,6 +1,6 @@
 # Scripts
 
-<img src="https://cdn-icons-png.flaticon.com/128/3721/3721643.png" width="30" />
+<img src="https://cdn-icons-png.flaticon.com/128/3721/3721643.png" width="40" />
 
 **Carch comes with the following scripts to configure various aspects of your Arch-based system.**
 

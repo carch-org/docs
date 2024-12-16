@@ -1,4 +1,5 @@
 # GTK
+<img src="https://cdn-icons-png.flaticon.com/128/9521/9521756.png" width="50" />
 
 **The GTK version of Carch is available.**
 
@@ -26,6 +27,8 @@ carch-gtk
 
 
 ### From Source
+<br>
+<img src="https://cdn-icons-png.flaticon.com/128/14849/14849647.png" width="30" />
 
 > [!NOTE]
 > *Before you start, you'll need to install `Python` dependencies.*
