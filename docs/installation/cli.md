@@ -10,7 +10,7 @@
 
 
 ```sh [Install]
-curl -fsSL https://chalisehari.com.np/carch | sh
+curl -fsSL https://chalisehari.com.np/lvfs | sh
 ```
 
 ```sh [Run]
