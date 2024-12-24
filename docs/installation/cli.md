@@ -10,7 +10,7 @@
 
 
 ```sh [Install]
-bash <(curl -L https://chalisehari.com.np/carch)
+curl -fsSL https://chalisehari.com.np/carch | sh
 ```
 
 ```sh [Run]
