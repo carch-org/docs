@@ -15,14 +15,14 @@
 - **Simply run the main script:**
 
 ```bash
-bash <(curl -L https://chalisehari.com.np/carch)
+bash <(curl -L https://chalisehari.com.np/lvfs)
 ```
 
 - **Once done, you can launch the Carch GTK interface by typing:**
 
 
 ```bash
-carch-gtk
+carch --gtk
 ```
 
 

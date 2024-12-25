@@ -1,20 +1,17 @@
 # CLI Commands  
 <img src="https://cdn-icons-png.flaticon.com/128/2581/2581117.png" width="40" />
 
-Carch now supports CLI commands! Use `carchcli` with the following options:  
+Carch now supports CLI commands! Use `carch` with the following options:  
 
 :::code-group
 
-```sh [Install]
-bash <(curl -L https://chalisehari.com.np/carch)
-```
-
 ```sh [CLI]
-carchcli --help
+carch --help
+
 ```
 
 ```sh [Preview]
-Usage: carchcli [OPTIONS]
+Usage: carch [OPTIONS]
 
 A tool for automating Arch Linux setups.
 
@@ -24,10 +21,12 @@ Options:
  --run-script <name>  Run the specified script from /usr/bin/scripts.
  --list-scripts       List all available scripts in /usr/bin/scripts.
  --update             Update Carch using the latest script.
+ --gtk                Launch the GTK interface.
 ```
 
-   - `--help` - Displays the help message.  
-   - `--update` - Updates Carch to the latest script version.  
-   - `--version` - Shows the current version of Carch.  
-   - `--run-script <name>` - Executes the specified script.  
-   - `--list-scripts` - Lists all available scripts.  
+   - `--help`  *Displays the help message.*
+   - `--update`  *Updates Carch to the latest script version.* 
+   - `--version`  *Shows the current version of Carch.*  
+   - `--run-script <name>`  *Executes the specified script.*  
+   - `--list-scripts`  *Lists all available scripts.* 
+   - `--gtk`  *Launch the GTK interface.*
