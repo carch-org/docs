@@ -56,7 +56,7 @@
 - **Refactor scripts for stability:**
 
   - Implement error handling <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - Add logging capabilities <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - Add logging capabilities <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
 
 - **Improve TUI:**
 
