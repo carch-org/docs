@@ -73,9 +73,9 @@ export default {
   },
 ],
     socialLinks: [
-      { icon: "telegram", link: "https://t.me/harilvfs" },
+      { icon: "telegram", link: "https://t.me/carchx" },
       { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
-      { icon: "gmail", link: "mailto:harilvfs@chalisehari.com.np" },
+      { icon: "reddit", link: "https://www.reddit.com/r/carch/" },
     ],
     footer: {
       message: "Released under the GPL-3.0 License.",
