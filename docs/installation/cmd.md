@@ -22,6 +22,7 @@ Options:
  --list-scripts       List all available scripts in /usr/bin/scripts.
  --update             Update Carch using the latest script.
  --gtk                Launch the GTK interface.
+ --uninstall          Uninstall Carch and remove all associated files.
 ```
 
    - `--help`  *Displays the help message.*
@@ -30,3 +31,4 @@ Options:
    - `--run-script <name>`  *Executes the specified script.*  
    - `--list-scripts`  *Lists all available scripts.* 
    - `--gtk`  *Launch the GTK interface.*
+   - `--uninstall`  *Uninstalls Carch and removes all associated files.*

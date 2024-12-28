@@ -1,6 +1,11 @@
 # Aur [`Arch Linux`]
 <img src="https://img.icons8.com/?size=48&id=uIXgLv5iSlLJ&format=png" width="50" />
 
+> [!CAUTION]
+> If you have installed Carch using GitHub installation commands, avoid reinstalling it via the AUR. Doing so may cause conflicts and affect its functionality.
+>
+> Please ensure you stick to one installation method for a seamless experience.
+
 ![AUR Version](https://img.shields.io/aur/version/carch-git?style=for-the-badge&color=dbb6ed&logo=arch-linux&label=%5BAUR%5D%20carch-git&logocolor=85e185&labelColor=1c1c29)
 
 ![AUR Version](https://img.shields.io/aur/version/carch?style=for-the-badge&color=ef9f9c&logo=arch-linux&label=%5BAUR%5D%20carch&logocolor=85e185&labelColor=1c1c29)
