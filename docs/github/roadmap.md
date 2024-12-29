@@ -79,7 +79,7 @@
 
 - **Create core system setup scripts:**
   
-  - User configuration <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - User configuration <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
   - Package management <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
   - Documentation for beginners <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
 
