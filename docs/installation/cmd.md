@@ -16,19 +16,39 @@ Usage: carch [OPTIONS]
 A tool for automating Arch Linux setups.
 
 Options:
- --help               Show this help message and exit.
- --version            Show the program version.
- --run-script <name>  Run the specified script from /usr/bin/scripts.
- --list-scripts       List all available scripts in /usr/bin/scripts.
- --update             Update Carch using the latest script.
- --gtk                Launch the GTK interface.
- --uninstall          Uninstall Carch and remove all associated files.
+  --help, -h              Show this help message and exit.
+  --version, -v           Show the program version.
+  --gen-config            Generate a default configuration file in ~/.config/carch/carch.conf.
+  --config <conf dir>     Use a specific configuration file to load selected scripts.
+  -c                      Use the default configuration file to load selected scripts.
+  --run-script <name>, -r Run the specified script from /usr/bin/scripts.
+  --list-scripts, -l      List all available scripts in /usr/bin/scripts.
+  --update                Update Carch using the latest script.
+  --gtk, -g               Launch the GTK interface.
+  --uninstall             Uninstall Carch and remove all associated files.
+```
+:::
+
+  - `--help, -h`              *Show this help message and exit.*
+  - `--version, -v`           *Show the program version.*
+  - `--gen-config`            *Generate a default configuration file in ~/.config/carch/carch.conf.*
+  - `--config <conf dir>`     *Use a specific configuration file to load selected scripts.*
+  - `-c`                      *Use the default configuration file to load selected scripts.*
+  - `--run-script <name>, -r` *Run the specified script from /usr/bin/scripts.*
+  - `--list-scripts, -l`      *List all available scripts in /usr/bin/scripts.*
+  - `--update`                *Update Carch using the latest script.*
+  - `--gtk, -g`               *Launch the GTK interface.*
+  - `--uninstall`             *Uninstall Carch and remove all associated files.*
+
+Example config:
+```conf
+# Carch Conf File Example
+# List the script names (without .sh extension) you want to include in the menu.
+# Example:
+Alacritty
+Kitty
 ```
 
-   - `--help`  *Displays the help message.*
-   - `--update`  *Updates Carch to the latest script version.* 
-   - `--version`  *Shows the current version of Carch.*  
-   - `--run-script <name>`  *Executes the specified script.*  
-   - `--list-scripts`  *Lists all available scripts.* 
-   - `--gtk`  *Launch the GTK interface.*
-   - `--uninstall`  *Uninstalls Carch and removes all associated files.*
+```sh
+carch --config /path/to/config.conf
+```
