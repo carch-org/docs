@@ -32,11 +32,22 @@ This is the official documentation for [`Carch Project`](https://github.com/hari
 
 </div>
 
+*Assuming you already have all the usual Node.js dependencies (e.g., Node.js, NVM)*
+
 #### 🛠️ Clone Repository
 
 ```sh
 git clone https://github.com/carch-org/docs
 cd docs
+```
+
+<br>
+
+#### 📦 Initialize with npm
+
+```bash
+cd <clone dir>
+npm add -D vitepress
 ```
 
 <br>
