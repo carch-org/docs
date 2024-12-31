@@ -30,9 +30,9 @@ This is the official documentation for [`Carch Project`](https://github.com/hari
   
 ### 📚 Build Documentation
 
-</div>
-
 *Assuming you already have all the usual Node.js dependencies (e.g., Node.js, NVM)*
+
+</div>
 
 #### 🛠️ Clone Repository
 
