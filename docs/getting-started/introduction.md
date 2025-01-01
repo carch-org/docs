@@ -7,7 +7,7 @@
   align="right"
  />
 
-**What is Carch?**
+<h1>What is Carch?</h1>
 
 **Carch** is a simple `Bash script` designed to simplify the process of setting up an `Arch` Linux system. With an intuitive menu interface powered by `gum`, Carch makes configuring your system as easy and efficient as possible, saving you valuable time.  
 
