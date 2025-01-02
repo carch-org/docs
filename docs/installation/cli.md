@@ -10,7 +10,7 @@
 
 
 ```sh [Install]
-bash <(curl -L https://chalisehari.com.np/lvfs)
+bash <(curl -L https://chalisehari.com.np/carchx)
 ```
 
 ```sh [Run]
@@ -21,5 +21,5 @@ You don't need to run the installation script every time. You can run it once, a
 <br><br>
 If the installation command fails, you can try running
 <br>
-`curl -fsSL https://chalisehari.com.np/lvfs | sh`
+`curl -fsSL https://chalisehari.com.np/carchx | sh`
 :::
