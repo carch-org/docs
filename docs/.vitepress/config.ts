@@ -15,7 +15,7 @@ export default {
     outline: "deep",
     docsDir: "/docs",
     editLink: {
-      pattern: "https://github.com/harilvfs/carch/tree/main/docs/:path",
+      pattern: "https://github.com/carch-org/docs/tree/main/docs/:path",
       text: "Edit this page on GitHub",
     },
     nav: [
