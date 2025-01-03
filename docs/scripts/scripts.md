@@ -57,3 +57,6 @@
 
 ### Wallpapers
 - *Installs a selection of wallpapers for a personalized desktop aesthetic.*
+
+### Tmux
+- *Installs and configures Tmux for a more efficient terminal multiplexing experience.*
