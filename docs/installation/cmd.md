@@ -24,7 +24,6 @@ Options:
   --run-script <name>, -r Run the specified script from /usr/bin/scripts.
   --list-scripts, -l      List all available scripts in /usr/bin/scripts.
   --update                Update Carch using the latest script.
-  --gtk, -g               Launch the GTK interface.
   --tui, -t               Launch the TUI interface.
   --uninstall             Uninstall Carch and remove all associated files.
 ```
@@ -38,7 +37,6 @@ Options:
   - `--run-script <name>, -r` *Run the specified script from /usr/bin/scripts.*
   - `--list-scripts, -l`      *List all available scripts in /usr/bin/scripts.*
   - `--update`                *Update Carch using the latest script.*
-  - `--gtk, -g`               *Launch the GTK interface.*
   - `--tui, -t`               *Launch the TUI interface.*
   - `--uninstall`             *Uninstall Carch and remove all associated files.*
 

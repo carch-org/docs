@@ -40,7 +40,6 @@ export default {
       items: [
         { text: "Terminal", link: "/installation/cli" },
         { text: "Commands", link: "/installation/cmd" },
-        { text: "GTK", link: "/installation/gtk" },
         { text: "TUI", link: "/installation/tui" },
         { text: "Arch [AUR]", link: "/installation/aur" },
         ],
