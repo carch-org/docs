@@ -79,7 +79,7 @@ export default {
     ],
     footer: {
       message: "Released under the GPL-3.0 License.",
-      copyright: "Copyright © 2024 Hari Chalise",
+      copyright: "Copyright © 2025 Hari Chalise",
     },
     search: {
       provider: "local",
