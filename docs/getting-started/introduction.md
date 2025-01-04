@@ -42,11 +42,8 @@
 - **Stable and Reliable**  
   *Updates are only pushed after rigorous testing to ensure stability and a bug-free experience.*  
 
-## GTK and CLI Support 
+## Commands Support 
 <img src="https://img.icons8.com/?size=80&id=114423&format=png" width="50" />
-
-- **GTK Version**  
-  *A GTK-based version of Carch is available `(currently in development)` for a more user-friendly, graphical experience.*  
 
 - **Carch CLI**  
   *A command-line interface is also included for handling various instructions and tasks.*  

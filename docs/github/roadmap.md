@@ -24,7 +24,6 @@
    - Enhance user experience with better navigation and visuals.
    - Add more themes and customization options.
    - Integrate user feedback for continuous improvement.
-   - Explore GTK integration for a graphical interface.
 
 - **Implement Additional Programming Languages** <img src="https://img.icons8.com/?size=64&id=t7vIvDXazOGO&format=png" width="20" />
    - Add Rust implementations for performance-critical components.
@@ -62,13 +61,12 @@
 
   - Enhance Navigation <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - Add themes/customizations <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - GUI/GTK <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - Gather user feedback <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 
 - **Implement additional programming languages:**
 
-  - Develop Rust components <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - Develop Rust components <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
   - Assess areas for parallel development <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **Add WM setup scripts:**
@@ -84,12 +82,12 @@
   - Documentation for beginners <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
 
 - **Transition TUI to Rust:**
-  - Research best practices for TUI development in Rust <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - Implement and test new TUI <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - Research best practices for TUI development in Rust <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" /> [ongoing]
+  - Implement and test new TUI <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
 
 ## Timeline (Tentative) 📅
 
 - **Q 2024**: Develop additional WM setup scripts and core system setup scripts. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **Q 2025**: Refactor existing scripts for stability and begin expanding distribution support.
-- **Q Mid 2025**: Rust Implementation
+- **Q 2025**: Rust Implementation <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+- **Q Mid 2025/2026**: Refactor existing scripts for stability and begin expanding distribution support. [If possible] <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
