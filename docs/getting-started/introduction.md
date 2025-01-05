@@ -1,7 +1,7 @@
 <h1></h1>
 
 <img
-  src="/package.png"
+  src="/carch.png"
   alt="carch „Snazzy“"
   width="25%"
   align="right"

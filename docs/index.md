@@ -6,7 +6,7 @@ hero:
   name: Carch 
   text: "Automate Your Arch Linux Setup"
   image:
-    src: /package.png
+    src: /carch.png
     alt: Linux logo
     style: "width: 200px; height: auto;"
   tagline: A simple Bash script for quick, efficient, and preconfigured Arch Linux system setup 🧩
