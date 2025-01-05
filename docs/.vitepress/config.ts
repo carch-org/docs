@@ -6,12 +6,12 @@ export default {
   lastUpdated: true,
 
   head: [
-        ["link", { rel: "icon", href: "/docs/package.png" }],
+        ["link", { rel: "icon", href: "/docs/carch.png" }],
     ],
 
   themeConfig: {
     siteTitle: "Carch",
-    logo: "package.png",
+    logo: "carch.png",
     outline: "deep",
     docsDir: "/docs",
     editLink: {
