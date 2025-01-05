@@ -1,6 +1,6 @@
 <div align="center">
   
-<img src="/docs/public/carch.png" width="50" />
+<img src="/docs/public/carch.png" width="70" />
 
 <h4> 
   
