@@ -41,7 +41,6 @@ export default {
         { text: "Terminal", link: "/installation/cli" },
         { text: "Commands", link: "/installation/cmd" },
         { text: "TUI", link: "/installation/tui" },
-        { text: "Arch [AUR]", link: "/installation/aur" },
         ],
       },
     {
