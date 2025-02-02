@@ -56,7 +56,7 @@ bun add -D vitepress
 *To generate the static documentation files:*
 
 ```sh
-npm run docs:build
+bun run docs:build
 ```
 
 <br>
