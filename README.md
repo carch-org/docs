@@ -1,9 +1,4 @@
 <div align="center">
-  <h3>Notice</h3>
-  <p>This project has been officially closed by the owner. Thank you for your interest and support.</p>
-</div>
-
-<div align="center">
   
 <img src="/docs/public/carch.png" width="70" />
 
@@ -15,7 +10,7 @@ This is the official documentation for [`Carch Project`](https://github.com/hari
 </div>
 <br>
 <p align="center">
-  <img src="https://img.shields.io/badge/Maintained%3F-No-1c1c29?style=for-the-badge&color=ef9f9c&logoColor=85e185&labelColor=1c1c29">
+  <img src="https://img.shields.io/badge/Maintained%3F-Yes-1c1c29?style=for-the-badge&color=ef9f9c&logoColor=85e185&labelColor=1c1c29">
   <img src="https://img.shields.io/github/license/carch-org/docs?style=for-the-badge&color=e0ea9d&logoColor=D9E0EE&labelColor=171b22">
   <br><br>
   <img src="https://img.shields.io/github/last-commit/carch-org/docs?style=for-the-badge&logo=github&color=7dc4e4&logoColor=D9E0EE&labelColor=1c1c29"/> <img src="https://img.shields.io/github/stars/carch-org/docs?style=for-the-badge&logo=apachespark&color=eed49f&logoColor=D9E0EE&labelColor=1c1c29"/> <img src="https://img.shields.io/github/forks/carch-org/docs?style=for-the-badge&color=9dc3ea&logoColor=D9E0EE&labelColor=1c1c29" />
