@@ -30,7 +30,7 @@ This is the official documentation for [`Carch Project`](https://github.com/hari
   
 ### 📚 Build Documentation
 
-*Assuming you already have all the usual Node.js dependencies (e.g., Node.js, NVM)*
+*Assuming you already have all the usual Node.js dependencies (e.g., Node.js, NVM, Bun, Npm)*
 
 </div>
 
@@ -47,7 +47,7 @@ cd docs
 
 ```bash
 cd <clone dir>
-npm add -D vitepress
+bun add -D vitepress
 ```
 
 <br>
@@ -65,7 +65,7 @@ npm run docs:build
 *To preview the generated build locally:*
 
 ```sh
-npm run docs:preview
+bun run docs:preview
 ```
   
 *Copy the local IP address provided and paste it into your browser to view the documentation.*
@@ -77,7 +77,7 @@ npm run docs:preview
 *To see live changes while editing the documentation:*
 
 ```sh
-npm run docs:dev
+bun run docs:dev
 ```
 
 [check]: https://github.com/carch-org/docs/actions/workflows/docs.yml/badge.svg
