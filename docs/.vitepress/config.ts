@@ -41,6 +41,7 @@ export default {
         { text: "Terminal", link: "/installation/cli" },
         { text: "Commands", link: "/installation/cmd" },
         { text: "TUI", link: "/installation/tui" },
+        { text: "PKG Build", link: "/installation/pkg" },
         ],
       },
     {
