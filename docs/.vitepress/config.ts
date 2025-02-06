@@ -33,45 +33,16 @@ export default {
     ],
     sidebar: [
     { text: "Introduction", link: "/getting-started/introduction" },
-    {
-      text: "Installation",
-      collapsible: true,
-      collapsed: false,
-      items: [
-        { text: "Terminal", link: "/installation/cli" },
-        { text: "Commands", link: "/installation/cmd" },
-        { text: "TUI", link: "/installation/tui" },
-        { text: "PKG Build", link: "/installation/pkg" },
-        ],
-      },
-    {
-    text: "Utilities",
-    collapsible: true,
-    collapsed: false,
-    items: [
-      { text: "Overview Scripts", link: "/scripts/scripts" },
+    { text: "Installation", link: "/installation/cli" },
+    { text: "Commands", link: "/installation/cmd" },
+    { text: "TUI", link: "/installation/tui" },
+    { text: "Overview Scripts", link: "/scripts/scripts" },
+    { text: "Roadmap", link: "/github/roadmap" },
+    { text: "Contributing", link: "/github/contributing" },
+    { text: "Code of Conduct", link: "/github/codeofconduct" },
+    { text: "Inspiration", link: "/acknowledgment/inspiration" },
+    { text: "Contributions", link: "/acknowledgment/contributors" },
     ],
-  },
-  {
-    text: "Collaboration",
-    collapsible: true,
-    collapsed: false,
-    items: [
-      { text: "Roadmap", link: "/github/roadmap" },
-      { text: "Contributing", link: "/github/contributing" },
-      { text: "Code of Conduct", link: "/github/codeofconduct" },
-    ],
-  },
-  {
-    text: "Acknowledgment",
-    collapsible: true,
-    collapsed: false,
-    items: [
-      { text: "Inspiration", link: "/acknowledgment/inspiration" },
-      { text: "Contributions", link: "/acknowledgment/contributors" },
-    ],
-  },
-],
     socialLinks: [
       { icon: "telegram", link: "https://t.me/carchx" },
       { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
