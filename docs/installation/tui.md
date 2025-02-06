@@ -18,92 +18,9 @@ Keep in mind, the TUI is still in development, so bugs might pop up. If you find
 
 Lastly, a big thank you to [`ChrisTitusTech`](https://github.com/ChrisTitusTech) and the [`Contributors`](https://github.com/ChrisTitusTech/linutil/graphs/contributors). Your work in the Linux community is amazing, and I’m grateful to have been able to use your project as part of mine.  
 
+### Installation
 
-## Installation
-
-<img
-  src="https://cdn-icons-png.flaticon.com/128/733/733553.png"
-  alt="TUI"
-  width="50"
-  align="right"
- />
-
-### Install TUI Directly from the GitHub Repository 
-
-Run the following command to download and use the TUI directly:
-
-```sh 
-bash <(curl -L https://chalisehari.com.np/carchtui)
-```
-
-<br>
-
-<img
-  src="https://cdn-icons-png.flaticon.com/128/4555/4555440.png"
-  alt="TUI"
-  width="50"
-  align="right"
- />
-
-### Install Using the Main Script 
-
-This will download the TUI along with the main script. Once installed, you can run the TUI using:  
-- `carch --tui`  
-- `carch -t`
-
-First, install `carch` by running:  
-
-```sh
-bash <(curl -L https://chalisehari.com.np/carchx)
-```
-
-<br>
-
-<img 
-  src="https://cdn-icons-png.flaticon.com/128/487/487551.png"
-  alt="TUI"
-  width="45"
-  align="right"
- />
-
-###  Customize with `.toml` Files 
-
-The TUI supports custom `.toml` files for executing specific commands.  
-Here’s an example `carch.toml` configuration:
-
-```toml
-# example carch.toml
-
-auto_execute = [
-    "Communication Apps",
-    "Android",
-    "Thunar"
-]
-```
-
-<br>
-
-<img 
-  src="https://cdn-icons-png.flaticon.com/128/1753/1753543.png"
-  alt="TUI"
-  width="55"
-  align="right"
- />
-
-### **Usage**
-
-#### 🗂 Specify Your Configuration File  
-
-Save your `.toml` configuration file at:  
-`~/.config/carch/carch.toml` 
-
-To execute the commands in the order specified in your `.toml` file, run:  
-
-```sh
-carch-tui --config ~/.config/carch/carch.toml
-```
-
-This will execute the commands in the order you have specified in the `.toml` file.
+**To install, use the main script available [here](https://carch-org.github.io/docs/installation/cli.html).**
 
 > [!NOTE]
 > This TUI is an **optional feature** for a more user-friendly experience. 

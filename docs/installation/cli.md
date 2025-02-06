@@ -4,22 +4,28 @@
 **To install Carch, execute the following command in your terminal:**
 
 > [!INFO]
-> **Make sure to install `curl` before running this command** **`sudo pacman -S curl`**
+> **Make sure to install `curl` before running this command:** **`sudo pacman -S curl`** or **`sudo dnf install curl -y`**  
+>
+> **Also, check the `make` and `less` packages (for Arch only).**
 
 :::code-group
 
 
-```sh [Install]
-bash <(curl -L https://chalisehari.com.np/carchx)
+```sh [<i class="devicon-archlinux-plain"></i> Arch]
+bash <(curl -L https://chalisehari.com.np/arch)
 ```
 
-```sh [Run]
-carch
+```sh [<i class="devicon-fedora-plain"></i> Fedora]
+bash <(curl -L https://chalisehari.com.np/fedora)
 ```
 :::tip :bulb: TIP
 You don't need to run the installation script every time. You can run it once, and then simply type carch in your terminal whenever you want to automatically execute the Carch script.
 <br><br>
 If the installation command fails, you can try running
 <br>
-`curl -fsSL https://chalisehari.com.np/carchx | sh`
+`curl -fsSL https://chalisehari.com.np/arch | sh`
+
+or
+
+`curl -fsSL https://chalisehari.com.np/fedora | sh`
 :::
