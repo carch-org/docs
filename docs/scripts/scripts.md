@@ -2,7 +2,7 @@
 
 <img src="https://cdn-icons-png.flaticon.com/128/3721/3721643.png" width="40" />
 
-**Carch comes with the following scripts to configure various aspects of your Arch-based system.**
+**Carch comes with the following scripts to configure various aspects of your Arch-based system or Fedora system.**
 
 ### Dwm
 - *Quickly sets up the Dwm window manager with a single-click script, using my customized configuration.*
@@ -53,10 +53,23 @@
 - *Installs and applies a set of themes and icons to enhance the look and feel of your desktop.*
 
 ### SwayWM
-- *Installs and configures the Sway window manager, optimized for Wayland environments.*
+- *Currently not compatible with Fedora. SwayWM is supported for Arch-based systems only.*
 
 ### Wallpapers
 - *Installs a selection of wallpapers for a personalized desktop aesthetic.*
 
 ### Tmux
 - *Installs and configures Tmux for a more efficient terminal multiplexing experience.*
+
+### Helix
+- *Installs and configures the Helix text editor, providing a modern and feature-rich code editing environment optimized for both performance and ease of use.*
+
+### Bash Promt
+- *Sets up a custom Bash prompt with useful information such as the current working directory, Git status, and system details, enhancing the command line experience.*
+
+### Zsh Promt
+- *Configures a stylish Zsh prompt with added functionalities like syntax highlighting, auto-completion, and custom themes for a more efficient shell experience.*
+
+### Fish 
+- *Installs and configures the Fish shell, offering an interactive and user-friendly command-line environment with advanced features such as auto-suggestions and a clean syntax.*
+

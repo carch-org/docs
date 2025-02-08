@@ -9,7 +9,7 @@
 
 <h1>What is Carch?</h1>
 
-**Carch** is a simple `Bash script` designed to simplify the process of setting up an `Arch` Linux system. With an intuitive menu interface powered by `gum`, Carch makes configuring your system as easy and efficient as possible, saving you valuable time.  
+**Carch** is a simple `Bash` script designed to simplify the process of setting up an `Arch Linux` or `Fedora` system. With an intuitive menu interface powered by `gum`, **Carch** makes configuring your system as easy and efficient as possible, saving you valuable time.  
 
 
 ## Features
@@ -45,7 +45,7 @@
 ## Commands Support 
 <img src="https://img.icons8.com/?size=80&id=114423&format=png" width="50" />
 
-- **Carch CLI**  
+- **Carch Commands**  
   *A command-line interface is also included for handling various instructions and tasks.*  
 
 **With Carch, you can effortlessly handle all basic tasks and system setups. Feedback is always welcome, and we look forward to hearing from you!**
