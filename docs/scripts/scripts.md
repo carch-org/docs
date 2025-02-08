@@ -64,10 +64,10 @@
 ### Helix
 - *Installs and configures the Helix text editor, providing a modern and feature-rich code editing environment optimized for both performance and ease of use.*
 
-### Bash Promt
+### Bash Prompt
 - *Sets up a custom Bash prompt with useful information such as the current working directory, Git status, and system details, enhancing the command line experience.*
 
-### Zsh Promt
+### Zsh Prompt
 - *Configures a stylish Zsh prompt with added functionalities like syntax highlighting, auto-completion, and custom themes for a more efficient shell experience.*
 
 ### Fish 
