@@ -21,10 +21,9 @@ Options:
   --gen-config            Generate a default configuration file in ~/.config/carch/carch.conf.
   --config <conf dir>     Use a specific configuration file to load selected scripts.
   -c                      Use the default configuration file to load selected scripts.
-  --run-script <name>, -r Run the specified script from /usr/bin/scripts.
-  --list-scripts, -l      List all available scripts in /usr/bin/scripts.
+  --run-script <name>, -r Run the specified script from /usr/share/scripts.
+  --list-scripts, -l      List all available scripts in /usr/share/scripts.
   --update                Update Carch using the latest script.
-  --tui, -t               Launch the TUI interface.
   --uninstall             Uninstall Carch and remove all associated files.
 ```
 :::
@@ -34,10 +33,9 @@ Options:
   - `--gen-config`            *Generate a default configuration file in ~/.config/carch/carch.conf.*
   - `--config <conf dir>`     *Use a specific configuration file to load selected scripts.*
   - `-c`                      *Use the default configuration file to load selected scripts.*
-  - `--run-script <name>, -r` *Run the specified script from /usr/bin/scripts.*
-  - `--list-scripts, -l`      *List all available scripts in /usr/bin/scripts.*
+  - `--run-script <name>, -r` *Run the specified script from /usr/share/scripts.*
+  - `--list-scripts, -l`      *List all available scripts in /usr/share/scripts.*
   - `--update`                *Update Carch using the latest script.*
-  - `--tui, -t`               *Launch the TUI interface.*
   - `--uninstall`             *Uninstall Carch and remove all associated files.*
 
 Example config:

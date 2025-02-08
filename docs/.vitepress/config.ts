@@ -35,7 +35,6 @@ export default {
     { text: "Introduction", link: "/getting-started/introduction" },
     { text: "Installation", link: "/installation/cli" },
     { text: "Commands", link: "/installation/cmd" },
-    { text: "TUI", link: "/installation/tui" },
     { text: "Overview Scripts", link: "/scripts/scripts" },
     { text: "Roadmap", link: "/github/roadmap" },
     { text: "Contributing", link: "/github/contributing" },

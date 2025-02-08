@@ -4,12 +4,12 @@ pageClass: home-page
 
 hero:
   name: Carch 
-  text: "Automate Your Arch Linux Setup"
+  text: "Automate Your Linux Setup"
   image:
     src: /carch.png
     alt: Linux logo
     style: "width: 200px; height: auto;"
-  tagline: A simple Bash script for quick, efficient, and preconfigured Arch Linux system setup 🧩
+  tagline: A simple Bash script for quick, efficient, and preconfigured Linux system setup (Arch & Fedora) 🧩
   actions:
     - theme: brand
       text: What is Carch? 
@@ -24,9 +24,9 @@ features:
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/10229/10229090.png" alt="setup"/>
     title: Easy Setup
     details: Quick and straightforward installation of essential packages.
-  - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/7425/7425907.png" alt="tui"/>
-    title: TUI Navigation
-    details: A text-based user interface that enhances user experience.
+  - icon: <img width="35" height="35" src="https://img.icons8.com/?size=100&id=ZbBhBW0N2q3D&format=png&color=000000" alt="fedora"/>
+    title: Fedora
+    details: Adds full support for Fedora Linux, alongside Arch-based systems, with tailored setup scripts.
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/3131/3131638.png" alt="scripts"/>
     title: Multiple Scripts
     details: Automate the setup of various environments, including Dwm and Hyprland.
