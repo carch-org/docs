@@ -1,0 +1,32 @@
+name: 'Update Carch Submodule'
+
+on:
+  push:
+    paths:
+      - 'carch/**'  # Detects any changes in the carch submodule
+
+jobs:
+  update-submodule:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout documentation repository
+        uses: actions/checkout@v3
+
+      - name: Initialize and update submodules
+        run: |
+          git submodule init
+          git submodule update
+
+      - name: Pull latest changes for submodule
+        run: |
+          cd carch
+          git fetch --all
+          git checkout main  # Or any other branch you're using
+          git pull origin main  # Pull latest changes
+
+      - name: Commit and push changes to the docs repository
+        run: |
+          git add carch
+          git commit -m "Update carch submodule"
+          git push origin main  # Or the branch you're using
