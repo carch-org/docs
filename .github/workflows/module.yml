@@ -3,7 +3,8 @@ name: 'Update Carch Submodule'
 on:
   push:
     paths:
-      - 'carch/**'  # Detects any changes in the carch submodule
+      - 'carch/**'  
+  workflow_dispatch:
 
 jobs:
   update-submodule:
