@@ -2,8 +2,10 @@ name: 'Update Carch Submodule'
 
 on:
   push:
+    branches:
+      - 'main'  
     paths:
-      - 'carch/**'  
+      - 'carch/**' 
   workflow_dispatch:  
 
 permissions:
