@@ -4,6 +4,28 @@
 
 We’re excited that you’re interested in contributing to **Carch**! Contributions of all kinds are welcome, whether you’re fixing bugs, adding new features, or improving documentation. Follow this guide to get started.
 
+## 📌 Understand the Codebase
+
+> [!NOTE]
+> Before contributing, **understand the structure** of Carch:
+> - **The `main script` of Carch is located in:**  
+>```bash
+> build/carch
+> ```
+> 
+> - **All `additional` scripts of Carch are stored in:**  
+> ```sh
+> scripts/*.sh
+> ```
+
+
+> [!IMPORTANT]
+> First, **analyze how the script works** before making any changes. If you want to improve or add to the project, make sure you **understand the structure** and how each piece interacts. This will help you contribute in a way that is consistent with the project’s design. 
+
+If you have questions or need help, feel free to **contact us**:  
+📧 Email: <a href="mailto:harilvfs@chalisehari.com.np">harilvfs@chalisehari.com.np</a>  
+💬 Discord: <a href="https://discord.com/invite/8NJWstnUHd">Join Here</a>  
+
 ## Steps to Contribute
 
 ### 1. 🍽️ Fork the Repository
