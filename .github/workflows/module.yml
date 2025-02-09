@@ -3,12 +3,12 @@ name: 'Update Carch Submodule'
 on:
   push:
     paths:
-      - 'carch/**'  # Detects any changes in the carch submodule
-  workflow_dispatch:  # Allows manual triggering of the workflow
+      - 'carch/**'  
+  workflow_dispatch:  
 
 permissions:
-  contents: write  # This grants read and write access to repository contents (pushes, commits, etc.)
-  actions: read  # This grants read access to actions (necessary for workflow)
+  contents: write  
+  actions: read  
 
 jobs:
   update-submodule:
@@ -18,8 +18,7 @@ jobs:
       - name: Checkout documentation repository
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # Use the token with the specified permissions
-
+          token: ${{ secrets.GITHUB_TOKEN }}  
       - name: Set Git identity
         run: |
           git config --global user.name "GitHub Actions"
@@ -34,11 +33,11 @@ jobs:
         run: |
           cd carch
           git fetch --all
-          git checkout main  # Or any other branch you're using
-          git pull origin main  # Pull latest changes
+          git checkout main  
+          git pull origin main  
 
       - name: Commit and push changes to the docs repository
         run: |
           git add carch
           git commit -m "Update carch submodule"
-          git push origin main  # Or the branch you're using
+          git push origin main  
