@@ -6,6 +6,10 @@ on:
       - 'carch/**'  # Detects any changes in the carch submodule
   workflow_dispatch:  # Allows manual triggering of the workflow
 
+permissions:
+  contents: write  # This grants read and write access to repository contents (pushes, commits, etc.)
+  actions: read  # This grants read access to actions (necessary for workflow)
+
 jobs:
   update-submodule:
     runs-on: ubuntu-latest
@@ -13,6 +17,8 @@ jobs:
     steps:
       - name: Checkout documentation repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}  # Use the token with the specified permissions
 
       - name: Set Git identity
         run: |
