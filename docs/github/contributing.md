@@ -4,6 +4,9 @@
 
 We’re excited that you’re interested in contributing to **Carch**! Contributions of all kinds are welcome, whether you’re fixing bugs, adding new features, or improving documentation. Follow this guide to get started.
 
+> [!WARNING]  
+> **Before making any contributions**, first open an issue in the **[Feature Request](https://github.com/harilvfs/carch/issues/new?template=feature-reqests.yml)** section. We will discuss the changes there before proceeding with implementation.  
+
 ## 📌 Understand the Codebase
 
 > [!NOTE]
