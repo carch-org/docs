@@ -1,6 +1,9 @@
 # Terminal
 <img src="https://img.icons8.com/?size=80&id=v8LYQxpvZ4xX&format=png" width="60" />
 
+> [!CAUTION]
+> I do not guarantee that Carch will work on Arch-based or Fedora-based distros. Use it on such distros at your own risk, as I do not officially support them.
+
 **To install Carch, execute the following command in your terminal:**
 
 > [!INFO]
