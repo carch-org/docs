@@ -3,6 +3,7 @@
 
 > [!CAUTION]
 > I do not guarantee that Carch will work on Arch-based* or Fedora-based* distros. Use it on such distros at your own risk, as I do not officially support them.
+> 
 > However, Carch will work fine on the mainline distributions, like Arch Linux and Fedora.
 
 **To install Carch, execute the following command in your terminal:**
