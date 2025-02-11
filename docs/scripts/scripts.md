@@ -73,3 +73,9 @@
 ### Fish 
 - *Installs and configures the Fish shell, offering an interactive and user-friendly command-line environment with advanced features such as auto-suggestions and a clean syntax.*
 
+### Bun  
+- *Installs and configures Bun, a fast JavaScript runtime for modern development.*  
+
+### Npm  
+- *Ensures npm is installed correctly, offering an alternative setup if needed.*  
+
