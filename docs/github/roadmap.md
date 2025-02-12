@@ -39,7 +39,7 @@
 - **Expand support for popular distributions:**
 
   - Arch <img src="https://img.icons8.com/?size=48&id=uIXgLv5iSlLJ&format=png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - Fedora <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - Fedora <img src="https://img.icons8.com/?size=48&id=ZbBhBW0N2q3D&format=png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
   - Debian <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" /> 
   - openSUSE <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
   - Void <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
@@ -64,7 +64,7 @@
   - Bspwm setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
   - River setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
   - Wayfire setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - DWL Setup setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - DWL Setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **Create core system setup scripts:**
   
