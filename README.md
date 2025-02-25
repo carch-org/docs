@@ -7,7 +7,8 @@
 This is the documentation site for the [`Carch`](https://github.com/harilvfs/carch), built with VitePress.
 </h4>
 
-> NOTE:This site may or may not be maintained, as we are upgrading the Carch documentation using Starlight Astro in the [wiki](https://github.com/carch-org/wiki) repository. Please refer to that for now.
+> [!NOTE]
+> This site may or may not be maintained, as we are upgrading the Carch documentation using Starlight Astro in the [wiki](https://github.com/carch-org/wiki) repository. Please refer to that for now.
 
 I am unsure if I will continue maintaining this site in the future.
 
