@@ -46,6 +46,7 @@ export default {
       { icon: "telegram", link: "https://t.me/carchx" },
       { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
       { icon: "reddit", link: "https://www.reddit.com/r/carch/" },
+      { icon: "matrix", link: "https://matrix.to/#/#carch:matrix.org" },
     ],
     footer: {
       message: "Released under the GPL-3.0 License.",
