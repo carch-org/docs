@@ -39,7 +39,9 @@ Options:
   - `--uninstall`             *Uninstall Carch and remove all associated files.*
 
 Example config:
-```conf
+
+
+```sh
 # Carch Conf File Example
 # List the script names (without .sh extension) you want to include in the menu.
 # Example:
