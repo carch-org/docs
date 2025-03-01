@@ -20,10 +20,10 @@
    - Refactor existing scripts for improved stability.
    - Implement error handling and logging for better debugging.
 
-- **Remove TUI Development and Rust Integration 🚫**
-   - Dropping the development of the TUI (Text-based User Interface) in favor of simplifying user experience.
-   - Rust will no longer be used in this project for TUI-related components.
-   - Focus will shift to maintaining and enhancing shell scripts for a more lightweight and efficient setup process.
+- **Rust Implementation 🦀**
+  - Create a single executable binary for Carch. 
+  - Develop a Rust-based TUI. 
+  - Add additional Rust scripts for enhanced functionality. 
 
 - **Add Window Manager (WM) Setup Scripts 🪟**
    - Create and improve installation/setup scripts for more window managers (e.g., i3, Sway).
@@ -49,11 +49,11 @@
   - Implement error handling <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - Add logging capabilities <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
 
-- **Remove TUI Development and Rust Integration 🚫:**
+- **Implement Rust :**
 
-  - Drop development of the TUI (Text-based User Interface). <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - Remove Rust-based components for the TUI. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - Focus on improving the shell script setup experience. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - Develop a TUI (Text-based User Interface). <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" /> 
+  - Create a single executable binary. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
+  - Add additional Rust scripts to enhance scriptability. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
 
 - **Add WM setup scripts:**
 

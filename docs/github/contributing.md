@@ -13,12 +13,13 @@ We’re excited that you’re interested in contributing to **Carch**! Contribut
 > Before contributing, **understand the structure** of Carch:
 > - **The `main script` of Carch is located in:**  
 >```bash
-> build/carch
+> src/main.rs
+> src/scripts/carch
 > ```
 > 
 > - **All `additional` scripts of Carch are stored in:**  
 > ```sh
-> scripts/*.sh
+> src/scripts/scripts/*.sh
 > ```
 
 
