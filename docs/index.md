@@ -6,9 +6,9 @@ hero:
   name: Carch 
   text: "Automate Your Linux Setup"
   image:
-    src: /preview.gif
+    src: /carch.png
     alt: Linux logo
-    style: "width: 800px; height: auto;"
+    style: "width: 200px; height: auto;"
   tagline: A simple Bash script for quick, efficient, and preconfigured Linux system setup (Arch & Fedora) 🧩
   actions:
     - theme: brand
