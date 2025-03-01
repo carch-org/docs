@@ -41,7 +41,7 @@ cd docs
 
 <br>
 
-#### 📦 Initialize with npm
+#### 📦 Initialize with Bun
 
 ```bash
 cd <clone dir>
