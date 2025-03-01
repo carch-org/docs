@@ -4,17 +4,13 @@
 
 <h4> 
   
-This is the documentation site for the [`Carch`](https://github.com/harilvfs/carch), built with VitePress.
+This is the official documentation site for the [`Carch`](https://github.com/harilvfs/carch), built with VitePress.
 </h4>
-
-> 📝 Note: This site may or may not be maintained, as we are upgrading the Carch documentation using Starlight Astro in the [wiki](https://github.com/carch-org/wiki) repository. Please refer to that for now.
-
-I am unsure if I will continue maintaining this site in the future.
 
 </div>
 <br>
 <p align="center">
-  <img src="https://img.shields.io/badge/Maintained%3F-Don't%20Know-1c1c29?style=for-the-badge&color=ef9f9c&logoColor=85e185&labelColor=1c1c29">
+  <img src="https://img.shields.io/badge/Maintained%3F-Yes-1c1c29?style=for-the-badge&color=ef9f9c&logoColor=85e185&labelColor=1c1c29">
   <img src="https://img.shields.io/github/license/carch-org/docs?style=for-the-badge&color=e0ea9d&logoColor=D9E0EE&labelColor=171b22">
   <br>
   <img src="https://img.shields.io/github/last-commit/carch-org/docs?style=for-the-badge&logo=github&color=7dc4e4&logoColor=D9E0EE&labelColor=1c1c29"/> <img src="https://img.shields.io/github/stars/carch-org/docs?style=for-the-badge&logo=apachespark&color=eed49f&logoColor=D9E0EE&labelColor=1c1c29"/> <img src="https://img.shields.io/github/forks/carch-org/docs?style=for-the-badge&color=9dc3ea&logoColor=D9E0EE&labelColor=1c1c29" />
@@ -45,7 +41,7 @@ cd docs
 
 <br>
 
-#### 📦 Initialize with npm
+#### 📦 Initialize with Bun
 
 ```bash
 cd <clone dir>
