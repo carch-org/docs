@@ -50,7 +50,7 @@ sudo pacman -S rust gum figlet man-db man git wget unzip noto-fonts-emoji ttf-jo
 ```
 
 ```sh [<i class="devicon-fedora-plain"></i> Fedora]
-sudo dnf install rust gum figlet man-db man git wget unzip google-noto-color-emoji-fonts google-noto-emoji-fonts bat jetbrains-mono-fonts-all bash-completion-devel zsh fish curl
+sudo dnf install rust gum figlet man-db man git wget unzip google-noto-color-emoji-fonts google-noto-emoji-fonts bat jetbrains-mono-fonts-all bash-completion-devel zsh fish curl bat
 ```
 :::
 
