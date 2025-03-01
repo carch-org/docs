@@ -53,7 +53,7 @@
 
   - Develop a TUI (Text-based User Interface). <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" /> 
   - Create a single executable binary. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - Add additional Rust scripts to enhance scriptability. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - Add additional Rust scripts to enhance scriptability. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **Add WM setup scripts:**
 
@@ -76,4 +76,5 @@
 
 - **Q 2024**: Develop additional WM setup scripts and core system setup scripts. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
 - **Q Mid 2025/2026**: Refactor existing scripts for stability and begin expanding distribution support (including Fedora ✅). [If possible] <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+    - Develop a Rust-based TUI for enhanced user interaction. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
