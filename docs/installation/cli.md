@@ -1,6 +1,8 @@
 # Installation
 <img src="https://img.icons8.com/?size=80&id=v8LYQxpvZ4xX&format=png" width="60" />
 
+## Automated Installation Script
+
 > [!CAUTION]
 > I do not guarantee that Carch will work on Arch-based* or Fedora-based* distros. Use it on such distros at your own risk, as I do not officially support them.
 > 
@@ -23,6 +25,8 @@ bash <(curl -L https://chalisehari.com.np/arch)
 ```sh [<i class="devicon-fedora-plain"></i> Fedora]
 bash <(curl -L https://chalisehari.com.np/fedora)
 ```
+:::
+
 :::tip :bulb: TIP
 You don't need to run the installation script every time. You can run it once, and then simply type carch in your terminal whenever you want to automatically execute the Carch script.
 <br><br>
@@ -34,3 +38,30 @@ or
 
 `curl -fsSL https://chalisehari.com.np/fedora | sh`
 :::
+
+## Manual Installation
+
+### Dependencies
+
+:::code-group
+
+```sh [<i class="devicon-archlinux-plain"></i> Arch]
+sudo pacman -S rust gum figlet man-db man git wget unzip noto-fonts-emoji ttf-joypixels curl tree-sitter tree-sitter-bash gcc-libs glibc bash bash-completion ttf-nerd-fonts-symbols ttf-jetbrains-mono ttf-jetbrains-mono-nerd bat zsh fish
+```
+
+```sh [<i class="devicon-fedora-plain"></i> Fedora]
+sudo dnf install rust gum figlet man-db man git wget unzip google-noto-color-emoji-fonts google-noto-emoji-fonts bat jetbrains-mono-fonts-all bash-completion-devel zsh fish rust-tree-sitter-devel glibc curl gcc
+```
+:::
+
+### Clone and Build
+
+```sh
+git clone --depth 1 https://github.com/harilvfs/carch
+cd carch
+cargo build --release
+cd target/release/
+sudo cp -r carch /usr/bin/ 
+```
+
+Now you can run `carch` in your terminal. If you encounter any issues on Fedora, they might be dependency-related. It should work fine, but if any problems arise, feel free to open an [issue](https://github.com/harilvfs/carch/issues) or email me at **harilvfs@chalisehari.com.np**.
