@@ -4,16 +4,11 @@
 ## Automated Installation Script
 
 > [!CAUTION]
-> I do not guarantee that Carch will work on Arch-based* or Fedora-based* distros. Use it on such distros at your own risk, as I do not officially support them.
-> 
-> However, Carch will work fine on the mainline distributions, like Arch Linux and Fedora.
+> If Carch fails on Arch-based or Fedora-based distros, please open an [issue](https://github.com/harilvfs/carch/issues).  
+> It shouldn't fail, but just in case, let us know!  
+
 
 **To install Carch, execute the following command in your terminal:**
-
-> [!INFO]
-> **Make sure to install `curl` before running this command:** **`sudo pacman -S curl`** or **`sudo dnf install curl -y`**  
->
-> **Also, check the `make` and `less` packages (for Arch only).**
 
 :::code-group
 
@@ -27,16 +22,55 @@ bash <(curl -L https://chalisehari.com.np/fedora)
 ```
 :::
 
+> [!INFO]
+> **Make sure to install `curl` before running this command:** 
+>
+> **Arch**
+> ```sh
+> sudo pacman -S curl 
+> ```
+> **Fedora**
+> ```sh
+> sudo dnf install curl -y  
+>```
+> 
+> **Also, check the `make` and `less` packages (for Arch only).**
+
 :::tip :bulb: TIP
 You don't need to run the installation script every time. You can run it once, and then simply type carch in your terminal whenever you want to automatically execute the Carch script.
-<br><br>
-If the installation command fails, you can try running
-<br>
-`curl -fsSL https://chalisehari.com.np/arch | sh`
+:::
 
-or
+## Cargo Crate
 
-`curl -fsSL https://chalisehari.com.np/fedora | sh`
+<img src="https://img.shields.io/crates/v/carch?style=for-the-badge&logo=rust&color=f5a97f&logoColor=fe640b&labelColor=171b22" >
+
+Carch is now available on [Cargo Crate](https://crates.io/crates/carch/4.1.5)!  
+
+This is the simplest and best installation method for both Arch and Fedora if you have Rust installed.  
+
+You'll need a few dependencies before installing: 
+
+:::code-group
+
+```sh [<i class="devicon-archlinux-plain"></i> Arch]
+sudo pacman -S --noconfirm gum figlet curl rust wget
+```
+
+```sh [<i class="devicon-fedora-plain"></i> Fedora]
+sudo dnf install gum figlet curl rust wget
+```
+:::
+
+Now, install Carch using Cargo:
+
+```sh
+cargo install carch
+```
+
+Once installed, simply type `carch` in your terminal to run it.
+
+:::tip :bulb: TIP
+If you already have Rust installed, you can install Carch directly with Cargo. Don't forget that **`gum`** and **`figlet`** are required dependencies, as they are the core of the Carch menu!
 :::
 
 ## Manual Installation
