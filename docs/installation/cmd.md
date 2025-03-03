@@ -50,5 +50,5 @@ Kitty
 ```
 
 ```sh
-carch --config /path/to/config.conf
+carch --config /path/to/carch.conf
 ```
