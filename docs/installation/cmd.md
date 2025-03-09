@@ -23,7 +23,9 @@ Options:
   -c                      Use the default configuration file to load selected scripts.
   --run-script <name>, -r Run the specified script from /usr/share/scripts.
   --list-scripts, -l      List all available scripts in /usr/share/scripts.
+  --search, -s            search for scripts by keyword.
   --update                Update Carch using the latest script.
+  --check-update          Check if a new version of Carch is available.
   --uninstall             Uninstall Carch and remove all associated files.
 ```
 :::
@@ -35,7 +37,9 @@ Options:
   - `-c`                      *Use the default configuration file to load selected scripts.*
   - `--run-script <name>, -r` *Run the specified script from /usr/share/scripts.*
   - `--list-scripts, -l`      *List all available scripts in /usr/share/scripts.*
+  - `--search, -s`            *Search for scripts by keyword.* 
   - `--update`                *Update Carch using the latest script.*
+  - `--check-update`          *Check if a new version of Carch is available.*  
   - `--uninstall`             *Uninstall Carch and remove all associated files.*
 
 Example config:
