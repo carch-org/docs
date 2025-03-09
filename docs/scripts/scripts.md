@@ -79,3 +79,5 @@
 ### Npm  
 - *Ensures npm is installed correctly, offering an alternative setup if needed.*  
 
+### Chaotic AUR
+- *Install and configure Pacman to add the Chaotic AUR on Arch*
