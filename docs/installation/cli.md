@@ -1,6 +1,24 @@
 # Installation
 <img src="https://img.icons8.com/?size=80&id=v8LYQxpvZ4xX&format=png" width="60" />
 
+
+## 🚀 Live Test
+
+You can run or use Carch directly without installing it on your system.
+
+Simply execute the following command:
+
+```sh
+bash <(curl -L https://chalisehari.com.np/live)
+```
+
+:::tip :bulb: TIP
+
+This will automatically fetch Carch from the latest release, download it to a temporary file, and remove it from your system once you exit.
+
+✅ This makes it easier to try out Carch without installing it permanently! 🎯
+:::
+
 ## Automated Installation Script
 
 > [!CAUTION]
