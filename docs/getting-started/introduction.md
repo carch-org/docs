@@ -11,9 +11,6 @@
 
 **Carch** is a simple `Bash` script designed to simplify the process of setting up an `Arch Linux` or `Fedora` system. With an intuitive menu interface powered by `gum`, **Carch** makes configuring your system as easy and efficient as possible, saving you valuable time.  
 
-
-<img src="/preview.gif" />
-
 ## Features
 <img src="https://img.icons8.com/?size=80&id=vSx5PNyFqTTo&format=png" width="50" /> 
 
