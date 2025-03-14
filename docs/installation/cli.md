@@ -6,6 +6,20 @@
 
 You can run or use Carch directly without installing it on your system.
 
+> [!NOTE]
+> Make sure to have the `gum`, `figlet`, and `fzf` packages already installed.
+>
+> **Arch**
+> ```sh
+> sudo pacman -S gum figlet fzf 
+> ```
+> **Fedora**
+> ```sh
+> sudo dnf install gum figlet fzf -y  
+>```
+> 
+
+
 Simply execute the following command:
 
 ```sh
@@ -71,11 +85,11 @@ You'll need a few dependencies before installing:
 :::code-group
 
 ```sh [<i class="devicon-archlinux-plain"></i> Arch]
-sudo pacman -S --noconfirm gum figlet curl rust wget cargo
+sudo pacman -S --noconfirm gum figlet curl rust wget cargo fzf
 ```
 
 ```sh [<i class="devicon-fedora-plain"></i> Fedora]
-sudo dnf install gum figlet curl rust wget cargo
+sudo dnf install gum figlet curl rust wget cargo fzf
 ```
 :::
 
@@ -98,11 +112,11 @@ If you already have Rust installed, you can install Carch directly with Cargo. D
 :::code-group
 
 ```sh [<i class="devicon-archlinux-plain"></i> Arch]
-sudo pacman -S rust gum figlet man-db man git wget unzip noto-fonts-emoji ttf-joypixels cur bash bash-completion ttf-nerd-fonts-symbols ttf-jetbrains-mono ttf-jetbrains-mono-nerd bat zsh fish cargo
+sudo pacman -S rust gum figlet man-db man git wget unzip noto-fonts-emoji ttf-joypixels cur bash bash-completion ttf-nerd-fonts-symbols ttf-jetbrains-mono ttf-jetbrains-mono-nerd bat zsh fish cargo fzf
 ```
 
 ```sh [<i class="devicon-fedora-plain"></i> Fedora]
-sudo dnf install rust gum figlet man-db man git wget unzip google-noto-color-emoji-fonts google-noto-emoji-fonts bat jetbrains-mono-fonts-all bash-completion-devel zsh fish curl bat cargo
+sudo dnf install rust gum figlet man-db man git wget unzip google-noto-color-emoji-fonts google-noto-emoji-fonts bat jetbrains-mono-fonts-all bash-completion-devel zsh fish curl bat cargo fzf
 ```
 :::
 
