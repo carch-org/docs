@@ -2,7 +2,7 @@
   "name": "carch-docs",
   "type": "module",
   "dependencies": {
-    "bun": "^1.2.2",
+    "bun": "^1.2.5",
     "devicon": "^2.16.0"
   },
   "devDependencies": {
