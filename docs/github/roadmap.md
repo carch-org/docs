@@ -3,7 +3,7 @@
 
 **Current Phase** *[ Advancing Script Development ]* <img src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png" width="20" /> 
 
-*The project is now progressing through its development phase, focusing on creating scripts to simplify the Arch Linux setup process.* 🛠️
+*The project is now progressing through its development phase, focusing on creating scripts to simplify the Arch & fedora linux setup process.* 🛠️
 
 ## Upcoming Features and Improvements ✨
 
@@ -75,6 +75,6 @@
 ## Timeline (Tentative) 📅
 
 - **Q 2024**: Develop additional WM setup scripts and core system setup scripts. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **Q Mid 2025/2026**: Refactor existing scripts for stability and begin expanding distribution support (including Fedora ✅). [If possible] <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+- **Q Mid 2025/2026**: Refactor existing scripts for stability and begin expanding distribution support (including Fedora ✅). [If possible] <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
     - Develop a Rust-based TUI for enhanced user interaction. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
