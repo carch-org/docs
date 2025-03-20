@@ -102,7 +102,7 @@ cargo install carch
 Once installed, simply type `carch` in your terminal to run it.
 
 :::tip :bulb: TIP
-If you already have Rust installed, you can install Carch directly with Cargo. Don't forget that **`gum`** and **`figlet`** are required dependencies, as they are the core of the Carch menu!
+If you already have Rust installed, you can install Carch directly with Cargo. Don't forget that **`fzf`**, **`gum`** and **`figlet`** are required dependencies, as they are the core of the Carch menu!
 :::
 
 ## Manual Installation
