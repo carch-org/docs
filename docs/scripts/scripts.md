@@ -81,3 +81,6 @@
 
 ### Chaotic AUR
 - *Install and configure Pacman to add the Chaotic AUR on Arch*
+
+### Dunst
+- *Configures Dunst, a lightweight and customizable notification daemon, with optimized settings for a sleek and unobtrusive experience.*
