@@ -1,4 +1,4 @@
 docs/.vitepress/** linguist-documentation=false
 docs/.vitepress/**/*.ts linguist-language=TypeScript
 docs/.vitepress/**/*.css linguist-language=CSS
-docs/**/*.md linguist-language=MDX
+docs/index.md linguist-language=MDX
