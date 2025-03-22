@@ -20,8 +20,8 @@ Options:
   --gen-config            🛠️ Generate a default configuration file in ~/.config/carch/carch.conf.
   --config <conf dir>     📂 Use a specific configuration file to load selected scripts.
   -c                      ⚙️ Use the default configuration file to load selected scripts.
-  --run-script <name>, -r ▶️ Run the specified script from /usr/share/scripts.
-  --list-scripts, -l      📋 List all available scripts in /usr/share/scripts.
+  --run-script <name>, -r ▶️ Run the specified script from ./scripts.
+  --list-scripts, -l      📋 List all available scripts in ./scripts.
   --search, -s            🔎 Search for scripts by keyword.
   --update                🔄 Update Carch using the latest script.
   --check-update          📡 Check if a new version of Carch is available.
@@ -37,8 +37,8 @@ Options:
 - `--gen-config` 🛠️ *Generate a default configuration file in `~/.config/carch/carch.conf`.*
 - `--config <conf dir>` 📂 *Use a specific configuration file to load selected scripts.*
 - `-c` ⚙️ *Use the default configuration file to load selected scripts.*
-- `--run-script <name>, -r` ▶️ *Run the specified script from `/usr/share/scripts`.*
-- `--list-scripts, -l` 📋 *List all available scripts in `/usr/share/scripts`.*
+- `--run-script <name>, -r` ▶️ *Run the specified script from `./scripts`.*
+- `--list-scripts, -l` 📋 *List all available scripts in `./scripts`.*
 - `--search, -s` 🔎 *Search for scripts by keyword.*  
 - `--update` 🔄 *Update Carch using the latest script.*
 - `--check-update` 📡 *Check if a new version of Carch is available.*  
