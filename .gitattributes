@@ -1,0 +1,3 @@
+docs/docs/.vitepress/** linguist-documentation=false
+docs/docs/.vitepress/**/*.ts linguist-language=TypeScript
+docs/docs/.vitepress/**/*.css linguist-language=CSS
