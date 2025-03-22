@@ -1,3 +1,7 @@
 docs/.vitepress/** linguist-documentation=false
 docs/.vitepress/**/*.ts linguist-language=TypeScript
 docs/.vitepress/**/*.css linguist-language=CSS
+
+*.md linguist-language=MDX
+/docs/docs/*.md linguist-language=MDX
+/docs/docs/**/*.md linguist-language=MDX
