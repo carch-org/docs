@@ -3,5 +3,4 @@ docs/.vitepress/**/*.ts linguist-language=TypeScript
 docs/.vitepress/**/*.css linguist-language=CSS
 
 *.md linguist-language=MDX
-docs/*.md linguist-language=MDX
-docs/**/*.md linguist-language=MDX
+**/*.md linguist-language=MDX
