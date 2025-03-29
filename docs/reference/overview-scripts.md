@@ -4,6 +4,53 @@
 
 **Carch comes with the following scripts to configure various aspects of your Arch-based system or Fedora system.**
 
+::: code-group
+
+
+```sh [ 🖥️ System ]
+├── Grub  
+├── LTS-Kernel  
+├── Packages  
+├── Sddm  
+├── Aur  
+├── Chaotic-Aur  
+├── Fastfetch  
+└── Fonts  
+```
+
+```sh [ 💻 Desktop ]
+├── Dwm  
+├── Hyprland  
+├── i3wm  
+├── SwayWM  
+├── Dunst  
+├── Picom  
+├── Rofi  
+├── Themes-Icons  
+└── Wallpapers  
+```
+
+```sh [ ⌨️  Terminal ]
+├── Alacritty  
+├── Kitty  
+├── Tmux  
+├── Bash  
+├── Fish  
+└── Zsh  
+```
+
+```sh [ 🧑‍💻 Development ]
+├── Helix  
+├── Neovim  
+├── Npm  
+└── Bun  
+```
+
+:::
+---
+
+### Descriptions:
+
 ### Dwm
 - *Quickly sets up the Dwm window manager with a single-click script, using my customized configuration.*
 

@@ -19,7 +19,7 @@ We’re excited that you’re interested in contributing to **Carch**! Contribut
 > 
 > - **All `additional` scripts of Carch are stored in:**  
 > ```sh
-> src/scripts/scripts/*.sh
+> src/scripts/modules/categories/*.sh
 > ```
 
 
