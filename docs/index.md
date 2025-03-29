@@ -16,7 +16,7 @@ hero:
       link: /getting-started/introduction.md
     - theme: alt
       text: Install 
-      link: /installation/cli.md
+      link: /getting-started/installation.md
     - theme: alt
       text: GitHub ↗
       link: https://github.com/harilvfs/carch
