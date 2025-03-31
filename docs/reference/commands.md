@@ -23,6 +23,8 @@ Options:
   --search, -s            🔎 Search for scripts by keyword.
   --no-preview            🚫 Run without displaying script previews in menus (one-time).
   --disable-preview       ❌ Permanently disable script previews in menus.
+  --log                   📝 Enable logging for the current session only.
+  --enable-logging        🔐 Permanently enable logging in the configuration file.
   --update                🔄 Update Carch using the latest script.
   --check-update          📡 Check if a new version of Carch is available.
   --uninstall             🗑️ Uninstall Carch and remove all associated files.
@@ -42,6 +44,8 @@ Options:
 - `--search, -s` 🔎 *Search for scripts by keyword.*  
 - `--no-preview` 🚫 *Run without displaying script previews in menus (one-time).*
 - `--disable-preview` ❌ *Permanently disable script previews in menus.*
+- `--log` 📝 *Enable logging for the current session only.*
+- `--enable-logging` 🔐 *Permanently enable logging in the configuration file.*
 - `--update` 🔄 *Update Carch using the latest script.*
 - `--check-update` 📡 *Check if a new version of Carch is available.*  
 - `--uninstall` 🗑️ *Uninstall Carch and remove all associated files.*
@@ -78,7 +82,9 @@ system/Packages
 # Set DISABLE_PREVIEW=true to disable script previews in menus
 DISABLE_PREVIEW=false
 
-# End of file 
+# Logging settings
+# Set LOGGING_ENABLED=true to enable permanent logging
+LOGGING_ENABLED=false
 ```
 
 ```sh [💡 Usage]
