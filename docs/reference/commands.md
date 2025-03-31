@@ -12,8 +12,6 @@ carch --help
 ```sh [📜 Preview]
 Usage: carch [OPTIONS]
 
-A tool for automating Arch Linux setups.
-
 Options:
   --help, -h              📖 Show this help message and exit.
   --version, -v           🔢 Show the program version.
@@ -23,6 +21,8 @@ Options:
   --run-script <name>, -r ▶️ Run the specified script from ./modules.
   --list-scripts, -l      📋 List all available scripts in ./modules.
   --search, -s            🔎 Search for scripts by keyword.
+  --no-preview            🚫 Run without displaying script previews in menus (one-time).
+  --disable-preview       ❌ Permanently disable script previews in menus.
   --update                🔄 Update Carch using the latest script.
   --check-update          📡 Check if a new version of Carch is available.
   --uninstall             🗑️ Uninstall Carch and remove all associated files.
@@ -40,6 +40,8 @@ Options:
 - `--run-script <name>, -r` ▶️ *Run the specified script from `./modules`.* 
 - `--list-scripts, -l` 📋 *List all available scripts in `./modules`.*
 - `--search, -s` 🔎 *Search for scripts by keyword.*  
+- `--no-preview` 🚫 *Run without displaying script previews in menus (one-time).*
+- `--disable-preview` ❌ *Permanently disable script previews in menus.*
 - `--update` 🔄 *Update Carch using the latest script.*
 - `--check-update` 📡 *Check if a new version of Carch is available.*  
 - `--uninstall` 🗑️ *Uninstall Carch and remove all associated files.*
@@ -59,12 +61,12 @@ The Default Carch configuration file is located at `~/.config/carch/carch.conf`.
 ```sh [🛠️ Conf]
 # Carch Configuration File  
 #  
-# List the script names (without the `.sh` extension) that you want to include in the menu.  
+# List the script names (without the .sh extension) that you want to include in the menu.  
 #  
 # Steps:  
 # 1. Check which category the scripts fall under (e.g., system, development, terminal, desktop).  
 # 2. Verify the available scripts using:  
-#    `carch -l` or `carch --list-scripts`  
+#    carch -l or carch --list-scripts  
 #  
 # Example:  
 
@@ -72,7 +74,11 @@ terminal/Alacritty
 terminal/Kitty  
 system/Packages  
 
-# End of file  
+# Display settings
+# Set DISABLE_PREVIEW=true to disable script previews in menus
+DISABLE_PREVIEW=false
+
+# End of file 
 ```
 
 ```sh [💡 Usage]
