@@ -63,20 +63,20 @@ The Default Carch configuration file is located at `~/.config/carch/carch.conf`.
 ::: code-group
 
 ```sh [🛠️ Conf]
-# Carch Configuration File  
+# Carch Configuration File
 #  
-# List the script names (without the .sh extension) that you want to include in the menu.  
+# List the script names (without the .sh extension) that you want to include in the menu.
 #  
-# Steps:  
-# 1. Check which category the scripts fall under (e.g., system, development, terminal, desktop).  
-# 2. Verify the available scripts using:  
-#    carch -l or carch --list-scripts  
+# Steps:
+# 1. Check which category the scripts fall under (e.g., system, development, terminal, desktop).
+# 2. Verify the available scripts using:
+#    carch -l or carch --list-scripts
 #  
-# Example:  
+# Example:
 
-terminal/Alacritty  
-terminal/Kitty  
-system/Packages  
+terminal/Alacritty
+terminal/Kitty
+system/Packages
 
 # Display settings
 # Set DISABLE_PREVIEW=true to disable script previews in menus
