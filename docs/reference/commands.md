@@ -9,28 +9,9 @@ carch --help
 
 ```
 
-```sh [📜 Preview]
-Usage: carch [OPTIONS]
-
-Options:
-  --help, -h              📖 Show this help message and exit.
-  --version, -v           🔢 Show the program version.
-  --gen-config            🛠️ Generate a default configuration file in ~/.config/carch/carch.conf.
-  --config <conf dir>     📂 Use a specific configuration file to load selected scripts.
-  -c                      ⚙️ Use the default configuration file to load selected scripts.
-  --run-script <name>, -r ▶️ Run the specified script from ./modules.
-  --list-scripts, -l      📋 List all available scripts in ./modules.
-  --search, -s            🔎 Search for scripts by keyword.
-  --no-preview            🚫 Run without displaying script previews in menus (one-time).
-  --disable-preview       ❌ Permanently disable script previews in menus.
-  --log                   📝 Enable logging for the current session only.
-  --enable-logging        🔐 Permanently enable logging in the configuration file.
-  --update                🔄 Update Carch using the latest script.
-  --check-update          📡 Check if a new version of Carch is available.
-  --uninstall             🗑️ Uninstall Carch and remove all associated files.
-
-```
 :::
+
+<img src="/help-preview.png" >
 
 ### 🔧 Command Breakdown
 
