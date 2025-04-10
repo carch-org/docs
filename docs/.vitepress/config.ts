@@ -47,7 +47,7 @@ export default {
       { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
    ],
     footer: {
-      message: "Released under the GPL-3.0 License.",
+      message: "Released under the MIT License.",
       copyright: "Copyright © 2025 Hari Chalise",
     },
     search: {

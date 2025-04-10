@@ -9,7 +9,7 @@ hero:
     src: /carch.png
     alt: Linux logo
     style: "width: 200px; height: auto;"
-  tagline: A simple Bash script for quick, efficient, and preconfigured Linux system setup (Arch & Fedora) 🧩
+  tagline: A Simple Script to Make Linux System Setups Easier 🧩
   actions:
     - theme: brand
       text: What is Carch? 
