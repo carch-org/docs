@@ -56,7 +56,7 @@ bash <(curl -L https://chalisehari.com.np/fedora)
 >
 > **Arch**
 > ```sh
-> sudo pacman -S curl 
+> sudo pacman -S --noconfirm curl 
 > ```
 > **Fedora**
 > ```sh
@@ -82,11 +82,11 @@ You'll need a few dependencies before installing:
 :::code-group
 
 ```sh [<i class="devicon-archlinux-plain"></i> Arch]
-sudo pacman -S --noconfirm figlet curl rust wget cargo fzf
+sudo pacman -S --noconfirm figlet rust cargo fzf
 ```
 
 ```sh [<i class="devicon-fedora-plain"></i> Fedora]
-sudo dnf install figlet curl rust wget cargo fzf
+sudo dnf install figlet rust cargo fzf -y
 ```
 :::
 
@@ -109,11 +109,12 @@ If you already have Rust installed, you can install Carch directly with Cargo. D
 :::code-group
 
 ```sh [<i class="devicon-archlinux-plain"></i> Arch]
-sudo pacman -S rust figlet man-db man git wget unzip noto-fonts-emoji ttf-joypixels cur bash bash-completion ttf-nerd-fonts-symbols ttf-jetbrains-mono ttf-jetbrains-mono-nerd bat zsh fish cargo fzf
+sudo pacman -S --noconfirm rust figlet man-db man git wget unzip noto-fonts-emoji ttf-joypixels cur bash bash-completion ttf-nerd-fonts-symbols ttf-jetbrains-mono ttf-jetbrains-mono-nerd bat zsh fish cargo fzf
+
 ```
 
 ```sh [<i class="devicon-fedora-plain"></i> Fedora]
-sudo dnf install rust figlet man-db man git wget unzip google-noto-color-emoji-fonts google-noto-emoji-fonts bat jetbrains-mono-fonts-all bash-completion-devel zsh fish curl bat cargo fzf
+sudo dnf install rust figlet man-db man git wget unzip google-noto-color-emoji-fonts google-noto-emoji-fonts bat jetbrains-mono-fonts-all bash-completion-devel zsh fish curl bat cargo fzf -y
 ```
 :::
 
