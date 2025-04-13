@@ -2,7 +2,7 @@
 
 <img src="https://cdn-icons-png.flaticon.com/128/993/993686.png" width="50" />
 
-We’re excited that you’re interested in contributing to **Carch**! Contributions of all kinds are welcome, whether you’re fixing bugs, adding new features, or improving documentation. Follow this guide to get started.
+We're excited that you're interested in contributing to **Carch**! Contributions of all kinds are welcome, whether you're fixing bugs, adding new features, or improving documentation. Follow this guide to get started.
 
 > [!WARNING]  
 > **Before making any contributions**, first open an issue in the **[Feature Request](https://github.com/harilvfs/carch/issues/new?template=feature-reqests.yml)** section. We will discuss the changes there before proceeding with implementation.  
@@ -11,24 +11,33 @@ We’re excited that you’re interested in contributing to **Carch**! Contribut
 
 > [!NOTE]
 > Before contributing, **understand the structure** of Carch:
-> - **The `main script` of Carch is located in:**  
->```bash
-> src/main.rs
-> src/scripts/carch
+> - **The `main` Rust files of Carch are located in:** `src`
+>
+>```sh
+> src/
+> ├── main.rs 
+> ├── commands.rs
+> ├── display.rs
+> ├── script_list.rs 
+> └── ui.rs # Main Tui 
 > ```
 > 
-> - **All `additional` scripts of Carch are stored in:**  
+> - **All `modules` scripts are organized by category in:**  
 > ```sh
-> src/scripts/modules/categories/*.sh
+> modules/
+> ├── desktop/     # Desktop environment related scripts
+> ├── development/ # Development tools scripts
+> ├── system/      # System configuration scripts
+> └── terminal/    # Terminal setup scripts
 > ```
 
 
 > [!IMPORTANT]
-> First, **analyze how the script works** before making any changes. If you want to improve or add to the project, make sure you **understand the structure** and how each piece interacts. This will help you contribute in a way that is consistent with the project’s design. 
+> First, **analyze how the script works** before making any changes. If you want to improve or add to the project, make sure you **understand the structure** and how each piece interacts. This will help you contribute in a way that is consistent with the project's design. 
 >
-> ```javascript
+> ```sh
 > For committing, use labels like feat: your-commit-message or fix: your-commit-message.
->```
+> ```
 > 
 > For more information about label messages, check out [here](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 
@@ -80,7 +89,7 @@ If you have questions or need help, feel free to **contact us**:
 
 ### 5. 🔧 Make Your Changes
 - Implement the necessary changes to the code or documentation.
-- Ensure that your changes are clear, tested, and follow the project’s coding standards.
+- Ensure that your changes are clear, tested, and follow the project's coding standards.
 
 ### 6. 📝 Stage and Commit Your Changes
 - Add the modified files to the staging area:
@@ -131,7 +140,7 @@ If you have questions or need help, feel free to **contact us**:
    ```bash
    git merge upstream/main
    ```
-  - Replace `main` with the default branch of the repository if it’s different.
+  - Replace `main` with the default branch of the repository if it's different.
 
 Thank you for contributing to **Carch**! Your effort helps make this project better for everyone. <img src="https://cdn-icons-png.flaticon.com/128/2279/2279398.png" width="50" />
 
