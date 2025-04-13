@@ -1,33 +1,32 @@
 # 🛠️ Installation
 
-## Live Test 🎯 
+## Live Test 🎯
 
 You can run or use Carch directly without installing it on your system.
 
-> [!NOTE]
-> ⚡ Make sure to have the`figlet`, and `fzf` packages already installed.
+> [!NOTE]  
+> ⚡ Make sure to have the `figlet` and `fzf` packages already installed.  
 >
-> **Arch**
-> ```sh
-> sudo pacman -S --noconfirm figlet fzf 
+> **Arch**  
+> ```sh 
+> sudo pacman -S --noconfirm figlet fzf
 > ```
-> **Fedora**
-> ```sh
-> sudo dnf install figlet fzf -y  
->```
-> 
+> **Fedora**  
+> ```sh 
+> sudo dnf install figlet fzf -y
+> ```
 
-Simply execute the following command:
+Choose one of the following commands to try Carch:
 
-```sh
-bash <(curl -L https://chalisehari.com.np/live)
+::: code-group
+
+```sh [⭐ Stable Version]
+bash <(curl -L https://chalisehari.com.np/carch)
 ```
 
-:::tip :bulb: TIP
-
-This will automatically fetch Carch from the latest release, download it to a temporary file, and remove it from your system once you exit.
-
-✅ This makes it easier to try out Carch without installing it permanently! 🎯
+```sh [🧪 Dev Version]
+bash <(curl -L https://chalisehari.com.np/carchdev)
+```
 :::
 
 ## ⚙️ Automated Installation Script
@@ -40,7 +39,6 @@ This will automatically fetch Carch from the latest release, download it to a te
 **To install Carch, execute the following command in your terminal:**
 
 :::code-group
-
 
 ```sh [<i class="devicon-archlinux-plain"></i> Arch]
 bash <(curl -L https://chalisehari.com.np/arch)
@@ -61,21 +59,21 @@ bash <(curl -L https://chalisehari.com.np/fedora)
 > **Fedora**
 > ```sh
 > sudo dnf install curl -y  
->```
+> ```
 > 
-> **Also, check the `make` and `less` packages (for Arch only).**
+> **Also, ensure the `make` and `less` packages are installed (for Arch only).**
 
 :::tip :bulb: TIP
-📝 You don't need to run the installation script every time. You can run it once, and then simply type carch in your terminal whenever you want to automatically execute the Carch script.
+📝 You don't need to run the installation script every time. After initial setup, simply type `carch` in your terminal to launch the application.
 :::
 
 ## 📦 Cargo Crate
 
 <img src="https://img.shields.io/crates/v/carch?style=for-the-badge&logo=rust&color=f5a97f&logoColor=fe640b&labelColor=171b22" >
 
-Carch is now available on [Cargo Crate](https://crates.io/crates/carch)!  
+🚀 Carch is now available on [Cargo Crate](https://crates.io/crates/carch)! 
 
-🚀 This is the simplest and best installation method for both Arch and Fedora if you have Rust installed.  
+This is the simplest and recommended installation method for both Arch and Fedora if you have Rust installed.  
 
 You'll need a few dependencies before installing: 
 
@@ -99,7 +97,12 @@ cargo install carch
 Once installed, simply type `carch` in your terminal to run it.
 
 :::tip :bulb: TIP
-If you already have Rust installed, you can install Carch directly with Cargo. Don't forget that **`fzf`** and **`figlet`** are required dependencies, as they are the core of the Carch menu!
+If typing `carch` doesn’t execute, make sure you have added the Cargo bin directory to your shell's PATH. Depending on whether you're using bash, zsh, or fish, add the following to your profile
+
+```sh
+export PATH="$HOME/.cargo/bin:$PATH"
+```
+
 :::
 
 ## 🏗️ Manual Installation
@@ -109,12 +112,11 @@ If you already have Rust installed, you can install Carch directly with Cargo. D
 :::code-group
 
 ```sh [<i class="devicon-archlinux-plain"></i> Arch]
-sudo pacman -S --noconfirm rust figlet man-db man git wget unzip noto-fonts-emoji ttf-joypixels cur bash bash-completion ttf-nerd-fonts-symbols ttf-jetbrains-mono ttf-jetbrains-mono-nerd bat zsh fish cargo fzf
-
+sudo pacman -S --noconfirm rust figlet man-db man git wget noto-fonts-emoji curl bash-completion ttf-nerd-fonts-symbols ttf-jetbrains-mono-nerd cargo fzf
 ```
 
 ```sh [<i class="devicon-fedora-plain"></i> Fedora]
-sudo dnf install rust figlet man-db man git wget unzip google-noto-color-emoji-fonts google-noto-emoji-fonts bat jetbrains-mono-fonts-all bash-completion-devel zsh fish curl bat cargo fzf -y
+sudo dnf install rust figlet man-db man git wget google-noto-color-emoji-fonts google-noto-emoji-fonts jetbrains-mono-fonts-all bash-completion-devel curl cargo fzf -y
 ```
 :::
 
@@ -128,4 +130,4 @@ cd target/release/
 sudo cp -r carch /usr/bin/ 
 ```
 
-Now you can run `carch` in your terminal. If you encounter any issues on Fedora, they might be dependency-related. It should work fine, but if any problems arise, feel free to open an [issue](https://github.com/harilvfs/carch/issues) or email me at **harilvfs@chalisehari.com.np**.
+Now you can run `carch` in your terminal. If you encounter any issues on Fedora, they might be dependency-related. The installation should work smoothly, but if any problems arise, please open an [issue](https://github.com/harilvfs/carch/issues) or email me at **harilvfs@chalisehari.com.np**.
