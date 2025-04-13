@@ -71,7 +71,7 @@ bash <(curl -L https://chalisehari.com.np/fedora)
 
 <img src="https://img.shields.io/crates/v/carch?style=for-the-badge&logo=rust&color=f5a97f&logoColor=fe640b&labelColor=171b22" >
 
-🚀 Carch is now available on [Cargo Crate](https://crates.io/crates/carch)! 
+Carch is now available on [Cargo Crate](https://crates.io/crates/carch)! 
 
 This is the simplest and recommended installation method for both Arch and Fedora if you have Rust installed.  
 
