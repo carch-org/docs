@@ -4,18 +4,11 @@
 
 You can run or use Carch directly without installing it on your system.
 
-Choose one of the following version to try Carch:
+Run the following command in your terminal:
 
-::: code-group
-
-```sh [⭐ Stable Version]
+```sh
 bash <(curl -L https://chalisehari.com.np/carch)
 ```
-
-```sh [🧪 Dev Version]
-bash <(curl -L https://chalisehari.com.np/carchdev)
-```
-:::
 
 ## ⚙️ Automated Installation Script
 
