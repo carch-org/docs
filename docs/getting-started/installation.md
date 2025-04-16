@@ -1,6 +1,6 @@
 # 🛠️ Installation
 
-## Live Test 🎯
+## How to use?
 
 You can run or use Carch directly without installing it on your system.
 
@@ -17,50 +17,24 @@ bash <(curl -L https://chalisehari.com.np/carchdev)
 ```
 :::
 
-## ⚙️ Automated Installation Script
-
-Carch mainly supports Arch and Fedora. 
-
-To install, run:
-
-```sh
-bash <(curl -L https://chalisehari.com.np/carchinstall)
-```
-
-> [!INFO]
-> 📢 **Make sure to install `curl` before running this command:** 
->
-> **Arch**
-> ```sh
-> sudo pacman -S --noconfirm curl 
-> ```
-> **Fedora**
-> ```sh
-> sudo dnf install curl -y  
-> ``` 
-
-:::tip :bulb: TIP
-📝 You don't need to run the installation script every time. After initial setup, simply type `carch` in your terminal to launch the application.
-:::
-
 ## 📦 Cargo Crate
 
 <img src="https://img.shields.io/crates/v/carch?style=for-the-badge&logo=rust&color=f5a97f&logoColor=fe640b&labelColor=171b22" >
 
-Carch is available on [Cargo Crate](https://crates.io/crates/carch) too. 
+Carch is available on [crates.io](https://crates.io/crates/carch).. 
 
-For Arch/Fedora, it's easy if you have Rust.
+If you want to install Carch on your Arch or Fedora system, you can use the Cargo [crate](https://crates.io/crates/carch).
 
 First, install dependencies: 
 
 :::code-group
 
 ```sh [<i class="devicon-archlinux-plain"></i> Arch]
-sudo pacman -S --noconfirm figlet fzf
+sudo pacman -S --noconfirm figlet fzf cargo rust
 ```
 
 ```sh [<i class="devicon-fedora-plain"></i> Fedora]
-sudo dnf install figlet fzf -y
+sudo dnf install figlet fzf cargo rust -y
 ```
 :::
 

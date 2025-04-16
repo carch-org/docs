@@ -11,6 +11,8 @@
 
 Carch is a collection of Bash scripts designed to simplify the process of setting up a Linux system. With its simple, Rust-based TUI, Carch is easy to use and accessible for everyone.  
 
+![built-with-ratatui](https://img.shields.io/badge/BUILT%20WITH-RATATUI-94e2d5?style=for-the-badge&logo=rust&logoColor=89dceb&labelColor=171b22)
+
 ## Features
 <img src="https://img.icons8.com/?size=80&id=vSx5PNyFqTTo&format=png" width="50" /> 
 

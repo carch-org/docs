@@ -53,7 +53,7 @@
 
   - Develop a TUI (Text-based User Interface). <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - Create a single executable binary. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - Add additional Rust scripts to enhance scriptability. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - Add additional Rust scripts to enhance scriptability. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
 
 - **Add WM setup scripts:**
 
