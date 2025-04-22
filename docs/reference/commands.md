@@ -18,7 +18,6 @@ carch --help
 - `--no-preview` 🚫 *Run without displaying script previews in menus.*
 - `--log` 📝 *Enable logging for the current session only.*
 - `--update` 🔄 *Update Carch using the latest script.*
-- `--check-update` 📡 *Check if a new version of Carch is available.*  
 - `--uninstall` 🗑️ *Uninstall Carch and remove all associated files.*
 
 ## Shell Completions
@@ -51,7 +50,10 @@ cat << EOF | sudo tee /usr/share/applications/carch.desktop
 [Desktop Entry]
 Name=Carch
 Comment=A Simple Script to Make Linux System Setups Easier
+## if you have install carch via cargo
 Exec=/home/username/.cargo/bin/carch
+## if you have install carch via install script
+Exec=/usr/local/bin/carch 
 Icon=carch
 Type=Application
 Terminal=true
@@ -61,12 +63,6 @@ EOF
 
 > [!IMPORTANT]
 > ⚠️ Don't forget to replace `username` with your actual Linux username!
-
-Or just download the shortcut file directly:
-
-```sh
-sudo curl -o /usr/share/applications/carch.desktop https://raw.githubusercontent.com/harilvfs/carch/refs/heads/main/carch.desktop
-```
 
 ## Icons
 
@@ -107,3 +103,23 @@ Then run it with:
 sudo ./carch_icons.sh
 ```
 
+## Man Pages
+
+If you want to install the man page manually for Carch, you can do it with:
+
+```sh
+sudo mkdir -p /usr/local/share/man/man1
+sudo curl -o /usr/local/share/man/man1/carch.1 https://raw.githubusercontent.com/harilvfs/carch/main/man/carch.1
+```
+
+After installation, update the man database:
+
+```sh
+sudo mandb
+```
+
+Now you can read the Carch manual with:
+
+```sh
+man carch
+```
