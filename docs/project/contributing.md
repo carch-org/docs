@@ -19,6 +19,7 @@ We're excited that you're interested in contributing to **Carch**! Contributions
 > ├── commands.rs
 > ├── display.rs
 > ├── script_list.rs 
+> ├── version.rs
 > └── ui.rs # Main Tui 
 > ```
 > 
