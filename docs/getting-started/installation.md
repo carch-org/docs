@@ -17,6 +17,29 @@ bash <(curl -L https://chalisehari.com.np/carchdev)
 ```
 :::
 
+## Install Script
+
+You can install Carch permanently on your system using our install script:
+
+```sh
+bash <(curl -L https://chalisehari.com.np/carchinstall)
+```
+
+You can also use these options:
+
+::: code-group
+
+```sh [Update]
+# Update existing installation
+bash <(curl -L https://chalisehari.com.np/carchinstall) --update
+```
+
+```sh [Uninstall]
+# Uninstall Carch
+bash <(curl -L https://chalisehari.com.np/carchinstall) --uninstall
+```
+:::
+
 ## 📦 Cargo Crate
 
 <img src="https://img.shields.io/crates/v/carch?style=for-the-badge&logo=rust&color=f5a97f&logoColor=fe640b&labelColor=171b22" >
