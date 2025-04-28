@@ -53,11 +53,11 @@ First, install dependencies:
 :::code-group
 
 ```sh [<i class="devicon-archlinux-plain"></i> Arch]
-sudo pacman -S --noconfirm figlet fzf cargo rust
+sudo pacman -S --noconfirm fzf cargo rust
 ```
 
 ```sh [<i class="devicon-fedora-plain"></i> Fedora]
-sudo dnf install figlet fzf cargo rust -y
+sudo dnf install fzf cargo rust -y
 ```
 :::
 
@@ -85,11 +85,11 @@ export PATH="$HOME/.cargo/bin:$PATH"
 :::code-group
 
 ```sh [<i class="devicon-archlinux-plain"></i> Arch]
-sudo pacman -S --noconfirm rust figlet man-db man git wget noto-fonts-emoji curl bash-completion ttf-nerd-fonts-symbols ttf-jetbrains-mono-nerd cargo fzf glibc gcc
+sudo pacman -S --noconfirm rust man-db man git wget noto-fonts-emoji curl bash-completion ttf-nerd-fonts-symbols ttf-jetbrains-mono-nerd cargo fzf glibc gcc
 ```
 
 ```sh [<i class="devicon-fedora-plain"></i> Fedora]
-sudo dnf install rust figlet man-db man git wget google-noto-color-emoji-fonts google-noto-emoji-fonts jetbrains-mono-fonts-all bash-completion-devel curl cargo fzf glibc gcc -y
+sudo dnf install rust man-db man git wget google-noto-color-emoji-fonts google-noto-emoji-fonts jetbrains-mono-fonts-all bash-completion-devel curl cargo fzf glibc gcc -y
 ```
 :::
 
