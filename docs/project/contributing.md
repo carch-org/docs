@@ -15,12 +15,16 @@ We're excited that you're interested in contributing to **Carch**! Contributions
 >
 >```sh
 > src/
+> ├── ui/
+> │   ├── app.rs
+> │   ├── mod.rs
+> │   ├── popups.rs
+> │   └── render.rs 
 > ├── main.rs 
 > ├── commands.rs
 > ├── display.rs
 > ├── script_list.rs 
-> ├── version.rs
-> └── ui.rs # Main Tui 
+> └── version.rs
 > ```
 > 
 > - **All `modules` scripts are organized by category in:**  
