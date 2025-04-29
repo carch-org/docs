@@ -2,7 +2,7 @@
 export default {
   title: 'Carch',
   description: 'Documentation website of carch',
-  base: "/docs/",
+//  base: "/docs/",
   lastUpdated: true,
 
   head: [
