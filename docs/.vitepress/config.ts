@@ -45,6 +45,7 @@ export default {
     socialLinks: [
       { icon: "telegram", link: "https://t.me/carchx" },
       { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
+      {icon: "gmail", link: "mailto:harilvfs@chalisehari.com.np"},
    ],
     footer: {
       message: "Released under the MIT License.",
