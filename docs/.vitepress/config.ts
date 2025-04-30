@@ -11,7 +11,7 @@ export default {
 
   themeConfig: {
     siteTitle: "Carch",
-    logo: "carch.png",
+    logo: "/carch.png",
     outline: "deep",
     docsDir: "/docs",
     editLink: {
