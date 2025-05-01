@@ -12,7 +12,7 @@ hero:
   tagline: A Simple Script to Make Linux System Setups Easier 🧩
   actions:
     - theme: brand
-      text: What is Carch? 
+      text: Wait, Carch? What’s that? 
       link: /getting-started/introduction.md
     - theme: alt
       text: Install 
@@ -21,18 +21,18 @@ hero:
       text: GitHub ↗
       link: https://github.com/harilvfs/carch
 features:
-  - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/10229/10229090.png" alt="setup"/>
-    title: Easy Setup
-    details: Quick and straightforward installation of essential packages.
+  - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
+    title: Bash Scripts, Easy Life
+    details: Setup is still powered by simple Bash scripts—fast, clean, and no fluff.
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=100&id=ZbBhBW0N2q3D&format=png&color=000000" alt="fedora"/>
-    title: Fedora
-    details: Adds full support for Fedora Linux, alongside Arch-based systems, with tailored setup scripts.
-  - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/3131/3131638.png" alt="scripts"/>
-    title: Multiple Scripts
-    details: Automate the setup of various environments, including Dwm and Hyprland.
-  - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/3308/3308315.png" alt="development"/>
-    title: Active Development
-    details: Continuous updates and new features based on community feedback.
+    title: Fedora Friendly
+    details: Supports both Fedora and Arch-based systems with custom tweaks for each.
+  - icon: <img width="35" height="35" src="https://img.icons8.com/?size=80&id=mcrzTGVMglJn&format=png" alt="tweaks"/>
+    title: Tweak All the Things
+    details: Includes a bunch of scripts to set up DWM, Hyprland, and other environments.
+  - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12400/12400985.png" alt="development"/>
+    title: Still Cooking
+    details: Actively improving stuff—now with a Rust-powered TUI and more updates coming.
 ---
 
 <style>
