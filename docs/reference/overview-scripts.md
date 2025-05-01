@@ -86,3 +86,15 @@
 
 ### Dunst
 - *Configures Dunst, a lightweight and customizable notification daemon, with optimized settings for a sleek and unobtrusive experience.*
+
+### Foot
+- *Sets up the Foot terminal emulator with wayland support and custom configurations.*
+
+### Ghostty
+- *Sets up the Ghostty terminal emulator with GPU acceleration and custom configurations.*
+
+### Audio
+- *Install & Sets up PipeWire audio system.*
+
+### Bluetooth
+- *Install Bluetooth Needed Packages & Sets up Bluetooth.*
