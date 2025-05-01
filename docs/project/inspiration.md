@@ -6,16 +6,23 @@
 
 - **[ChrisTitusTech `linutil`](https://github.com/ChrisTitusTech/linutil/)**  
 
-*I have a good habit of exploring new things and trying out different ideas, whether it’s scripting or Linux-related tasks. Often, I find myself diving into scripting projects or experimenting with tools, even if it starts with just sitting around and tinkering.*
+I love messing around with Linux and scripts. Most of the time, I’m just experimenting, trying random ideas for fun. Even if I’m just sitting and bored, I somehow end up building weird little tools.
 
-One of my inspirations has been watching Chris Titus Tech's [live streams](https://www.youtube.com/@TitusTechTalk) and [videos](https://www.youtube.com/@ChrisTitusTech). Chris has been working on an amazing project called [`linutil`](https://github.com/ChrisTitusTech/linutil/). It gave me the idea to start building my own project, but in my own unique way. Initially, my project was quite basic—just a script with a `whiptail`-based TUI. It felt somewhat boring and clunky at the time.
+One of the things that really inspired me was watching [Chris Titus Tech](https://www.youtube.com/@ChrisTitusTech) and his [streams](https://www.youtube.com/@TitusTechTalk). He’s working on a cool project called [`linutil`](https://github.com/ChrisTitusTech/linutil/), and that kinda gave me the push to make my own version of something like it—but in my own messy way.
+
+In the beginning, the project was... well, **ugly** 😅. I used `whiptail` for the menu. It worked, but it looked super old-school and felt kinda clunky. Honestly, it was just a basic shell script with a bunch of menus slapped together.
 
 📅 **Updated: 2025-03-21**  
 
-💡 Later, I discovered that we could use `fzf` in Bash scripts. Before this, I was using `gum`, taking inspiration from [ml4w](https://github.com/mylinuxforwork). However, I recently **completely replaced** `gum` with `fzf`, and it has been working insanely well! 🔥  
+Later on, I started using `gum`, which I found through [ml4w](https://github.com/mylinuxforwork). It made things look a lot nicer. But then I tried out `fzf`, and that just clicked. It was way faster and cleaner for what I wanted to do. So I ditched `gum` (still love it tho 💖) and went all-in on `fzf`.
 
-I will always be a **gum lover** 💖, but `fzf` provides better **sustainability** for the Carch script, as well as the main menu. So, I went all in and implemented `fzf` everywhere in Carch! 
+📅 **Updated: 2025-05-01**  
 
+🦀 And now... big step: I’ve added a full Rust-based TUI using `ratatui`. No more ugly menus 😎. The new interface looks way better, runs smoother, and I can finally add features that just weren’t possible in Bash alone.
 
+**Just to be clear though—the actual Carch scripts (like setup scripts, tools, etc.) are still written in Bash.** I’m not rewriting all of that in Rust (that would be insane 😅). The Rust TUI is mainly for the menu system—handling navigation, categories, and preview. When you select something, it still runs the Bash scripts underneath, and yep, `fzf` is still doing the job there too!
 
+So yeah, it’s a mix: Rust for the interface, Bash for the logic, and `fzf` in the middle holding it all together. It’s weird—but it works!
+
+Carch really came a long way—from something super basic and kinda ugly, to something I’m proud of. Still lots to do, but it’s getting cooler every day.
 
