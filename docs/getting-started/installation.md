@@ -44,7 +44,7 @@ bash <(curl -L https://chalisehari.com.np/carchinstall) --uninstall
 
 <img src="https://img.shields.io/crates/v/carch?style=for-the-badge&logo=rust&color=f5a97f&logoColor=fe640b&labelColor=171b22" >
 
-Carch is available on [crates.io](https://crates.io/crates/carch).. 
+Carch is available on [crates.io](https://crates.io/crates/carch).
 
 If you want to install Carch on your Arch or Fedora system, you can use the Cargo [crate](https://crates.io/crates/carch).
 
