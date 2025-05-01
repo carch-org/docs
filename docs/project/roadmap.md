@@ -9,7 +9,7 @@
 
 - **Expand Functionality for Different Distributions 🌐**
    - Add full support for popular distributions:
-     - **Arch** (including Manjaro) 🖥️ <img src="https://img.icons8.com/?size=48&id=uIXgLv5iSlLJ&format=png" width="20" />
+     - **Arch** <img src="https://img.icons8.com/?size=48&id=uIXgLv5iSlLJ&format=png" width="20" />
      - **Debian** <img src="https://img.icons8.com/?size=48&id=17838&format=png" width="20" /> 
      - **Fedora** <img src="https://img.icons8.com/?size=48&id=ZbBhBW0N2q3D&format=png" width="20" />
      - **openSUSE** <img src="https://cdn0.iconfinder.com/data/icons/flat-round-system/512/opensuse-512.png" width="20" /> 
@@ -59,7 +59,7 @@
 
   - i3 setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
   - DWM setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-  - Sway setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - Sway setup script [ Currently Only For Arch ] <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
   - Hyprland window manager scripts <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - Bspwm setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
   - River setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
