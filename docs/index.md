@@ -9,7 +9,7 @@ hero:
     src: /carch.png
     alt: Linux logo
     style: "width: 200px; height: auto;"
-  tagline: A Simple Script to Make Linux System Setups Easier 🧩
+  tagline: A Simple Script to Make Linux System Setup Easier 🧩
   actions:
     - theme: brand
       text: Wait, Carch? What’s that? 
