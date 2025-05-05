@@ -22,8 +22,6 @@ This is the official documentation site for the [`Carch`](https://github.com/har
 
 </div>
 
----
-
 <div align="center">
   
 ### 📚 Build Documentation
