@@ -98,3 +98,6 @@
 
 ### Bluetooth
 - *Install Bluetooth Needed Packages & Sets up Bluetooth.*
+
+### Brightness 
+- *Set the brightness level to your preference using Brightnessctl.* 
