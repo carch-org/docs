@@ -22,7 +22,7 @@ export default {
       { text: "Home", link: "/" },
       { text: "Guide", link: "/getting-started/introduction" },
       { 
-        text: "4.4.3",
+        text: "4.4.4",
         items: [
           {
           text: 'Changelog',
