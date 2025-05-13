@@ -44,9 +44,9 @@ bash <(curl -L https://chalisehari.com.np/carchinstall) --uninstall
 
 <img src="https://img.shields.io/crates/v/carch?style=for-the-badge&logo=rust&color=f5a97f&logoColor=fe640b&labelColor=171b22" >
 
-Carch is available on [crates.io](https://crates.io/crates/carch).
+Carch is available on [crates.io](https://crates.io/).
 
-If you want to install Carch on your Arch or Fedora system, you can use the Cargo [crate](https://crates.io/crates/carch).
+You can install it using Cargo with the [carch](https://crates.io/crates/carch) crate.
 
 First, install dependencies: 
 
@@ -67,10 +67,10 @@ Now, install Carch using Cargo:
 cargo install carch
 ```
 
-Once installed, simply type `carch` in your terminal to run it.
+Once that's done, you can run it by typing `carch` in your terminal.
 
 :::tip :bulb: TIP
-If `carch` doesn’t run, add Cargo’s bin directory to your PATH:
+If `carch` isn’t recognized, add Cargo's bin directory to your PATH:
 
 ```sh
 export PATH="$HOME/.cargo/bin:$PATH"
