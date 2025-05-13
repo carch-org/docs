@@ -30,10 +30,11 @@ We're excited that you're interested in contributing to **Carch**! Contributions
 > - **All `modules` scripts are organized by category in:**  
 > ```sh
 > modules/
-> ├── desktop/     # Desktop environment related scripts
-> ├── development/ # Development tools scripts
-> ├── system/      # System configuration scripts
-> └── terminal/    # Terminal setup scripts
+> ├── Browser/     # Browser related scripts 
+> ├── Desktop/     # Desktop environment related scripts
+> ├── Development/ # Development tools scripts
+> ├── System/      # System configuration scripts
+> └── Terminal/    # Terminal setup scripts
 > ```
 
 
