@@ -101,3 +101,6 @@
 
 ### Brightness 
 - *Set the brightness level to your preference using Brightnessctl.* 
+
+### Extensions
+- *Recommend some useful Extensions for Chromium or Firefox based browser's.*
