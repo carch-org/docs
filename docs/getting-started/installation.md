@@ -9,11 +9,11 @@ Choose one of the following version to try Carch:
 ::: code-group
 
 ```sh [⭐ Stable Version]
-bash <(curl -L https://chalisehari.com.np/carch)
+bash -c "$(curl -fsSL https://chalisehari.com.np/carch)"
 ```
 
 ```sh [🧪 Dev Version]
-bash <(curl -L https://chalisehari.com.np/carchdev)
+bash -c "$(curl -fsSL https://chalisehari.com.np/carchdev)"
 ```
 :::
 
@@ -22,7 +22,7 @@ bash <(curl -L https://chalisehari.com.np/carchdev)
 You can install Carch permanently on your system using our install script:
 
 ```sh
-bash <(curl -L https://chalisehari.com.np/carchinstall)
+bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)"
 ```
 
 You can also use these options:
@@ -31,12 +31,12 @@ You can also use these options:
 
 ```sh [Update]
 # Update existing installation
-bash <(curl -L https://chalisehari.com.np/carchinstall) --update
+bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- --update
 ```
 
 ```sh [Uninstall]
 # Uninstall Carch
-bash <(curl -L https://chalisehari.com.np/carchinstall) --uninstall
+bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- --uninstall
 ```
 :::
 
