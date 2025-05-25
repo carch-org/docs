@@ -1,22 +1,5 @@
 # 🛠️ Installation
 
-## How to use?
-
-You can run or use Carch directly without installing it on your system.
-
-Choose one of the following version to try Carch:
-
-::: code-group
-
-```sh [⭐ Stable Version]
-bash -c "$(curl -fsSL https://chalisehari.com.np/carch)"
-```
-
-```sh [🧪 Dev Version]
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchdev)"
-```
-:::
-
 ## Install Script
 
 You can install Carch permanently on your system using our install script:
