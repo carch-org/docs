@@ -42,10 +42,11 @@ We're excited that you're interested in contributing to **Carch**! Contributions
 > First, **analyze how the script works** before making any changes. If you want to improve or add to the project, make sure you **understand the structure** and how each piece interacts. This will help you contribute in a way that is consistent with the project's design. 
 >
 > ```sh
-> For committing, use labels like feat: your-commit-message or fix: your-commit-message.
+> For committing, use labels like
+> feat: your-commit-message or fix: your-commit-message.
 > ```
 > 
-> For more information about label messages, check out [here](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
+> For more information about Conventional Commits, perfer this [guide](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 
 
 If you have questions or need help, feel free to **contact us**:  
