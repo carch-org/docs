@@ -35,6 +35,12 @@ features:
     details: Actively improving stuff—now with a Rust-powered TUI and more updates coming.
 ---
 
+<img
+  src="https://raw.githubusercontent.com/harilvfs/carch/refs/heads/main/.github/preview.gif"
+  alt="Carch preview"
+  style="max-width: 720px; width: 100%; border-radius: 12px; margin: 2rem auto; display: block;"
+/>
+
 <style>
 :root {
   --vp-home-hero-name-color: transparent;
