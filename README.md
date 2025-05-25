@@ -4,7 +4,7 @@
 
 <h4> 
   
-Carch Wiki is now maintained at [carch-org/wiki](https://github.com/carch-org/wiki)
+This is the documentation site for the [Carch](https://github.com/harilvfs/carch), built with Vitepress.
 </h4>
 
 </div>
