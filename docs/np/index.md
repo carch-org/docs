@@ -57,10 +57,7 @@ features:
 }
 
 .home-page {
-  background:
-    linear-gradient(215deg, var(--overlay-gradient), transparent 40%),
-    radial-gradient(var(--overlay-gradient), transparent 40%) no-repeat -60vw -40vh / 105vw 200vh,
-    radial-gradient(var(--overlay-gradient), transparent 65%) no-repeat 50% calc(100% + 20rem) / 60rem 30rem;
+  background: var(--vp-c-bg);
 
   .VPFeature a {
     font-weight: bold;
