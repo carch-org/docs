@@ -2,7 +2,6 @@
 
 <img
   src="/carch.png"
-  alt="carch „Snazzy“"
   width="25%"
   align="right"
  />
