@@ -42,5 +42,3 @@ Instances of abusive, harassing, or otherwise unacceptable behavior may be repor
 This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 1.4, available at https://www.contributor-covenant.org/version/1/4/. 
 
 For other projects, see the [full list of versions](https://www.contributor-covenant.org/version/).
-
-
