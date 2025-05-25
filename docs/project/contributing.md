@@ -46,7 +46,7 @@ We're excited that you're interested in contributing to **Carch**! Contributions
 > feat: your-commit-message or fix: your-commit-message.
 > ```
 > 
-> For more information about Conventional Commits, perfer this [guide](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
+> For more information about Conventional Commits, prefer this [guide](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 
 
 If you have questions or need help, feel free to **contact us**:  
