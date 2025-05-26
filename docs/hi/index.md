@@ -22,16 +22,16 @@ hero:
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
     title: Bash स्क्रिप्ट्स, आसान जीवन
-    details: सेटअप अभी भी सरल Bash स्क्रिप्ट्स द्वारा संचालित है—तेज़, साफ़, और बिना किसी अनावश्यक चीज़ के।
+    details: सेटअप अभी भी सरल Bash स्क्रिप्ट्स द्वारा संचालित है तेज़, साफ़, और बिना किसी अनावश्यक चीज़ के।
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=100&id=ZbBhBW0N2q3D&format=png&color=000000" alt="fedora"/>
     title: Fedora के अनुकूल
-    details: प्रत्येक के लिए कस्टम ट्वीक्स के साथ Fedora और Arch-आधारित दोनों सिस्टम का समर्थन करता है।
+    details: प्रत्येक के लिए कस्टम ट्वीक्स के साथ Fedora और Arch आधारित दोनों सिस्टम का समर्थन करता है।
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=80&id=mcrzTGVMglJn&format=png" alt="tweaks"/>
     title: सभी चीज़ों को ट्वीक करें
     details: DWM, Hyprland, और अन्य वातावरण सेट करने के लिए कई स्क्रिप्ट्स शामिल हैं।
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12400/12400985.png" alt="development"/>
     title: अभी भी विकसित हो रहा है
-    details: सक्रिय रूप से सुधार कर रहे हैं—अब Rust-संचालित TUI और आने वाले और भी अपडेट के साथ।
+    details: सक्रिय रूप से सुधार कर रहे हैं अब Rust संचालित TUI और आने वाले और भी अपडेट के साथ।
 ---
 
 <img

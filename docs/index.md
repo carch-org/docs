@@ -23,16 +23,16 @@ hero:
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
     title: Bash Scripts, Easy Life
-    details: Setup is still powered by simple Bash scripts—fast, clean, and no fluff.
+    details: Setup is still powered by simple Bash scripts fast, clean, and no fluff.
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=100&id=ZbBhBW0N2q3D&format=png&color=000000" alt="fedora"/>
     title: Fedora Friendly
-    details: Supports both Fedora and Arch-based systems with custom tweaks for each.
+    details: Supports both Fedora and Arch based systems with custom tweaks for each.
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=80&id=mcrzTGVMglJn&format=png" alt="tweaks"/>
     title: Tweak All the Things
     details: Includes a bunch of scripts to set up DWM, Hyprland, and other environments.
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12400/12400985.png" alt="development"/>
     title: Still Cooking
-    details: Actively improving stuff—now with a Rust-powered TUI and more updates coming.
+    details: Actively improving stuff now with a Rust-powered TUI and more updates coming.
 ---
 
 <img

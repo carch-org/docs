@@ -86,4 +86,4 @@ cd target/release/
 sudo cp -r carch /usr/bin/ 
 ```
 
-Now you can run `carch` in your terminal. If you encounter any issues on Fedora, they might be dependency-related. The installation should work smoothly, but if any problems arise, please open an [issue](https://github.com/harilvfs/carch/issues) or email me at **harilvfs@chalisehari.com.np**.
+Now you can run `carch` in your terminal. If you encounter any issues on Fedora, they might be dependency related. The installation should work smoothly, but if any problems arise, please open an [issue](https://github.com/harilvfs/carch/issues) or email me at **harilvfs@chalisehari.com.np**.
