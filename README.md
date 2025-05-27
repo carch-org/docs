@@ -24,7 +24,20 @@ This is the official documentation site for the [Carch](https://github.com/haril
 
 </div>
 
-<div align="center">
+### 🤝 Contributing
+
+If you somehow want to contribute to **Carch Docs**, you're more than welcome!
+
+You can contribute by:
+
+- Fixing any mistakes or typos in guides
+- Translating the documentation into other languages (this is highly encouraged!)
+
+If you're contributing a new language:
+- Check the `config.ts` file to understand how to add your language.
+- Add your translated content inside the appropriate subfolder in the `docs` directory.
+
+Thanks in advance for your support!
   
 ### 📚 Build Documentation
 
@@ -48,16 +61,12 @@ cd <clone dir>
 bun add -D vitepress
 ```
 
-<br>
-
 #### 🏗️ Build
 *To generate the static documentation files:*
 
 ```sh
 bun run docs:build
 ```
-
-<br>
 
 #### 👀 Preview 
 *To preview the generated build locally:*
@@ -67,8 +76,6 @@ bun run docs:preview
 ```
   
 *Copy the local IP address provided and paste it into your browser to view the documentation.*
-
-<br>
 
 #### 🔄 Development Build
 
