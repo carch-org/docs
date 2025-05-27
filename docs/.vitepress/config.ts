@@ -346,6 +346,61 @@ export default {
       },
     },
 
+    ko: {
+      label: "한국어",
+      lang: "ko-KR",
+      title: "카치",
+      description: "Carch 문서 사이트",
+
+      themeConfig: {
+        siteTitle: "카치",
+        logo: "/carch.png",
+        outline: "deep",
+        docsDir: "/docs",
+
+        langMenuLabel: "언어",
+        returnToTopLabel: "맨 위로",
+        sidebarMenuLabel: "메뉴",
+
+        editLink: {
+          pattern: "https://github.com/carch-org/docs/tree/main/docs/:path",
+          text: "GitHub에서 이 페이지 편집하기",
+        },
+
+        nav: nav("ko", {
+          home: "홈",
+          guide: "가이드",
+          changelog: "변경 로그",
+        }),
+
+        sidebar: sidebar("ko", {
+          "getting-started": "시작하기",
+          "getting-started/introduction": "소개",
+          "getting-started/installation": "설치",
+          "reference": "레퍼런스",
+          "reference/commands": "명령어",
+          "reference/overview-scripts": "스크립트 개요",
+          "project": "프로젝트",
+          "project/roadmap": "로드맵",
+          "project/contributing": "기여하기",
+          "project/codeofconduct": "행동 강령",
+          "project/inspiration": "영감",
+          "project/contributors": "기여자",
+        }),
+
+        socialLinks: [
+          { icon: "telegram", link: "https://t.me/carchx" },
+          { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
+          { icon: "gmail", link: "mailto:harilvfs@chalisehari.com.np" },
+        ],
+
+        footer: {
+          message: "MIT 라이선스 하에 배포됨.",
+          copyright: "저작권 © 2025 Hari Chalise",
+        },
+      },
+    },
+
     ne: {
       label: "नेपाली",
       lang: "ne-NP",
