@@ -181,7 +181,7 @@ export default {
       },
     },
 
-    np: {
+    ne: {
       label: "नेपाली",
       lang: "ne-NP",
       title: "सी-आर्च",
@@ -202,13 +202,13 @@ export default {
           text: "GitHub मा यो पृष्ठ सम्पादन गर्नुहोस्",
         },
 
-        nav: nav("np", {
+        nav: nav("ne", {
           home: "घर",
           guide: "गाइड",
           changelog: "परिवर्तन लग",
         }),
 
-        sidebar: sidebar("np", {
+        sidebar: sidebar("ne", {
           "getting-started": "सुरुवात गर्नुहोस्",
           "getting-started/introduction": "परिचय",
           "getting-started/installation": "स्थापना",

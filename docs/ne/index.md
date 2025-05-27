@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: पर्खनुहोस्, Carch? यो के हो? 
-      link: /np/getting-started/introduction
+      link: /ne/getting-started/introduction
     - theme: alt
       text: इंस्टल गर्नुहोस् 
-      link: /np/getting-started/installation
+      link: /ne/getting-started/installation
     - theme: alt
       text: GitHub ↗
       link: https://github.com/harilvfs/carch

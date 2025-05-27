@@ -1,10 +1,12 @@
 # typos.toml - Configuration file for typos spellchecker
 
 [default]
-# Define custom word mappings to ignore specific cases
+# Support multiple languages
+locales = ["en", "es", "zh", "hi", "np"]
+
 [default.extend-words]
 ratatui = "ratatui"
 
-# File-specific exclusions (uncomment if needed)
+# Optional: exclude specific files
 # [files]
 # exclude = ["*.md", "CHANGELOG.md"]
