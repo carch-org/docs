@@ -1,0 +1,79 @@
+# Hoja de Ruta del Proyecto Carch 
+<img src="https://img.icons8.com/?size=80&id=CBfO8TrnezXC&format=png" width="50" />
+
+**Fase Actual** *[ Avanzando en el Desarrollo de Scripts ]* <img src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png" width="20" /> 
+
+*El proyecto ahora está progresando a través de su fase de desarrollo, enfocándose en crear scripts para simplificar el proceso de configuración de Arch y fedora linux.* 🛠️
+
+## Próximas Características y Mejoras ✨
+
+- **Expandir Funcionalidad para Diferentes Distribuciones 🌐**
+   - Añadir soporte completo para distribuciones populares:
+     - **Arch** <img src="https://img.icons8.com/?size=48&id=uIXgLv5iSlLJ&format=png" width="20" />
+     - **Debian** <img src="https://img.icons8.com/?size=48&id=17838&format=png" width="20" /> 
+     - **Fedora** <img src="https://img.icons8.com/?size=48&id=ZbBhBW0N2q3D&format=png" width="20" />
+     - **openSUSE** <img src="https://cdn0.iconfinder.com/data/icons/flat-round-system/512/opensuse-512.png" width="20" /> 
+     - **Void** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Void_Linux_logo.svg/256px-Void_Linux_logo.svg.png" width="20" /> 
+   - Desarrollar scripts de configuración específicos para cada distribución.
+
+- **Mejorar la Estabilidad de los Scripts 🔧**
+   - Refactorizar los scripts existentes para mejorar la estabilidad.
+   - Implementar manejo de errores y logging para mejor depuración.
+
+- **Implementación en Rust 🦀**
+  - Crear un binario ejecutable único para Carch. 
+  - Desarrollar una TUI basada en Rust. 
+  - Añadir scripts adicionales de Rust para funcionalidad mejorada. 
+
+- **Añadir Scripts de Configuración de Gestores de Ventanas (WM) 🪟**
+   - Crear y mejorar scripts de instalación/configuración para más gestores de ventanas (ej., i3, Sway).
+   - Incluir opciones de configuración adaptadas para cada WM.
+
+- **Scripts de Configuración del Sistema Central ⚙️**
+   - Desarrollar scripts amigables para principiantes para la configuración del sistema central (ej., gestión de paquetes, configuración de usuario).
+   - Incluir guías y documentación para asistir a nuevos usuarios.
+
+## Lista de Verificación del Proyecto Carch 
+<img src="https://cdn-icons-png.flaticon.com/128/8090/8090840.png" width="30" />
+
+- **Expandir soporte para distribuciones populares:**
+
+  - Arch <img src="https://img.icons8.com/?size=48&id=uIXgLv5iSlLJ&format=png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
+  - Fedora <img src="https://img.icons8.com/?size=48&id=ZbBhBW0N2q3D&format=png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - Debian <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" /> 
+  - openSUSE <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - Void <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+
+- **Refactorizar scripts para estabilidad:**
+
+  - Implementar manejo de errores <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
+  - Añadir capacidades de logging <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+
+- **Implementar Rust:**
+
+  - Desarrollar una TUI (Interfaz de Usuario basada en Texto). <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
+  - Crear un binario ejecutable único. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
+  - Añadir scripts adicionales de Rust para mejorar la capacidad de scripting. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+
+- **Añadir scripts de configuración de WM:**
+
+  - Script de configuración de i3 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - Script de configuración de DWM <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - Script de configuración de Sway [ Actualmente Solo Para Arch ] <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - Scripts del gestor de ventanas Hyprland <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
+  - Script de configuración de Bspwm <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - Script de configuración de River <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - Script de configuración de Wayfire <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - Script de configuración de DWL <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+
+- **Crear scripts de configuración del sistema central:**
+  
+  - Configuración de usuario <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - Gestión de paquetes <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - Documentación para principiantes <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+
+## Cronograma (Tentativo) 📅
+
+- **Q 2024**: Desarrollar scripts adicionales de configuración de WM y scripts de configuración del sistema central. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+- **Q Mediados 2025/2026**: Refactorizar scripts existentes para estabilidad y comenzar a expandir el soporte de distribuciones. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+    - Desarrollar una TUI basada en Rust para interacción de usuario mejorada. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />

@@ -126,6 +126,61 @@ export default {
       },
     },
 
+    es: {
+      label: "Español",
+      lang: "es-ES",
+      title: "Carch",
+      description: "Sitio web de documentación de Carch",
+
+      themeConfig: {
+        siteTitle: "Carch",
+        logo: "/carch.png",
+        outline: "deep",
+        docsDir: "/docs",
+
+        langMenuLabel: "Idiomas",
+        returnToTopLabel: "Volver arriba",
+        sidebarMenuLabel: "Menú",
+
+        editLink: {
+          pattern: "https://github.com/carch-org/docs/tree/main/docs/:path",
+          text: "Editar esta página en GitHub",
+        },
+
+        nav: nav("es", {
+          home: "Inicio",
+          guide: "Guía",
+          changelog: "Registro de cambios",
+        }),
+
+        sidebar: sidebar("es", {
+          "getting-started": "Comenzar",
+          "getting-started/introduction": "Introducción",
+          "getting-started/installation": "Instalación",
+          "reference": "Referencia",
+          "reference/commands": "Comandos",
+          "reference/overview-scripts": "Resumen de Scripts",
+          "project": "Proyecto",
+          "project/roadmap": "Hoja de ruta",
+          "project/contributing": "Contribuir",
+          "project/codeofconduct": "Código de conducta",
+          "project/inspiration": "Inspiración",
+          "project/contributors": "Contribuidores",
+        }),
+
+        socialLinks: [
+          { icon: "telegram", link: "https://t.me/carchx" },
+          { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
+          { icon: "gmail", link: "mailto:harilvfs@chalisehari.com.np" },
+        ],
+
+        footer: {
+          message: "Publicado bajo la Licencia MIT.",
+          copyright: "Derechos de autor © 2025 Hari Chalise",
+        },
+      },
+    },
+
     np: {
       label: "नेपाली",
       lang: "ne-NP",
@@ -304,4 +359,3 @@ export default {
     ],
   },
 };
-
