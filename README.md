@@ -52,8 +52,6 @@ git clone https://github.com/carch-org/docs
 cd docs
 ```
 
-<br>
-
 ### 📦 Initialize with Bun
 
 ```bash
