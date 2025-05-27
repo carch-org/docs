@@ -24,7 +24,7 @@ This is the official documentation site for the [Carch](https://github.com/haril
 
 </div>
 
-### 🤝 Contributing
+## 🤝 Contributing
 
 If you somehow want to contribute to **Carch Docs**, you're more than welcome!
 
@@ -39,13 +39,13 @@ If you're contributing a new language:
 
 Thanks in advance for your support!
   
-### 📚 Build Documentation
+## 📚 Build Documentation
 
 *Assuming you already have all the usual Node.js dependencies (e.g., Node.js, NVM, Bun, Npm)*
 
 </div>
 
-#### 🛠️ Clone Repository
+### 🛠️ Clone Repository
 
 ```sh
 git clone https://github.com/carch-org/docs
@@ -54,21 +54,21 @@ cd docs
 
 <br>
 
-#### 📦 Initialize with Bun
+### 📦 Initialize with Bun
 
 ```bash
 cd <clone dir>
 bun add -D vitepress
 ```
 
-#### 🏗️ Build
+### 🏗️ Build
 *To generate the static documentation files:*
 
 ```sh
 bun run docs:build
 ```
 
-#### 👀 Preview 
+### 👀 Preview 
 *To preview the generated build locally:*
 
 ```sh
@@ -77,7 +77,7 @@ bun run docs:preview
   
 *Copy the local IP address provided and paste it into your browser to view the documentation.*
 
-#### 🔄 Development Build
+### 🔄 Development Build
 
 *To see live changes while editing the documentation:*
 
