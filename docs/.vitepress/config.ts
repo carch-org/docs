@@ -235,6 +235,61 @@ export default {
         },
       },
     },
+
+    cn: {
+      label: "中文",
+      lang: "zh-CN",
+      title: "Carch",
+      description: "Carch 的文档网站",
+
+      themeConfig: {
+        siteTitle: "Carch",
+        logo: "/carch.png",
+        outline: "deep",
+        docsDir: "/docs",
+
+        langMenuLabel: "语言",
+        returnToTopLabel: "返回顶部",
+        sidebarMenuLabel: "菜单",
+
+        editLink: {
+          pattern: "https://github.com/carch-org/docs/tree/main/docs/:path",
+          text: "在 GitHub 上编辑此页面",
+        },
+
+        nav: nav("cn", {
+          home: "主页",
+          guide: "指南",
+          changelog: "更新日志",
+        }),
+
+        sidebar: sidebar("cn", {
+          "getting-started": "快速开始",
+          "getting-started/introduction": "介绍",
+          "getting-started/installation": "安装",
+          "reference": "参考",
+          "reference/commands": "命令",
+          "reference/overview-scripts": "脚本概览",
+          "project": "项目",
+          "project/roadmap": "路线图",
+          "project/contributing": "贡献",
+          "project/codeofconduct": "行为准则",
+          "project/inspiration": "灵感",
+          "project/contributors": "贡献者",
+        }),
+
+        socialLinks: [
+          { icon: "telegram", link: "https://t.me/carchx" },
+          { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
+          { icon: "gmail", link: "mailto:harilvfs@chalisehari.com.np" },
+        ],
+
+        footer: {
+          message: "基于 MIT 许可证发布。",
+          copyright: "版权所有 © 2025 Hari Chalise",
+        },
+      },
+    },
   },
 
   themeConfig: {
@@ -249,3 +304,4 @@ export default {
     ],
   },
 };
+
