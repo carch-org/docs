@@ -291,7 +291,7 @@ export default {
       },
     },
 
-    cn: {
+    zh: {
       label: "中文",
       lang: "zh-CN",
       title: "Carch",
@@ -312,13 +312,13 @@ export default {
           text: "在 GitHub 上编辑此页面",
         },
 
-        nav: nav("cn", {
+        nav: nav("zh", {
           home: "主页",
           guide: "指南",
           changelog: "更新日志",
         }),
 
-        sidebar: sidebar("cn", {
+        sidebar: sidebar("zh", {
           "getting-started": "快速开始",
           "getting-started/introduction": "介绍",
           "getting-started/installation": "安装",

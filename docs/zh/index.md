@@ -13,10 +13,10 @@ hero:
   actions:
     - theme: brand
       text: 等等，Carch 是什么？ 
-      link: /cn/getting-started/introduction
+      link: /zh/getting-started/introduction
     - theme: alt
       text: 安装 
-      link: /cn/getting-started/installation
+      link: /zh/getting-started/installation
     - theme: alt
       text: GitHub ↗
       link: https://github.com/harilvfs/carch
