@@ -181,6 +181,61 @@ export default {
       },
     },
 
+    fr: {
+      label: "Français",
+      lang: "fr-FR",
+      title: "Carch",
+      description: "Site de documentation de Carch",
+
+      themeConfig: {
+        siteTitle: "Carch",
+        logo: "/carch.png",
+        outline: "deep",
+        docsDir: "/docs",
+
+        langMenuLabel: "Langues",
+        returnToTopLabel: "Retour en haut",
+        sidebarMenuLabel: "Menu",
+
+        editLink: {
+          pattern: "https://github.com/carch-org/docs/tree/main/docs/:path",
+          text: "Modifier cette page sur GitHub",
+        },
+
+        nav: nav("fr", {
+          home: "Accueil",
+          guide: "Guide",
+          changelog: "Historique",
+        }),
+
+        sidebar: sidebar("fr", {
+          "getting-started": "Commencer",
+          "getting-started/introduction": "Introduction",
+          "getting-started/installation": "Installation",
+          "reference": "Référence",
+          "reference/commands": "Commandes",
+          "reference/overview-scripts": "Aperçu des scripts",
+          "project": "Projet",
+          "project/roadmap": "Feuille de route",
+          "project/contributing": "Contribuer",
+          "project/codeofconduct": "Code de conduite",
+          "project/inspiration": "Inspiration",
+          "project/contributors": "Contributeurs",
+        }),
+
+        socialLinks: [
+          { icon: "telegram", link: "https://t.me/carchx" },
+          { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
+          { icon: "gmail", link: "mailto:harilvfs@chalisehari.com.np" },
+        ],
+
+        footer: {
+          message: "Publié sous licence MIT.",
+          copyright: "Copyright © 2025 Hari Chalise",
+        },
+      },
+    },
+
     ne: {
       label: "नेपाली",
       lang: "ne-NP",
