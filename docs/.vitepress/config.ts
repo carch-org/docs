@@ -126,6 +126,61 @@ export default {
       },
     },
 
+    ar: {
+      label: "العربية",
+      lang: "ar",
+      title: "Carch",
+      description: "موقع توثيق كارتش",
+
+      themeConfig: {
+        siteTitle: "كارتش",
+        logo: "/carch.png",
+        outline: "deep",
+        docsDir: "/docs",
+
+        langMenuLabel: "اللغات",
+        returnToTopLabel: "العودة إلى الأعلى",
+        sidebarMenuLabel: "القائمة",
+
+        editLink: {
+          pattern: "https://github.com/carch-org/docs/tree/main/docs/:path",
+          text: "حرر هذه الصفحة على GitHub",
+        },
+
+        nav: nav("ar", {
+          home: "الرئيسية",
+          guide: "الدليل",
+          changelog: "سجل التغييرات",
+        }),
+
+        sidebar: sidebar("ar", {
+          "getting-started": "البدء",
+          "getting-started/introduction": "مقدمة",
+          "getting-started/installation": "التثبيت",
+          "reference": "المرجع",
+          "reference/commands": "الأوامر",
+          "reference/overview-scripts": "نظرة عامة على السكربتات",
+          "project": "المشروع",
+          "project/roadmap": "خارطة الطريق",
+          "project/contributing": "المساهمة",
+          "project/codeofconduct": "مدونة السلوك",
+          "project/inspiration": "الإلهام",
+          "project/contributors": "المساهمون",
+        }),
+
+        socialLinks: [
+          { icon: "telegram", link: "https://t.me/carchx" },
+          { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
+          { icon: "gmail", link: "mailto:harilvfs@chalisehari.com.np" },
+        ],
+
+        footer: {
+          message: "تم الإصدار بموجب ترخيص MIT.",
+          copyright: "حقوق النشر © 2025 هاري تشاليسي",
+        },
+      },
+    },
+
     es: {
       label: "Español",
       lang: "es-ES",
@@ -236,61 +291,6 @@ export default {
       },
     },
 
-    ne: {
-      label: "नेपाली",
-      lang: "ne-NP",
-      title: "सी-आर्च",
-      description: "सी-आर्चको कागजात वेबसाइट",
-
-      themeConfig: {
-        siteTitle: "सी-आर्च",
-        logo: "/carch.png",
-        outline: "deep",
-        docsDir: "/docs",
-
-        langMenuLabel: "भाषाहरू",
-        returnToTopLabel: "माथि जानुहोस्",
-        sidebarMenuLabel: "मेनु",
-
-        editLink: {
-          pattern: "https://github.com/carch-org/docs/tree/main/docs/:path",
-          text: "GitHub मा यो पृष्ठ सम्पादन गर्नुहोस्",
-        },
-
-        nav: nav("ne", {
-          home: "घर",
-          guide: "गाइड",
-          changelog: "परिवर्तन लग",
-        }),
-
-        sidebar: sidebar("ne", {
-          "getting-started": "सुरुवात गर्नुहोस्",
-          "getting-started/introduction": "परिचय",
-          "getting-started/installation": "स्थापना",
-          "reference": "सन्दर्भ",
-          "reference/commands": "आदेशहरू",
-          "reference/overview-scripts": "स्क्रिप्ट सिंहावलोकन",
-          "project": "परियोजना",
-          "project/roadmap": "रोडम्याप",
-          "project/contributing": "योगदान",
-          "project/codeofconduct": "आचार संहिता",
-          "project/inspiration": "प्रेरणा",
-          "project/contributors": "योगदानकर्ताहरू",
-        }),
-
-        socialLinks: [
-          { icon: "telegram", link: "https://t.me/carchx" },
-          { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
-          { icon: "gmail", link: "mailto:harilvfs@chalisehari.com.np" },
-        ],
-
-        footer: {
-          message: "MIT लाइसेन्स अन्तर्गत जारी।",
-          copyright: "प्रतिलिपि अधिकार © २०२५ हरि चालिसे",
-        },
-      },
-    },
-
     hi: {
       label: "हिन्दी",
       lang: "hi-IN",
@@ -342,6 +342,61 @@ export default {
         footer: {
           message: "MIT लाइसेंस के तहत जारी।",
           copyright: "कॉपीराइट © 2025 हरि चालिसे",
+        },
+      },
+    },
+
+    ne: {
+      label: "नेपाली",
+      lang: "ne-NP",
+      title: "सी-आर्च",
+      description: "सी-आर्चको कागजात वेबसाइट",
+
+      themeConfig: {
+        siteTitle: "सी-आर्च",
+        logo: "/carch.png",
+        outline: "deep",
+        docsDir: "/docs",
+
+        langMenuLabel: "भाषाहरू",
+        returnToTopLabel: "माथि जानुहोस्",
+        sidebarMenuLabel: "मेनु",
+
+        editLink: {
+          pattern: "https://github.com/carch-org/docs/tree/main/docs/:path",
+          text: "GitHub मा यो पृष्ठ सम्पादन गर्नुहोस्",
+        },
+
+        nav: nav("ne", {
+          home: "घर",
+          guide: "गाइड",
+          changelog: "परिवर्तन लग",
+        }),
+
+        sidebar: sidebar("ne", {
+          "getting-started": "सुरुवात गर्नुहोस्",
+          "getting-started/introduction": "परिचय",
+          "getting-started/installation": "स्थापना",
+          "reference": "सन्दर्भ",
+          "reference/commands": "आदेशहरू",
+          "reference/overview-scripts": "स्क्रिप्ट सिंहावलोकन",
+          "project": "परियोजना",
+          "project/roadmap": "रोडम्याप",
+          "project/contributing": "योगदान",
+          "project/codeofconduct": "आचार संहिता",
+          "project/inspiration": "प्रेरणा",
+          "project/contributors": "योगदानकर्ताहरू",
+        }),
+
+        socialLinks: [
+          { icon: "telegram", link: "https://t.me/carchx" },
+          { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
+          { icon: "gmail", link: "mailto:harilvfs@chalisehari.com.np" },
+        ],
+
+        footer: {
+          message: "MIT लाइसेन्स अन्तर्गत जारी।",
+          copyright: "प्रतिलिपि अधिकार © २०२५ हरि चालिसे",
         },
       },
     },
