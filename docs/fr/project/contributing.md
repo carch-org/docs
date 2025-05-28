@@ -1,17 +1,25 @@
-# Contribuer à **Carch** 
+# 📑 Table des Matières
 
-<img src="https://cdn-icons-png.flaticon.com/128/993/993686.png" width="50" />
+- [Contribuer à Carch](#contribuer-a-carch)
+  - [Comprendre la Base de Code](#📌-comprendre-la-base-de-code)
+  - [Étapes pour Contribuer](#etapes-pour-contribuer)
 
-Nous sommes ravis que vous soyez intéressé à contribuer à **Carch** ! Les contributions de toutes sortes sont les bienvenues, que vous corrigiez des bugs, ajoutiez de nouvelles fonctionnalités, ou amélioriez la documentation. Suivez ce guide pour commencer.
+- [Contribuer à la Documentation Carch](#📚-contribuer-a-la-documentation-carch)
+
+- [Directives](#directives)
+
+## Contribuer à **Carch** 
+
+Nous sommes ravis que vous souhaitiez contribuer à **Carch** ! Les contributions de toutes sortes sont les bienvenues, que vous corriviez des bugs, ajoutiez de nouvelles fonctionnalités ou amélioriez la documentation. Suivez ce guide pour commencer.
 
 > [!WARNING]  
-> **Avant de faire toute contribution**, ouvrez d'abord une issue dans la section **[Demande de Fonctionnalité](https://github.com/harilvfs/carch/issues/new?template=feature-reqests.yml)**. Nous discuterons des changements là-bas avant de procéder à l'implémentation.
+> **Avant de faire toute contribution**, ouvrez d'abord un ticket dans la section **[Demande de Fonctionnalité](https://github.com/harilvfs/carch/issues/new?template=feature-reqests.yml)**. Nous discuterons des modifications là-bas avant de procéder à l'implémentation. 
 
 ## 📌 Comprendre la Base de Code
 
 > [!NOTE]
 > Avant de contribuer, **comprenez la structure** de Carch :
-> - **Les fichiers Rust principaux de Carch sont situés dans :** `src`
+> - **Les fichiers Rust principaux de Carch se trouvent dans :** `src`
 >
 >```sh
 > src/
@@ -30,15 +38,16 @@ Nous sommes ravis que vous soyez intéressé à contribuer à **Carch** ! Les co
 > - **Tous les scripts de `modules` sont organisés par catégorie dans :**  
 > ```sh
 > modules/
-> ├── Browser/     # Scripts liés aux navigateurs
-> ├── Desktop/     # Scripts liés à l'environnement de bureau
+> ├── Browser/     # Scripts liés aux navigateurs 
+> ├── Desktop/     # Scripts liés aux environnements de bureau
 > ├── Development/ # Scripts d'outils de développement
 > ├── System/      # Scripts de configuration système
 > └── Terminal/    # Scripts de configuration de terminal
 > ```
 
+
 > [!IMPORTANT]
-> D'abord, **analysez comment le script fonctionne** avant de faire des changements. Si vous voulez améliorer ou ajouter au projet, assurez-vous de **comprendre la structure** et comment chaque partie interagit. Cela vous aidera à contribuer d'une manière cohérente avec la conception du projet.
+> D'abord, **analysez comment fonctionne le script** avant de faire des modifications. Si vous voulez améliorer ou ajouter au projet, assurez-vous de **comprendre la structure** et comment chaque élément interagit. Cela vous aidera à contribuer de manière cohérente avec la conception du projet. 
 >
 > ```sh
 > Pour les commits, utilisez des étiquettes comme
@@ -51,7 +60,7 @@ Si vous avez des questions ou besoin d'aide, n'hésitez pas à **nous contacter*
 📧 Email : <a href="mailto:harilvfs@chalisehari.com.np">harilvfs@chalisehari.com.np</a>  
 💬 Discord : <a href="https://discord.com/invite/8NJWstnUHd">Rejoignez-nous ici</a>  
 
-## Étapes pour Contribuer
+## Étapes pour Contribuer 
 
 ### 1. 🍽️ Forker le Dépôt
 - Allez sur la page GitHub de **Carch**.
@@ -82,7 +91,7 @@ Si vous avez des questions ou besoin d'aide, n'hésitez pas à **nous contacter*
    ```
 
 ### 4. 🍇 Créer une Nouvelle Branche de Fonctionnalité
-- Avant de faire des changements, créez une nouvelle branche avec un nom descriptif :
+- Avant de faire des modifications, créez une nouvelle branche avec un nom descriptif :
 
    ```bash
    git checkout -b feature/nom-de-votre-branche
@@ -92,24 +101,24 @@ Si vous avez des questions ou besoin d'aide, n'hésitez pas à **nous contacter*
   - `feature/ajouter-nouveau-script`
   - `bugfix/corriger-probleme-installation`
 
-### 5. 🔧 Effectuer Vos Changements
-- Implémentez les changements nécessaires dans le code ou la documentation.
-- Assurez-vous que vos changements sont clairs, testés, et suivent les standards de codage du projet.
+### 5. 🔧 Faire Vos Modifications
+- Implémentez les modifications nécessaires au code ou à la documentation.
+- Assurez-vous que vos modifications sont claires, testées et suivent les standards de codage du projet.
 
-### 6. 📝 Indexer et Commiter Vos Changements
+### 6. 📝 Indexer et Commiter Vos Modifications
 - Ajoutez les fichiers modifiés à la zone de staging :
 
    ```bash
    git add .
    ```
 
-- Commitez vos changements avec un message clair :
+- Commitez vos modifications avec un message clair :
 
    ```bash
-   git commit -m "Ajouter: [brève description de vos changements]"
+   git commit -m "Ajout : [brève description de vos modifications]"
    ```
 
-### 7. 🚀 Pousser les Changements vers Votre Fork
+### 7. 🚀 Pousser les Modifications vers Votre Fork
 - Poussez votre branche vers votre dépôt forké :
 
    ```bash
@@ -117,10 +126,60 @@ Si vous avez des questions ou besoin d'aide, n'hésitez pas à **nous contacter*
    ```
 
 ### 8. 📥 Soumettre une Pull Request (PR)
-- Allez au dépôt **Carch** original sur GitHub.
+- Allez sur le dépôt **Carch** original sur GitHub.
 - Cliquez sur **New Pull Request**.
-- Sélectionnez votre branche dans le menu déroulant et décrivez vos changements en détail.
+- Sélectionnez votre branche dans le menu déroulant et décrivez vos modifications en détail.
 - Soumettez la PR pour révision !
+
+## 📚 Contribuer à la Documentation Carch
+
+#### **La Documentation Carch** est ➥ [Disponible ici](https://github.com/carch-org/docs)  
+
+### 🚀 Façons de Contribuer
+
+Vous pouvez contribuer en :
+
+- 🪛 Corrigeant des fautes de frappe ou des erreurs dans les guides existants  
+- 🌐 Traduisant la documentation dans d'autres langues (**fortement encouragé !**)  
+
+### 🌍 Traduire la Documentation
+
+#### Voulez-vous aider à rendre Carch accessible aux utilisateurs du monde entier ? Aidez-nous à traduire la documentation !
+
+Si vous contribuez une **nouvelle langue**, suivez ces étapes :
+
+1. 📁 Créez un nouveau dossier pour votre langue dans le répertoire `docs/`. Utilisez les codes [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (ex. `fr`, `es`, `hi`, etc.).  
+2. 🛠️ Traduisez le contenu Markdown dans le nouveau dossier.  
+3. 🧩 Modifiez `docs/.vitepress/config.ts` :  
+   - Ajoutez votre langue dans la section `locales`.  
+   - Fournissez un `label`, `lang`, et `link` pour la navigation.  
+
+### 🧪 Tester Vos Modifications Localement
+
+Pour prévisualiser vos modifications :
+
+```sh
+bun install
+bun run docs:dev
+```
+
+Puis ouvrez http://localhost:5173 dans votre navigateur.
+
+> [!IMPORTANT]
+> Veuillez d'abord ouvrir un ticket si vous prévoyez d'introduire des changements structurels ou organisationnels majeurs. Nous aimerions en discuter et collaborer dessus au préalable !
+
+### 🧾 Style de Commit
+
+Utilisez des messages de commit clairs comme :
+
+```sh
+git commit -m "fix(docs): corriger faute de frappe dans le guide d'installation"
+git commit -m "feat(docs): ajouter traduction Hindi"
+```
+
+Plus d'infos sur les [Commits Conventionnels](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
+
+#### 🙌 Merci d'aider à améliorer la documentation !
 
 ## Directives
 
@@ -129,11 +188,11 @@ Si vous avez des questions ou besoin d'aide, n'hésitez pas à **nous contacter*
 - Écrivez du code clair, concis et bien documenté.
 
 ### Tests
-- Testez vos changements localement pour vous assurer qu'ils fonctionnent comme prévu.
-- Si vos changements introduisent de nouvelles fonctionnalités, ajoutez les tests nécessaires là où c'est applicable.
+- Testez vos modifications localement pour vous assurer qu'elles fonctionnent comme prévu.
+- Si vos modifications introduisent de nouvelles fonctionnalités, ajoutez les tests nécessaires le cas échéant.
 
 ### Documentation
-- Si vos changements impliquent de nouvelles fonctionnalités, mettez à jour la documentation pertinente.
+- Si vos modifications impliquent de nouvelles fonctionnalités, mettez à jour la documentation pertinente.
 - Assurez-vous que le README ou le Wiki reflète vos mises à jour.
 
 ### Synchroniser Votre Fork
@@ -147,4 +206,4 @@ Si vous avez des questions ou besoin d'aide, n'hésitez pas à **nous contacter*
    ```
   - Remplacez `main` par la branche par défaut du dépôt si elle est différente.
 
-Merci de contribuer à **Carch** ! Votre effort aide à rendre ce projet meilleur pour tout le monde. <img src="https://cdn-icons-png.flaticon.com/128/2279/2279398.png" width="50" />
+Merci de contribuer à **Carch** ! Votre effort aide à améliorer ce projet pour tout le monde. <img src="https://cdn-icons-png.flaticon.com/128/2279/2279398.png" width="50" />

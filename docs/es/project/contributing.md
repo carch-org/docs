@@ -1,17 +1,25 @@
-# Contribuyendo a **Carch** 
+# 📑 Tabla de Contenidos
 
-<img src="https://cdn-icons-png.flaticon.com/128/993/993686.png" width="50" />
+- [Contribuir a Carch](#contribuir-a-carch)
+  - [Entender la Base de Código](#📌-entender-la-base-de-codigo)
+  - [Pasos para Contribuir](#pasos-para-contribuir)
 
-¡Estamos emocionados de que estés interesado en contribuir a **Carch**! Las contribuciones de todo tipo son bienvenidas, ya sea que estés corrigiendo errores, añadiendo nuevas características o mejorando la documentación. Sigue esta guía para comenzar.
+- [Contribuir a la Documentación de Carch](#📚-contribuir-a-la-documentacion-de-carch)
+
+- [Directrices](#directrices)
+
+## Contribuir a **Carch** 
+
+¡Estamos emocionados de que estés interesado en contribuir a **Carch**! Las contribuciones de todo tipo son bienvenidas, ya sea que estés arreglando errores, añadiendo nuevas características o mejorando la documentación. Sigue esta guía para comenzar.
 
 > [!WARNING]  
-> **Antes de hacer cualquier contribución**, primero abre un issue en la sección de **[Solicitud de Características](https://github.com/harilvfs/carch/issues/new?template=feature-reqests.yml)**. Discutiremos los cambios allí antes de proceder con la implementación.  
+> **Antes de hacer cualquier contribución**, primero abre un issue en la sección **[Solicitud de Características](https://github.com/harilvfs/carch/issues/new?template=feature-reqests.yml)**. Discutiremos los cambios allí antes de proceder con la implementación. 
 
-## 📌 Entender el Código Base
+## 📌 Entender la Base de Código
 
 > [!NOTE]
 > Antes de contribuir, **entiende la estructura** de Carch:
-> - **Los archivos principales de Rust de Carch se encuentran en:** `src`
+> - **Los archivos principales de Rust de Carch están ubicados en:** `src`
 >
 >```sh
 > src/
@@ -39,21 +47,20 @@
 
 
 > [!IMPORTANT]
-> Primero, **analiza cómo funciona el script** antes de hacer cualquier cambio. Si quieres mejorar o añadir al proyecto, asegúrate de **entender la estructura** y cómo cada pieza interactúa. Esto te ayudará a contribuir de una manera que sea consistente con el diseño del proyecto. 
+> Primero, **analiza cómo funciona el script** antes de hacer cualquier cambio. Si quieres mejorar o añadir al proyecto, asegúrate de **entender la estructura** y cómo interactúa cada pieza. Esto te ayudará a contribuir de una manera que sea consistente con el diseño del proyecto. 
 >
 > ```sh
 > Para hacer commits, usa etiquetas como
 > feat: tu-mensaje-de-commit o fix: tu-mensaje-de-commit.
 > ```
 > 
-> Para más información sobre Conventional Commits, consulta esta [guía](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
-
+> Para más información sobre Commits Convencionales, consulta esta [guía](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 
 Si tienes preguntas o necesitas ayuda, no dudes en **contactarnos**:  
-📧 Correo: <a href="mailto:harilvfs@chalisehari.com.np">harilvfs@chalisehari.com.np</a>  
+📧 Email: <a href="mailto:harilvfs@chalisehari.com.np">harilvfs@chalisehari.com.np</a>  
 💬 Discord: <a href="https://discord.com/invite/8NJWstnUHd">Únete Aquí</a>  
 
-## Pasos para Contribuir
+## Pasos para Contribuir 
 
 ### 1. 🍽️ Hacer Fork del Repositorio
 - Ve a la página de GitHub de **Carch**.
@@ -91,15 +98,15 @@ Si tienes preguntas o necesitas ayuda, no dudes en **contactarnos**:
    ```
 
 - Ejemplos de nombres de ramas:
-  - `feature/add-new-script`
-  - `bugfix/fix-installation-issue`
+  - `feature/añadir-nuevo-script`
+  - `bugfix/arreglar-problema-instalacion`
 
-### 5. 🔧 Hacer Tus Cambios
+### 5. 🔧 Hacer tus Cambios
 - Implementa los cambios necesarios en el código o documentación.
-- Asegúrate de que tus cambios sean claros, probados y sigan los estándares de codificación del proyecto.
+- Asegúrate de que tus cambios sean claros, estén probados y sigan los estándares de codificación del proyecto.
 
-### 6. 📝 Añadir y Hacer Commit de Tus Cambios
-- Añade los archivos modificados al área de staging:
+### 6. 📝 Preparar y Hacer Commit de tus Cambios
+- Añade los archivos modificados al área de preparación:
 
    ```bash
    git add .
@@ -111,8 +118,8 @@ Si tienes preguntas o necesitas ayuda, no dudes en **contactarnos**:
    git commit -m "Add: [breve descripción de tus cambios]"
    ```
 
-### 7. 🚀 Enviar los Cambios a Tu Fork
-- Envía tu rama a tu repositorio forkeado:
+### 7. 🚀 Empujar los Cambios a tu Fork
+- Empuja tu rama a tu repositorio forkeado:
 
    ```bash
    git push origin feature/nombre-de-tu-rama
@@ -121,8 +128,58 @@ Si tienes preguntas o necesitas ayuda, no dudes en **contactarnos**:
 ### 8. 📥 Enviar un Pull Request (PR)
 - Ve al repositorio original de **Carch** en GitHub.
 - Haz clic en **New Pull Request**.
-- Selecciona tu rama del dropdown y describe tus cambios en detalle.
+- Selecciona tu rama del menú desplegable y describe tus cambios en detalle.
 - ¡Envía el PR para revisión!
+
+## 📚 Contribuir a la Documentación de Carch
+
+#### **La Documentación de Carch** está ➥ [En Vivo Aquí](https://github.com/carch-org/docs)  
+
+### 🚀 Formas de Contribuir
+
+Puedes contribuir:
+
+- 🪛 Arreglando errores tipográficos o errores en las guías existentes  
+- 🌐 Traduciendo la documentación a otros idiomas (**¡altamente alentado!**)  
+
+### 🌍 Traducir Documentación
+
+#### ¿Quieres ayudar a hacer Carch accesible para usuarios de todo el mundo? ¡Ayúdanos a traducir la documentación!
+
+Si estás contribuyendo con un **nuevo idioma**, sigue estos pasos:
+
+1. 📁 Crea una nueva carpeta para tu idioma dentro del directorio `docs/`. Usa [códigos ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (ej. `fr`, `es`, `hi`, etc.).  
+2. 🛠️ Traduce el contenido Markdown dentro de la nueva carpeta.  
+3. 🧩 Modifica `docs/.vitepress/config.ts`:  
+   - Añade tu idioma en la sección `locales`.  
+   - Proporciona un `label`, `lang`, y `link` para la navegación.  
+
+### 🧪 Probar tus Cambios Localmente
+
+Para previsualizar tus cambios:
+
+```sh
+bun install
+bun run docs:dev
+```
+
+Luego abre http://localhost:5173 en tu navegador.
+
+> [!IMPORTANT]
+> ¡Por favor abre un issue primero si planeas introducir cambios estructurales u organizacionales importantes. Nos encantaría discutir y colaborar en ello de antemano!
+
+### 🧾 Estilo de Commit
+
+Usa mensajes de commit claros como:
+
+```sh
+git commit -m "fix(docs): corregir error tipográfico en la guía de instalación"
+git commit -m "feat(docs): añadir traducción al hindi"
+```
+
+Más sobre [Commits Convencionales](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
+
+#### 🙌 ¡Gracias por ayudar a mejorar la documentación!
 
 ## Directrices
 
@@ -131,14 +188,14 @@ Si tienes preguntas o necesitas ayuda, no dudes en **contactarnos**:
 - Escribe código claro, conciso y bien documentado.
 
 ### Pruebas
-- Prueba tus cambios localmente para asegurar que funcionen como se espera.
+- Prueba tus cambios localmente para asegurarte de que funcionen como se espera.
 - Si tus cambios introducen nuevas características, añade las pruebas necesarias donde sea aplicable.
 
 ### Documentación
 - Si tus cambios involucran nueva funcionalidad, actualiza la documentación relevante.
 - Asegúrate de que el README o Wiki refleje tus actualizaciones.
 
-### Sincronizar Tu Fork
+### Sincronizar tu Fork
 - Mantén tu fork actualizado para evitar conflictos:
 
    ```bash
@@ -147,6 +204,6 @@ Si tienes preguntas o necesitas ayuda, no dudes en **contactarnos**:
    ```bash
    git merge upstream/main
    ```
-  - Reemplaza `main` con la rama por defecto del repositorio si es diferente.
+  - Reemplaza `main` con la rama predeterminada del repositorio si es diferente.
 
 ¡Gracias por contribuir a **Carch**! Tu esfuerzo ayuda a hacer este proyecto mejor para todos. <img src="https://cdn-icons-png.flaticon.com/128/2279/2279398.png" width="50" />
