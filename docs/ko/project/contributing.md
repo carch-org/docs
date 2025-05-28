@@ -162,8 +162,6 @@ bun install
 bun run docs:dev
 ```
 
-그 다음 브라우저에서 http://localhost:5173 을 열어주세요.
-
 > [!IMPORTANT]
 > 주요한 구조적 또는 조직적 변경을 도입할 계획이라면 먼저 이슈를 열어주세요. 미리 논의하고 협력하고 싶습니다!
 

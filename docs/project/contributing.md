@@ -163,8 +163,6 @@ bun install
 bun run docs:dev
 ```
 
-Then open http://localhost:5173 in your browser.
-
 > [!IMPORTANT]
 > Please open an issue first if you plan to introduce major structural or organizational changes. We’d love to discuss and collaborate on it beforehand!
 
