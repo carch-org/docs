@@ -6,7 +6,7 @@ const sidebar = (lang = "", override = {}) => {
   return [
     {
       text: override["getting-started"] || "Getting Started",
-      collapsed: false,
+//      collapsed: false,
       items: [
         {
           text: override["getting-started/introduction"] || "Introduction",
@@ -20,7 +20,7 @@ const sidebar = (lang = "", override = {}) => {
     },
     {
       text: override["reference"] || "Reference",
-      collapsed: false,
+//      collapsed: false,
       items: [
         {
           text: override["reference/commands"] || "Commands",
@@ -34,7 +34,7 @@ const sidebar = (lang = "", override = {}) => {
     },
     {
       text: override["project"] || "Project",
-      collapsed: false,
+//      collapsed: false,
       items: [
         {
           text: override["project/roadmap"] || "Roadmap",
