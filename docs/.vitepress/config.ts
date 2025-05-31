@@ -63,7 +63,9 @@ const sidebar = (lang = "", override = {}) => {
 
 const nav = (lang = "", override = {}) => {
   let guidePath = "/getting-started/introduction";
+  let contributingPath = "/project/contributing";
   if (lang) guidePath = `/${lang}/getting-started/introduction`;
+  if (lang) contributingPath = `/${lang}/project/contributing`;
 
   return [
     { text: override.home || "Home", link: lang ? `/${lang}/` : "/" },
@@ -75,6 +77,7 @@ const nav = (lang = "", override = {}) => {
           text: override.changelog || "Changelog",
           link: "https://github.com/harilvfs/carch/blob/main/CHANGELOG.md",
         },
+        { text: override.contributing || "Contributing", link: contributingPath },
       ],
     },
   ];
@@ -151,6 +154,7 @@ export default {
           home: "الرئيسية",
           guide: "الدليل",
           changelog: "سجل التغييرات",
+          contributing: "المساهمة",
         }),
 
         sidebar: sidebar("ar", {
@@ -206,6 +210,7 @@ export default {
           home: "Startseite",
           guide: "Anleitung",
           changelog: "Änderungsprotokoll",
+          contributing: "Mitwirken",
         }),
 
         sidebar: sidebar("de", {
@@ -261,6 +266,7 @@ export default {
           home: "Inicio",
           guide: "Guía",
           changelog: "Registro de cambios",
+          contributing: "Contribuir",
         }),
 
         sidebar: sidebar("es", {
@@ -316,6 +322,7 @@ export default {
           home: "Accueil",
           guide: "Guide",
           changelog: "Historique",
+          contributing: "Contribuer",
         }),
 
         sidebar: sidebar("fr", {
@@ -370,7 +377,8 @@ export default {
         nav: nav("hi", {
           home: "होम",
           guide: "गाइड",
-          changelog: "चेंजलॉग",
+          changelog: "चेंजलॉग",  
+          contributing: "योगदान",
         }),
 
         sidebar: sidebar("hi", {
@@ -425,7 +433,8 @@ export default {
         nav: nav("ko", {
           home: "홈",
           guide: "가이드",
-          changelog: "변경 로그",
+          changelog: "변경 로그", 
+          contributing: "기여하기",
         }),
 
         sidebar: sidebar("ko", {
@@ -481,6 +490,7 @@ export default {
           home: "घर",
           guide: "गाइड",
           changelog: "परिवर्तन लग",
+          contributing: "योगदान",
         }),
 
         sidebar: sidebar("ne", {
@@ -536,6 +546,7 @@ export default {
           home: "Главная",
           guide: "Руководство",
           changelog: "Журнал изменений",
+          contributing: "Участие",
         }),
 
         sidebar: sidebar("ru", {
@@ -591,6 +602,7 @@ export default {
           home: "主页",
           guide: "指南",
           changelog: "更新日志",
+          contributing: "贡献",
         }),
 
         sidebar: sidebar("zh", {
