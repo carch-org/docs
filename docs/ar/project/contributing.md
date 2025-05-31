@@ -53,6 +53,10 @@
 > feat: your-commit-message أو fix: your-commit-message.
 > ```
 > 
+> بالمناسبة، قبل الالتزام، إذا كنت تقوم بتعديل أي ملف `.sh` أو ملف سكربت Bash، تأكد من التحقق من مجلد `scripts/` وتشغيل `./check.sh` لاكتشاف أي مسافات بيضاء أو فراغات إضافية. إذا فشل، قم بتشغيل `./cleanup.sh`. هذا خاص فقط بسكربتات Bash.  
+> بالنسبة لتغييرات ملفات Rust، تأكد من تشغيل `cargo fmt --all --check`. إذا ظهرت اقتراحات، قم بتشغيل `cargo fmt --all`.  
+> تأكد أيضًا من تشغيل `cargo clippy` و `cargo clippy -- -Dwarnings` لضمان عدم وجود أي أخطاء. شكرًا.
+
 > لمزيد من المعلومات حول Conventional Commits، راجع هذا [الدليل](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 
 إذا كان لديك أسئلة أو تحتاج مساعدة، لا تتردد في **التواصل معنا**:  

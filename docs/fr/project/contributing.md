@@ -54,6 +54,10 @@ Nous sommes ravis que vous souhaitiez contribuer à **Carch** ! Les contribution
 > feat: votre-message-de-commit ou fix: votre-message-de-commit.
 > ```
 > 
+> Au fait, avant de faire un commit, si vous modifiez un fichier `.sh` ou un script Bash, assurez-vous de vérifier le dossier `scripts/` et d’exécuter `./check.sh` pour détecter les espaces blancs ou vides en trop. Si cela échoue, exécutez `./cleanup.sh`. Ceci est uniquement pour les scripts Bash.  
+> Pour les fichiers Rust, assurez-vous d’exécuter `cargo fmt --all --check`. S’il y a des suggestions, exécutez `cargo fmt --all`.  
+> Assurez-vous également d’exécuter `cargo clippy` et `cargo clippy -- -Dwarnings` pour vous assurer qu’il ne reste aucune erreur. Merci.
+
 > Pour plus d'informations sur les Commits Conventionnels, consultez ce [guide](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 
 Si vous avez des questions ou besoin d'aide, n'hésitez pas à **nous contacter** :  

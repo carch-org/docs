@@ -53,7 +53,11 @@
 > Para hacer commits, usa etiquetas como
 > feat: tu-mensaje-de-commit o fix: tu-mensaje-de-commit.
 > ```
-> 
+>
+> Por cierto, antes de hacer un commit, si vas a cambiar algún archivo `.sh` o script de Bash, asegúrate de revisar el directorio `scripts/` y ejecutar `./check.sh` para encontrar espacios en blanco adicionales. Si falla, ejecuta `./cleanup.sh`. Eso es solo para scripts de Bash.  
+> Para cambios en archivos de Rust, asegúrate de ejecutar `cargo fmt --all --check`. Si hay sugerencias, ejecuta `cargo fmt --all`.  
+> Además, asegúrate de ejecutar `cargo clippy` y `cargo clippy -- -Dwarnings` para asegurarte de que no queden errores. Gracias.
+
 > Para más información sobre Commits Convencionales, consulta esta [guía](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 
 Si tienes preguntas o necesitas ayuda, no dudes en **contactarnos**:  

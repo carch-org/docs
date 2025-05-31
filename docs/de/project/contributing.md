@@ -53,6 +53,10 @@ Wir freuen uns, dass Sie daran interessiert sind, zu **Carch** beizutragen! Beit
 > feat: your-commit-message oder fix: your-commit-message.
 > ```
 > 
+> Übrigens, bevor du committest, wenn du eine `.sh`- oder Bash-Skriptdatei änderst, überprüfe das Verzeichnis `scripts/` und führe `./check.sh` aus, um überflüssige Leer- oder Leerräume zu finden. Wenn es fehlschlägt, führe `./cleanup.sh` aus. Das gilt nur für Bash-Skripte.  
+> Bei Änderungen an Rust-Dateien stelle sicher, dass du `cargo fmt --all --check` ausführst. Wenn es Vorschläge gibt, führe `cargo fmt --all` aus.  
+> Führe außerdem `cargo clippy` und `cargo clippy -- -Dwarnings` aus, um sicherzustellen, dass keine Fehler übrig sind. Danke.
+
 > Für weitere Informationen über Conventional Commits, siehe diesen [Leitfaden](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 
 Wenn Sie Fragen haben oder Hilfe benötigen, zögern Sie nicht, **uns zu kontaktieren**:  

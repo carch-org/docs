@@ -53,6 +53,10 @@
 > feat: 您的提交信息 或 fix: 您的提交信息。
 > ```
 > 
+> 顺便说一下，在提交之前，如果你修改了任何 `.sh` 或 Bash 脚本文件，请确保检查 `scripts/` 目录，并运行 `./check.sh` 来查找多余的空格。如果失败，请运行 `./cleanup.sh`。这仅适用于 Bash 脚本。  
+> 对于 Rust 文件的更改，请确保运行 `cargo fmt --all --check`。如果有建议，请运行 `cargo fmt --all`。  
+> 同时请运行 `cargo clippy` 和 `cargo clippy -- -Dwarnings`，以确保没有错误残留。谢谢。
+
 > 有关约定式提交的更多信息，请参考此[指南](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d)。
 
 如果您有疑问或需要帮助，请随时**联系我们**：  
