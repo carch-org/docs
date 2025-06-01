@@ -1,6 +1,6 @@
 <div align="center">
   
-<img src="/docs/public/carch.png" width="70" />
+<img src="https://raw.githubusercontent.com/carch-org/docs/refs/heads/main/docs/public/carch.png" width="70" />
 
 <h4> 
   
