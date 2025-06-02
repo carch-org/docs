@@ -18,7 +18,7 @@ hero:
       text: Установить
       link: /ru/getting-started/installation
     - theme: alt
-      text: GitHub ↗
+      text: Repo (harilvfs/carch) ↗
       link: https://github.com/harilvfs/carch
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
@@ -120,3 +120,7 @@ bash -c "$(curl -fsSL https://chalisehari.com.np/carchdev)"
   }
 }
 </style>
+
+<footer style="text-align:center; font-size: 0.75rem; color: var(--vp-c-text-muted, #888); margin-top: 3rem;">
+  Docs Source Code <a href="https://github.com/carch-org/docs" target="_blank" rel="noopener" style="color: var(--vp-c-brand-2); text-decoration: none;">carch-org/carch</a>
+</footer>
