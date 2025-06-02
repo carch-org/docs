@@ -1,6 +1,11 @@
-# 🛠️ Installation
+### Prérequis
 
-## Script d'Installation
+- `fzf` est requis pour l'interface TUI du script Carch.  
+  Assurez-vous que `fzf` est installé avant d’utiliser Carch.
+
+## 🛠️ Installation
+
+### Script d'Installation
 
 Vous pouvez installer Carch de manière permanente sur votre système en utilisant notre script d'installation :
 
@@ -23,28 +28,15 @@ bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- --uninstall
 ```
 :::
 
-## 📦 Crate Cargo
+### 📦 Crate Cargo
+
+<br>
 
 <img src="https://img.shields.io/crates/v/carch?style=for-the-badge&logo=rust&color=f5a97f&logoColor=fe640b&labelColor=171b22" >
 
 Carch est disponible sur [crates.io](https://crates.io/).
 
 Vous pouvez l'installer en utilisant Cargo avec le crate [carch](https://crates.io/crates/carch).
-
-D'abord, installez les dépendances :
-
-:::code-group
-
-```sh [<i class="devicon-archlinux-plain"></i> Arch]
-sudo pacman -S --noconfirm fzf cargo rust
-```
-
-```sh [<i class="devicon-fedora-plain"></i> Fedora]
-sudo dnf install fzf cargo rust -y
-```
-:::
-
-Maintenant, installez Carch en utilisant Cargo :
 
 ```sh
 cargo install carch
@@ -61,9 +53,9 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 :::
 
-## 🏗️ Installation Manuelle
+### 🏗️ Installation Manuelle
 
-### 📜 Dépendances
+#### 📜 Dépendances
 
 :::code-group
 
@@ -76,13 +68,13 @@ sudo dnf install rust man-db man git wget google-noto-color-emoji-fonts google-n
 ```
 :::
 
-### 🔧 Cloner et Compiler
+#### 🔧 Cloner et Compiler
 
 ```sh
 git clone --depth 1 https://github.com/harilvfs/carch
 cd carch
 cargo build --release
-cd target/release/
+cd build/release/
 sudo cp -r carch /usr/bin/ 
 ```
 

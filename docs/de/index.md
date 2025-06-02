@@ -52,9 +52,7 @@ Wähle eine der folgenden Versionen, um Carch auszuprobieren:
 </div>
 
 > [!IMPORTANT]
-> **Stelle sicher, dass `curl` auf deinem System installiert ist, bevor du diese Befehle ausführst.**
->
-> ***Beachte auch, dass Carch derzeit nur für*** **Arch- und Fedora-basierte Distributionen** ***verfügbar ist. Es funktioniert nicht mit anderen Distributionen.***
+> ***Carch derzeit nur für*** **Arch- und Fedora-basierte Distributionen** ***verfügbar ist. Es funktioniert nicht mit anderen Distributionen.***
 
 #### ⭐ Stabile Version
 

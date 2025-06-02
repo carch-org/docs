@@ -1,6 +1,11 @@
-# 🛠️ 安装
+### 前提条件
 
-## 安装脚本
+- Carch 脚本的 TUI 界面需要使用 `fzf`。  
+  在使用 Carch 之前，请确保已安装 `fzf`。
+
+## 🛠️ 安装
+
+### 安装脚本
 
 您可以使用我们的安装脚本将 Carch 永久安装到您的系统上：
 
@@ -23,28 +28,15 @@ bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- --uninstall
 ```
 :::
 
-## 📦 Cargo Crate
+### 📦 Cargo Crate
+
+<br>
 
 <img src="https://img.shields.io/crates/v/carch?style=for-the-badge&logo=rust&color=f5a97f&logoColor=fe640b&labelColor=171b22" >
 
 Carch 可在 [crates.io](https://crates.io/) 上获得。
 
 您可以使用 Cargo 和 [carch](https://crates.io/crates/carch) crate 来安装它。
-
-首先，安装依赖项：
-
-:::code-group
-
-```sh [<i class="devicon-archlinux-plain"></i> Arch]
-sudo pacman -S --noconfirm fzf cargo rust
-```
-
-```sh [<i class="devicon-fedora-plain"></i> Fedora]
-sudo dnf install fzf cargo rust -y
-```
-:::
-
-现在，使用 Cargo 安装 Carch：
 
 ```sh
 cargo install carch
@@ -61,9 +53,9 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 :::
 
-## 🏗️ 手动安装
+### 🏗️ 手动安装
 
-### 📜 依赖项
+#### 📜 依赖项
 
 :::code-group
 
@@ -76,13 +68,13 @@ sudo dnf install rust man-db man git wget google-noto-color-emoji-fonts google-n
 ```
 :::
 
-### 🔧 克隆和构建
+#### 🔧 克隆和构建
 
 ```sh
 git clone --depth 1 https://github.com/harilvfs/carch
 cd carch
 cargo build --release
-cd target/release/
+cd build/release/
 sudo cp -r carch /usr/bin/ 
 ```
 

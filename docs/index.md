@@ -52,9 +52,7 @@ Choose one of the following version to try Carch:
 </div>
 
 > [!IMPORTANT]
-> **Make sure you have `curl` installed in your distro before running these commands.**
->
-> ***Also note that Carch is currently only for*** **Arch and Fedora-based distros**. ***This will not work in other distros.***
+> ***Carch is currently only for*** **Arch and Fedora-based distros**. ***This will not work in other distros.***
 
 #### ⭐ Stable Version
 
