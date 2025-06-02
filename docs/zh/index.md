@@ -41,31 +41,6 @@ features:
   style="max-width: 720px; width: 100%; border-radius: 12px; margin: 2rem auto; display: block;"
 />
 
-<div align="center">
-
-### 如何使用？
-
-你可以直接运行或使用 Carch，而无需在系统中安装它。
-
-选择以下版本之一来尝试 Carch：
-
-</div>
-
-> [!IMPORTANT]
-> ***Carch 目前仅支持*** **Arch 和 Fedora 系的发行版**，***在其他系统上无法运行。***
-
-#### ⭐ 稳定版本
-
-```sh
-bash -c "$(curl -fsSL https://chalisehari.com.np/carch)"
-```
-
-#### 🧪 开发版本
-
-```sh 
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchdev)"
-```
-
 <style>
 :root {
   --vp-home-hero-name-color: transparent;

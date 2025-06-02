@@ -1,9 +1,4 @@
-### Voraussetzungen
-
-- `fzf` wird für die TUI-Oberfläche der **Carch-Skripte** benötigt.  
-  Stelle sicher, dass `fzf` installiert ist, bevor du die **Carch-Skripte** verwendest.
-
-## 🛠️ Installation
+# 🛠️ Installation
 
 ### Installationsskript
 

@@ -1,9 +1,4 @@
-### Requisitos previos
-
-- Se requiere `fzf` para la interfaz TUI en los **scripts de Carch**.  
-  Asegúrate de tener `fzf` instalado antes de usar los **scripts de Carch**.
-
-## 🛠️ Instalación
+# 🛠️ Instalación
 
 ### Script de Instalación
 
