@@ -8,9 +8,7 @@ This is the official documentation site for the [Carch](https://github.com/haril
 
 </h4>
 
-<!--
 [![Carch Docs][carch-docs]][carch-docs-link]
--->
 
 </div>
 
@@ -21,11 +19,13 @@ This is the official documentation site for the [Carch](https://github.com/haril
   <img src="https://img.shields.io/github/last-commit/carch-org/docs?style=for-the-badge&logo=github&color=7dc4e4&logoColor=D9E0EE&labelColor=1c1c29"/> <img src="https://img.shields.io/github/stars/carch-org/docs?style=for-the-badge&logo=apachespark&color=eed49f&logoColor=D9E0EE&labelColor=1c1c29"/> <img src="https://img.shields.io/github/forks/carch-org/docs?style=for-the-badge&color=9dc3ea&logoColor=D9E0EE&labelColor=1c1c29" />
 </p>
 
-<div align = "center"
+<!--
+<div align = "center">
   
 [![github actions build status][check]][link]
 
 </div>
+-->
 
 ## 🤝 Contributing
 
