@@ -1,7 +1,7 @@
 ### Prérequis
 
-- `fzf` est requis pour l'interface TUI du script Carch.  
-  Assurez-vous que `fzf` est installé avant d’utiliser Carch.
+- `fzf` est requis pour l’interface TUI dans les **scripts de Carch**.  
+  Assurez-vous que `fzf` est installé avant d’utiliser les **scripts de Carch**.
 
 ## 🛠️ Installation
 
