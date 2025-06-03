@@ -1,0 +1,53 @@
+name: Version
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version number (e.g., 1.1.1)'
+        required: true
+
+jobs:
+  update_docs_version:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          repository: carch-org/docs
+          token: ${{ secrets.PAT_TOKEN }}
+          fetch-depth: 1
+
+      - name: Update version
+        run: |
+          CONFIG_FILE="docs/.vitepress/config.ts"
+          VERSION="${{ github.event.inputs.version }}"
+
+          sed -i "s/text: \"[0-9]\+\.[0-9]\+\.[0-9]\+\",/text: \"${VERSION}\",/" "$CONFIG_FILE"
+
+          grep -q "text: \"${VERSION}\"," "$CONFIG_FILE" || {
+            echo "failed to update version"
+            exit 1
+          }
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7.0.8
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          commit-message: "chore(release): update version to ${{ github.event.inputs.version }}"
+          branch: update-docs-version/${{ github.event.inputs.version }}
+          title: "Update docs version to ${{ github.event.inputs.version }}"
+          body: |
+            update the version in config to ${{ github.event.inputs.version }}.
+          base: ${{ github.event.inputs.target_branch }}
+          delete-branch: true
+
+      - name: Merge PR
+        if: steps.create_changelog_pr.outputs.pull-request-number != ''
+        run: |
+          gh pr merge changelog/${{ github.event.inputs.version }} --squash --delete-branch
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
