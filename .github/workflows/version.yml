@@ -46,8 +46,8 @@ jobs:
           delete-branch: true
 
       - name: Merge PR
-        if: steps.create_changelog_pr.outputs.pull-request-number != ''
+        if: steps.create_docs_pr.outputs.pull-request-number != ''
         run: |
-          gh pr merge changelog/${{ github.event.inputs.version }} --squash --delete-branch
+          gh pr merge update-docs-version/${{ github.event.inputs.version }} --squash --delete-branch --repo ${{ github.repository }}
         env:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
