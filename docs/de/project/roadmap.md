@@ -74,6 +74,6 @@
 
 ## Zeitplan (Vorläufig) 📅
 
-- **Q 2024**: Zusätzliche WM Setup-Skripte und Kern-System Setup-Skripte entwickeln. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **Q Mitte 2025/2026**: Bestehende Skripte für Stabilität überarbeiten und mit der Erweiterung der Distributionsunterstützung beginnen. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-    - Eine Rust-basierte TUI für verbesserte Benutzerinteraktion entwickeln. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+- **Q 2025**: Entwicklung einer Rust-basierten TUI zur verbesserten Benutzerinteraktion. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+- **Mitte 2025/2026**: Entwicklung zusätzlicher Setup-Skripte für Window Manager und Kernsystem. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - Refaktorierung bestehender Skripte zur Verbesserung der Stabilität und Erweiterung der Distribution-Unterstützung. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />

@@ -74,6 +74,6 @@
 
 ## Calendrier (Provisoire) 📅
 
-- **T4 2024** : Développer des scripts de configuration WM supplémentaires et des scripts de configuration système central. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **T2-T3 2025/2026** : Refactoriser les scripts existants pour la stabilité et commencer à étendre le support des distributions. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-    - Développer une TUI basée sur Rust pour une interaction utilisateur améliorée. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+- **T2 2025** : Développer une interface utilisateur en ligne de commande (TUI) basée sur Rust pour améliorer l’interaction utilisateur. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+- **Mi-2025/2026** : Développer des scripts supplémentaires pour l’installation des WM et des systèmes principaux. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - Réorganiser les scripts existants pour améliorer la stabilité et commencer à étendre la prise en charge des distributions. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />

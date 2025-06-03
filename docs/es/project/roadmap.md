@@ -74,6 +74,6 @@
 
 ## Cronograma (Tentativo) 📅
 
-- **Q 2024**: Desarrollar scripts adicionales de configuración de WM y scripts de configuración del sistema central. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **Q Mediados 2025/2026**: Refactorizar scripts existentes para estabilidad y comenzar a expandir el soporte de distribuciones. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-    - Desarrollar una TUI basada en Rust para interacción de usuario mejorada. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+- **Q 2025**: Desarrollar una TUI basada en Rust para mejorar la interacción del usuario. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+- **Mitad de 2025/2026**: Desarrollar scripts adicionales de configuración de WM y del sistema principal. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - Refactorizar los scripts existentes para mayor estabilidad y comenzar a ampliar el soporte para distribuciones. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />

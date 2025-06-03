@@ -74,6 +74,6 @@
 
 ## 타임라인 (잠정) 📅
 
-- **2024년 4분기**: 추가 WM 설정 스크립트 및 핵심 시스템 설정 스크립트 개발. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **2025년 중반/2026년**: 안정성을 위한 기존 스크립트 리팩토링 및 배포판 지원 확장 시작. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-    - 향상된 사용자 상호작용을 위한 Rust 기반 TUI 개발. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+- **Q 2025**: 사용자 상호작용 강화를 위한 Rust 기반 TUI 개발. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+- **2025년 중반/2026년**: 추가적인 WM 설정 스크립트 및 핵심 시스템 설정 스크립트 개발. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - 기존 스크립트를 안정성 있게 리팩토링하고 배포판 지원 확장을 시작합니다. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />

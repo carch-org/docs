@@ -74,6 +74,6 @@
 
 ## 时间线（暂定）📅
 
-- **2024年第四季度**：开发额外的 WM 设置脚本和核心系统设置脚本。<img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **2025年中期/2026年**：重构现有脚本以提高稳定性并开始扩展发行版支持。<img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-    - 开发基于 Rust 的 TUI 以增强用户交互。🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+- **Q 2025**：开发基于 Rust 的 TUI，以增强用户交互。🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+- **2025 年中 / 2026**：开发额外的窗口管理器设置脚本和核心系统设置脚本。<img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - 重构现有脚本以提高稳定性，并开始扩展对发行版的支持。<img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
