@@ -17,7 +17,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          repository: carch-org/docs
           token: ${{ secrets.PAT_TOKEN }}
           fetch-depth: 1
 
