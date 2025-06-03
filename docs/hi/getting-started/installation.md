@@ -70,7 +70,7 @@ git clone --depth 1 https://github.com/harilvfs/carch
 cd carch
 cargo build --release
 cd build/release/
-sudo cp -r carch /usr/bin/ 
+sudo cp -r carch /usr/local/bin/
 ```
 
 अब आप अपने टर्मिनल में `carch` चला सकते हैं। यदि आपको फेडोरा पर कोई समस्या आती है, तो वे डिपेंडेंसी संबंधी हो सकती हैं। इंस्टॉलेशन सुचारू रूप से काम करना चाहिए, लेकिन यदि कोई समस्या आती है, तो कृपया एक [इश्यू](https://github.com/harilvfs/carch/issues) खोलें या मुझे **harilvfs@chalisehari.com.np** पर ईमेल करें।

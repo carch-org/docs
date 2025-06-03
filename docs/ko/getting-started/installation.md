@@ -70,7 +70,7 @@ git clone --depth 1 https://github.com/harilvfs/carch
 cd carch
 cargo build --release
 cd build/release/
-sudo cp -r carch /usr/bin/ 
+sudo cp -r carch /usr/local/bin/
 ```
 
 이제 터미널에서 `carch`를 실행할 수 있습니다. Fedora에서 문제가 발생하면 종속성과 관련된 문제일 수 있습니다. 설치는 원활하게 진행되어야 하지만 문제가 발생하면 [이슈](https://github.com/harilvfs/carch/issues)를 열거나 **harilvfs@chalisehari.com.np**로 이메일을 보내주세요.

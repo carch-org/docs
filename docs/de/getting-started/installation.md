@@ -70,7 +70,7 @@ git clone --depth 1 https://github.com/harilvfs/carch
 cd carch
 cargo build --release
 cd build/release/
-sudo cp -r carch /usr/bin/ 
+sudo cp -r carch /usr/local/bin/
 ```
 
 Jetzt können Sie `carch` in Ihrem Terminal ausführen. Wenn Sie auf Fedora Probleme haben, könnten diese abhängigkeitsbezogen sein. Die Installation sollte reibungslos funktionieren, aber falls Probleme auftreten, öffnen Sie bitte ein [Issue](https://github.com/harilvfs/carch/issues) oder senden Sie mir eine E-Mail an **harilvfs@chalisehari.com.np**.
