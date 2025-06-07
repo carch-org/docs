@@ -41,6 +41,33 @@ features:
   style="max-width: 720px; width: 100%; border-radius: 12px; margin: 2rem auto; display: block;"
 />
 
+<div align="center">
+
+### Comment l’utiliser ?
+
+Vous pouvez lancer ou utiliser Carch directement sans l’installer sur votre système.
+
+Choisissez une des versions suivantes pour essayer Carch :
+
+</div>
+
+> [!IMPORTANT]
+> **Assurez-vous d’avoir `curl` installé dans votre distribution avant d’exécuter ces commandes.**
+>
+> ***Notez aussi que Carch est actuellement uniquement pour*** **les distributions basées sur Arch et Fedora**. ***Cela ne fonctionnera pas sur d’autres distributions.***
+
+#### ⭐ Version stable
+
+```sh
+bash -c "$(curl -fsSL https://chalisehari.com.np/carch)"
+```
+
+#### 🧪 Version développement
+
+```sh 
+bash -c "$(curl -fsSL https://chalisehari.com.np/carchdev)"
+```
+
 <style>
 :root {
   --vp-home-hero-name-color: transparent;
