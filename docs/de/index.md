@@ -9,7 +9,7 @@ hero:
     src: /carch.png
     alt: Linux-Logo
     style: "width: 200px; height: auto;"
-  tagline: Ein einfaches Skript, das die Einrichtung deines Linux-Systems erleichtert 🧩
+  tagline: Ein einfaches CLI-Tool zur Automatisierung der Linux-Systemeinrichtung 🧩
   actions:
     - theme: brand
       text: Moment mal, Carch? Was ist das? 

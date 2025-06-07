@@ -9,7 +9,7 @@ hero:
     src: /carch.png
     alt: Linux 标志
     style: "width: 200px; height: auto;"
-  tagline: 一个让 Linux 系统设置更简单的脚本 🧩
+  tagline: 一个用于自动化 Linux 系统设置的简单 CLI 工具 🧩
   actions:
     - theme: brand
       text: 等等，Carch 是什么？ 

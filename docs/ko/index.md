@@ -9,7 +9,7 @@ hero:
     src: /carch.png
     alt: Linux logo
     style: "width: 200px; height: auto;"
-  tagline: 리눅스 시스템 설정을 쉽게 만드는 간단한 스크립트 🧩
+  tagline: 리눅스 시스템 설정을 자동화하는 간단한 CLI 도구 🧩
   actions:
     - theme: brand
       text: 잠깐, Carch가 뭔가요? 

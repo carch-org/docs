@@ -9,7 +9,7 @@ hero:
     src: /carch.png
     alt: شعار لينكس
     style: "width: 200px; height: auto;"
-  tagline: سكربت بسيط لتسهيل إعداد نظام لينكس 🧩
+  tagline: أداة CLI بسيطة لأتمتة إعداد نظام Linux 🧩
   actions:
     - theme: brand
       text: مهلاً، ما هو Carch؟ 
