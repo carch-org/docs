@@ -78,7 +78,7 @@ Wenn Sie Fragen haben oder Hilfe benötigen, zögern Sie nicht, **uns zu kontakt
 
 - Ersetzen Sie `your-username` durch Ihren GitHub-Benutzernamen.
 
-:::tip :bulb: TIPP
+:::tip :bulb: TIP
 **Sie können auch GUI-Tools wie `GitHub Desktop` oder sogar die GitHub-Web-Oberfläche verwenden, um Repositories zu forken und zu klonen. Diese Tools bieten eine benutzerfreundliche visuelle Oberfläche für die Verwaltung Ihrer Beiträge.**
 :::
 
