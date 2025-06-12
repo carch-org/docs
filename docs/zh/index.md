@@ -3,23 +3,15 @@ layout: home
 pageClass: home-page
 
 hero:
-  name: Carch 
-  text: "自动化你的 Linux 设置"
+  name: Carch 🧩
   image:
-    src: /carch.png
-    alt: Linux 标志
+    alt: null
     style: "width: 200px; height: auto;"
-  tagline: 一个用于自动化 Linux 系统设置的简单 CLI 工具 🧩
+  tagline: 一个用于自动化 Linux 系统设置的简单 CLI 工具
   actions:
     - theme: brand
       text: 等等，Carch 是什么？ 
       link: /zh/getting-started/introduction
-    - theme: alt
-      text: 安装 
-      link: /zh/getting-started/installation
-    - theme: alt
-      text: Repo (harilvfs/carch) ↗
-      link: https://github.com/harilvfs/carch
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
     title: Bash 脚本，轻松生活

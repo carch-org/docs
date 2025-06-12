@@ -3,23 +3,15 @@ layout: home
 pageClass: home-page
 
 hero:
-  name: Carch 
-  text: "أتمتة إعداد نظام لينكس الخاص بك"
+  name: Carch 🧩
   image:
-    src: /carch.png
-    alt: شعار لينكس
+    alt: null
     style: "width: 200px; height: auto;"
-  tagline: أداة CLI بسيطة لأتمتة إعداد نظام Linux 🧩
+  tagline: أداة CLI بسيطة لأتمتة إعداد نظام Linux
   actions:
     - theme: brand
       text: مهلاً، ما هو Carch؟ 
       link: /ar/getting-started/introduction
-    - theme: alt
-      text: تثبيت 
-      link: /ar/getting-started/installation
-    - theme: alt
-      text: Repo (harilvfs/carch) ↗
-      link: https://github.com/harilvfs/carch
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
     title: سكربتات Bash، حياة أسهل

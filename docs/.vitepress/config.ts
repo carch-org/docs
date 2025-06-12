@@ -116,7 +116,7 @@ export default {
         socialLinks: [
           { icon: "telegram", link: "https://t.me/carchx" },
           { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
-          { icon: "gmail", link: "mailto:harilvfs@chalisehari.com.np" },
+          { icon: "github", link: "https://github.com/harilvfs/carch" },
         ],
 
         footer: {
@@ -175,7 +175,7 @@ export default {
         socialLinks: [
           { icon: "telegram", link: "https://t.me/carchx" },
           { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
-          { icon: "gmail", link: "mailto:harilvfs@chalisehari.com.np" },
+          { icon: "github", link: "https://github.com/harilvfs/carch" },
         ],
 
         footer: {
@@ -231,7 +231,7 @@ export default {
         socialLinks: [
           { icon: "telegram", link: "https://t.me/carchx" },
           { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
-          { icon: "gmail", link: "mailto:harilvfs@chalisehari.com.np" },
+          { icon: "github", link: "https://github.com/harilvfs/carch" },
         ],
 
         footer: {
@@ -287,7 +287,7 @@ export default {
         socialLinks: [
           { icon: "telegram", link: "https://t.me/carchx" },
           { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
-          { icon: "gmail", link: "mailto:harilvfs@chalisehari.com.np" },
+          { icon: "github", link: "https://github.com/harilvfs/carch" },
         ],
 
         footer: {
@@ -343,7 +343,7 @@ export default {
         socialLinks: [
           { icon: "telegram", link: "https://t.me/carchx" },
           { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
-          { icon: "gmail", link: "mailto:harilvfs@chalisehari.com.np" },
+          { icon: "github", link: "https://github.com/harilvfs/carch" },
         ],
 
         footer: {
@@ -399,7 +399,7 @@ export default {
         socialLinks: [
           { icon: "telegram", link: "https://t.me/carchx" },
           { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
-          { icon: "gmail", link: "mailto:harilvfs@chalisehari.com.np" },
+          { icon: "github", link: "https://github.com/harilvfs/carch" },
         ],
 
         footer: {
@@ -455,7 +455,7 @@ export default {
         socialLinks: [
           { icon: "telegram", link: "https://t.me/carchx" },
           { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
-          { icon: "gmail", link: "mailto:harilvfs@chalisehari.com.np" },
+          { icon: "github", link: "https://github.com/harilvfs/carch" },
         ],
 
         footer: {
@@ -511,7 +511,7 @@ export default {
         socialLinks: [
           { icon: "telegram", link: "https://t.me/carchx" },
           { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
-          { icon: "gmail", link: "mailto:harilvfs@chalisehari.com.np" },
+          { icon: "github", link: "https://github.com/harilvfs/carch" },
         ],
 
         footer: {
@@ -567,7 +567,7 @@ export default {
         socialLinks: [
           { icon: "telegram", link: "https://t.me/carchx" },
           { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
-          { icon: "gmail", link: "mailto:harilvfs@chalisehari.com.np" },
+          { icon: "github", link: "https://github.com/harilvfs/carch" },
         ],
 
         footer: {
@@ -623,7 +623,7 @@ export default {
         socialLinks: [
           { icon: "telegram", link: "https://t.me/carchx" },
           { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
-          { icon: "gmail", link: "mailto:harilvfs@chalisehari.com.np" },
+          { icon: "github", link: "https://github.com/harilvfs/carch" },
         ],
 
         footer: {
@@ -642,7 +642,7 @@ export default {
     socialLinks: [
       { icon: "telegram", link: "https://t.me/carchx" },
       { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
-      { icon: "gmail", link: "mailto:harilvfs@chalisehari.com.np" },
+      { icon: "github", link: "https://github.com/harilvfs/carch" },
     ],
   },
 };

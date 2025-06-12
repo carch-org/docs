@@ -3,23 +3,15 @@ layout: home
 pageClass: home-page
 
 hero:
-  name: Carch 
-  text: "Automatisiere dein Linux-Setup"
+  name: Carch 🧩
   image:
-    src: /carch.png
-    alt: Linux-Logo
+    alt: null
     style: "width: 200px; height: auto;"
-  tagline: Ein einfaches CLI-Tool zur Automatisierung der Linux-Systemeinrichtung 🧩
+  tagline: Ein einfaches CLI-Tool zur Automatisierung der Linux-Systemeinrichtung
   actions:
     - theme: brand
       text: Moment mal, Carch? Was ist das? 
       link: /de/getting-started/introduction
-    - theme: alt
-      text: Installation 
-      link: /de/getting-started/installation
-    - theme: alt
-      text: Repo (harilvfs/carch) ↗
-      link: https://github.com/harilvfs/carch
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
     title: Bash-Skripte, einfaches Leben
