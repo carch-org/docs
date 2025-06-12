@@ -2,23 +2,15 @@
 layout: home
 pageClass: home-page
 hero:
-  name: Carch 
-  text: "अपने Linux सेटअप को स्वचालित करें"
+  name: Carch 🧩
   image:
-    src: /carch.png
-    alt: Linux logo
+    alt: null
     style: "width: 200px; height: auto;"
-  tagline: लिनक्स सिस्टम सेटअप को स्वचालित करने के लिए एक सरल CLI टूल 🧩
+  tagline: लिनक्स सिस्टम सेटअप को स्वचालित करने के लिए एक सरल CLI टूल
   actions:
     - theme: brand
       text: रुकिए, Carch? यह क्या है? 
       link: /hi/getting-started/introduction
-    - theme: alt
-      text: इंस्टॉल करें 
-      link: /hi/getting-started/installation
-    - theme: alt
-      text: Repo (harilvfs/carch) ↗
-      link: https://github.com/harilvfs/carch
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
     title: Bash स्क्रिप्ट्स, आसान जीवन

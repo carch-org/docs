@@ -3,23 +3,15 @@ layout: home
 pageClass: home-page
 
 hero:
-  name: Carch 
-  text: "리눅스 설정 자동화"
+  name: Carch 🧩
   image:
-    src: /carch.png
-    alt: Linux logo
+    alt: null
     style: "width: 200px; height: auto;"
-  tagline: 리눅스 시스템 설정을 자동화하는 간단한 CLI 도구 🧩
+  tagline: 리눅스 시스템 설정을 자동화하는 간단한 CLI 도구 
   actions:
     - theme: brand
       text: 잠깐, Carch가 뭔가요? 
       link: /ko/getting-started/introduction
-    - theme: alt
-      text: 설치하기 
-      link: /ko/getting-started/installation
-    - theme: alt
-      text: Repo (harilvfs/carch) ↗
-      link: https://github.com/harilvfs/carch
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
     title: Bash 스크립트, 쉬운 삶
