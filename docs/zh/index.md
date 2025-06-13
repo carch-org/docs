@@ -10,7 +10,7 @@ hero:
   tagline: 一个用于自动化 Linux 系统设置的简单 CLI 工具
   actions:
     - theme: brand
-      text: 等等，Carch 是什么？ 
+      text: 入门 ⇢
       link: /zh/getting-started/introduction
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>

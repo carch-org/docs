@@ -10,7 +10,7 @@ hero:
   tagline: Простой CLI-инструмент для автоматизации настройки системы Linux
   actions:
     - theme: brand
-      text: Подожди, Carch? Что это?
+      text: Начало работы ⇢
       link: /ru/getting-started/introduction
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>

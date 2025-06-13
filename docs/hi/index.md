@@ -9,7 +9,7 @@ hero:
   tagline: लिनक्स सिस्टम सेटअप को स्वचालित करने के लिए एक सरल CLI टूल
   actions:
     - theme: brand
-      text: रुकिए, Carch? यह क्या है? 
+      text: प्रारंभ करना ⇢
       link: /hi/getting-started/introduction
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>

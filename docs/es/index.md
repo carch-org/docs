@@ -10,7 +10,7 @@ hero:
   tagline: Una herramienta CLI sencilla para automatizar la configuración del sistema Linux
   actions:
     - theme: brand
-      text: Espera, ¿Carch? ¿Qué es eso? 
+      text: Cómo comenzar ⇢
       link: /es/getting-started/introduction
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>

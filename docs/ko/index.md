@@ -10,7 +10,7 @@ hero:
   tagline: 리눅스 시스템 설정을 자동화하는 간단한 CLI 도구 
   actions:
     - theme: brand
-      text: 잠깐, Carch가 뭔가요? 
+      text: 시작하기 ⇢
       link: /ko/getting-started/introduction
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>

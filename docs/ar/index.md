@@ -10,7 +10,7 @@ hero:
   tagline: أداة CLI بسيطة لأتمتة إعداد نظام Linux
   actions:
     - theme: brand
-      text: مهلاً، ما هو Carch؟ 
+      text: البدء ⇢
       link: /ar/getting-started/introduction
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>

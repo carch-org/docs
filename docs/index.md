@@ -10,7 +10,7 @@ hero:
   tagline: A simple CLI tool to automate Linux system setup
   actions:
     - theme: brand
-      text: Wait, Carch? What’s that? 
+      text: Getting Started ⇢
       link: /getting-started/introduction
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
