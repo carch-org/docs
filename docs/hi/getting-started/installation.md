@@ -14,12 +14,12 @@ bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)"
 
 ```sh [अपडेट]
 # मौजूदा इंस्टॉलेशन को अपडेट करें
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- --update
+bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- update
 ```
 
 ```sh [अनइंस्टॉल]
 # सी-आर्च को अनइंस्टॉल करें
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- --uninstall
+bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- uninstall
 ```
 :::
 

@@ -14,12 +14,12 @@ bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)"
 
 ```sh [अपडेट]
 # अवस्थित स्थापनालाई अपडेट गर्नुहोस्
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- --update
+bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- update
 ```
 
 ```sh [हटाउनुहोस्]
 # Carch हटाउनुहोस्
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- --uninstall
+bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- uninstall
 ```
 :::
 

@@ -14,12 +14,12 @@ bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)"
 
 ```sh [업데이트]
 # 기존 설치 업데이트
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- --update
+bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- update
 ```
 
 ```sh [제거]
 # Carch 제거
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- --uninstall
+bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- uninstall
 ```
 :::
 

@@ -14,12 +14,12 @@ bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)"
 
 ```sh [التحديث]
 # تحديث التثبيت الموجود
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- --update
+bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- update
 ```
 
 ```sh [إلغاء التثبيت]
 # إلغاء تثبيت Carch
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- --uninstall
+bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- uninstall
 ```
 :::
 

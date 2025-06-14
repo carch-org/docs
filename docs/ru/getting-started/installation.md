@@ -14,12 +14,12 @@ bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)"
 
 ```sh [Обновление]
 # Обновить существующую установку
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- --update
+bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- update
 ```
 
 ```sh [Удаление]
 # Удалить Carch
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- --uninstall
+bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- uninstall
 ```
 :::
 

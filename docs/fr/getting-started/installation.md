@@ -14,12 +14,12 @@ Vous pouvez également utiliser ces options :
 
 ```sh [Mise à jour]
 # Mettre à jour l'installation existante
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- --update
+bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- update
 ```
 
 ```sh [Désinstaller]
 # Désinstaller Carch
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- --uninstall
+bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- uninstall
 ```
 :::
 
