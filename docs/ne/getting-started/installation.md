@@ -5,7 +5,7 @@
 तपाईं हाम्रो स्थापना स्क्रिप्ट प्रयोग गरेर आफ्नो सिस्टममा Carch स्थायी रूपमा स्थापना गर्न सक्नुहुन्छ:
 
 ```sh
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)"
+bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
 ```
 
 तपाईं यी विकल्पहरू पनि प्रयोग गर्न सक्नुहुन्छ:
@@ -14,12 +14,12 @@ bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)"
 
 ```sh [अपडेट]
 # अवस्थित स्थापनालाई अपडेट गर्नुहोस्
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- update
+bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- update
 ```
 
 ```sh [हटाउनुहोस्]
 # Carch हटाउनुहोस्
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- uninstall
+bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- uninstall
 ```
 :::
 

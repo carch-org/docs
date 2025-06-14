@@ -5,7 +5,7 @@
 Vous pouvez installer Carch de manière permanente sur votre système en utilisant notre script d'installation :
 
 ```sh
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)"
+bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
 ```
 
 Vous pouvez également utiliser ces options :
@@ -14,12 +14,12 @@ Vous pouvez également utiliser ces options :
 
 ```sh [Mise à jour]
 # Mettre à jour l'installation existante
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- update
+bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- update
 ```
 
 ```sh [Désinstaller]
 # Désinstaller Carch
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- uninstall
+bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- uninstall
 ```
 :::
 

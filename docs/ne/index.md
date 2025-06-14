@@ -50,13 +50,13 @@ Carch प्रयास गर्नका लागि निम्न मध�
 #### ⭐ स्थिर संस्करण
 
 ```sh
-bash -c "$(curl -fsSL https://chalisehari.com.np/carch)"
+bash -c "$(curl -fsSL chalisehari.com.np/carch)"
 ```
 
 #### 🧪 विकास संस्करण
 
 ```sh 
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchdev)"
+bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"
 ```
 
 <style>

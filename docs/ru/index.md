@@ -51,13 +51,13 @@ features:
 #### ⭐ Стабильная версия
 
 ```sh
-bash -c "$(curl -fsSL https://chalisehari.com.np/carch)"
+bash -c "$(curl -fsSL chalisehari.com.np/carch)"
 ```
 
 #### 🧪 Версия для разработчиков
 
 ```sh 
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchdev)"
+bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"
 ```
 
 <style>

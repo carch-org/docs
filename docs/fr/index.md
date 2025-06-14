@@ -51,13 +51,13 @@ Choisissez une des versions suivantes pour essayer Carch :
 #### ⭐ Version stable
 
 ```sh
-bash -c "$(curl -fsSL https://chalisehari.com.np/carch)"
+bash -c "$(curl -fsSL chalisehari.com.np/carch)"
 ```
 
 #### 🧪 Version développement
 
 ```sh 
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchdev)"
+bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"
 ```
 
 <style>

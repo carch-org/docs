@@ -5,7 +5,7 @@
 설치 스크립트를 사용하여 Carch를 시스템에 영구적으로 설치할 수 있습니다:
 
 ```sh
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)"
+bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
 ```
 
 다음 옵션들도 사용할 수 있습니다:
@@ -14,12 +14,12 @@ bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)"
 
 ```sh [업데이트]
 # 기존 설치 업데이트
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- update
+bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- update
 ```
 
 ```sh [제거]
 # Carch 제거
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- uninstall
+bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- uninstall
 ```
 :::
 

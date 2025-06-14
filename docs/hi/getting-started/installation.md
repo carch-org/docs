@@ -5,7 +5,7 @@
 आप हमारी इंस्टॉल स्क्रिप्ट का उपयोग करके सी-आर्च को अपने सिस्टम पर स्थायी रूप से इंस्टॉल कर सकते हैं:
 
 ```sh
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)"
+bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
 ```
 
 आप इन विकल्पों का भी उपयोग कर सकते हैं:
@@ -14,12 +14,12 @@ bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)"
 
 ```sh [अपडेट]
 # मौजूदा इंस्टॉलेशन को अपडेट करें
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- update
+bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- update
 ```
 
 ```sh [अनइंस्टॉल]
 # सी-आर्च को अनइंस्टॉल करें
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- uninstall
+bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- uninstall
 ```
 :::
 
