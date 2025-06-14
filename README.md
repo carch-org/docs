@@ -4,7 +4,7 @@
 
 <h4> 
   
-This is the official documentation site for the [Carch](https://github.com/harilvfs/carch), built with Vitepress -- available in:  [ 🇺🇸 ](https://carch.chalisehari.com.np) • [ 🇳🇵 ](https://carch.chalisehari.com.np/ne/) • [ 🇮🇳 ](https://carch.chalisehari.com.np/hi/) • [ 🇨🇳 ](https://carch.chalisehari.com.np/zh/) • [ 🇪🇸 ](https://carch.chalisehari.com.np/es/) • [ 🇦🇪 ](https://carch.chalisehari.com.np/ar/) • [ 🇫🇷 ](https://carch.chalisehari.com.np/fr/) • [ 🇰🇷 ](https://carch.chalisehari.com.np/ko/) • [ 🇩🇪 ](https://carch.chalisehari.com.np/de/) • [ 🇷🇺 ](https://carch.chalisehari.com.np/ru/)
+This is the official documentation site for the [Carch](https://github.com/harilvfs/carch), built with Vitepress - available in:  [ 🇺🇸 ](https://carch.chalisehari.com.np) • [ 🇳🇵 ](https://carch.chalisehari.com.np/ne/) • [ 🇮🇳 ](https://carch.chalisehari.com.np/hi/) • [ 🇨🇳 ](https://carch.chalisehari.com.np/zh/) • [ 🇪🇸 ](https://carch.chalisehari.com.np/es/) • [ 🇦🇪 ](https://carch.chalisehari.com.np/ar/) • [ 🇫🇷 ](https://carch.chalisehari.com.np/fr/) • [ 🇰🇷 ](https://carch.chalisehari.com.np/ko/) • [ 🇩🇪 ](https://carch.chalisehari.com.np/de/) • [ 🇷🇺 ](https://carch.chalisehari.com.np/ru/)
 
 </h4>
 
