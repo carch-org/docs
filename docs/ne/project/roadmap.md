@@ -53,7 +53,7 @@
 
   - TUI (Text-based User Interface) विकास गर्नुहोस्। <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - एकल executable binary सिर्जना गर्नुहोस्। <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - स्क्रिप्टिङ बढाउन थप Rust स्क्रिप्टहरू थप्नुहोस्। <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - स्क्रिप्टिङ बढाउन थप Rust स्क्रिप्टहरू थप्नुहोस्। <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **WM सेटअप स्क्रिप्टहरू थप्नुहोस्:**
 

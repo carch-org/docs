@@ -53,7 +53,7 @@
 
   - 开发 TUI（基于文本的用户界面）。<img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - 创建单个可执行二进制文件。<img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - 添加额外的 Rust 脚本以增强脚本功能。<img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - 添加额外的 Rust 脚本以增强脚本功能。<img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **添加 WM 设置脚本：**
 

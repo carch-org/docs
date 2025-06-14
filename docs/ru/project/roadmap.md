@@ -53,7 +53,7 @@
 
   - Разработать TUI (текстовый пользовательский интерфейс). <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - Создать единый исполняемый бинарный файл. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - Добавить дополнительные Rust-скрипты для улучшения скриптовости. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - Добавить дополнительные Rust-скрипты для улучшения скриптовости. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **Добавить скрипты настройки WM:**
 

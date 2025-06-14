@@ -53,7 +53,7 @@
 
   - TUI (텍스트 기반 사용자 인터페이스) 개발. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - 단일 실행 바이너리 생성. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - 스크립팅 능력을 향상시키기 위한 추가 Rust 스크립트 추가. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - 스크립팅 능력을 향상시키기 위한 추가 Rust 스크립트 추가. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **WM 설정 스크립트 추가:**
 

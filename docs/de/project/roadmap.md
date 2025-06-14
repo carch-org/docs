@@ -53,7 +53,7 @@
 
   - Eine TUI (Text-basierte Benutzeroberfläche) entwickeln. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - Eine einzige ausführbare Binärdatei erstellen. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - Zusätzliche Rust-Skripte hinzufügen, um die Skriptierbarkeit zu verbessern. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - Zusätzliche Rust-Skripte hinzufügen, um die Skriptierbarkeit zu verbessern. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **WM Setup-Skripte hinzufügen:**
 

@@ -53,7 +53,7 @@
 
   - Développer une TUI (Interface Utilisateur Textuelle). <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - Créer un binaire exécutable unique. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - Ajouter des scripts Rust supplémentaires pour améliorer la scriptabilité. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - Ajouter des scripts Rust supplémentaires pour améliorer la scriptabilité. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **Ajouter des scripts de configuration WM :**
 

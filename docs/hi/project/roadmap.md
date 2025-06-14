@@ -53,7 +53,7 @@
 
   - एक TUI (टेक्स्ट-आधारित उपयोगकर्ता इंटरफेस) विकसित करें। <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - एक सिंगल एक्जीक्यूटेबल बाइनरी बनाएं। <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - स्क्रिप्टेबिलिटी बढ़ाने के लिए अतिरिक्त रस्ट स्क्रिप्ट्स जोड़ें। <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - स्क्रिप्टेबिलिटी बढ़ाने के लिए अतिरिक्त रस्ट स्क्रिप्ट्स जोड़ें। <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **WM सेटअप स्क्रिप्ट्स जोड़ें:**
 

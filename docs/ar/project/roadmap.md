@@ -53,7 +53,7 @@
 
   - تطوير واجهة مستخدم نصية (Text-based User Interface). <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - إنشاء ملف تنفيذ ثنائي واحد. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - إضافة سكريبتات Rust إضافية لتعزيز قابلية البرمجة. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - إضافة سكريبتات Rust إضافية لتعزيز قابلية البرمجة. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **إضافة سكريبتات إعداد WM:**
 
