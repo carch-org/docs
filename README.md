@@ -8,7 +8,9 @@ This is the official documentation site for the [Carch](https://github.com/haril
 
 </h4>
 
+<!--
 [![Carch Docs][carch-docs]][carch-docs-link]
+-->
 
 </div>
 
