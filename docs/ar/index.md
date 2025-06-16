@@ -7,7 +7,7 @@ hero:
   image:
     alt: null
     style: "width: 200px; height: auto;"
-  tagline: أداة CLI بسيطة لأتمتة إعداد نظام Linux
+  tagline: قم بأتمتة إعداد لينكس الخاص بك
   actions:
     - theme: brand
       text: البدء ⇢

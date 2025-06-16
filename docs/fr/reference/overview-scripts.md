@@ -55,7 +55,7 @@
 - *Installe et applique un ensemble de thèmes et d'icônes pour améliorer l'apparence de votre bureau.*
 
 ### SwayWM
-- *Actuellement non compatible avec Fedora. SwayWM n'est pris en charge que pour les systèmes basés sur Arch.*
+- *Installe et configure Sway, un gestionnaire de fenêtres en mosaïque léger pour Wayland, destiné aux utilisateurs expérimentés qui préfèrent le clavier.*  
 
 ### Fonds d'écran
 - *Installe une sélection de fonds d'écran pour une esthétique de bureau personnalisée.*

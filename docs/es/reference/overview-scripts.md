@@ -55,7 +55,7 @@
 - *Instala y aplica un conjunto de temas e iconos para mejorar la apariencia de tu escritorio.*
 
 ### SwayWM
-- *Actualmente no es compatible con Fedora. SwayWM solo es compatible con sistemas basados en Arch.*
+- *Instala y configura Sway, un administrador de ventanas ligero en mosaico para Wayland, destinado a usuarios avanzados que prefieren el manejo con teclado.*  
 
 ### Fondos de Pantalla
 - *Instala una selección de fondos de pantalla para una estética de escritorio personalizada.*

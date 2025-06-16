@@ -55,7 +55,7 @@
 - *Installs and applies a set of themes and icons to enhance the look and feel of your desktop.*
 
 ### SwayWM
-- *Currently not compatible with Fedora. SwayWM is supported for Arch-based systems only.*
+- *Installs and configures Sway, a lightweight, tiling window manager for Wayland, designed for power users who prefer a keyboard-centric workflow.*  
 
 ### Wallpapers
 - *Installs a selection of wallpapers for a personalized desktop aesthetic.*

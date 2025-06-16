@@ -7,7 +7,7 @@ hero:
   image:
     alt: null 
     style: "width: 200px; height: auto;"
-  tagline: A simple CLI tool to automate Linux system setup
+  tagline: Automate your Linux setup
   actions:
     - theme: brand
       text: Getting Started ⇢

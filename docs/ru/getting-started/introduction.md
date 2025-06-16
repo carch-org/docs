@@ -1,5 +1,4 @@
 <h1></h1>
-
 <img
   src="/carch.png"
   width="25%"
@@ -8,9 +7,8 @@
 
 <h1>Что такое Carch?</h1>
 
-Carch — это коллекция Bash-скриптов, разработанных для упрощения процесса настройки системы Linux. Благодаря простому пользовательскому интерфейсу на базе Rust, Carch легко использовать и доступен для всех.
-
-![built-with-ratatui](https://img.shields.io/badge/BUILT%20WITH-RATATUI-94e2d5?style=for-the-badge&logo=rust&logoColor=89dceb&labelColor=171b22)
+*[Carch](https://carch.chalisehari.com.np)* - это набор модульных Bash-скриптов с красивым TUI (*созданным с помощью* [`ratatui`](https://github.com/ratatui-org/ratatui)) для автоматизации настройки после установки для пользователей Linux.  
+Особенно полезен, если вы хотите быстро начать использовать свои *любимые приложения* с чистой и готовой к использованию системой. (*В настоящее время поддерживаются дистрибутивы на базе Arch и Fedora*)
 
 ## Функции
 <img src="https://img.icons8.com/?size=80&id=vSx5PNyFqTTo&format=png" width="50" /> 

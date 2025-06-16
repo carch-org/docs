@@ -6,7 +6,7 @@ hero:
   image:
     alt: null
     style: "width: 200px; height: auto;"
-  tagline: लिनक्स सिस्टम सेटअप स्वचालित गर्नको लागि सरल CLI उपकरण
+  tagline: आफ्नो लिनक्स सेटअप स्वचालित बनाउनुहोस्
   actions:
     - theme: brand
       text: सुरु गरौं ⇢

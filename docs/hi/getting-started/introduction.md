@@ -1,5 +1,4 @@
 <h1></h1>
-
 <img
   src="/carch.png"
   width="25%"
@@ -8,9 +7,8 @@
 
 <h1>सी-आर्च क्या है?</h1>
 
-सी-आर्च बैश स्क्रिप्ट्स का एक संग्रह है जो लिनक्स सिस्टम सेटअप की प्रक्रिया को सरल बनाने के लिए डिज़ाइन किया गया है। अपने सरल, रस्ट आधारित TUI के साथ, सी-आर्च का उपयोग करना आसान है और यह सभी के लिए सुलभ है।
-
-![built-with-ratatui](https://img.shields.io/badge/BUILT%20WITH-RATATUI-94e2d5?style=for-the-badge&logo=rust&logoColor=89dceb&labelColor=171b22)
+*[Carch](https://carch.chalisehari.com.np)* मॉड्यूलर बैश स्क्रिप्ट्स का एक संग्रह है जिसमें एक सुंदर TUI (*[`ratatui`](https://github.com/ratatui-org/ratatui) से निर्मित*) है, जो लिनक्स उपयोगकर्ताओं के लिए पोस्ट-इंस्टॉलेशन सेटअप को स्वचालित करता है।  
+यह विशेष रूप से उपयोगी है यदि आप अपनी *पसंदीदा ऐप्स* को एक साफ और उपयोग के लिए तैयार सेटअप के साथ जल्दी से उपयोग शुरू करना चाहते हैं। (*वर्तमान में Arch और Fedora आधारित डिस्ट्रीब्यूशंस का समर्थन करता है*)
 
 ## विशेषताएं
 <img src="https://img.icons8.com/?size=80&id=vSx5PNyFqTTo&format=png" width="50" /> 

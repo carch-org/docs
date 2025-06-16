@@ -7,7 +7,7 @@ hero:
   image:
     alt: null
     style: "width: 200px; height: auto;"
-  tagline: Простой CLI-инструмент для автоматизации настройки системы Linux
+  tagline: Автоматизируйте настройку Linux
   actions:
     - theme: brand
       text: Начало работы ⇢

@@ -1,5 +1,4 @@
 <h1></h1>
-
 <img
   src="/carch.png"
   width="25%"
@@ -8,9 +7,8 @@
 
 <h1>ما هو Carch؟</h1>
 
-Carch هو مجموعة من نصوص Bash المصممة لتبسيط عملية إعداد نظام Linux. مع واجهة المستخدم النصية البسيطة المبنية على Rust، يعتبر Carch سهل الاستخدام ومتاح للجميع.
-
-![built-with-ratatui](https://img.shields.io/badge/BUILT%20WITH-RATATUI-94e2d5?style=for-the-badge&logo=rust&logoColor=89dceb&labelColor=171b22)
+*[Carch](https://carch.chalisehari.com.np)* هو مجموعة من سكربتات باش المودولارية مع واجهة مستخدم نصية جميلة (*مبنية باستخدام* [`ratatui`](https://github.com/ratatui-org/ratatui)) لأتمتة إعداد النظام بعد التثبيت لمستخدمي لينكس.  
+هو مفيد بشكل خاص إذا كنت تريد البدء بسرعة في استخدام *تطبيقاتك المفضلة* مع إعداد نظيف وجاهز للاستخدام. (*يدعم حالياً توزيعات آرتش وفيدورا*)
 
 ## الميزات
 <img src="https://img.icons8.com/?size=80&id=vSx5PNyFqTTo&format=png" width="50" /> 

@@ -1,5 +1,4 @@
 <h1></h1>
-
 <img
   src="/carch.png"
   width="25%"
@@ -8,9 +7,8 @@
 
 <h1>什么是 Carch？</h1>
 
-Carch 是一个 Bash 脚本集合，旨在简化 Linux 系统的设置过程。通过其简单的基于 Rust 的 TUI，Carch 易于使用，人人都能上手。
-
-![built-with-ratatui](https://img.shields.io/badge/BUILT%20WITH-RATATUI-94e2d5?style=for-the-badge&logo=rust&logoColor=89dceb&labelColor=171b22)
+*[Carch](https://carch.chalisehari.com.np)* 是-组模块化的 Bash 脚本，配有漂亮的 TUI 界面（*使用* [`ratatui`](https://github.com/ratatui-org/ratatui) *构建*），用于自动化 Linux 用户的安装后设置。  
+如果你想快速使用你的*常用应用*，并拥有一个干净且即用型的环境，这个工具特别有用。(*目前支持基于 Arch 和 Fedora 的发行版*)
 
 ## 功能特性
 <img src="https://img.icons8.com/?size=80&id=vSx5PNyFqTTo&format=png" width="50" /> 

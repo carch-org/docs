@@ -1,5 +1,4 @@
-# 
-
+<h1></h1>
 <img
   src="/carch.png"
   width="25%"
@@ -8,9 +7,8 @@
 
 # Carch के हो?
 
-Carch लिनक्स सिस्टम सेटअप गर्ने प्रक्रियालाई सरल बनाउन डिजाइन गरिएको Bash स्क्रिप्टहरूको संग्रह हो। यसको सरल, Rust आधारित TUI सँग, Carch प्रयोग गर्न सजिलो र सबैका लागि पहुँचयोग्य छ।
-
-![built-with-ratatui](https://img.shields.io/badge/BUILT%20WITH-RATATUI-94e2d5?style=for-the-badge&logo=rust&logoColor=89dceb&labelColor=171b22)
+*[Carch](https://carch.chalisehari.com.np)* मोड्युलर Bash स्क्रिप्टहरूको संग्रह हो जसमा सुन्दर TUI (*[`ratatui`](https://github.com/ratatui-org/ratatui) बाट बनेको*) छ जसले Linux प्रयोगकर्ताहरूका लागि पोस्ट-इन्स्टलेसन सेटअपलाई स्वचालित बनाउँछ।  
+यदि तपाईं आफ्नो *मनपर्ने एपहरू* छिटो र सफा र प्रयोगका लागि तयार सेटअपसहित चलाउन चाहनुहुन्छ भने यो विशेष उपयोगी छ। (*हाल Arch र Fedora आधारित डिस्ट्रोहरूलाई समर्थन गर्दछ*)
 
 ## विशेषताहरू
 <img src="https://img.icons8.com/?size=80&id=vSx5PNyFqTTo&format=png" width="50" /> 
