@@ -7,7 +7,7 @@ hero:
   image:
     alt: null
     style: "width: 200px; height: auto;"
-  tagline: 리눅스 설정을 자동화하세요 
+  tagline: 당신의 리눅스 시스템 설치를 자동화하세요
   actions:
     - theme: brand
       text: 시작하기 ⇢

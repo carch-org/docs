@@ -7,7 +7,7 @@ hero:
   image:
     alt: null
     style: "width: 200px; height: auto;"
-  tagline: قم بأتمتة إعداد لينكس الخاص بك
+  tagline: قم بأتمتة إعداد نظام لينكس الخاص بك
   actions:
     - theme: brand
       text: البدء ⇢

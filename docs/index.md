@@ -7,7 +7,7 @@ hero:
   image:
     alt: null 
     style: "width: 200px; height: auto;"
-  tagline: Automate your Linux setup
+  tagline: Automate Your Linux System Setup
   actions:
     - theme: brand
       text: Getting Started ⇢

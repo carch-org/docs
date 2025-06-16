@@ -7,7 +7,7 @@ hero:
   image:
     alt: null
     style: "width: 200px; height: auto;"
-  tagline: 自动化您的 Linux 设置
+  tagline: 自动化你的 Linux 系统设置
   actions:
     - theme: brand
       text: 入门 ⇢

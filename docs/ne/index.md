@@ -6,7 +6,7 @@ hero:
   image:
     alt: null
     style: "width: 200px; height: auto;"
-  tagline: आफ्नो लिनक्स सेटअप स्वचालित बनाउनुहोस्
+  tagline: तिमीको लिनक्स प्रणालीको स्थापना स्वचालित गर
   actions:
     - theme: brand
       text: सुरु गरौं ⇢

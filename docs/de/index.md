@@ -7,7 +7,7 @@ hero:
   image:
     alt: null
     style: "width: 200px; height: auto;"
-  tagline: Automatisiere deine Linux-Einrichtung
+  tagline: Automatisiere die Einrichtung deines Linux-Systems
   actions:
     - theme: brand
       text: Erste Schritte ⇢

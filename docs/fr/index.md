@@ -7,7 +7,7 @@ hero:
   image:
     alt: null
     style: "width: 200px; height: auto;"
-  tagline: Automatisez la configuration de votre Linux
+  tagline: Automatise la configuration de ton système Linux
   actions:
     - theme: brand
       text: Bien commencer ⇢
