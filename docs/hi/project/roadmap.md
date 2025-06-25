@@ -12,7 +12,7 @@
      - **आर्च** <img src="https://img.icons8.com/?size=48&id=uIXgLv5iSlLJ&format=png" width="20" />
      - **डेबियन** <img src="https://img.icons8.com/?size=48&id=17838&format=png" width="20" /> 
      - **फेडोरा** <img src="https://img.icons8.com/?size=48&id=ZbBhBW0N2q3D&format=png" width="20" />
-     - **openSUSE** <img src="https://cdn0.iconfinder.com/data/icons/flat-round-system/512/opensuse-512.png" width="20" /> 
+     - **openSUSE** <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/suse/opensuse.png" width="20" /> 
      - **Void** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Void_Linux_logo.svg/256px-Void_Linux_logo.svg.png" width="20" /> 
    - डिस्ट्रिब्यूशन-विशिष्ट सेटअप स्क्रिप्ट्स विकसित करें।
 
