@@ -60,6 +60,37 @@ bash -c "$(curl -fsSL chalisehari.com.np/carch)"
 bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"
 ```
 
+<!--
+
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme'
+
+const members = [
+  {
+    avatar: 'https://github.com/harilvfs.png',
+    name: 'Hari Chalise',
+    title: 'Dev',
+    links: [
+      { icon: 'github', link: 'https://github.com/harilvfs' },
+      { icon: 'twitter', link: 'https://twitter.com/harilvfs' },
+      { icon: 'bluesky', link: 'https://bsky.app/profile/chalisehari.com.np' },
+      { icon: 'mastodon', link: 'https://mastodon.social/@harilvfs' },
+      { icon: 'reddit', link: 'https://reddit.com/u/aayush-le' },
+      { icon: 'discord', link: 'https://discord.com/invite/8NJWstnUHd' },
+      { icon: 'telegram', link: 'https://t.me/carchx' },
+    ]
+  },
+  ]
+</script>
+
+<div align="center">
+
+<VPTeamMembers size="small" :members />
+
+</div>
+
+-->
+
 <style>
 :root {
   --vp-home-hero-name-color: transparent;
