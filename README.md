@@ -44,7 +44,7 @@ Thanks in advance for your support!
   
 ## 📚 Build Documentation
 
-*Assuming you already have all the usual Node.js dependencies (e.g., Node.js, NVM, Bun, Npm)*
+*Assuming you already installed bun on your system*
 
 </div>
 
