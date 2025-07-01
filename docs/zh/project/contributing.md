@@ -53,7 +53,7 @@
 > feat: 您的提交信息 或 fix: 您的提交信息。
 > ```
 > 
-> 顺便说一下，在提交之前，如果你修改了任何 `.sh` 或 Bash 脚本文件，请确保检查 `scripts/` 目录，并运行 `./check.sh` 来查找多余的空格。如果失败，请运行 `./cleanup.sh`。这仅适用于 Bash 脚本。  
+> 顺便说一下，在提交之前，如果你更改了任何 `.sh` 或 bash 脚本文件，请务必检查 `scripts/` 目录并运行 `./check.sh` 来检查多余的空格或空行。如果失败了，运行 `./cleanup.sh`。还要确保 shell 脚本已通过 `shfmt` 格式化。
 > 对于 Rust 文件的更改，请确保运行 `cargo fmt --all --check`。如果有建议，请运行 `cargo fmt --all`。  
 > 同时请运行 `cargo clippy` 和 `cargo clippy -- -Dwarnings`，以确保没有错误残留。谢谢。
 

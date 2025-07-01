@@ -54,7 +54,7 @@
 > feat: tu-mensaje-de-commit o fix: tu-mensaje-de-commit.
 > ```
 >
-> Por cierto, antes de hacer un commit, si vas a cambiar algún archivo `.sh` o script de Bash, asegúrate de revisar el directorio `scripts/` y ejecutar `./check.sh` para encontrar espacios en blanco adicionales. Si falla, ejecuta `./cleanup.sh`. Eso es solo para scripts de Bash.  
+> Por cierto, antes de hacer commit, si estás cambiando algún archivo `.sh` o script de bash, asegúrate de revisar el directorio `scripts/` y ejecutar `./check.sh` para detectar espacios en blanco extra. Si falla, ejecuta `./cleanup.sh`. Asegúrate también de que los scripts de shell estén formateados con `shfmt`. 
 > Para cambios en archivos de Rust, asegúrate de ejecutar `cargo fmt --all --check`. Si hay sugerencias, ejecuta `cargo fmt --all`.  
 > Además, asegúrate de ejecutar `cargo clippy` y `cargo clippy -- -Dwarnings` para asegurarte de que no queden errores. Gracias.
 

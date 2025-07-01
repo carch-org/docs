@@ -53,7 +53,7 @@
 > feat: your-commit-message 또는 fix: your-commit-message
 > ```
 > 
-> 커밋하기 전에 `.sh` 또는 Bash 스크립트 파일을 변경하는 경우, `scripts/` 디렉토리를 확인하고 `./check.sh`를 실행하여 불필요한 공백이 있는지 확인하세요. 실패하면 `./cleanup.sh`를 실행하세요. 이 스크립트는 Bash 전용입니다.  
+> 커밋하기 전에 `.sh` 또는 bash 스크립트 파일을 변경하는 경우 `scripts/` 디렉터리를 확인하고 `./check.sh`를 실행하여 불필요한 공백이 있는지 확인하세요. 실패하면 `./cleanup.sh`를 실행하세요. 또한 `shfmt`로 스크립트가 형식화되어 있는지 확인하세요.
 > Rust 파일을 변경할 경우 `cargo fmt --all --check`를 실행하세요. 제안이 있으면 `cargo fmt --all`을 실행하세요.  
 > 또한 `cargo clippy`와 `cargo clippy -- -Dwarnings`를 실행하여 오류가 없는지 확인하세요. 감사합니다.
 

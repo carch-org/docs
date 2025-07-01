@@ -54,7 +54,7 @@ Nous sommes ravis que vous souhaitiez contribuer à **Carch** ! Les contribution
 > feat: votre-message-de-commit ou fix: votre-message-de-commit.
 > ```
 > 
-> Au fait, avant de faire un commit, si vous modifiez un fichier `.sh` ou un script Bash, assurez-vous de vérifier le dossier `scripts/` et d’exécuter `./check.sh` pour détecter les espaces blancs ou vides en trop. Si cela échoue, exécutez `./cleanup.sh`. Ceci est uniquement pour les scripts Bash.  
+> Au fait, avant de valider un commit, si vous modifiez un fichier `.sh` ou un script bash, assurez-vous de vérifier le répertoire `scripts/` et d’exécuter `./check.sh` pour détecter les espaces blancs superflus. Si cela échoue, exécutez `./cleanup.sh`. Assurez-vous également que les scripts shell sont formatés avec `shfmt`.  
 > Pour les fichiers Rust, assurez-vous d’exécuter `cargo fmt --all --check`. S’il y a des suggestions, exécutez `cargo fmt --all`.  
 > Assurez-vous également d’exécuter `cargo clippy` et `cargo clippy -- -Dwarnings` pour vous assurer qu’il ne reste aucune erreur. Merci.
 

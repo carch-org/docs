@@ -53,7 +53,7 @@ Wir freuen uns, dass Sie daran interessiert sind, zu **Carch** beizutragen! Beit
 > feat: your-commit-message oder fix: your-commit-message.
 > ```
 > 
-> Übrigens, bevor du committest, wenn du eine `.sh`- oder Bash-Skriptdatei änderst, überprüfe das Verzeichnis `scripts/` und führe `./check.sh` aus, um überflüssige Leer- oder Leerräume zu finden. Wenn es fehlschlägt, führe `./cleanup.sh` aus. Das gilt nur für Bash-Skripte.  
+> Übrigens, bevor du einen Commit machst, falls du eine `.sh`- oder Bash-Skript-Datei änderst, überprüfe unbedingt das Verzeichnis `scripts/` und führe `./check.sh` aus, um überflüssige Leer- oder Leerzeilen zu finden. Falls es fehlschlägt, führe `./cleanup.sh` aus. Stelle außerdem sicher, dass alle Shell-Skripte mit `shfmt` formatiert sind. 
 > Bei Änderungen an Rust-Dateien stelle sicher, dass du `cargo fmt --all --check` ausführst. Wenn es Vorschläge gibt, führe `cargo fmt --all` aus.  
 > Führe außerdem `cargo clippy` und `cargo clippy -- -Dwarnings` aus, um sicherzustellen, dass keine Fehler übrig sind. Danke.
 

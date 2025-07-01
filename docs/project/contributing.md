@@ -54,7 +54,7 @@ We're excited that you're interested in contributing to **Carch**! Contributions
 > feat: your-commit-message or fix: your-commit-message.
 > ```
 >
-> Btw, before committing, if you are changing any `.sh` or bash script file, make sure to check the `scripts/` directory and run `./check.sh` for any extra white or blank spaces. If it fails, run `./cleanup.sh`. That is only for bash scripts.  
+> Btw, before committing, if you are changing any `.sh` or bash script file, make sure to check the `scripts/` directory and run `./check.sh` for any extra white or blank spaces. If it fails, run `./cleanup.sh`. Also make sure shell scripts are formatted by shfmt.
 > For Rust file changes, make sure to run `cargo fmt --all --check`. If there are any suggestions, run `cargo fmt --all`.  
 > Also, make sure to run `cargo clippy` and `cargo clippy -- -Dwarnings` to ensure there are no errors left. Thanks.
 
