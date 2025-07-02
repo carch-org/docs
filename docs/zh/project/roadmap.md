@@ -25,10 +25,6 @@
   - 开发基于 Rust 的 TUI。
   - 添加额外的 Rust 脚本以增强功能。
 
-- **添加窗口管理器 (WM) 设置脚本 🪟**
-   - 为更多窗口管理器创建和改进安装/设置脚本（例如 i3、Sway）。
-   - 包括为每个 WM 量身定制的配置选项。
-
 - **核心系统设置脚本 ⚙️**
    - 为核心系统设置开发适合初学者的脚本（例如包管理、用户配置）。
    - 包括指南和文档以帮助新用户。
@@ -55,17 +51,6 @@
   - 创建单个可执行二进制文件。<img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - 添加额外的 Rust 脚本以增强脚本功能。<img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
-- **添加 WM 设置脚本：**
-
-  - i3 设置脚本 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-  - DWM 设置脚本 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-  - Sway 设置脚本 [ 目前仅支持 Arch ] <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-  - Hyprland 窗口管理器脚本 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - Bspwm 设置脚本 <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - River 设置脚本 <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - Wayfire 设置脚本 <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - DWL 设置脚本 <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-
 - **创建核心系统设置脚本：**
   
   - 用户配置 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
@@ -75,5 +60,4 @@
 ## 时间线（暂定）📅
 
 - **Q 2025**：开发基于 Rust 的 TUI，以增强用户交互。🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **2025 年中 / 2026**：开发额外的窗口管理器设置脚本和核心系统设置脚本。<img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - 重构现有脚本以提高稳定性，并开始扩展对发行版的支持。<img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+- **2025 年中 / 2026**： 重构现有脚本以提高稳定性，并开始扩展对发行版的支持。<img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />

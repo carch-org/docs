@@ -25,10 +25,6 @@
   - Eine Rust-basierte TUI entwickeln. 
   - Zusätzliche Rust-Skripte für erweiterte Funktionalität hinzufügen. 
 
-- **Window Manager (WM) Setup-Skripte hinzufügen 🪟**
-   - Installations-/Setup-Skripte für weitere Window Manager erstellen und verbessern (z.B. i3, Sway).
-   - Konfigurationsoptionen einschließen, die für jeden WM zugeschnitten sind.
-
 - **Kern-System Setup-Skripte ⚙️**
    - Anfängerfreundliche Skripte für die Kern-System-Einrichtung entwickeln (z.B. Paketverwaltung, Benutzerkonfiguration).
    - Anleitungen und Dokumentation einschließen, um neuen Benutzern zu helfen.
@@ -55,17 +51,6 @@
   - Eine einzige ausführbare Binärdatei erstellen. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - Zusätzliche Rust-Skripte hinzufügen, um die Skriptierbarkeit zu verbessern. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
-- **WM Setup-Skripte hinzufügen:**
-
-  - i3 Setup-Skript <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-  - DWM Setup-Skript <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-  - Sway Setup-Skript [ Derzeit nur für Arch ] <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-  - Hyprland Window Manager Skripte <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - Bspwm Setup-Skript <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - River Setup-Skript <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - Wayfire Setup-Skript <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - DWL Setup-Skript <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-
 - **Kern-System Setup-Skripte erstellen:**
   
   - Benutzerkonfiguration <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
@@ -75,5 +60,4 @@
 ## Zeitplan (Vorläufig) 📅
 
 - **Q 2025**: Entwicklung einer Rust-basierten TUI zur verbesserten Benutzerinteraktion. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **Mitte 2025/2026**: Entwicklung zusätzlicher Setup-Skripte für Window Manager und Kernsystem. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - Refaktorierung bestehender Skripte zur Verbesserung der Stabilität und Erweiterung der Distribution-Unterstützung. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+- **Mitte 2025/2026**: Refaktorierung bestehender Skripte zur Verbesserung der Stabilität und Erweiterung der Distribution-Unterstützung. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />

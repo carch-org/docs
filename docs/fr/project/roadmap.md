@@ -25,10 +25,6 @@
   - Développer une TUI basée sur Rust. 
   - Ajouter des scripts Rust supplémentaires pour des fonctionnalités améliorées. 
 
-- **Ajouter des Scripts de Configuration de Gestionnaire de Fenêtres (WM) 🪟**
-   - Créer et améliorer les scripts d'installation/configuration pour plus de gestionnaires de fenêtres (ex. i3, Sway).
-   - Inclure des options de configuration adaptées à chaque WM.
-
 - **Scripts de Configuration Système Central ⚙️**
    - Développer des scripts conviviaux pour débutants pour la configuration système centrale (ex. gestion de paquets, configuration utilisateur).
    - Inclure des guides et documentation pour aider les nouveaux utilisateurs.
@@ -55,17 +51,6 @@
   - Créer un binaire exécutable unique. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - Ajouter des scripts Rust supplémentaires pour améliorer la scriptabilité. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
-- **Ajouter des scripts de configuration WM :**
-
-  - Script de configuration i3 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-  - Script de configuration DWM <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-  - Script de configuration Sway [ Actuellement Seulement pour Arch ] <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-  - Scripts du gestionnaire de fenêtres Hyprland <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - Script de configuration Bspwm <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - Script de configuration River <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - Script de configuration Wayfire <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - Script de configuration DWL <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-
 - **Créer des scripts de configuration système central :**
   
   - Configuration utilisateur <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
@@ -75,5 +60,4 @@
 ## Calendrier (Provisoire) 📅
 
 - **T2 2025** : Développer une interface utilisateur en ligne de commande (TUI) basée sur Rust pour améliorer l’interaction utilisateur. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **Mi-2025/2026** : Développer des scripts supplémentaires pour l’installation des WM et des systèmes principaux. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - Réorganiser les scripts existants pour améliorer la stabilité et commencer à étendre la prise en charge des distributions. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+- **Mi-2025/2026** : Réorganiser les scripts existants pour améliorer la stabilité et commencer à étendre la prise en charge des distributions. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />

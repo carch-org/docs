@@ -25,10 +25,6 @@
   - Rust 기반 TUI 개발. 
   - 향상된 기능을 위한 추가 Rust 스크립트 추가. 
 
-- **윈도우 매니저(WM) 설정 스크립트 추가 🪟**
-   - 더 많은 윈도우 매니저(예: i3, Sway)를 위한 설치/설정 스크립트 생성 및 개선.
-   - 각 WM에 맞춤화된 구성 옵션 포함.
-
 - **핵심 시스템 설정 스크립트 ⚙️**
    - 핵심 시스템 설정을 위한 초보자 친화적 스크립트 개발 (예: 패키지 관리, 사용자 구성).
    - 새로운 사용자를 돕기 위한 가이드 및 문서 포함.
@@ -55,17 +51,6 @@
   - 단일 실행 바이너리 생성. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - 스크립팅 능력을 향상시키기 위한 추가 Rust 스크립트 추가. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
-- **WM 설정 스크립트 추가:**
-
-  - i3 설정 스크립트 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-  - DWM 설정 스크립트 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-  - Sway 설정 스크립트 [ 현재 Arch 전용 ] <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-  - Hyprland 윈도우 매니저 스크립트 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - Bspwm 설정 스크립트 <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - River 설정 스크립트 <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - Wayfire 설정 스크립트 <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - DWL 설정 스크립트 <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-
 - **핵심 시스템 설정 스크립트 생성:**
   
   - 사용자 구성 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
@@ -75,5 +60,4 @@
 ## 타임라인 (잠정) 📅
 
 - **Q 2025**: 사용자 상호작용 강화를 위한 Rust 기반 TUI 개발. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **2025년 중반/2026년**: 추가적인 WM 설정 스크립트 및 핵심 시스템 설정 스크립트 개발. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - 기존 스크립트를 안정성 있게 리팩토링하고 배포판 지원 확장을 시작합니다. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+- **2025년 중반/2026년**: 기존 스크립트를 안정성 있게 리팩토링하고 배포판 지원 확장을 시작합니다. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />

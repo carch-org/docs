@@ -25,10 +25,6 @@
   - Develop a Rust-based TUI. 
   - Add additional Rust scripts for enhanced functionality. 
 
-- **Add Window Manager (WM) Setup Scripts 🪟**
-   - Create and improve installation/setup scripts for more window managers (e.g., i3, Sway).
-   - Include configuration options tailored for each WM.
-
 - **Core System Setup Scripts ⚙️**
    - Develop beginner-friendly scripts for core system setup (e.g., package management, user configuration).
    - Include guides and documentation to assist new users.
@@ -55,17 +51,6 @@
   - Create a single executable binary. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - Add additional Rust scripts to enhance scriptability. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
-- **Add WM setup scripts:**
-
-  - i3 setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-  - DWM setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-  - Sway setup script [ Currently Only For Arch ] <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-  - Hyprland window manager scripts <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - Bspwm setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - River setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - Wayfire setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - DWL Setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-
 - **Create core system setup scripts:**
   
   - User configuration <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
@@ -75,5 +60,4 @@
 ## Timeline (Tentative) 📅
 
 - **Q 2025**: Develop a Rust-based TUI for enhanced user interaction. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **Q Mid 2025/2026**: Develop additional WM setup scripts and core system setup scripts. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - Refactor existing scripts for stability and begin expanding distribution support. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+- **Q Mid 2025/2026**: Refactor existing scripts for stability and begin expanding distribution support. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
