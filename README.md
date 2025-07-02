@@ -44,7 +44,7 @@ Thanks in advance for your support!
   
 ## 📚 Build Documentation
 
-*Assuming you already installed bun on your system*
+*Assuming you already installed [bun](https://bun.sh) on your system*
 
 </div>
 
