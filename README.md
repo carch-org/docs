@@ -26,21 +26,6 @@ This is the official documentation site for the [Carch](https://github.com/haril
 
 </div>
 -->
-
-## 🤝 Contributing
-
-If you somehow want to contribute to **Carch Docs**, you're more than welcome!
-
-You can contribute by:
-
-- Fixing any mistakes or typos in guides
-- Translating the documentation into other languages (this is highly encouraged!)
-
-If you're contributing a new language:
-- Check the `config.ts` file to understand how to add your language.
-- Add your translated content inside the appropriate subfolder in the `docs` directory.
-
-Thanks in advance for your support!
   
 ## 📚 Build Documentation
 
@@ -85,6 +70,21 @@ bun run docs:preview
 ```sh
 bun run docs:dev
 ```
+
+## 🤝 Contributing
+
+If you somehow want to contribute to **Carch Docs**, you're more than welcome!
+
+You can contribute by:
+
+- Fixing any mistakes or typos in guides
+- Translating the documentation into other languages (this is highly encouraged!)
+
+If you're contributing a new language:
+- Check the `config.ts` file to understand how to add your language.
+- Add your translated content inside the appropriate subfolder in the `docs` directory.
+
+Thanks in advance for your support!
 
 <!--
 [check]: https://github.com/carch-org/docs/actions/workflows/docs.yml/badge.svg
