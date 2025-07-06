@@ -14,8 +14,6 @@ carch --help
 
 - `--help, -h` 📖 *Diese Hilfenachricht anzeigen und beenden.*
 - `--version, -v` 🔢 *Die Programmversion anzeigen.*
-- `--list-scripts, -l` 📋 *Alle verfügbaren Skripte in* `./modules` *auflisten.*
-- `--no-preview` 🚫 *Ohne Anzeige von Skriptvorschauen in Menüs ausführen.*
 - `--log` 📝 *Protokollierung nur für die aktuelle Sitzung aktivieren* `~/.config/carch/carch.log`.
 - `--check-update` 📡 *Prüfen, ob eine neue Version verfügbar ist.*
 - `--update` 🔄 *Anweisungen für die Aktualisierung von Carch erhalten.*
