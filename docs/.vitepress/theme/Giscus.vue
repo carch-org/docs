@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div ref="giscus"></div>
 </template>
 
@@ -27,4 +27,4 @@ onMounted(() => {
   script.setAttribute('crossorigin', 'anonymous');
   giscus.value.appendChild(script);
 });
-</script>
+</script> -->
