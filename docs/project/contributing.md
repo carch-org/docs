@@ -27,11 +27,12 @@ We're excited that you're interested in contributing to **Carch**! Contributions
 > │   ├── app.rs
 > │   ├── mod.rs
 > │   ├── popups.rs
-> │   └── render.rs 
+> │   ├── render.rs
+> │   └── system_info.rs 
 > ├── main.rs 
 > ├── commands.rs
 > ├── display.rs
-> ├── script_list.rs 
+> ├── args.rs 
 > └── version.rs
 > ```
 > 
