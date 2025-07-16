@@ -12,6 +12,9 @@ hero:
     - theme: brand
       text: البدء ⇢
       link: /ar/getting-started/introduction
+    - theme: alt
+      text: "تثبيت 📥"
+      link: /ar/getting-started/installation
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
     title: سكريبت Bash، حياة سهلة

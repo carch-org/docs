@@ -12,6 +12,9 @@ hero:
     - theme: brand
       text: Empezar ⇢
       link: /es/getting-started/introduction
+    - theme: alt
+      text: "Instalar 📥"
+      link: /es/getting-started/installation
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
     title: Scripts Bash, vida fácil

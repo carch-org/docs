@@ -12,6 +12,9 @@ hero:
     - theme: brand
       text: सुरु गर्नुहोस् ⇢
       link: /ne/getting-started/introduction
+    - theme: alt
+      text: "इन्स्टल गर्नुहोस् 📥"
+      link: /ne/getting-started/installation
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
     title: Bash स्क्रिप्टहरू, सजिलो जीवन
