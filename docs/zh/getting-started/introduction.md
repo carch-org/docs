@@ -8,7 +8,7 @@
 <h1>什么是 Carch？</h1>
 
 *[Carch](https://carch.chalisehari.com.np)* 是-组模块化的 Bash 脚本，配有漂亮的 TUI 界面（*使用* [`ratatui`](https://github.com/ratatui-org/ratatui) *构建*），用于自动化 Linux 用户的安装后设置。  
-如果你想快速使用你的*常用应用*，并拥有一个干净且即用型的环境，这个工具特别有用。(*目前支持基于 Arch 和 Fedora 的发行版*)
+如果你想快速使用你的*常用应用*，并拥有一个干净且即用型的环境，这个工具特别有用。(*目前支持基于 Arch、Fedora 和 openSUSE 的发行版*)
 
 ## 功能特性
 <img src="https://img.icons8.com/?size=80&id=vSx5PNyFqTTo&format=png" width="50" /> 

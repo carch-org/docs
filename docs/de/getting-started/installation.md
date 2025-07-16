@@ -1,27 +1,25 @@
 # 🛠️ Installation
 
-### Installationsskript
+### 📦 Paket
 
-Sie können Carch dauerhaft auf Ihrem System mit unserem Installationsskript installieren:
-
-```sh
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
-```
-
-Sie können auch diese Optionen verwenden:
+Wir verwenden `PKGBUILD` für Arch Linux und `.rpm` Dateien für Fedora und openSUSE.
 
 ::: code-group
 
-```sh [Update]
-# Bestehende Installation aktualisieren
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- update
+```sh [<i class="devicon-archlinux-plain"></i> Arch ]
+git clone https://github.com/carch-org/pkgs ~/pkgs
+cd ~/pkgs/carch-bin
+makepkg -si
 ```
 
-```sh [Deinstallieren]
-# Carch deinstallieren
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- uninstall
+```sh [<i class="devicon-fedora-plain"></i> Fedora ]
+sudo dnf install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
 ```
-:::
+
+```sh [<i class="devicon-opensuse-plain"></i>  openSUSE ]
+sudo zypper install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
+```
+::: 
 
 ### 📦 Cargo Crate
 
@@ -61,6 +59,11 @@ sudo pacman -S --noconfirm rust man-db man git wget noto-fonts-emoji curl bash-c
 ```sh [<i class="devicon-fedora-plain"></i> Fedora]
 sudo dnf install rust man-db man git wget google-noto-color-emoji-fonts google-noto-emoji-fonts jetbrains-mono-fonts-all bash-completion-devel curl cargo fzf glibc gcc -y
 ```
+
+```sh [<i class="devicon-opensuse-plain"></i>  openSUSE ]
+sudo zypper install -y rust man man-pages git wget google-noto-fonts google-noto-coloremoji-fonts jetbrains-mono-fonts  symbols-only-nerd-fonts bash-completion curl fzf glibc gcc  
+```
+
 :::
 
 #### 🔧 Klonen und Erstellen
@@ -70,7 +73,19 @@ git clone --depth 1 https://github.com/harilvfs/carch
 cd carch
 cargo build --release
 cd build/release/
-sudo cp -r carch /usr/local/bin/
+sudo cp -r carch /usr/bin/
 ```
 
-Jetzt können Sie `carch` in Ihrem Terminal ausführen. Wenn Sie auf Fedora Probleme haben, könnten diese abhängigkeitsbezogen sein. Die Installation sollte reibungslos funktionieren, aber falls Probleme auftreten, öffnen Sie bitte ein [Issue](https://github.com/harilvfs/carch/issues) oder senden Sie mir eine E-Mail an **harilvfs@chalisehari.com.np**.
+### 🔄 Aktualisierung & Deinstallation
+
+::: code-group
+
+```sh [ Aktualisierung ]
+carch --update
+```
+
+```sh [ Deinstallation ]
+carch --uninstall
+```
+
+:::

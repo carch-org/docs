@@ -5,9 +5,9 @@ pageClass: home-page
 hero:
   name: Carch 🧩
   image:
-    alt: null
+    alt: null 
     style: "width: 200px; height: auto;"
-  tagline: Automatisiere die Einrichtung deines Linux-Systems
+  tagline: Automatisiere dein Linux-System-Setup
   actions:
     - theme: brand
       text: Erste Schritte ⇢
@@ -15,21 +15,21 @@ hero:
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
     title: Bash-Skripte, einfaches Leben
-    details: Die Einrichtung erfolgt weiterhin über einfache Bash-Skripte – schnell, sauber und ohne Schnickschnack.
-  - icon: <img width="35" height="35" src="https://img.icons8.com/?size=100&id=ZbBhBW0N2q3D&format=png&color=000000" alt="fedora"/>
-    title: Fedora-kompatibel
-    details: Unterstützt sowohl Fedora- als auch Arch-basierte Systeme mit individuellen Anpassungen.
+    details: Setup wird immer noch von einfachen Bash-Skripten angetrieben - schnell, sauber und ohne Schnickschnack.
+  - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12969/12969897.png" alt="distro"/>
+    title: Multi-Distro-Support
+    details: Unterstützt Distributionen wie Arch, Fedora und openSUSE.
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=80&id=mcrzTGVMglJn&format=png" alt="tweaks"/>
-    title: Alles anpassbar
-    details: Enthält viele Skripte zur Einrichtung von DWM, Hyprland und anderen Umgebungen.
+    title: Stelle alles ein
+    details: Enthält eine Menge Skripte zur Einrichtung von DWM, Hyprland und anderen Systemeinstellungen.
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12400/12400985.png" alt="development"/>
-    title: Noch in Arbeit
-    details: Aktive Weiterentwicklung – jetzt mit Rust-basiertem TUI und weiteren Updates.
+    title: Noch in Entwicklung
+    details: Verbessert aktiv Sachen mit einem Rust-gestützten TUI und weitere Updates kommen.
 ---
 
 <img
   src="https://raw.githubusercontent.com/harilvfs/carch/refs/heads/main/.github/preview.gif"
-  alt="Carch Vorschau"
+  alt="Carch preview"
   style="max-width: 720px; width: 100%; border-radius: 12px; margin: 2rem auto; display: block;"
 />
 
@@ -44,9 +44,9 @@ Wähle eine der folgenden Versionen, um Carch auszuprobieren:
 </div>
 
 > [!IMPORTANT]
-> **Stelle sicher, dass `curl` auf deinem System installiert ist, bevor du diese Befehle ausführst.**
+> **Stelle sicher, dass `curl` in deiner Distribution installiert ist, bevor du diese Befehle ausführst.**
 >
-> ***Beachte auch, dass Carch derzeit nur für*** **Arch- und Fedora-basierte Distributionen** ***verfügbar ist. Es funktioniert nicht mit anderen Distributionen.***
+> ***Beachte auch, dass Carch derzeit nur*** **Arch-, Fedora- und openSUSE-basierte Distributionen** ***unterstützt. Es wird nicht auf anderen Distributionen funktionieren.***
 
 #### ⭐ Stabile Version
 
@@ -54,7 +54,7 @@ Wähle eine der folgenden Versionen, um Carch auszuprobieren:
 bash -c "$(curl -fsSL chalisehari.com.np/carch)"
 ```
 
-#### 🧪 Entwickler-Version
+#### 🧪 Entwicklungsversion
 
 ```sh 
 bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"
@@ -114,5 +114,5 @@ bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"
 </style>
 
 <footer style="text-align:center; font-size: 0.75rem; color: var(--vp-c-text-muted, #888); margin-top: 3rem;">
-  Docs Source Code <a href="https://github.com/carch-org/docs" target="_blank" rel="noopener" style="color: var(--vp-c-brand-2); text-decoration: none;">carch-org/docs</a>
+  Dokumentations-Quellcode <a href="https://github.com/carch-org/docs" target="_blank" rel="noopener" style="color: var(--vp-c-brand-2); text-decoration: none;">carch-org/docs</a>
 </footer>

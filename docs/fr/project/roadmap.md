@@ -37,7 +37,7 @@
   - Arch <img src="https://img.icons8.com/?size=48&id=uIXgLv5iSlLJ&format=png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - Fedora <img src="https://img.icons8.com/?size=48&id=ZbBhBW0N2q3D&format=png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
   - Debian <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" /> 
-  - openSUSE <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - openSUSE <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/suse/opensuse.png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />  
   - Void <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **Refactoriser les scripts pour la stabilité :**
@@ -60,4 +60,4 @@
 ## Calendrier (Provisoire) 📅
 
 - **T2 2025** : Développer une interface utilisateur en ligne de commande (TUI) basée sur Rust pour améliorer l’interaction utilisateur. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **Mi-2025/2026** : Réorganiser les scripts existants pour améliorer la stabilité et commencer à étendre la prise en charge des distributions. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+- **Mi-2025/2026** : Réorganiser les scripts existants pour améliorer la stabilité et commencer à étendre la prise en charge des distributions. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />

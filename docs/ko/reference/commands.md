@@ -16,5 +16,5 @@ carch --help
 - `--version, -v` 🔢 *프로그램 버전을 표시합니다.*
 - `--log` 📝 *현재 세션에서만 로깅을 활성화합니다* `~/.config/carch/carch.log`.
 - `--check-update` 📡 *새 버전이 사용 가능한지 확인합니다.*
-- `--update` 🔄 *Carch 업데이트 지침을 받습니다.*
-- `--uninstall` 🗑️ *Carch 제거 지침을 받습니다.*
+- `--update` 🔄 *Carch를 대화형으로 업데이트.*
+- `--uninstall` 🗑️ *Carch를 대화형으로 제거.*

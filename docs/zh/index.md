@@ -5,31 +5,31 @@ pageClass: home-page
 hero:
   name: Carch 🧩
   image:
-    alt: null
+    alt: null 
     style: "width: 200px; height: auto;"
-  tagline: 自动化你的 Linux 系统设置
+  tagline: 自动化您的Linux系统设置
   actions:
     - theme: brand
-      text: 入门 ⇢
+      text: 开始使用 ⇢
       link: /zh/getting-started/introduction
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
-    title: Bash 脚本，轻松生活
-    details: 设置仍然由简单的 Bash 脚本驱动，快速、干净、无废话。
-  - icon: <img width="35" height="35" src="https://img.icons8.com/?size=100&id=ZbBhBW0N2q3D&format=png&color=000000" alt="fedora"/>
-    title: Fedora 友好
-    details: 支持 Fedora 和 Arch 系系统，并为每种系统定制优化。
+    title: Bash脚本，轻松生活
+    details: 设置仍然由简单的Bash脚本驱动 - 快速、干净、无冗余。
+  - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12969/12969897.png" alt="distro"/>
+    title: 多发行版支持
+    details: 支持Arch、Fedora和openSUSE等发行版。
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=80&id=mcrzTGVMglJn&format=png" alt="tweaks"/>
-    title: 调整一切
-    details: 包含用于设置 DWM、Hyprland 和其他环境的大量脚本。
+    title: 调整所有内容
+    details: 包含大量脚本来设置DWM、Hyprland和其他系统设置。
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12400/12400985.png" alt="development"/>
     title: 仍在开发中
-    details: 正在积极改进，现在加入了基于 Rust 的 TUI，更多更新即将到来。
+    details: 正在积极改进功能，现在有基于Rust的TUI，更多更新即将到来。
 ---
 
 <img
   src="https://raw.githubusercontent.com/harilvfs/carch/refs/heads/main/.github/preview.gif"
-  alt="Carch 预览"
+  alt="Carch preview"
   style="max-width: 720px; width: 100%; border-radius: 12px; margin: 2rem auto; display: block;"
 />
 
@@ -37,24 +37,24 @@ features:
 
 ### 如何使用？
 
-你可以直接运行或使用 Carch，而无需在系统中安装它。
+您可以直接运行或使用Carch，无需在系统上安装。
 
-选择以下版本之一来尝试 Carch：
+选择以下版本之一来试用Carch：
 
 </div>
 
 > [!IMPORTANT]
-> **请确保在运行这些命令之前，您的发行版中已安装 `curl`。**
+> **在运行这些命令之前，请确保您的发行版中已安装`curl`。**
 >
-> ***另外请注意，Carch 目前仅支持*** **Arch 和 Fedora 系的发行版**，***在其他系统上无法运行。***
+> ***另外请注意，Carch目前仅支持*** **基于Arch、Fedora和openSUSE的发行版**。***它不会在其他发行版上工作。***
 
-#### ⭐ 稳定版本
+#### ⭐ 稳定版
 
 ```sh
 bash -c "$(curl -fsSL chalisehari.com.np/carch)"
 ```
 
-#### 🧪 开发版本
+#### 🧪 开发版
 
 ```sh 
 bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"
@@ -114,5 +114,5 @@ bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"
 </style>
 
 <footer style="text-align:center; font-size: 0.75rem; color: var(--vp-c-text-muted, #888); margin-top: 3rem;">
-  Docs Source Code <a href="https://github.com/carch-org/docs" target="_blank" rel="noopener" style="color: var(--vp-c-brand-2); text-decoration: none;">carch-org/docs</a>
+  文档源代码 <a href="https://github.com/carch-org/docs" target="_blank" rel="noopener" style="color: var(--vp-c-brand-2); text-decoration: none;">carch-org/docs</a>
 </footer>

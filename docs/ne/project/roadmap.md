@@ -37,7 +37,7 @@
   - Arch <img src="https://img.icons8.com/?size=48&id=uIXgLv5iSlLJ&format=png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - Fedora <img src="https://img.icons8.com/?size=48&id=ZbBhBW0N2q3D&format=png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
   - Debian <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" /> 
-  - openSUSE <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - openSUSE <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/suse/opensuse.png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />  
   - Void <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **स्थिरताका लागि स्क्रिप्टहरू रिफ्याक्टर:**
@@ -60,4 +60,4 @@
 ## समयसीमा (अस्थायी) 📅
 
 - **Q 2025**: प्रयोगकर्ता अन्तरक्रिया सुधार गर्न Rust-आधारित TUI विकास गर्नुहोस्। 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **२०२५/२०२६ को मध्य**: स्थिरताको लागि हालका स्क्रिप्टहरू पुनःसंरचना गर्नुहोस् र वितरण समर्थन विस्तार गर्न सुरु गर्नुहोस्। <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+- **२०२५/२०२६ को मध्य**: स्थिरताको लागि हालका स्क्रिप्टहरू पुनःसंरचना गर्नुहोस् र वितरण समर्थन विस्तार गर्न सुरु गर्नुहोस्। <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />

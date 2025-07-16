@@ -16,5 +16,6 @@ carch --help
 - `--version, -v` 🔢 *Afficher la version du programme.*
 - `--log` 📝 *Activer les journaux pour la session actuelle uniquement* `~/.config/carch/carch.log`.
 - `--check-update` 📡 *Vérifier si une nouvelle version est disponible.*
-- `--update` 🔄 *Obtenir les instructions pour mettre à jour Carch.*
-- `--uninstall` 🗑️ *Obtenir les instructions pour désinstaller Carch.*
+- `--update` 🔄 *Mettre à jour Carch de manière interactive.*
+- `--uninstall` 🗑️ *Désinstaller Carch de manière interactive.*
+

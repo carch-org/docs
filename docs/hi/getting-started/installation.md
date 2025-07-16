@@ -1,46 +1,44 @@
 # 🛠️ इंस्टॉलेशन
 
-### इंस्टॉल स्क्रिप्ट
+### 📦 पैकेज
 
-आप हमारी इंस्टॉल स्क्रिप्ट का उपयोग करके सी-आर्च को अपने सिस्टम पर स्थायी रूप से इंस्टॉल कर सकते हैं:
-
-```sh
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
-```
-
-आप इन विकल्पों का भी उपयोग कर सकते हैं:
+हम Arch Linux के लिए `PKGBUILD` और Fedora और openSUSE के लिए `.rpm` फाइलों का उपयोग करते हैं।
 
 ::: code-group
 
-```sh [अपडेट]
-# मौजूदा इंस्टॉलेशन को अपडेट करें
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- update
+```sh [<i class="devicon-archlinux-plain"></i> Arch ]
+git clone https://github.com/carch-org/pkgs ~/pkgs
+cd ~/pkgs/carch-bin
+makepkg -si
 ```
 
-```sh [अनइंस्टॉल]
-# सी-आर्च को अनइंस्टॉल करें
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- uninstall
+```sh [<i class="devicon-fedora-plain"></i> Fedora ]
+sudo dnf install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
 ```
-:::
 
-### 📦 कार्गो क्रेट
+```sh [<i class="devicon-opensuse-plain"></i>  openSUSE ]
+sudo zypper install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
+```
+::: 
+
+### 📦 Cargo Crate
 
 <br>
 
 <img src="https://img.shields.io/crates/v/carch?style=for-the-badge&logo=rust&color=f5a97f&logoColor=fe640b&labelColor=171b22" >
 
-सी-आर्च [crates.io](https://crates.io/) पर उपलब्ध है।
+Carch [crates.io](https://crates.io/) पर उपलब्ध है।
 
-आप [carch](https://crates.io/crates/carch) क्रेट के साथ कार्गो का उपयोग करके इसे इंस्टॉल कर सकते हैं।
+आप इसे [carch](https://crates.io/crates/carch) crate के साथ Cargo का उपयोग करके इंस्टॉल कर सकते हैं।
 
 ```sh
 cargo install carch
 ```
 
-यह पूरा होने के बाद, आप अपने टर्मिनल में `carch` टाइप करके इसे चला सकते हैं।
+यह हो जाने के बाद, आप अपने टर्मिनल में `carch` टाइप करके इसे चला सकते हैं।
 
 :::tip :bulb: टिप
-यदि `carch` पहचाना नहीं जा रहा है, तो कार्गो की bin डायरेक्टरी को अपने PATH में जोड़ें:
+यदि `carch` पहचाना नहीं जा रहा है, तो Cargo के bin निर्देशिका को अपने PATH में जोड़ें:
 
 ```sh
 export PATH="$HOME/.cargo/bin:$PATH"
@@ -48,19 +46,24 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 :::
 
-### 🏗️ मैन्युअल इंस्टॉलेशन
+### 🏗️ मैनुअल इंस्टॉलेशन
 
-#### 📜 डिपेंडेंसीज
+#### 📜 डिपेंडेंसी
 
 :::code-group
 
-```sh [<i class="devicon-archlinux-plain"></i> आर्च]
+```sh [<i class="devicon-archlinux-plain"></i> Arch]
 sudo pacman -S --noconfirm rust man-db man git wget noto-fonts-emoji curl bash-completion ttf-nerd-fonts-symbols ttf-jetbrains-mono-nerd cargo fzf glibc gcc
 ```
 
-```sh [<i class="devicon-fedora-plain"></i> फेडोरा]
+```sh [<i class="devicon-fedora-plain"></i> Fedora]
 sudo dnf install rust man-db man git wget google-noto-color-emoji-fonts google-noto-emoji-fonts jetbrains-mono-fonts-all bash-completion-devel curl cargo fzf glibc gcc -y
 ```
+
+```sh [<i class="devicon-opensuse-plain"></i>  openSUSE ]
+sudo zypper install -y rust man man-pages git wget google-noto-fonts google-noto-coloremoji-fonts jetbrains-mono-fonts  symbols-only-nerd-fonts bash-completion curl fzf glibc gcc  
+```
+
 :::
 
 #### 🔧 क्लोन और बिल्ड
@@ -70,7 +73,19 @@ git clone --depth 1 https://github.com/harilvfs/carch
 cd carch
 cargo build --release
 cd build/release/
-sudo cp -r carch /usr/local/bin/
+sudo cp -r carch /usr/bin/
 ```
 
-अब आप अपने टर्मिनल में `carch` चला सकते हैं। यदि आपको फेडोरा पर कोई समस्या आती है, तो वे डिपेंडेंसी संबंधी हो सकती हैं। इंस्टॉलेशन सुचारू रूप से काम करना चाहिए, लेकिन यदि कोई समस्या आती है, तो कृपया एक [इश्यू](https://github.com/harilvfs/carch/issues) खोलें या मुझे **harilvfs@chalisehari.com.np** पर ईमेल करें।
+### 🔄 अपडेट और अनइंस्टॉल
+
+::: code-group
+
+```sh [ अपडेट ]
+carch --update
+```
+
+```sh [ अनइंस्टॉल ]
+carch --uninstall
+```
+
+:::

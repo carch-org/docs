@@ -37,7 +37,7 @@
   - Arch <img src="https://img.icons8.com/?size=48&id=uIXgLv5iSlLJ&format=png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - Fedora <img src="https://img.icons8.com/?size=48&id=ZbBhBW0N2q3D&format=png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
   - Debian <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" /> 
-  - openSUSE <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - openSUSE <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/suse/opensuse.png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />  
   - Void <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **Skripte für Stabilität überarbeiten:**
@@ -60,4 +60,4 @@
 ## Zeitplan (Vorläufig) 📅
 
 - **Q 2025**: Entwicklung einer Rust-basierten TUI zur verbesserten Benutzerinteraktion. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **Mitte 2025/2026**: Refaktorierung bestehender Skripte zur Verbesserung der Stabilität und Erweiterung der Distribution-Unterstützung. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+- **Mitte 2025/2026**: Refaktorierung bestehender Skripte zur Verbesserung der Stabilität und Erweiterung der Distribution-Unterstützung. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />

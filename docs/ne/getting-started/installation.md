@@ -1,27 +1,25 @@
 # 🛠️ स्थापना
 
-### स्थापना स्क्रिप्ट
+### 📦 प्याकेज
 
-तपाईं हाम्रो स्थापना स्क्रिप्ट प्रयोग गरेर आफ्नो सिस्टममा Carch स्थायी रूपमा स्थापना गर्न सक्नुहुन्छ:
-
-```sh
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
-```
-
-तपाईं यी विकल्पहरू पनि प्रयोग गर्न सक्नुहुन्छ:
+हामी Arch Linux को लागि `PKGBUILD` र Fedora र openSUSE को लागि `.rpm` फाइलहरू प्रयोग गर्छौं।
 
 ::: code-group
 
-```sh [अपडेट]
-# अवस्थित स्थापनालाई अपडेट गर्नुहोस्
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- update
+```sh [<i class="devicon-archlinux-plain"></i> Arch ]
+git clone https://github.com/carch-org/pkgs ~/pkgs
+cd ~/pkgs/carch-bin
+makepkg -si
 ```
 
-```sh [हटाउनुहोस्]
-# Carch हटाउनुहोस्
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- uninstall
+```sh [<i class="devicon-fedora-plain"></i> Fedora ]
+sudo dnf install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
 ```
-:::
+
+```sh [<i class="devicon-opensuse-plain"></i>  openSUSE ]
+sudo zypper install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
+```
+::: 
 
 ### 📦 Cargo Crate
 
@@ -31,16 +29,16 @@ bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- uninstall
 
 Carch [crates.io](https://crates.io/) मा उपलब्ध छ।
 
-तपाईं [carch](https://crates.io/crates/carch) crate सँग Cargo प्रयोग गरेर यसलाई स्थापना गर्न सक्नुहुन्छ।
+तपाईं यसलाई [carch](https://crates.io/crates/carch) crate सँग Cargo प्रयोग गरेर स्थापना गर्न सक्नुहुन्छ।
 
 ```sh
 cargo install carch
 ```
 
-त्यो सकिएपछि, तपाईं आफ्नो टर्मिनलमा `carch` टाइप गरेर यसलाई चलाउन सक्नुहुन्छ।
+एक पटक सकिएपछि, तपाईं आफ्नो टर्मिनलमा `carch` टाइप गरेर यसलाई चलाउन सक्नुहुन्छ।
 
 :::tip :bulb: सुझाव
-यदि `carch` पहिचान भएको छैन भने, Cargo को bin डाइरेक्टरीलाई आफ्नो PATH मा थप्नुहोस्:
+यदि `carch` पहिचान हुँदैन भने, Cargo को bin डाइरेक्टरी आफ्नो PATH मा थप्नुहोस्:
 
 ```sh
 export PATH="$HOME/.cargo/bin:$PATH"
@@ -61,6 +59,11 @@ sudo pacman -S --noconfirm rust man-db man git wget noto-fonts-emoji curl bash-c
 ```sh [<i class="devicon-fedora-plain"></i> Fedora]
 sudo dnf install rust man-db man git wget google-noto-color-emoji-fonts google-noto-emoji-fonts jetbrains-mono-fonts-all bash-completion-devel curl cargo fzf glibc gcc -y
 ```
+
+```sh [<i class="devicon-opensuse-plain"></i>  openSUSE ]
+sudo zypper install -y rust man man-pages git wget google-noto-fonts google-noto-coloremoji-fonts jetbrains-mono-fonts  symbols-only-nerd-fonts bash-completion curl fzf glibc gcc  
+```
+
 :::
 
 #### 🔧 क्लोन र बिल्ड
@@ -70,7 +73,19 @@ git clone --depth 1 https://github.com/harilvfs/carch
 cd carch
 cargo build --release
 cd build/release/
-sudo cp -r carch /usr/local/bin/
+sudo cp -r carch /usr/bin/
 ```
 
-अब तपाईं आफ्नो टर्मिनलमा `carch` चलाउन सक्नुहुन्छ। यदि तपाईंले Fedora मा कुनै समस्याहरू सामना गर्नुभयो भने, ती निर्भरता सम्बन्धित हुन सक्छन्। स्थापना सजिलैसँग काम गर्नुपर्छ, तर यदि कुनै समस्याहरू उत्पन्न भएमा, कृपया [issue](https://github.com/harilvfs/carch/issues) खोल्नुहोस् वा मलाई **harilvfs@chalisehari.com.np** मा इमेल गर्नुहोस्।
+### 🔄 अपडेट र अनइन्स्टल
+
+::: code-group
+
+```sh [ अपडेट ]
+carch --update
+```
+
+```sh [ अनइन्स्टल ]
+carch --uninstall
+```
+
+:::

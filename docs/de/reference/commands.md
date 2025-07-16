@@ -16,5 +16,5 @@ carch --help
 - `--version, -v` 🔢 *Die Programmversion anzeigen.*
 - `--log` 📝 *Protokollierung nur für die aktuelle Sitzung aktivieren* `~/.config/carch/carch.log`.
 - `--check-update` 📡 *Prüfen, ob eine neue Version verfügbar ist.*
-- `--update` 🔄 *Anweisungen für die Aktualisierung von Carch erhalten.*
-- `--uninstall` 🗑️ *Anweisungen für die Deinstallation von Carch erhalten.*
+- `--update` 🔄 *Carch interaktiv aktualisieren.*
+- `--uninstall` 🗑️ *Carch interaktiv deinstallieren.*

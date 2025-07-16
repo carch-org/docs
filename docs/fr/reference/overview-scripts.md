@@ -12,9 +12,6 @@
 ### Hyprland
 - *Installe le compositeur Hyprland avec mes dotfiles pré-configurés pour une installation simplifiée.*
 
-### i3wm
-- *Installe et configure i3, offrant une expérience de gestion de fenêtres légère et efficace.*
-
 ### Polices
 - *Télécharge et installe une variété de Nerd Fonts pour améliorer la lisibilité et l'esthétique dans les applications de terminal.*
 
@@ -53,9 +50,6 @@
 
 ### Thèmes et Icônes
 - *Installe et applique un ensemble de thèmes et d'icônes pour améliorer l'apparence de votre bureau.*
-
-### SwayWM
-- *Installe et configure Sway, un gestionnaire de fenêtres en mosaïque léger pour Wayland, destiné aux utilisateurs expérimentés qui préfèrent le clavier.*  
 
 ### Fonds d'écran
 - *Installe une sélection de fonds d'écran pour une esthétique de bureau personnalisée.*

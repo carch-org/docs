@@ -12,9 +12,6 @@
 ### Hyprland
 - *Installiert den Hyprland-Compositor zusammen mit meinen vorkonfigurierten Dotfiles für eine optimierte Einrichtung.*
 
-### i3wm
-- *Installiert und konfiguriert i3 und bietet eine leichtgewichtige und effiziente Fensterverwaltungserfahrung.*
-
 ### Schriftarten
 - *Lädt eine Vielzahl von Nerd Fonts herunter und installiert sie für verbesserte Lesbarkeit und Ästhetik in Terminal-Anwendungen.*
 
@@ -52,10 +49,7 @@
 - *Konfiguriert den SDDM (Simple Desktop Display Manager) für ein optimiertes und visuell ansprechendes Anmeldeerlebnis.*
 
 ### Themes & Icons
-- *Installiert und wendet eine Reihe von Themes und Icons an, um das Aussehen und Gefühl Ihres Desktops zu verbessern.*
-
-### SwayWM
-- *Installiert und konfiguriiert Sway, einen leichten, kachelnden Fenstermanager für Wayland, der für erfahrene Nutzer ausgelegt ist, die das Arbeiten mit der Tastatur bevorzugen.*  
+- *Installiert und wendet eine Reihe von Themes und Icons an, um das Aussehen und Gefühl Ihres Desktops zu verbessern.* 
 
 ### Hintergrundbilder
 - *Installiert eine Auswahl von Hintergrundbildern für eine personalisierte Desktop-Ästhetik.*

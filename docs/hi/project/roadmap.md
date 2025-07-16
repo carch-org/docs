@@ -37,7 +37,7 @@
   - आर्च <img src="https://img.icons8.com/?size=48&id=uIXgLv5iSlLJ&format=png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - फेडोरा <img src="https://img.icons8.com/?size=48&id=ZbBhBW0N2q3D&format=png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
   - डेबियन <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" /> 
-  - openSUSE <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - openSUSE <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/suse/opensuse.png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />  
   - Void <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **स्थिरता के लिए स्क्रिप्ट्स को रिफैक्टर करें:**
@@ -60,4 +60,4 @@
 ## समयसीमा (अस्थायी) 📅
 
 - **Q 2025**: बेहतर यूज़र इंटरैक्शन के लिए Rust आधारित TUI विकसित करें। 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **मध्य 2025/2026**: मौजूदा स्क्रिप्ट्स को स्थिरता के लिए रिफैक्टर करें और वितरण समर्थन को बढ़ाना शुरू करें। <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+- **मध्य 2025/2026**: मौजूदा स्क्रिप्ट्स को स्थिरता के लिए रिफैक्टर करें और वितरण समर्थन को बढ़ाना शुरू करें। <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />

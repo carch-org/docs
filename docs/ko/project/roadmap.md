@@ -37,7 +37,7 @@
   - Arch <img src="https://img.icons8.com/?size=48&id=uIXgLv5iSlLJ&format=png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - Fedora <img src="https://img.icons8.com/?size=48&id=ZbBhBW0N2q3D&format=png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
   - Debian <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" /> 
-  - openSUSE <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+  - openSUSE <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/suse/opensuse.png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />  
   - Void <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **안정성을 위한 스크립트 리팩토링:**
@@ -60,4 +60,4 @@
 ## 타임라인 (잠정) 📅
 
 - **Q 2025**: 사용자 상호작용 강화를 위한 Rust 기반 TUI 개발. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **2025년 중반/2026년**: 기존 스크립트를 안정성 있게 리팩토링하고 배포판 지원 확장을 시작합니다. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+- **2025년 중반/2026년**: 기존 스크립트를 안정성 있게 리팩토링하고 배포판 지원 확장을 시작합니다. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />

@@ -1,29 +1,27 @@
 # 🛠️ Installation
 
-### Script d'Installation
+### 📦 Package
 
-Vous pouvez installer Carch de manière permanente sur votre système en utilisant notre script d'installation :
-
-```sh
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
-```
-
-Vous pouvez également utiliser ces options :
+Nous utilisons `PKGBUILD` pour Arch Linux et les fichiers `.rpm` pour Fedora et openSUSE.
 
 ::: code-group
 
-```sh [Mise à jour]
-# Mettre à jour l'installation existante
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- update
+```sh [<i class="devicon-archlinux-plain"></i> Arch ]
+git clone https://github.com/carch-org/pkgs ~/pkgs
+cd ~/pkgs/carch-bin
+makepkg -si
 ```
 
-```sh [Désinstaller]
-# Désinstaller Carch
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- uninstall
+```sh [<i class="devicon-fedora-plain"></i> Fedora ]
+sudo dnf install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
 ```
-:::
 
-### 📦 Crate Cargo
+```sh [<i class="devicon-opensuse-plain"></i>  openSUSE ]
+sudo zypper install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
+```
+::: 
+
+### 📦 Cargo Crate
 
 <br>
 
@@ -37,7 +35,7 @@ Vous pouvez l'installer en utilisant Cargo avec le crate [carch](https://crates.
 cargo install carch
 ```
 
-Une fois cela fait, vous pouvez l'exécuter en tapant `carch` dans votre terminal.
+Une fois fait, vous pouvez l'exécuter en tapant `carch` dans votre terminal.
 
 :::tip :bulb: ASTUCE
 Si `carch` n'est pas reconnu, ajoutez le répertoire bin de Cargo à votre PATH :
@@ -61,16 +59,33 @@ sudo pacman -S --noconfirm rust man-db man git wget noto-fonts-emoji curl bash-c
 ```sh [<i class="devicon-fedora-plain"></i> Fedora]
 sudo dnf install rust man-db man git wget google-noto-color-emoji-fonts google-noto-emoji-fonts jetbrains-mono-fonts-all bash-completion-devel curl cargo fzf glibc gcc -y
 ```
+
+```sh [<i class="devicon-opensuse-plain"></i>  openSUSE ]
+sudo zypper install -y rust man man-pages git wget google-noto-fonts google-noto-coloremoji-fonts jetbrains-mono-fonts  symbols-only-nerd-fonts bash-completion curl fzf glibc gcc  
+```
+
 :::
 
-#### 🔧 Cloner et Compiler
+#### 🔧 Cloner et Construire
 
 ```sh
 git clone --depth 1 https://github.com/harilvfs/carch
 cd carch
 cargo build --release
 cd build/release/
-sudo cp -r carch /usr/local/bin/
+sudo cp -r carch /usr/bin/
 ```
 
-Maintenant vous pouvez exécuter `carch` dans votre terminal. Si vous rencontrez des problèmes sur Fedora, ils pourraient être liés aux dépendances. L'installation devrait fonctionner sans problème, mais si des problèmes surviennent, veuillez ouvrir une [issue](https://github.com/harilvfs/carch/issues) ou m'envoyer un email à **harilvfs@chalisehari.com.np**.
+### 🔄 Mise à jour et Désinstallation
+
+::: code-group
+
+```sh [ Mise à jour ]
+carch --update
+```
+
+```sh [ Désinstallation ]
+carch --uninstall
+```
+
+:::

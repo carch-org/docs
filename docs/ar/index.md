@@ -5,48 +5,48 @@ pageClass: home-page
 hero:
   name: Carch 🧩
   image:
-    alt: null
+    alt: null 
     style: "width: 200px; height: auto;"
-  tagline: قم بأتمتة إعداد نظام لينكس الخاص بك
+  tagline: أتمتة إعداد نظام Linux الخاص بك
   actions:
     - theme: brand
       text: البدء ⇢
       link: /ar/getting-started/introduction
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
-    title: سكربتات Bash، حياة أسهل
-    details: الإعداد يتم باستخدام سكربتات Bash البسيطة — سريعة، نظيفة، وخالية من التعقيدات.
-  - icon: <img width="35" height="35" src="https://img.icons8.com/?size=100&id=ZbBhBW0N2q3D&format=png&color=000000" alt="fedora"/>
-    title: متوافق مع Fedora
-    details: يدعم أنظمة Fedora و Arch مع تخصيصات مخصصة لكلٍ منهما.
+    title: سكريبت Bash، حياة سهلة
+    details: الإعداد لا يزال يعمل بسكريبت Bash البسيط - سريع ونظيف وبدون تعقيد.
+  - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12969/12969897.png" alt="distro"/>
+    title: دعم متعدد التوزيعات
+    details: يدعم التوزيعات مثل Arch و Fedora و openSUSE.
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=80&id=mcrzTGVMglJn&format=png" alt="tweaks"/>
-    title: خصّص كل شيء
-    details: يتضمن مجموعة من السكربتات لإعداد DWM و Hyprland وبيئات أخرى.
+    title: اضبط كل شيء
+    details: يتضمن مجموعة من السكريبتات لإعداد DWM و Hyprland وإعدادات النظام الأخرى.
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12400/12400985.png" alt="development"/>
-    title: ما زال قيد التطوير
-    details: يتم تطويره بنشاط الآن مع TUI مدعوم بلغة Rust والمزيد من التحديثات قريباً.
+    title: لا يزال قيد التطوير
+    details: يتم تحسين الأشياء بنشاط الآن مع TUI مدعوم بـ Rust والمزيد من التحديثات قادمة.
 ---
 
 <img
   src="https://raw.githubusercontent.com/harilvfs/carch/refs/heads/main/.github/preview.gif"
-  alt="عرض Carch"
+  alt="Carch preview"
   style="max-width: 720px; width: 100%; border-radius: 12px; margin: 2rem auto; display: block;"
 />
 
 <div align="center">
 
-### كيف تستخدمه؟
+### كيفية الاستخدام؟
 
-يمكنك تشغيل Carch مباشرة بدون تثبيته على نظامك.
+يمكنك تشغيل أو استخدام Carch مباشرة دون تثبيته على نظامك.
 
-اختر أحد الإصدارات التالية لتجربة Carch:
+اختر إحدى النسخ التالية لتجربة Carch:
 
 </div>
 
 > [!IMPORTANT]
-> **تأكد من وجود `curl` مثبت على توزيعتك قبل تشغيل هذه الأوامر.**
+> **تأكد من تثبيت `curl` في توزيعتك قبل تشغيل هذه الأوامر.**
 >
-> ***يرجى الملاحظة أن Carch حالياً مخصص فقط لتوزيعات*** **Arch و Fedora**. ***لن يعمل على توزيعات أخرى.***
+> ***لاحظ أيضاً أن Carch يدعم حالياً فقط*** **التوزيعات المبنية على Arch و Fedora و openSUSE**. ***لن يعمل على التوزيعات الأخرى.***
 
 #### ⭐ النسخة المستقرة
 
@@ -54,7 +54,7 @@ features:
 bash -c "$(curl -fsSL chalisehari.com.np/carch)"
 ```
 
-#### 🧪 النسخة التجريبية
+#### 🧪 نسخة التطوير
 
 ```sh 
 bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"
@@ -114,5 +114,5 @@ bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"
 </style>
 
 <footer style="text-align:center; font-size: 0.75rem; color: var(--vp-c-text-muted, #888); margin-top: 3rem;">
-  Docs Source Code <a href="https://github.com/carch-org/docs" target="_blank" rel="noopener" style="color: var(--vp-c-brand-2); text-decoration: none;">carch-org/docs</a>
+  كود مصدر الوثائق <a href="https://github.com/carch-org/docs" target="_blank" rel="noopener" style="color: var(--vp-c-brand-2); text-decoration: none;">carch-org/docs</a>
 </footer>

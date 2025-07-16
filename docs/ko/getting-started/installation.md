@@ -1,27 +1,25 @@
 # 🛠️ 설치
 
-### 설치 스크립트
+### 📦 패키지
 
-설치 스크립트를 사용하여 Carch를 시스템에 영구적으로 설치할 수 있습니다:
-
-```sh
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
-```
-
-다음 옵션들도 사용할 수 있습니다:
+Arch Linux에는 `PKGBUILD`를, Fedora와 openSUSE에는 `.rpm` 파일을 사용합니다.
 
 ::: code-group
 
-```sh [업데이트]
-# 기존 설치 업데이트
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- update
+```sh [<i class="devicon-archlinux-plain"></i> Arch ]
+git clone https://github.com/carch-org/pkgs ~/pkgs
+cd ~/pkgs/carch-bin
+makepkg -si
 ```
 
-```sh [제거]
-# Carch 제거
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- uninstall
+```sh [<i class="devicon-fedora-plain"></i> Fedora ]
+sudo dnf install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
 ```
-:::
+
+```sh [<i class="devicon-opensuse-plain"></i>  openSUSE ]
+sudo zypper install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
+```
+::: 
 
 ### 📦 Cargo Crate
 
@@ -29,7 +27,7 @@ bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- uninstall
 
 <img src="https://img.shields.io/crates/v/carch?style=for-the-badge&logo=rust&color=f5a97f&logoColor=fe640b&labelColor=171b22" >
 
-Carch는 [crates.io](https://crates.io/)에서 사용할 수 있습니다.
+Carch는 [crates.io](https://crates.io/)에서 이용할 수 있습니다.
 
 [carch](https://crates.io/crates/carch) crate를 사용하여 Cargo로 설치할 수 있습니다.
 
@@ -37,10 +35,10 @@ Carch는 [crates.io](https://crates.io/)에서 사용할 수 있습니다.
 cargo install carch
 ```
 
-설치가 완료되면 터미널에서 `carch`를 입력하여 실행할 수 있습니다.
+완료되면 터미널에서 `carch`를 입력하여 실행할 수 있습니다.
 
 :::tip :bulb: 팁
-`carch`가 인식되지 않는다면, Cargo의 bin 디렉토리를 PATH에 추가하세요:
+`carch`가 인식되지 않으면 Cargo의 bin 디렉토리를 PATH에 추가하세요:
 
 ```sh
 export PATH="$HOME/.cargo/bin:$PATH"
@@ -50,7 +48,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 ### 🏗️ 수동 설치
 
-#### 📜 종속성
+#### 📜 의존성
 
 :::code-group
 
@@ -61,16 +59,33 @@ sudo pacman -S --noconfirm rust man-db man git wget noto-fonts-emoji curl bash-c
 ```sh [<i class="devicon-fedora-plain"></i> Fedora]
 sudo dnf install rust man-db man git wget google-noto-color-emoji-fonts google-noto-emoji-fonts jetbrains-mono-fonts-all bash-completion-devel curl cargo fzf glibc gcc -y
 ```
+
+```sh [<i class="devicon-opensuse-plain"></i>  openSUSE ]
+sudo zypper install -y rust man man-pages git wget google-noto-fonts google-noto-coloremoji-fonts jetbrains-mono-fonts  symbols-only-nerd-fonts bash-completion curl fzf glibc gcc  
+```
+
 :::
 
-#### 🔧 복제 및 빌드
+#### 🔧 클론 및 빌드
 
 ```sh
 git clone --depth 1 https://github.com/harilvfs/carch
 cd carch
 cargo build --release
 cd build/release/
-sudo cp -r carch /usr/local/bin/
+sudo cp -r carch /usr/bin/
 ```
 
-이제 터미널에서 `carch`를 실행할 수 있습니다. Fedora에서 문제가 발생하면 종속성과 관련된 문제일 수 있습니다. 설치는 원활하게 진행되어야 하지만 문제가 발생하면 [이슈](https://github.com/harilvfs/carch/issues)를 열거나 **harilvfs@chalisehari.com.np**로 이메일을 보내주세요.
+### 🔄 업데이트 및 제거
+
+::: code-group
+
+```sh [ 업데이트 ]
+carch --update
+```
+
+```sh [ 제거 ]
+carch --uninstall
+```
+
+:::

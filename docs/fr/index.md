@@ -5,48 +5,48 @@ pageClass: home-page
 hero:
   name: Carch 🧩
   image:
-    alt: null
+    alt: null 
     style: "width: 200px; height: auto;"
-  tagline: Automatise la configuration de ton système Linux
+  tagline: Automatisez la configuration de votre système Linux
   actions:
     - theme: brand
-      text: Bien commencer ⇢
+      text: Commencer ⇢
       link: /fr/getting-started/introduction
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
     title: Scripts Bash, vie facile
-    details: La configuration repose toujours sur des scripts Bash simples, rapides, propres et sans fioritures.
-  - icon: <img width="35" height="35" src="https://img.icons8.com/?size=100&id=ZbBhBW0N2q3D&format=png&color=000000" alt="fedora"/>
-    title: Compatible Fedora
-    details: Supporte les systèmes Fedora et Arch avec des ajustements personnalisés pour chacun.
+    details: La configuration fonctionne toujours avec des scripts Bash simples - rapide, propre et sans fioritures.
+  - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12969/12969897.png" alt="distro"/>
+    title: Support multi-distributions
+    details: Prend en charge les distributions comme Arch, Fedora et openSUSE.
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=80&id=mcrzTGVMglJn&format=png" alt="tweaks"/>
-    title: Personnalisez tout
-    details: Comprend plusieurs scripts pour configurer DWM, Hyprland et d'autres environnements.
+    title: Ajustez tout
+    details: Inclut de nombreux scripts pour configurer DWM, Hyprland et d'autres paramètres système.
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12400/12400985.png" alt="development"/>
-    title: En développement
-    details: Améliorations actives avec une interface TUI en Rust et d'autres mises à jour à venir.
+    title: Encore en développement
+    details: Améliore activement les choses avec une TUI basée sur Rust et d'autres mises à jour à venir.
 ---
 
 <img
   src="https://raw.githubusercontent.com/harilvfs/carch/refs/heads/main/.github/preview.gif"
-  alt="Aperçu de Carch"
+  alt="Carch preview"
   style="max-width: 720px; width: 100%; border-radius: 12px; margin: 2rem auto; display: block;"
 />
 
 <div align="center">
 
-### Comment l’utiliser ?
+### Comment utiliser ?
 
-Vous pouvez lancer ou utiliser Carch directement sans l’installer sur votre système.
+Vous pouvez exécuter ou utiliser Carch directement sans l'installer sur votre système.
 
-Choisissez une des versions suivantes pour essayer Carch :
+Choisissez l'une des versions suivantes pour essayer Carch :
 
 </div>
 
 > [!IMPORTANT]
-> **Assurez-vous d’avoir `curl` installé dans votre distribution avant d’exécuter ces commandes.**
+> **Assurez-vous d'avoir `curl` installé dans votre distribution avant d'exécuter ces commandes.**
 >
-> ***Notez aussi que Carch est actuellement uniquement pour*** **les distributions basées sur Arch et Fedora**. ***Cela ne fonctionnera pas sur d’autres distributions.***
+> ***Notez également que Carch ne prend actuellement en charge que*** **les distributions basées sur Arch, Fedora et openSUSE**. ***Il ne fonctionnera pas sur d'autres distributions.***
 
 #### ⭐ Version stable
 
@@ -54,7 +54,7 @@ Choisissez une des versions suivantes pour essayer Carch :
 bash -c "$(curl -fsSL chalisehari.com.np/carch)"
 ```
 
-#### 🧪 Version développement
+#### 🧪 Version de développement
 
 ```sh 
 bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"
@@ -114,5 +114,5 @@ bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"
 </style>
 
 <footer style="text-align:center; font-size: 0.75rem; color: var(--vp-c-text-muted, #888); margin-top: 3rem;">
-  Docs Source Code <a href="https://github.com/carch-org/docs" target="_blank" rel="noopener" style="color: var(--vp-c-brand-2); text-decoration: none;">carch-org/docs</a>
+  Code source de documentation <a href="https://github.com/carch-org/docs" target="_blank" rel="noopener" style="color: var(--vp-c-brand-2); text-decoration: none;">carch-org/docs</a>
 </footer>
