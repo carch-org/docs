@@ -63,6 +63,7 @@ sudo dnf install rust man-db man git wget google-noto-color-emoji-fonts google-n
 
 ```sh [<i class="devicon-opensuse-plain"></i>  openSUSE ]
 sudo zypper install -y rust man man-pages git wget google-noto-fonts google-noto-coloremoji-fonts jetbrains-mono-fonts  symbols-only-nerd-fonts bash-completion curl fzf glibc gcc  
+```
 
 :::
 
