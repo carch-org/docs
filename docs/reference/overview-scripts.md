@@ -2,99 +2,100 @@
 
 <img src="https://cdn-icons-png.flaticon.com/128/3721/3721643.png" width="40" />
 
-**Carch comes with the following scripts to configure various aspects of your Arch-based system or Fedora system.**
+**Carch comes with the following scripts to configure various aspects of your Arch, Fedora & openSUSE based distros.**
 
 ### Descriptions:
 
 ### Dwm
-- *Quickly sets up the Dwm window manager with a single-click script, using my customized configuration.*
+- *dwm is a dynamic tiling window manager for X11, known for being minimal, fast, and configurable by editing its source code. The script will apply my pre-configured dwm setup from my [harilvfs/dwm](https://github.com/harilvfs/dwm) repo and install all necessary dependencies to make the environment fully functional.*
 
 ### Hyprland
-- *Installs the Hyprland compositor along with my pre-configured dotfiles for a streamlined setup.*
+- *Hyprland is a dynamic tiling Wayland compositor that supports modern features like animations, window effects, and flexible tiling layouts. The script lets you install pre-configured Hyprland setups from respected users - [ml4w](https://github.com/mylinuxforwork/dotfiles), [end-4](https://github.com/end-4/dots-hyprland), [Jakoolit](https://github.com/JaKooLit/Arch-Hyprland), and [prasanthrangan dots](https://github.com/prasanthrangan/hyprdots).*
 
 ### Fonts
 - *Downloads and installs a variety of Nerd Fonts for improved readability and aesthetics in terminal applications.*
 
 ### LTS Kernel
-- *Installs the Long-Term Support (LTS) kernel for enhanced stability and extended support.*
+- *This script installs the LTS kernel for Arch-based distros only (not for Fedora or openSUSE).*
 
 ### Packages
-- *Installs a curated selection of essential packages to establish a fully functional environment.*
+- *Provides a menu with various package categories like Android tools, browsers, multimedia, development, and more. Most widely used packages are included, with additional packages coming in future updates.*
 
 ### Alacritty
-- *Configures the Alacritty terminal emulator using my preferred settings for optimal performance.*
+- *Alacritty is a fast, GPU-accelerated terminal emulator focused on performance and simplicity. The script applies my pre-configured Alacritty config to your system.*
 
 ### AUR
-- *Installs AUR (Arch User Repository) helpers, like Paru or Yay, to simplify package management.*
+- *AUR (Arch User Repository) is a community-driven repository for Arch Linux users, containing user-submitted package build scripts (PKGBUILDs) that make it easy to install software not available in the official repositories. The script will let you choose an AUR helper and install it according to your preference.*
 
 ### Fastfetch
-- *Configures Fastfetch to display detailed system information quickly and attractively in the terminal.*
+- *Fastfetch is a lightweight system information tool displaying OS, hardware, and other details in a clean, customizable format. The script applies my fastfetch config from the [harilvfs/fastfetch](https://github.com/harilvfs/fastfetch) repo.*
 
 ### GRUB
-- *Customizes the GRUB bootloader with improved aesthetics and settings for a more polished boot experience.*
+- *GRUB (GNU GRand Unified Bootloader) is a bootloader that lets you choose and load operating systems or kernels on startup. The script offers various themes and applies necessary GRUB configurations. Credit to [chrisTitusTech/Top-5-Bootloader-Themes](https://github.com/chrisTitusTech/Top-5-Bootloader-Themes) for the themes and script assistance.*
 
 ### Kitty
-- *Sets up the Kitty terminal emulator with advanced features and custom configurations.*
+- *Kitty is a fast, GPU-accelerated terminal emulator with modern features like ligatures, tabs, tiling layouts, and image support. The script applies my pre-configured Kitty config.*
 
 ### Neovim
-- *Installs and configures Neovim for an enhanced, efficient code editing environment.*
+- *Neovim is a modern, improved fork of Vim designed to be more extensible, faster, and easier to integrate with plugins. The script lets you choose between Kickstart Neovim and NvChad setups to customize your IDE environment.*
 
 ### Picom
-- *Installs and configures the Picom compositor to enable window transparency, shadows, and other visual effects.*
+- *Picom is a lightweight compositor for X11 that adds window transparency, shadows, and animations. The script offers installation of my pre-configured Picom config and support for animated Picom from [picom-ftlabs](https://github.com/r0-zero/picom).*
 
 ### Rofi
-- *Configures Rofi as a powerful application launcher and window switcher, improving workflow efficiency.*
+- *Rofi is a lightweight application launcher, window switcher, and dmenu replacement for X11. The script applies my pre-configured Rofi config.*
 
 ### SDDM
-- *Configures the SDDM (Simple Desktop Display Manager) for a streamlined and visually appealing login experience.*
+- *SDDM (Simple Desktop Display Manager) is a modern, Qt-based graphical login manager. The script installs a Catppuccin-based theme for SDDM from the Catppuccin community.*
 
 ### Themes & Icons
-- *Installs and applies a set of themes and icons to enhance the look and feel of your desktop.*
+- *Installs and applies a collection of themes and icons to enhance the desktop appearance.*
 
 ### Wallpapers
-- *Installs a selection of wallpapers for a personalized desktop aesthetic.*
+- *Downloads a collection of beautiful Nord and Catppuccin wallpapers.*
 
 ### Tmux
-- *Installs and configures Tmux for a more efficient terminal multiplexing experience.*
+- *tmux is a terminal multiplexer that lets you manage multiple terminal sessions within one window. The script applies my pre-configured tmux config.*
 
 ### Helix
-- *Installs and configures the Helix text editor, providing a modern and feature-rich code editing environment optimized for both performance and ease of use.*
+- *Helix is a modal text editor inspired by Vim, focused on speed and modern features such as syntax highlighting, language server protocol (LSP) integration, and multiple cursors. The script applies my pre-configured Helix config.*
 
 ### Bash Prompt
-- *Sets up a custom Bash prompt with useful information such as the current working directory, Git status, and system details, enhancing the command line experience.*
+- *The customizable command-line prompt for the Bash shell. The script lets you choose between Tokyo Night, Catppuccin, and Nord themes.*
 
 ### Zsh Prompt
-- *Configures a stylish Zsh prompt with added functionalities like syntax highlighting, auto-completion, and custom themes for a more efficient shell experience.*
+- *Zsh (Z shell) is an advanced Unix shell with features like improved tab completion, better scripting, and powerful customization. The script installs all required dependencies and applies my custom theme.*
 
-### Fish 
-- *Installs and configures the Fish shell, offering an interactive and user-friendly command-line environment with advanced features such as auto-suggestions and a clean syntax.*
+### Fish
+- *Fish (Friendly Interactive Shell) is a user-friendly Unix shell with smart auto-suggestions, syntax highlighting, and easy scripting. The script installs and applies the [tide](https://github.com/IlanCosman/tide) theme.*
 
-### Bun  
-- *Installs and configures Bun, a fast JavaScript runtime for modern development.*  
+### Bun
+- *Bun is a fast, all-in-one JavaScript runtime, bundler, and package manager focused on performance. The script installs Bun on your system.*
 
-### Npm  
-- *Ensures npm is installed correctly, offering an alternative setup if needed.*  
+### Npm
+- *npm (Node Package Manager) is the default package manager for Node.js, used for managing JavaScript libraries and dependencies. The script installs npm on your system.*
 
 ### Chaotic AUR
-- *Install and configure Pacman to add the Chaotic AUR on Arch.*
+- *Chaotic-AUR is a popular unofficial Arch User Repository (AUR) helper repository providing prebuilt binary packages. The script installs Chaotic-AUR and configures `pacman.conf` to use it.*
 
 ### Dunst
-- *Configures Dunst, a lightweight and customizable notification daemon, with optimized settings for a sleek and unobtrusive experience.*
+- *Dunst is a lightweight, customizable notification daemon for Linux that shows minimal, unobtrusive desktop notifications. The script applies my pre-configured Dunst setup.*
 
 ### Foot
-- *Sets up the Foot terminal emulator with wayland support and custom configurations.*
+- *Foot is a lightweight, fast, minimal Wayland-native terminal emulator designed for simplicity and performance. The script applies my pre-configured Foot config.*
 
 ### Ghostty
-- *Sets up the Ghostty terminal emulator with GPU acceleration and custom configurations.*
+- *Ghostty is a fast, feature-rich, cross-platform terminal emulator using native UI and GPU acceleration. The script applies my pre-configured Ghostty config.*
 
 ### Audio
-- *Install & Sets up PipeWire audio system.*
+- *Installs and sets up the PipeWire audio system.*
 
 ### Bluetooth
-- *Install Bluetooth Needed Packages & Sets up Bluetooth.*
+- *Installs Bluetooth packages and sets up Bluetooth functionality.*
 
-### Brightness 
-- *Set the brightness level to your preference using Brightnessctl.* 
+### Brightness
+- *Sets screen brightness to your preference using Brightnessctl.*
 
 ### Extensions
-- *Recommend some useful Extensions for Chromium or Firefox based browser's.*
+- *Recommends useful extensions for Chromium- or Firefox-based browsers.*
+

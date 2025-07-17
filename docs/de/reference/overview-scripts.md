@@ -2,99 +2,99 @@
 
 <img src="https://cdn-icons-png.flaticon.com/128/3721/3721643.png" width="40" />
 
-**Carch wird mit den folgenden Skripten geliefert, um verschiedene Aspekte Ihres Arch-basierten Systems oder Fedora-Systems zu konfigurieren.**
+**Carch kommt mit den folgenden Skripten zur Konfiguration verschiedener Aspekte Ihrer Arch-, Fedora- und openSUSE-basierten Distributionen.**
 
 ### Beschreibungen:
 
 ### Dwm
-- *Richtet schnell den Dwm-Fenstermanager mit einem Ein-Klick-Skript ein, unter Verwendung meiner angepassten Konfiguration.*
+- *dwm ist ein dynamischer Fenstermanager für X11, der für seine Minimalität, Geschwindigkeit und Konfigurierbarkeit durch Bearbeitung des Quellcodes bekannt ist. Das Skript wird mein vorkonfiguriertes dwm-Setup aus dem [harilvfs/dwm](https://github.com/harilvfs/dwm) Repository anwenden und alle notwendigen Abhängigkeiten installieren, um die Umgebung vollständig funktionsfähig zu machen.*
 
 ### Hyprland
-- *Installiert den Hyprland-Compositor zusammen mit meinen vorkonfigurierten Dotfiles für eine optimierte Einrichtung.*
+- *Hyprland ist ein dynamischer Wayland-Compositor, der moderne Funktionen wie Animationen, Fenstereffekte und flexible Kachellayouts unterstützt. Das Skript ermöglicht es Ihnen, vorkonfigurierte Hyprland-Setups von respektierten Benutzern zu installieren - [ml4w](https://github.com/mylinuxforwork/dotfiles), [end-4](https://github.com/end-4/dots-hyprland), [Jakoolit](https://github.com/JaKooLit/Arch-Hyprland), und [prasanthrangan dots](https://github.com/prasanthrangan/hyprdots).*
 
 ### Schriftarten
-- *Lädt eine Vielzahl von Nerd Fonts herunter und installiert sie für verbesserte Lesbarkeit und Ästhetik in Terminal-Anwendungen.*
+- *Lädt verschiedene Nerd Fonts herunter und installiert sie für verbesserte Lesbarkeit und Ästhetik in Terminal-Anwendungen.*
 
-### LTS Kernel
-- *Installiert den Long-Term Support (LTS) Kernel für erhöhte Stabilität und erweiterten Support.*
+### LTS-Kernel
+- *Dieses Skript installiert den LTS-Kernel nur für Arch-basierte Distributionen (nicht für Fedora oder openSUSE).*
 
 ### Pakete
-- *Installiert eine kuratierte Auswahl wichtiger Pakete, um eine voll funktionsfähige Umgebung zu schaffen.*
+- *Bietet ein Menü mit verschiedenen Paketkategorien wie Android-Tools, Browser, Multimedia, Entwicklung und mehr. Die meisten weit verbreiteten Pakete sind enthalten, mit zusätzlichen Paketen in zukünftigen Updates.*
 
 ### Alacritty
-- *Konfiguriert den Alacritty-Terminal-Emulator mit meinen bevorzugten Einstellungen für optimale Leistung.*
+- *Alacritty ist ein schneller, GPU-beschleunigter Terminal-Emulator, der sich auf Leistung und Einfachheit konzentriert. Das Skript wendet meine vorkonfigurierte Alacritty-Konfiguration auf Ihr System an.*
 
 ### AUR
-- *Installiert AUR (Arch User Repository) Helfer wie Paru oder Yay, um die Paketverwaltung zu vereinfachen.*
+- *AUR (Arch User Repository) ist ein Community-gesteuertes Repository für Arch Linux-Benutzer, das von Benutzern eingereichte Paket-Build-Skripte (PKGBUILDs) enthält, die es einfach machen, Software zu installieren, die nicht in den offiziellen Repositories verfügbar ist. Das Skript lässt Sie einen AUR-Helfer wählen und installiert ihn nach Ihren Vorlieben.*
 
 ### Fastfetch
-- *Konfiguriert Fastfetch, um detaillierte Systeminformationen schnell und attraktiv im Terminal anzuzeigen.*
+- *Fastfetch ist ein leichtgewichtiges Systeminformations-Tool, das Betriebssystem-, Hardware- und andere Details in einem sauberen, anpassbaren Format anzeigt. Das Skript wendet meine fastfetch-Konfiguration aus dem [harilvfs/fastfetch](https://github.com/harilvfs/fastfetch) Repository an.*
 
 ### GRUB
-- *Passt den GRUB-Bootloader mit verbesserter Ästhetik und Einstellungen für ein eleganteres Boot-Erlebnis an.*
+- *GRUB (GNU GRand Unified Bootloader) ist ein Bootloader, der es Ihnen ermöglicht, Betriebssysteme oder Kernel beim Start zu wählen und zu laden. Das Skript bietet verschiedene Themes und wendet notwendige GRUB-Konfigurationen an. Dank an [chrisTitusTech/Top-5-Bootloader-Themes](https://github.com/chrisTitusTech/Top-5-Bootloader-Themes) für die Themes und Skript-Unterstützung.*
 
 ### Kitty
-- *Richtet den Kitty-Terminal-Emulator mit erweiterten Funktionen und benutzerdefinierten Konfigurationen ein.*
+- *Kitty ist ein schneller, GPU-beschleunigter Terminal-Emulator mit modernen Funktionen wie Ligaturen, Tabs, Kachellayouts und Bildunterstützung. Das Skript wendet meine vorkonfigurierte Kitty-Konfiguration an.*
 
 ### Neovim
-- *Installiert und konfiguriert Neovim für eine verbesserte, effiziente Code-Bearbeitungsumgebung.*
+- *Neovim ist eine moderne, verbesserte Fork von Vim, die darauf ausgelegt ist, erweiterbarer, schneller und einfacher in Plugins zu integrieren zu sein. Das Skript lässt Sie zwischen Kickstart Neovim und NvChad-Setups wählen, um Ihre IDE-Umgebung anzupassen.*
 
 ### Picom
-- *Installiert und konfiguriert den Picom-Compositor, um Fenstertransparenz, Schatten und andere visuelle Effekte zu ermöglichen.*
+- *Picom ist ein leichtgewichtiger Compositor für X11, der Fenstertransparenz, Schatten und Animationen hinzufügt. Das Skript bietet die Installation meiner vorkonfigurierten Picom-Konfiguration und Unterstützung für animiertes Picom von [picom-ftlabs](https://github.com/r0-zero/picom).*
 
 ### Rofi
-- *Konfiguriert Rofi als leistungsstarken Anwendungsstarter und Fensterwechsler, was die Workflow-Effizienz verbessert.*
+- *Rofi ist ein leichtgewichtiger Anwendungsstarter, Fensterwechsler und dmenu-Ersatz für X11. Das Skript wendet meine vorkonfigurierte Rofi-Konfiguration an.*
 
 ### SDDM
-- *Konfiguriert den SDDM (Simple Desktop Display Manager) für ein optimiertes und visuell ansprechendes Anmeldeerlebnis.*
+- *SDDM (Simple Desktop Display Manager) ist ein moderner, Qt-basierter grafischer Login-Manager. Das Skript installiert ein Catppuccin-basiertes Theme für SDDM von der Catppuccin-Community.*
 
 ### Themes & Icons
-- *Installiert und wendet eine Reihe von Themes und Icons an, um das Aussehen und Gefühl Ihres Desktops zu verbessern.* 
+- *Installiert und wendet eine Sammlung von Themes und Icons an, um das Desktop-Erscheinungsbild zu verbessern.*
 
 ### Hintergrundbilder
-- *Installiert eine Auswahl von Hintergrundbildern für eine personalisierte Desktop-Ästhetik.*
+- *Lädt eine Sammlung schöner Nord- und Catppuccin-Hintergrundbilder herunter.*
 
 ### Tmux
-- *Installiert und konfiguriert Tmux für eine effizientere Terminal-Multiplexing-Erfahrung.*
+- *tmux ist ein Terminal-Multiplexer, der es Ihnen ermöglicht, mehrere Terminal-Sitzungen in einem Fenster zu verwalten. Das Skript wendet meine vorkonfigurierte tmux-Konfiguration an.*
 
 ### Helix
-- *Installiert und konfiguriert den Helix-Texteditor und bietet eine moderne und funktionsreiche Code-Bearbeitungsumgebung, die sowohl für Leistung als auch für Benutzerfreundlichkeit optimiert ist.*
+- *Helix ist ein modaler Texteditor, der von Vim inspiriert ist und sich auf Geschwindigkeit und moderne Funktionen wie Syntax-Highlighting, Language Server Protocol (LSP) Integration und mehrere Cursor konzentriert. Das Skript wendet meine vorkonfigurierte Helix-Konfiguration an.*
 
-### Bash Prompt
-- *Richtet eine benutzerdefinierte Bash-Eingabeaufforderung mit nützlichen Informationen wie dem aktuellen Arbeitsverzeichnis, Git-Status und Systemdetails ein und verbessert die Kommandozeilen-Erfahrung.*
+### Bash-Prompt
+- *Die anpassbare Befehlszeilen-Eingabeaufforderung für die Bash-Shell. Das Skript lässt Sie zwischen Tokyo Night, Catppuccin und Nord-Themes wählen.*
 
-### Zsh Prompt
-- *Konfiguriert eine stilvolle Zsh-Eingabeaufforderung mit zusätzlichen Funktionen wie Syntaxhervorhebung, automatischer Vervollständigung und benutzerdefinierten Themes für eine effizientere Shell-Erfahrung.*
+### Zsh-Prompt
+- *Zsh (Z shell) ist eine erweiterte Unix-Shell mit Funktionen wie verbesserter Tab-Vervollständigung, besserer Skriptfähigkeit und mächtiger Anpassung. Das Skript installiert alle erforderlichen Abhängigkeiten und wendet mein benutzerdefiniertes Theme an.*
 
-### Fish 
-- *Installiert und konfiguriert die Fish-Shell und bietet eine interaktive und benutzerfreundliche Kommandozeilen-Umgebung mit erweiterten Funktionen wie Auto-Vorschlägen und einer sauberen Syntax.*
+### Fish
+- *Fish (Friendly Interactive Shell) ist eine benutzerfreundliche Unix-Shell mit intelligenten Auto-Vorschlägen, Syntax-Highlighting und einfacher Skriptfähigkeit. Das Skript installiert und wendet das [tide](https://github.com/IlanCosman/tide)-Theme an.*
 
-### Bun  
-- *Installiert und konfiguriert Bun, eine schnelle JavaScript-Laufzeit für moderne Entwicklung.*  
+### Bun
+- *Bun ist eine schnelle, All-in-One JavaScript-Runtime, Bundler und Package Manager, die sich auf Leistung konzentriert. Das Skript installiert Bun auf Ihrem System.*
 
-### Npm  
-- *Stellt sicher, dass npm korrekt installiert ist und bietet bei Bedarf eine alternative Einrichtung.*  
+### Npm
+- *npm (Node Package Manager) ist der Standard-Package-Manager für Node.js, der zur Verwaltung von JavaScript-Bibliotheken und -Abhängigkeiten verwendet wird. Das Skript installiert npm auf Ihrem System.*
 
 ### Chaotic AUR
-- *Installiert und konfiguriert Pacman, um das Chaotic AUR auf Arch hinzuzufügen.*
+- *Chaotic-AUR ist ein beliebtes inoffizielles Arch User Repository (AUR) Helfer-Repository, das vorgefertigte Binärpakete bereitstellt. Das Skript installiert Chaotic-AUR und konfiguriert `pacman.conf` für dessen Verwendung.*
 
 ### Dunst
-- *Konfiguriert Dunst, einen leichtgewichtigen und anpassbaren Benachrichtigungs-Daemon, mit optimierten Einstellungen für eine elegante und unaufdringliche Erfahrung.*
+- *Dunst ist ein leichtgewichtiger, anpassbarer Benachrichtigungsdaemon für Linux, der minimale, unaufdringliche Desktop-Benachrichtigungen anzeigt. Das Skript wendet mein vorkonfiguriertes Dunst-Setup an.*
 
 ### Foot
-- *Richtet den Foot-Terminal-Emulator mit Wayland-Unterstützung und benutzerdefinierten Konfigurationen ein.*
+- *Foot ist ein leichtgewichtiger, schneller, minimaler Wayland-nativer Terminal-Emulator, der auf Einfachheit und Leistung ausgelegt ist. Das Skript wendet meine vorkonfigurierte Foot-Konfiguration an.*
 
 ### Ghostty
-- *Richtet den Ghostty-Terminal-Emulator mit GPU-Beschleunigung und benutzerdefinierten Konfigurationen ein.*
+- *Ghostty ist ein schneller, funktionsreicher, plattformübergreifender Terminal-Emulator, der native UI und GPU-Beschleunigung verwendet. Das Skript wendet meine vorkonfigurierte Ghostty-Konfiguration an.*
 
 ### Audio
 - *Installiert und richtet das PipeWire-Audiosystem ein.*
 
 ### Bluetooth
-- *Installiert benötigte Bluetooth-Pakete und richtet Bluetooth ein.*
+- *Installiert Bluetooth-Pakete und richtet Bluetooth-Funktionalität ein.*
 
-### Helligkeit 
-- *Stellt die Helligkeitsstufe nach Ihren Wünschen mit Brightnessctl ein.* 
+### Helligkeit
+- *Stellt die Bildschirmhelligkeit nach Ihren Vorlieben mit Brightnessctl ein.*
 
 ### Erweiterungen
-- *Empfiehlt einige nützliche Erweiterungen für Chromium- oder Firefox-basierte Browser.*
+- *Empfiehlt nützliche Erweiterungen für Chromium- oder Firefox-basierte Browser.*

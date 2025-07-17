@@ -2,99 +2,99 @@
 
 <img src="https://cdn-icons-png.flaticon.com/128/3721/3721643.png" width="40" />
 
-**Carch 提供以下脚本来配置基于 Arch 系统或 Fedora 系统的各个方面。**
+**Carch 附带以下脚本来配置您的 Arch、Fedora 和 openSUSE 发行版的各个方面。**
 
 ### 描述：
 
 ### Dwm
-- *通过一键脚本快速设置 Dwm 窗口管理器，使用我的自定义配置。*
+- *dwm 是 X11 的动态平铺窗口管理器，以最小化、快速和通过编辑源代码进行配置而闻名。该脚本将从我的 [harilvfs/dwm](https://github.com/harilvfs/dwm) 仓库应用我预配置的 dwm 设置，并安装所有必要的依赖项以使环境完全正常工作。*
 
 ### Hyprland
-- *安装 Hyprland 合成器以及我预配置的配置文件，提供流畅的设置体验。*
+- *Hyprland 是一个动态平铺 Wayland 合成器，支持动画、窗口效果和灵活的平铺布局等现代功能。该脚本允许您安装受尊敬用户的预配置 Hyprland 设置 - [ml4w](https://github.com/mylinuxforwork/dotfiles)、[end-4](https://github.com/end-4/dots-hyprland)、[Jakoolit](https://github.com/JaKooLit/Arch-Hyprland) 和 [prasanthrangan dots](https://github.com/prasanthrangan/hyprdots)。*
 
 ### 字体
-- *下载并安装各种 Nerd 字体，以改善终端应用程序的可读性和美观性。*
+- *下载并安装各种 Nerd 字体，以提高终端应用程序的可读性和美观性。*
 
 ### LTS 内核
-- *安装长期支持 (LTS) 内核，增强稳定性并提供延长支持。*
+- *此脚本仅为基于 Arch 的发行版安装 LTS 内核（不适用于 Fedora 或 openSUSE）。*
 
 ### 软件包
-- *安装精选的基本软件包集合，建立完全功能的环境。*
+- *提供包含 Android 工具、浏览器、多媒体、开发等各种软件包类别的菜单。包含了最广泛使用的软件包，未来更新中将添加更多软件包。*
 
 ### Alacritty
-- *使用我的首选设置配置 Alacritty 终端仿真器，以获得最佳性能。*
+- *Alacritty 是一个快速的、GPU 加速的终端仿真器，专注于性能和简洁性。该脚本将我预配置的 Alacritty 配置应用到您的系统。*
 
 ### AUR
-- *安装 AUR（Arch 用户仓库）助手，如 Paru 或 Yay，以简化软件包管理。*
+- *AUR（Arch 用户仓库）是 Arch Linux 用户的社区驱动仓库，包含用户提交的软件包构建脚本（PKGBUILDs），使安装官方仓库中不可用的软件变得容易。该脚本将让您选择 AUR 助手并根据您的偏好进行安装。*
 
 ### Fastfetch
-- *配置 Fastfetch 在终端中快速且美观地显示详细的系统信息。*
+- *Fastfetch 是一个轻量级的系统信息工具，以清洁、可定制的格式显示操作系统、硬件和其他详细信息。该脚本从 [harilvfs/fastfetch](https://github.com/harilvfs/fastfetch) 仓库应用我的 fastfetch 配置。*
 
 ### GRUB
-- *使用改进的美观设置自定义 GRUB 引导加载程序，提供更加精美的启动体验。*
+- *GRUB（GNU GRand Unified Bootloader）是一个引导加载程序，允许您在启动时选择并加载操作系统或内核。该脚本提供各种主题并应用必要的 GRUB 配置。感谢 [chrisTitusTech/Top-5-Bootloader-Themes](https://github.com/chrisTitusTech/Top-5-Bootloader-Themes) 提供的主题和脚本协助。*
 
 ### Kitty
-- *设置具有高级功能和自定义配置的 Kitty 终端仿真器。*
+- *Kitty 是一个快速的、GPU 加速的终端仿真器，具有连字、标签、平铺布局和图像支持等现代功能。该脚本应用我预配置的 Kitty 配置。*
 
 ### Neovim
-- *安装和配置 Neovim，提供增强且高效的代码编辑环境。*
+- *Neovim 是 Vim 的现代改进分支，旨在更具可扩展性、更快速，并更容易与插件集成。该脚本允许您在 Kickstart Neovim 和 NvChad 设置之间选择，以定制您的 IDE 环境。*
 
 ### Picom
-- *安装和配置 Picom 合成器，启用窗口透明度、阴影和其他视觉效果。*
+- *Picom 是 X11 的轻量级合成器，添加了窗口透明度、阴影和动画。该脚本提供我预配置的 Picom 配置安装和对来自 [picom-ftlabs](https://github.com/r0-zero/picom) 的动画 Picom 的支持。*
 
 ### Rofi
-- *配置 Rofi 作为强大的应用程序启动器和窗口切换器，提高工作流程效率。*
+- *Rofi 是 X11 的轻量级应用程序启动器、窗口切换器和 dmenu 替代品。该脚本应用我预配置的 Rofi 配置。*
 
 ### SDDM
-- *配置 SDDM（简单桌面显示管理器），提供流畅且视觉吸引人的登录体验。*
+- *SDDM（Simple Desktop Display Manager）是一个现代的、基于 Qt 的图形登录管理器。该脚本从 Catppuccin 社区安装基于 Catppuccin 的 SDDM 主题。*
 
 ### 主题和图标
-- *安装并应用一套主题和图标，增强桌面的外观和感觉。
+- *安装并应用主题和图标集合以增强桌面外观。*
 
 ### 壁纸
-- *安装精选壁纸，实现个性化桌面美学。*
+- *下载一系列美丽的 Nord 和 Catppuccin 壁纸。*
 
 ### Tmux
-- *安装和配置 Tmux，提供更高效的终端复用体验。*
+- *tmux 是一个终端复用器，允许您在一个窗口内管理多个终端会话。该脚本应用我预配置的 tmux 配置。*
 
 ### Helix
-- *安装和配置 Helix 文本编辑器，提供现代且功能丰富的代码编辑环境，针对性能和易用性进行了优化。*
+- *Helix 是一个受 Vim 启发的模式文本编辑器，专注于速度和语法高亮、语言服务器协议（LSP）集成和多光标等现代功能。该脚本应用我预配置的 Helix 配置。*
 
 ### Bash 提示符
-- *设置自定义 Bash 提示符，包含有用信息如当前工作目录、Git 状态和系统详细信息，增强命令行体验。*
+- *Bash shell 的可定制命令行提示符。该脚本允许您在 Tokyo Night、Catppuccin 和 Nord 主题之间选择。*
 
 ### Zsh 提示符
-- *配置时尚的 Zsh 提示符，增加语法高亮、自动补全和自定义主题等功能，提供更高效的 shell 体验。*
+- *Zsh（Z shell）是一个高级的 Unix shell，具有改进的制表符补全、更好的脚本编写和强大的自定义功能。该脚本安装所有必需的依赖项并应用我的自定义主题。*
 
 ### Fish
-- *安装和配置 Fish shell，提供交互式且用户友好的命令行环境，具有自动建议和简洁语法等高级功能。*
+- *Fish（友好交互式 Shell）是一个用户友好的 Unix shell，具有智能自动建议、语法高亮和简单的脚本编写功能。该脚本安装并应用 [tide](https://github.com/IlanCosman/tide) 主题。*
 
 ### Bun
-- *安装和配置 Bun，一个用于现代开发的快速 JavaScript 运行时。*
+- *Bun 是一个快速的、一体化的 JavaScript 运行时、打包器和包管理器，专注于性能。该脚本在您的系统上安装 Bun。*
 
 ### Npm
-- *确保 npm 正确安装，如有需要提供替代设置。*
+- *npm（Node Package Manager）是 Node.js 的默认包管理器，用于管理 JavaScript 库和依赖项。该脚本在您的系统上安装 npm。*
 
 ### Chaotic AUR
-- *在 Arch 上安装和配置 Pacman 以添加 Chaotic AUR。*
+- *Chaotic-AUR 是一个流行的非官方 Arch 用户仓库（AUR）助手仓库，提供预构建的二进制包。该脚本安装 Chaotic-AUR 并配置 `pacman.conf` 以使用它。*
 
 ### Dunst
-- *配置 Dunst，一个轻量级且可自定义的通知守护进程，具有优化设置，提供简洁且不突兀的体验。*
+- *Dunst 是 Linux 的轻量级、可定制的通知守护进程，显示最小的、不显眼的桌面通知。该脚本应用我预配置的 Dunst 设置。*
 
 ### Foot
-- *设置支持 Wayland 和自定义配置的 Foot 终端仿真器。*
+- *Foot 是一个轻量级、快速、最小的 Wayland 原生终端仿真器，专为简洁性和性能而设计。该脚本应用我预配置的 Foot 配置。*
 
 ### Ghostty
-- *设置具有 GPU 加速和自定义配置的 Ghostty 终端仿真器。*
+- *Ghostty 是一个快速、功能丰富、跨平台的终端仿真器，使用原生 UI 和 GPU 加速。该脚本应用我预配置的 Ghostty 配置。*
 
 ### 音频
-- *安装并设置 PipeWire 音频系统。*
+- *安装和设置 PipeWire 音频系统。*
 
 ### 蓝牙
-- *安装蓝牙所需的软件包并设置蓝牙。*
+- *安装蓝牙软件包并设置蓝牙功能。*
 
 ### 亮度
-- *使用 Brightnessctl 将亮度级别设置为您的偏好。*
+- *使用 Brightnessctl 将屏幕亮度设置为您的偏好。*
 
 ### 扩展
-- *推荐一些适用于基于 Chromium 或 Firefox 浏览器的有用扩展。*
+- *为基于 Chromium 或 Firefox 的浏览器推荐有用的扩展。*

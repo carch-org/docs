@@ -2,99 +2,99 @@
 
 <img src="https://cdn-icons-png.flaticon.com/128/3721/3721643.png" width="40" />
 
-**Carch는 Arch 기반 시스템 또는 Fedora 시스템의 다양한 측면을 구성하기 위한 다음 스크립트를 제공합니다.**
+**Carch는 Arch, Fedora 및 openSUSE 기반 배포판의 다양한 측면을 구성하기 위한 다음 스크립트와 함께 제공됩니다.**
 
 ### 설명:
 
 ### Dwm
-- *사용자 정의 구성을 사용하여 원클릭 스크립트로 Dwm 윈도우 매니저를 신속하게 설정합니다.*
+- *dwm은 X11용 동적 타일링 윈도우 매니저로, 최소한이면서 빠르고 소스 코드를 편집하여 구성할 수 있는 것으로 알려져 있습니다. 이 스크립트는 [harilvfs/dwm](https://github.com/harilvfs/dwm) 저장소에서 미리 구성된 dwm 설정을 적용하고 환경을 완전히 작동하게 만드는 데 필요한 모든 종속성을 설치합니다.*
 
 ### Hyprland
-- *간소화된 설정을 위해 미리 구성된 dotfiles와 함께 Hyprland 컴포지터를 설치합니다.*
+- *Hyprland는 애니메이션, 윈도우 효과, 유연한 타일링 레이아웃과 같은 현대적인 기능을 지원하는 동적 타일링 Wayland 컴포지터입니다. 이 스크립트를 통해 존경받는 사용자들의 미리 구성된 Hyprland 설정을 설치할 수 있습니다 - [ml4w](https://github.com/mylinuxforwork/dotfiles), [end-4](https://github.com/end-4/dots-hyprland), [Jakoolit](https://github.com/JaKooLit/Arch-Hyprland), [prasanthrangan dots](https://github.com/prasanthrangan/hyprdots).*
 
-### Fonts
-- *터미널 애플리케이션에서 가독성과 미관을 향상시키기 위해 다양한 Nerd Fonts를 다운로드하고 설치합니다.*
+### 폰트
+- *터미널 애플리케이션에서 가독성과 미학을 향상시키기 위해 다양한 Nerd 폰트를 다운로드하고 설치합니다.*
 
-### LTS Kernel
-- *향상된 안정성과 확장된 지원을 위해 장기 지원(LTS) 커널을 설치합니다.*
+### LTS 커널
+- *이 스크립트는 Arch 기반 배포판에만 LTS 커널을 설치합니다 (Fedora나 openSUSE에는 해당하지 않음).*
 
-### Packages
-- *완전한 기능적 환경을 구축하기 위해 엄선된 필수 패키지를 설치합니다.*
+### 패키지
+- *Android 도구, 브라우저, 멀티미디어, 개발 등과 같은 다양한 패키지 카테고리가 있는 메뉴를 제공합니다. 가장 널리 사용되는 패키지들이 포함되어 있으며, 추가 패키지는 향후 업데이트에서 제공됩니다.*
 
 ### Alacritty
-- *최적의 성능을 위한 선호 설정을 사용하여 Alacritty 터미널 에뮬레이터를 구성합니다.*
+- *Alacritty는 성능과 단순성에 중점을 둔 빠른 GPU 가속 터미널 에뮬레이터입니다. 이 스크립트는 미리 구성된 Alacritty 설정을 시스템에 적용합니다.*
 
 ### AUR
-- *패키지 관리를 단순화하기 위해 Paru나 Yay와 같은 AUR(Arch User Repository) 헬퍼를 설치합니다.*
+- *AUR (Arch User Repository)는 Arch Linux 사용자를 위한 커뮤니티 주도 저장소로, 공식 저장소에서 사용할 수 없는 소프트웨어를 쉽게 설치할 수 있게 해주는 사용자 제출 패키지 빌드 스크립트(PKGBUILD)를 포함하고 있습니다. 이 스크립트를 통해 AUR 도우미를 선택하고 선호도에 따라 설치할 수 있습니다.*
 
 ### Fastfetch
-- *터미널에서 상세한 시스템 정보를 빠르고 매력적으로 표시하도록 Fastfetch를 구성합니다.*
+- *Fastfetch는 OS, 하드웨어 및 기타 세부 정보를 깔끔하고 사용자 정의 가능한 형식으로 표시하는 가벼운 시스템 정보 도구입니다. 이 스크립트는 [harilvfs/fastfetch](https://github.com/harilvfs/fastfetch) 저장소에서 fastfetch 설정을 적용합니다.*
 
 ### GRUB
-- *더 세련된 부팅 경험을 위해 향상된 미관과 설정으로 GRUB 부트로더를 사용자 정의합니다.*
+- *GRUB (GNU GRand Unified Bootloader)는 시작 시 운영 체제나 커널을 선택하고 로드할 수 있게 해주는 부트로더입니다. 이 스크립트는 다양한 테마를 제공하고 필요한 GRUB 구성을 적용합니다. 테마와 스크립트 지원에 대해 [chrisTitusTech/Top-5-Bootloader-Themes](https://github.com/chrisTitusTech/Top-5-Bootloader-Themes)에 감사합니다.*
 
 ### Kitty
-- *고급 기능과 사용자 정의 구성으로 Kitty 터미널 에뮬레이터를 설정합니다.*
+- *Kitty는 합자, 탭, 타일링 레이아웃, 이미지 지원과 같은 현대적인 기능을 갖춘 빠른 GPU 가속 터미널 에뮬레이터입니다. 이 스크립트는 미리 구성된 Kitty 설정을 적용합니다.*
 
 ### Neovim
-- *향상되고 효율적인 코드 편집 환경을 위해 Neovim을 설치하고 구성합니다.*
+- *Neovim은 더 확장 가능하고 빠르며 플러그인과 통합하기 쉽게 설계된 Vim의 현대적이고 개선된 포크입니다. 이 스크립트를 통해 IDE 환경을 사용자 정의하기 위해 Kickstart Neovim과 NvChad 설정 중에서 선택할 수 있습니다.*
 
 ### Picom
-- *창 투명도, 그림자 및 기타 시각적 효과를 활성화하기 위해 Picom 컴포지터를 설치하고 구성합니다.*
+- *Picom은 윈도우 투명성, 그림자, 애니메이션을 추가하는 X11용 가벼운 컴포지터입니다. 이 스크립트는 미리 구성된 Picom 설정의 설치와 [picom-ftlabs](https://github.com/r0-zero/picom)의 애니메이션 Picom 지원을 제공합니다.*
 
 ### Rofi
-- *워크플로 효율성을 향상시키는 강력한 애플리케이션 런처 및 창 전환기로 Rofi를 구성합니다.*
+- *Rofi는 X11용 가벼운 애플리케이션 런처, 윈도우 전환기 및 dmenu 대체품입니다. 이 스크립트는 미리 구성된 Rofi 설정을 적용합니다.*
 
 ### SDDM
-- *간소화되고 시각적으로 매력적인 로그인 경험을 위해 SDDM(Simple Desktop Display Manager)을 구성합니다.*
+- *SDDM (Simple Desktop Display Manager)는 현대적인 Qt 기반 그래픽 로그인 매니저입니다. 이 스크립트는 Catppuccin 커뮤니티의 SDDM용 Catppuccin 기반 테마를 설치합니다.*
 
-### Themes & Icons
-- *데스크톱의 모양과 느낌을 향상시키기 위해 테마와 아이콘 세트를 설치하고 적용합니다.*
+### 테마 및 아이콘
+- *데스크톱 외관을 향상시키기 위해 테마와 아이콘 컬렉션을 설치하고 적용합니다.*
 
-### Wallpapers
-- *개인화된 데스크톱 미관을 위한 배경화면 모음을 설치합니다.*
+### 월페이퍼
+- *아름다운 Nord 및 Catppuccin 월페이퍼 컬렉션을 다운로드합니다.*
 
 ### Tmux
-- *더 효율적인 터미널 멀티플렉싱 경험을 위해 Tmux를 설치하고 구성합니다.*
+- *tmux는 하나의 윈도우 내에서 여러 터미널 세션을 관리할 수 있게 해주는 터미널 멀티플렉서입니다. 이 스크립트는 미리 구성된 tmux 설정을 적용합니다.*
 
 ### Helix
-- *성능과 사용 편의성 모두에 최적화된 현대적이고 기능이 풍부한 코드 편집 환경을 제공하는 Helix 텍스트 에디터를 설치하고 구성합니다.*
+- *Helix는 Vim에서 영감을 받은 모달 텍스트 에디터로, 구문 강조, 언어 서버 프로토콜(LSP) 통합, 다중 커서와 같은 속도와 현대적인 기능에 중점을 둡니다. 이 스크립트는 미리 구성된 Helix 설정을 적용합니다.*
 
-### Bash Prompt
-- *현재 작업 디렉토리, Git 상태, 시스템 세부 정보와 같은 유용한 정보가 포함된 사용자 정의 Bash 프롬프트를 설정하여 명령줄 경험을 향상시킵니다.*
+### Bash 프롬프트
+- *Bash 셸용 사용자 정의 가능한 명령줄 프롬프트입니다. 이 스크립트를 통해 Tokyo Night, Catppuccin, Nord 테마 중에서 선택할 수 있습니다.*
 
-### Zsh Prompt
-- *더 효율적인 셸 경험을 위해 구문 강조, 자동 완성, 사용자 정의 테마와 같은 추가 기능이 있는 세련된 Zsh 프롬프트를 구성합니다.*
+### Zsh 프롬프트
+- *Zsh (Z shell)는 향상된 탭 완성, 더 나은 스크립팅, 강력한 사용자 정의와 같은 기능을 갖춘 고급 Unix 셸입니다. 이 스크립트는 모든 필요한 종속성을 설치하고 사용자 정의 테마를 적용합니다.*
 
-### Fish 
-- *자동 제안 및 깔끔한 구문과 같은 고급 기능을 갖춘 대화형이고 사용자 친화적인 명령줄 환경을 제공하는 Fish 셸을 설치하고 구성합니다.*
+### Fish
+- *Fish (Friendly Interactive Shell)는 스마트 자동 제안, 구문 강조, 쉬운 스크립팅을 갖춘 사용자 친화적인 Unix 셸입니다. 이 스크립트는 [tide](https://github.com/IlanCosman/tide) 테마를 설치하고 적용합니다.*
 
-### Bun  
-- *현대적인 개발을 위한 빠른 JavaScript 런타임인 Bun을 설치하고 구성합니다.*  
+### Bun
+- *Bun은 성능에 중점을 둔 빠른 올인원 JavaScript 런타임, 번들러 및 패키지 매니저입니다. 이 스크립트는 시스템에 Bun을 설치합니다.*
 
-### Npm  
-- *npm이 올바르게 설치되었는지 확인하고 필요한 경우 대안 설정을 제공합니다.*  
+### Npm
+- *npm (Node Package Manager)는 JavaScript 라이브러리와 종속성을 관리하는 데 사용되는 Node.js의 기본 패키지 매니저입니다. 이 스크립트는 시스템에 npm을 설치합니다.*
 
 ### Chaotic AUR
-- *Arch에서 Chaotic AUR을 추가하기 위해 Pacman을 설치하고 구성합니다.*
+- *Chaotic-AUR는 미리 빌드된 바이너리 패키지를 제공하는 인기 있는 비공식 Arch User Repository (AUR) 도우미 저장소입니다. 이 스크립트는 Chaotic-AUR를 설치하고 이를 사용하도록 `pacman.conf`를 구성합니다.*
 
 ### Dunst
-- *세련되고 방해받지 않는 경험을 위해 최적화된 설정으로 가볍고 사용자 정의 가능한 알림 데몬인 Dunst를 구성합니다.*
+- *Dunst는 최소한의 눈에 거슬리지 않는 데스크톱 알림을 표시하는 Linux용 가벼운 사용자 정의 가능한 알림 데몬입니다. 이 스크립트는 미리 구성된 Dunst 설정을 적용합니다.*
 
 ### Foot
-- *Wayland 지원 및 사용자 정의 구성으로 Foot 터미널 에뮬레이터를 설정합니다.*
+- *Foot는 단순함과 성능을 위해 설계된 가벼운, 빠른, 최소한의 Wayland 네이티브 터미널 에뮬레이터입니다. 이 스크립트는 미리 구성된 Foot 설정을 적용합니다.*
 
 ### Ghostty
-- *GPU 가속 및 사용자 정의 구성으로 Ghostty 터미널 에뮬레이터를 설정합니다.*
+- *Ghostty는 네이티브 UI와 GPU 가속을 사용하는 빠른, 기능이 풍부한, 크로스 플랫폼 터미널 에뮬레이터입니다. 이 스크립트는 미리 구성된 Ghostty 설정을 적용합니다.*
 
-### Audio
+### 오디오
 - *PipeWire 오디오 시스템을 설치하고 설정합니다.*
 
-### Bluetooth
-- *Bluetooth 필요 패키지를 설치하고 Bluetooth를 설정합니다.*
+### 블루투스
+- *블루투스 패키지를 설치하고 블루투스 기능을 설정합니다.*
 
-### Brightness 
-- *Brightnessctl을 사용하여 밝기 수준을 선호하는 수준으로 설정합니다.* 
+### 밝기
+- *Brightnessctl을 사용하여 선호도에 따라 화면 밝기를 설정합니다.*
 
-### Extensions
+### 확장 프로그램
 - *Chromium 또는 Firefox 기반 브라우저를 위한 유용한 확장 프로그램을 추천합니다.*

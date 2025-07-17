@@ -2,99 +2,99 @@
 
 <img src="https://cdn-icons-png.flaticon.com/128/3721/3721643.png" width="40" />
 
-**Carch viene con los siguientes scripts para configurar varios aspectos de tu sistema basado en Arch o sistema Fedora.**
+**Carch viene con los siguientes scripts para configurar varios aspectos de tus distribuciones basadas en Arch, Fedora y openSUSE.**
 
 ### Descripciones:
 
 ### Dwm
-- *Configura rápidamente el gestor de ventanas Dwm con un script de un solo clic, utilizando mi configuración personalizada.*
+- *dwm es un gestor de ventanas de mosaicos dinámico para X11, conocido por ser mínimo, rápido y configurable mediante la edición de su código fuente. El script aplicará mi configuración de dwm preconfigurada desde mi repositorio [harilvfs/dwm](https://github.com/harilvfs/dwm) e instalará todas las dependencias necesarias para hacer que el entorno sea completamente funcional.*
 
 ### Hyprland
-- *Instala el compositor Hyprland junto con mis dotfiles preconfigurados para una configuración optimizada.*
+- *Hyprland es un compositor dinámico de Wayland que admite características modernas como animaciones, efectos de ventana y diseños de mosaicos flexibles. El script te permite instalar configuraciones de Hyprland preconfiguradas de usuarios respetados - [ml4w](https://github.com/mylinuxforwork/dotfiles), [end-4](https://github.com/end-4/dots-hyprland), [Jakoolit](https://github.com/JaKooLit/Arch-Hyprland), y [prasanthrangan dots](https://github.com/prasanthrangan/hyprdots).*
 
 ### Fuentes
-- *Descarga e instala una variedad de fuentes Nerd para mejorar la legibilidad y estética en aplicaciones de terminal.*
+- *Descarga e instala una variedad de Nerd Fonts para mejorar la legibilidad y la estética en aplicaciones de terminal.*
 
 ### Kernel LTS
-- *Instala el kernel de Soporte a Largo Plazo (LTS) para mayor estabilidad y soporte extendido.*
+- *Este script instala el kernel LTS solo para distribuciones basadas en Arch (no para Fedora o openSUSE).*
 
 ### Paquetes
-- *Instala una selección curada de paquetes esenciales para establecer un entorno completamente funcional.*
+- *Proporciona un menú con varias categorías de paquetes como herramientas Android, navegadores, multimedia, desarrollo y más. La mayoría de los paquetes ampliamente utilizados están incluidos, con paquetes adicionales en futuras actualizaciones.*
 
 ### Alacritty
-- *Configura el emulador de terminal Alacritty utilizando mis configuraciones preferidas para un rendimiento óptimo.*
+- *Alacritty es un emulador de terminal rápido y acelerado por GPU centrado en el rendimiento y la simplicidad. El script aplica mi configuración de Alacritty preconfigurada a tu sistema.*
 
 ### AUR
-- *Instala ayudantes de AUR (Repositorio de Usuarios de Arch), como Paru o Yay, para simplificar la gestión de paquetes.*
+- *AUR (Arch User Repository) es un repositorio impulsado por la comunidad para usuarios de Arch Linux, que contiene scripts de construcción de paquetes enviados por usuarios (PKGBUILDs) que facilitan la instalación de software no disponible en los repositorios oficiales. El script te permitirá elegir un ayudante de AUR e instalarlo según tu preferencia.*
 
 ### Fastfetch
-- *Configura Fastfetch para mostrar información detallada del sistema de forma rápida y atractiva en el terminal.*
+- *Fastfetch es una herramienta de información del sistema ligera que muestra detalles del SO, hardware y otros en un formato limpio y personalizable. El script aplica mi configuración de fastfetch del repositorio [harilvfs/fastfetch](https://github.com/harilvfs/fastfetch).*
 
 ### GRUB
-- *Personaliza el cargador de arranque GRUB con estética mejorada y configuraciones para una experiencia de arranque más pulida.*
+- *GRUB (GNU GRand Unified Bootloader) es un cargador de arranque que te permite elegir y cargar sistemas operativos o kernels al inicio. El script ofrece varios temas y aplica las configuraciones necesarias de GRUB. Créditos a [chrisTitusTech/Top-5-Bootloader-Themes](https://github.com/chrisTitusTech/Top-5-Bootloader-Themes) por los temas y asistencia en scripts.*
 
 ### Kitty
-- *Configura el emulador de terminal Kitty con características avanzadas y configuraciones personalizadas.*
+- *Kitty es un emulador de terminal rápido y acelerado por GPU con características modernas como ligaduras, pestañas, diseños de mosaicos y soporte de imágenes. El script aplica mi configuración de Kitty preconfigurada.*
 
 ### Neovim
-- *Instala y configura Neovim para un entorno de edición de código mejorado y eficiente.*
+- *Neovim es una versión moderna y mejorada de Vim diseñada para ser más extensible, más rápida y más fácil de integrar con plugins. El script te permite elegir entre configuraciones de Kickstart Neovim y NvChad para personalizar tu entorno IDE.*
 
 ### Picom
-- *Instala y configura el compositor Picom para habilitar transparencia de ventanas, sombras y otros efectos visuales.*
+- *Picom es un compositor ligero para X11 que agrega transparencia de ventanas, sombras y animaciones. El script ofrece la instalación de mi configuración de Picom preconfigurada y soporte para Picom animado de [picom-ftlabs](https://github.com/r0-zero/picom).*
 
 ### Rofi
-- *Configura Rofi como un potente lanzador de aplicaciones e intercambiador de ventanas, mejorando la eficiencia del flujo de trabajo.*
+- *Rofi es un lanzador de aplicaciones ligero, cambiador de ventanas y reemplazo de dmenu para X11. El script aplica mi configuración de Rofi preconfigurada.*
 
 ### SDDM
-- *Configura el SDDM (Gestor de Pantalla de Escritorio Simple) para una experiencia de inicio de sesión optimizada y visualmente atractiva.*
+- *SDDM (Simple Desktop Display Manager) es un gestor de pantalla gráfico moderno basado en Qt. El script instala un tema basado en Catppuccin para SDDM de la comunidad Catppuccin.*
 
 ### Temas e Iconos
-- *Instala y aplica un conjunto de temas e iconos para mejorar la apariencia de tu escritorio.*
+- *Instala y aplica una colección de temas e iconos para mejorar la apariencia del escritorio.*
 
 ### Fondos de Pantalla
-- *Instala una selección de fondos de pantalla para una estética de escritorio personalizada.*
+- *Descarga una colección de hermosos fondos de pantalla Nord y Catppuccin.*
 
 ### Tmux
-- *Instala y configura Tmux para una experiencia de multiplexación de terminal más eficiente.*
+- *tmux es un multiplexor de terminal que te permite gestionar múltiples sesiones de terminal dentro de una ventana. El script aplica mi configuración de tmux preconfigurada.*
 
 ### Helix
-- *Instala y configura el editor de texto Helix, proporcionando un entorno de edición de código moderno y rico en características, optimizado tanto para rendimiento como para facilidad de uso.*
+- *Helix es un editor de texto modal inspirado en Vim, centrado en la velocidad y características modernas como resaltado de sintaxis, integración del protocolo de servidor de idiomas (LSP) y múltiples cursores. El script aplica mi configuración de Helix preconfigurada.*
 
 ### Prompt de Bash
-- *Configura un prompt personalizado de Bash con información útil como el directorio de trabajo actual, estado de Git y detalles del sistema, mejorando la experiencia de línea de comandos.*
+- *El prompt personalizable de línea de comandos para la shell Bash. El script te permite elegir entre temas Tokyo Night, Catppuccin y Nord.*
 
 ### Prompt de Zsh
-- *Configura un prompt elegante de Zsh con funcionalidades añadidas como resaltado de sintaxis, autocompletado y temas personalizados para una experiencia de shell más eficiente.*
+- *Zsh (Z shell) es una shell Unix avanzada con características como autocompletado mejorado, mejor scripting y personalización potente. El script instala todas las dependencias requeridas y aplica mi tema personalizado.*
 
 ### Fish
-- *Instala y configura el shell Fish, ofreciendo un entorno de línea de comandos interactivo y fácil de usar con características avanzadas como autosugerencias y sintaxis limpia.*
+- *Fish (Friendly Interactive Shell) es una shell Unix amigable con el usuario con auto-sugerencias inteligentes, resaltado de sintaxis y scripting fácil. El script instala y aplica el tema [tide](https://github.com/IlanCosman/tide).*
 
 ### Bun
-- *Instala y configura Bun, un runtime de JavaScript rápido para desarrollo moderno.*
+- *Bun es un runtime, bundler y gestor de paquetes JavaScript rápido y todo en uno centrado en el rendimiento. El script instala Bun en tu sistema.*
 
 ### Npm
-- *Asegura que npm esté instalado correctamente, ofreciendo una configuración alternativa si es necesario.*
+- *npm (Node Package Manager) es el gestor de paquetes por defecto para Node.js, usado para gestionar bibliotecas JavaScript y dependencias. El script instala npm en tu sistema.*
 
 ### Chaotic AUR
-- *Instala y configura Pacman para añadir el Chaotic AUR en Arch.*
+- *Chaotic-AUR es un repositorio ayudante de AUR no oficial popular que proporciona paquetes binarios precompilados. El script instala Chaotic-AUR y configura `pacman.conf` para usarlo.*
 
 ### Dunst
-- *Configura Dunst, un demonio de notificaciones ligero y personalizable, con configuraciones optimizadas para una experiencia elegante y discreta.*
+- *Dunst es un daemon de notificaciones ligero y personalizable para Linux que muestra notificaciones de escritorio mínimas y no intrusivas. El script aplica mi configuración de Dunst preconfigurada.*
 
 ### Foot
-- *Configura el emulador de terminal Foot con soporte para wayland y configuraciones personalizadas.*
+- *Foot es un emulador de terminal ligero, rápido y mínimo nativo de Wayland diseñado para simplicidad y rendimiento. El script aplica mi configuración de Foot preconfigurada.*
 
 ### Ghostty
-- *Configura el emulador de terminal Ghostty con aceleración GPU y configuraciones personalizadas.*
+- *Ghostty es un emulador de terminal rápido, rico en características y multiplataforma que usa UI nativa y aceleración GPU. El script aplica mi configuración de Ghostty preconfigurada.*
 
 ### Audio
 - *Instala y configura el sistema de audio PipeWire.*
 
 ### Bluetooth
-- *Instala paquetes necesarios para Bluetooth y configura Bluetooth.*
+- *Instala paquetes Bluetooth y configura la funcionalidad Bluetooth.*
 
 ### Brillo
-- *Establece el nivel de brillo según tu preferencia usando Brightnessctl.*
+- *Configura el brillo de la pantalla según tu preferencia usando Brightnessctl.*
 
 ### Extensiones
-- *Recomienda algunas extensiones útiles para navegadores basados en Chromium o Firefox.*
+- *Recomienda extensiones útiles para navegadores basados en Chromium o Firefox.*
