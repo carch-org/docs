@@ -4,22 +4,17 @@
 
 نستخدم `PKGBUILD` لـ Arch Linux وملفات `.rpm` لـ Fedora و openSUSE.
 
-::: code-group
+<div class="danger custom-block" style="padding-top: 8px">
 
-```sh [<i class="devicon-archlinux-plain"></i> Arch ]
-git clone https://github.com/carch-org/pkgs ~/pkgs
-cd ~/pkgs/carch-bin
-makepkg -si
-```
+نحن ندعم فقط التوزيعات المبنية على Arch و Fedora و openSUSE، لذا لن يعمل على التوزيعات الأخرى حالياً.
 
-```sh [<i class="devicon-fedora-plain"></i> Fedora ]
-sudo dnf install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
-```
+</div>
 
-```sh [<i class="devicon-opensuse-plain"></i>  openSUSE ]
-sudo zypper install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
+قم بتنفيذ الأمر التالي في الطرفية:
+
+```sh
+bash -c "$(curl -fsSL chalishari.com.np/carchinstall)"
 ```
-::: 
 
 ### 📦 حزمة Cargo
 
@@ -76,15 +71,15 @@ cd build/release/
 sudo cp -r carch /usr/bin/
 ```
 
-### 🔄 التحديث وإلغاء التثبيت
+### 🔄 التحديث والإلغاء
 
 ::: code-group
 
-```sh [ التحديث ]
+```sh [ 🔄 تحديث ]
 carch --update
 ```
 
-```sh [ إلغاء التثبيت ]
+```sh [ 🗑️ إلغاء التثبيت ]
 carch --uninstall
 ```
 

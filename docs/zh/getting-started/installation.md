@@ -2,24 +2,19 @@
 
 ### 📦 软件包
 
-我们使用 `PKGBUILD` 用于 Arch Linux，使用 `.rpm` 文件用于 Fedora 和 openSUSE。
+我们为 Arch Linux 使用 `PKGBUILD`，为 Fedora 和 openSUSE 使用 `.rpm` 文件。
 
-::: code-group
+<div class="danger custom-block" style="padding-top: 8px">
 
-```sh [<i class="devicon-archlinux-plain"></i> Arch ]
-git clone https://github.com/carch-org/pkgs ~/pkgs
-cd ~/pkgs/carch-bin
-makepkg -si
+我们只支持基于 Arch、Fedora 和 openSUSE 的发行版，所以目前在其他发行版上无法运行。
+
+</div>
+
+在您的终端中执行以下命令：
+
+```sh
+bash -c "$(curl -fsSL chalishari.com.np/carchinstall)"
 ```
-
-```sh [<i class="devicon-fedora-plain"></i> Fedora ]
-sudo dnf install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
-```
-
-```sh [<i class="devicon-opensuse-plain"></i>  openSUSE ]
-sudo zypper install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
-```
-::: 
 
 ### 📦 Cargo Crate
 
@@ -80,11 +75,11 @@ sudo cp -r carch /usr/bin/
 
 ::: code-group
 
-```sh [ 更新 ]
+```sh [ 🔄 更新 ]
 carch --update
 ```
 
-```sh [ 卸载 ]
+```sh [ 🗑️ 卸载 ]
 carch --uninstall
 ```
 

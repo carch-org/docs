@@ -4,22 +4,17 @@
 
 We use `PKGBUILD` for Arch Linux and `.rpm` files for Fedora and openSUSE.
 
-::: code-group
+<div class="danger custom-block" style="padding-top: 8px">
 
-```sh [<i class="devicon-archlinux-plain"></i> Arch ]
-git clone https://github.com/carch-org/pkgs ~/pkgs
-cd ~/pkgs/carch-bin
-makepkg -si
-```
+We only support Arch, Fedora, and openSUSE-based distros, so it will not work on other distros for now.
 
-```sh [<i class="devicon-fedora-plain"></i> Fedora ]
-sudo dnf install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
-```
+</div>
 
-```sh [<i class="devicon-opensuse-plain"></i>  openSUSE ]
-sudo zypper install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
+Execute the following command in your terminal:
+
+```sh
+bash -c "$(curl -fsSL chalishari.com.np/carchinstall)"
 ```
-::: 
 
 ### 📦 Cargo Crate
 
@@ -81,11 +76,11 @@ sudo cp -r carch /usr/bin/
 
 ::: code-group
 
-```sh [ Update ]
+```sh [ 🔄 Update ]
 carch --update
 ```
 
-```sh [ Uninstall ]
+```sh [ 🗑️ Uninstall ]
 carch --uninstall
 ```
 

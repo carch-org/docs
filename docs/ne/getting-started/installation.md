@@ -4,22 +4,17 @@
 
 हामी Arch Linux को लागि `PKGBUILD` र Fedora र openSUSE को लागि `.rpm` फाइलहरू प्रयोग गर्छौं।
 
-::: code-group
+<div class="danger custom-block" style="padding-top: 8px">
 
-```sh [<i class="devicon-archlinux-plain"></i> Arch ]
-git clone https://github.com/carch-org/pkgs ~/pkgs
-cd ~/pkgs/carch-bin
-makepkg -si
-```
+हामी केवल Arch, Fedora, र openSUSE-आधारित डिस्ट्रोहरूलाई समर्थन गर्छौं, त्यसैले यो अहिले अन्य डिस्ट्रोहरूमा काम गर्दैन।
 
-```sh [<i class="devicon-fedora-plain"></i> Fedora ]
-sudo dnf install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
-```
+</div>
 
-```sh [<i class="devicon-opensuse-plain"></i>  openSUSE ]
-sudo zypper install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
+तपाईंको टर्मिनलमा निम्नलिखित कमाण्ड चलाउनुहोस्:
+
+```sh
+bash -c "$(curl -fsSL chalishari.com.np/carchinstall)"
 ```
-::: 
 
 ### 📦 Cargo Crate
 
@@ -80,11 +75,11 @@ sudo cp -r carch /usr/bin/
 
 ::: code-group
 
-```sh [ अपडेट ]
+```sh [ 🔄 अपडेट ]
 carch --update
 ```
 
-```sh [ अनइन्स्टल ]
+```sh [ 🗑️ अनइन्स्टल ]
 carch --uninstall
 ```
 

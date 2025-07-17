@@ -4,22 +4,17 @@
 
 Nous utilisons `PKGBUILD` pour Arch Linux et les fichiers `.rpm` pour Fedora et openSUSE.
 
-::: code-group
+<div class="danger custom-block" style="padding-top: 8px">
 
-```sh [<i class="devicon-archlinux-plain"></i> Arch ]
-git clone https://github.com/carch-org/pkgs ~/pkgs
-cd ~/pkgs/carch-bin
-makepkg -si
-```
+Nous ne supportons que les distributions basées sur Arch, Fedora et openSUSE, donc cela ne fonctionnera pas sur d'autres distributions pour le moment.
 
-```sh [<i class="devicon-fedora-plain"></i> Fedora ]
-sudo dnf install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
-```
+</div>
 
-```sh [<i class="devicon-opensuse-plain"></i>  openSUSE ]
-sudo zypper install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
+Exécutez la commande suivante dans votre terminal :
+
+```sh
+bash -c "$(curl -fsSL chalishari.com.np/carchinstall)"
 ```
-::: 
 
 ### 📦 Cargo Crate
 
@@ -76,15 +71,15 @@ cd build/release/
 sudo cp -r carch /usr/bin/
 ```
 
-### 🔄 Mise à jour et Désinstallation
+### 🔄 Mettre à jour et Désinstaller
 
 ::: code-group
 
-```sh [ Mise à jour ]
+```sh [ 🔄 Mettre à jour ]
 carch --update
 ```
 
-```sh [ Désinstallation ]
+```sh [ 🗑️ Désinstaller ]
 carch --uninstall
 ```
 

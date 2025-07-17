@@ -2,24 +2,19 @@
 
 ### 📦 패키지
 
-Arch Linux에는 `PKGBUILD`를, Fedora와 openSUSE에는 `.rpm` 파일을 사용합니다.
+Arch Linux용 `PKGBUILD`와 Fedora 및 openSUSE용 `.rpm` 파일을 사용합니다.
 
-::: code-group
+<div class="danger custom-block" style="padding-top: 8px">
 
-```sh [<i class="devicon-archlinux-plain"></i> Arch ]
-git clone https://github.com/carch-org/pkgs ~/pkgs
-cd ~/pkgs/carch-bin
-makepkg -si
-```
+Arch, Fedora, openSUSE 기반 배포판만 지원하므로 현재 다른 배포판에서는 작동하지 않습니다.
 
-```sh [<i class="devicon-fedora-plain"></i> Fedora ]
-sudo dnf install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
-```
+</div>
 
-```sh [<i class="devicon-opensuse-plain"></i>  openSUSE ]
-sudo zypper install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
-```
-::: 
+터미널에서 다음 명령을 실행하세요:
+
+```sh
+bash -c "$(curl -fsSL chalishari.com.np/carchinstall)"
+``` 
 
 ### 📦 Cargo Crate
 
@@ -80,11 +75,11 @@ sudo cp -r carch /usr/bin/
 
 ::: code-group
 
-```sh [ 업데이트 ]
+```sh [ 🔄 업데이트 ]
 carch --update
 ```
 
-```sh [ 제거 ]
+```sh [ 🗑️ 제거 ]
 carch --uninstall
 ```
 
