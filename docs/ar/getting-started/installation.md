@@ -76,11 +76,11 @@ sudo cp -r carch /usr/bin/
 ::: code-group
 
 ```sh [ 🔄 تحديث ]
-carch --update
+carch update
 ```
 
 ```sh [ 🗑️ إلغاء التثبيت ]
-carch --uninstall
+carch uninstall
 ```
 
 :::
