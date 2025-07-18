@@ -26,8 +26,8 @@ We're excited that you're interested in contributing to **Carch**! Contributions
 > ```
 >
 > Btw, before committing, if you are changing any `.sh` or bash script file, make sure to check the `scripts/` directory and run `./check.sh` for any extra white or blank spaces. If it fails, run `./cleanup.sh`. Also make sure shell scripts are formatted by `shfmt`.
-> For Rust file changes, make sure to run `cargo fmt --all --check`. If there are any suggestions, run `cargo fmt --all`.  
-> Also, make sure to run `cargo clippy` and `cargo clippy -- -D warnings` to ensure there are no errors left. Thanks.
+>
+> For changes to any part of the Rust files, make sure to run `cargo xtask ci` to check formatting and other validations. Ensure you do not push directly without verifying that there are no errors anywhere.
 
 > For more information about Conventional Commits, prefer this [guide](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 
