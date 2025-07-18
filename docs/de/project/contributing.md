@@ -17,46 +17,17 @@ Wir freuen uns, dass Sie daran interessiert sind, zu **Carch** beizutragen! Beit
 
 ## 📌 Die Codebasis verstehen
 
-> [!NOTE]
-> Bevor Sie beitragen, **verstehen Sie die Struktur** von Carch:
-> - **Die Haupt-Rust-Dateien von Carch befinden sich in:** `src`
->
->```sh
-> src/
-> ├── ui/
-> │   ├── app.rs
-> │   ├── mod.rs
-> │   ├── popups.rs
-> │   ├── render.rs
-> │   └── system_info.rs 
-> ├── main.rs 
-> ├── commands.rs
-> ├── display.rs
-> ├── args.rs 
-> └── version.rs
-> ```
-> 
-> - **Alle `modules`-Skripte sind nach Kategorien organisiert in:**  
-> ```sh
-> modules/
-> ├── Browser/     # Browser-bezogene Skripte
-> ├── Desktop/     # Desktop-Umgebung-bezogene Skripte
-> ├── Development/ # Entwicklungstools-Skripte
-> ├── System/      # Systemkonfigurations-Skripte
-> └── Terminal/    # Terminal-Setup-Skripte
-> ```
-
 > [!IMPORTANT]
-> Zuerst **analysieren Sie, wie das Skript funktioniert**, bevor Sie Änderungen vornehmen. Wenn Sie das Projekt verbessern oder erweitern möchten, stellen Sie sicher, dass Sie **die Struktur verstehen** und wie jedes Teil interagiert. Dies wird Ihnen helfen, auf eine Weise beizutragen, die mit dem Design des Projekts konsistent ist.
+> Zuerst **analysiere, wie das Skript funktioniert**, bevor du Änderungen vornimmst. Wenn du das Projekt verbessern oder erweitern möchtest, stelle sicher, dass du **die Struktur verstehst** und wie jeder Teil interagiert. Das wird dir helfen, auf eine Weise beizutragen, die mit dem Design des Projekts übereinstimmt.
 >
-> ```sh
-> Für Commits verwenden Sie Labels wie
-> feat: your-commit-message oder fix: your-commit-message.
+> ```md
+> Für Commits folge dem konventionellen Commit-Stil:
+> feat: deine-commit-nachricht oder fix: deine-commit-nachricht.
 > ```
-> 
-> Übrigens, bevor du einen Commit machst, falls du eine `.sh`- oder Bash-Skript-Datei änderst, überprüfe unbedingt das Verzeichnis `scripts/` und führe `./check.sh` aus, um überflüssige Leer- oder Leerzeilen zu finden. Falls es fehlschlägt, führe `./cleanup.sh` aus. Stelle außerdem sicher, dass alle Shell-Skripte mit `shfmt` formatiert sind. 
-> Bei Änderungen an Rust-Dateien stelle sicher, dass du `cargo fmt --all --check` ausführst. Wenn es Vorschläge gibt, führe `cargo fmt --all` aus.  
-> Führe außerdem `cargo clippy` und `cargo clippy -- -Dwarnings` aus, um sicherzustellen, dass keine Fehler übrig sind. Danke.
+>
+> Übrigens, bevor du commitest, wenn du irgendwelche `.sh` oder bash-Skript-Dateien änderst, stelle sicher, dass du das `scripts/` Verzeichnis überprüfst und `./check.sh` ausführst, um zusätzliche Leer- oder Zwischenräume zu finden. Wenn es fehlschlägt, führe `./cleanup.sh` aus. Stelle auch sicher, dass Shell-Skripte mit `shfmt` formatiert sind.
+> Für Rust-Dateiänderungen stelle sicher, dass du `cargo fmt --all --check` ausführst. Wenn es Vorschläge gibt, führe `cargo fmt --all` aus.
+> Stelle auch sicher, dass du `cargo clippy` und `cargo clippy -- -D warnings` ausführst, um sicherzustellen, dass keine Fehler übrig bleiben. Danke.
 
 > Für weitere Informationen über Conventional Commits, siehe diesen [Leitfaden](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 

@@ -17,47 +17,17 @@
 
 ## 📌 Entender la Base de Código
 
-> [!NOTE]
-> Antes de contribuir, **entiende la estructura** de Carch:
-> - **Los archivos principales de Rust de Carch están ubicados en:** `src`
->
->```sh
-> src/
-> ├── ui/
-> │   ├── app.rs
-> │   ├── mod.rs
-> │   ├── popups.rs
-> │   ├── render.rs
-> │   └── system_info.rs 
-> ├── main.rs 
-> ├── commands.rs
-> ├── display.rs
-> ├── args.rs 
-> └── version.rs
-> ```
-> 
-> - **Todos los scripts de `módulos` están organizados por categoría en:**  
-> ```sh
-> modules/
-> ├── Browser/     # Scripts relacionados con navegadores 
-> ├── Desktop/     # Scripts relacionados con entornos de escritorio
-> ├── Development/ # Scripts de herramientas de desarrollo
-> ├── System/      # Scripts de configuración del sistema
-> └── Terminal/    # Scripts de configuración de terminal
-> ```
-
-
 > [!IMPORTANT]
-> Primero, **analiza cómo funciona el script** antes de hacer cualquier cambio. Si quieres mejorar o añadir al proyecto, asegúrate de **entender la estructura** y cómo interactúa cada pieza. Esto te ayudará a contribuir de una manera que sea consistente con el diseño del proyecto. 
+> Primero, **analiza cómo funciona el script** antes de hacer cualquier cambio. Si quieres mejorar o añadir al proyecto, asegúrate de **entender la estructura** y cómo interactúa cada pieza. Esto te ayudará a contribuir de manera consistente con el diseño del proyecto.
 >
-> ```sh
-> Para hacer commits, usa etiquetas como
+> ```md
+> Para hacer commits, sigue el estilo de commit convencional:
 > feat: tu-mensaje-de-commit o fix: tu-mensaje-de-commit.
 > ```
 >
-> Por cierto, antes de hacer commit, si estás cambiando algún archivo `.sh` o script de bash, asegúrate de revisar el directorio `scripts/` y ejecutar `./check.sh` para detectar espacios en blanco extra. Si falla, ejecuta `./cleanup.sh`. Asegúrate también de que los scripts de shell estén formateados con `shfmt`. 
-> Para cambios en archivos de Rust, asegúrate de ejecutar `cargo fmt --all --check`. Si hay sugerencias, ejecuta `cargo fmt --all`.  
-> Además, asegúrate de ejecutar `cargo clippy` y `cargo clippy -- -Dwarnings` para asegurarte de que no queden errores. Gracias.
+> Por cierto, antes de hacer commit, si estás cambiando algún archivo `.sh` o script bash, asegúrate de revisar el directorio `scripts/` y ejecutar `./check.sh` para cualquier espacio en blanco o vacío adicional. Si falla, ejecuta `./cleanup.sh`. También asegúrate de que los scripts de shell estén formateados por `shfmt`.
+> Para cambios en archivos Rust, asegúrate de ejecutar `cargo fmt --all --check`. Si hay sugerencias, ejecuta `cargo fmt --all`.
+> También asegúrate de ejecutar `cargo clippy` y `cargo clippy -- -D warnings` para asegurar que no queden errores. Gracias.
 
 > Para más información sobre Commits Convencionales, consulta esta [guía](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 
