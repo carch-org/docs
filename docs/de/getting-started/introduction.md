@@ -7,8 +7,9 @@
 
 <h1>Was ist Carch?</h1>
 
-*[Carch](https://carch.chalisehari.com.np)* ist eine Sammlung modularer Bash-Skripte mit einer schönen TUI (*erstellt mit* [`ratatui`](https://github.com/ratatui-org/ratatui)), um die Nachinstallation für Linux-Nutzer zu automatisieren.  
-Es ist besonders nützlich, wenn du schnell deine *Lieblingsanwendungen* mit einer sauberen und einsatzbereiten Umgebung nutzen möchtest. (*Unterstützt derzeit Arch-, Fedora- und openSUSE-basierte Distributionen*)
+*[Carch](https://carch.chalisehari.com.np)* ist **eine Sammlung** modularer Bash-Skripte mit einer schönen TUI (*erstellt mit* [`ratatui`](https://github.com/ratatui-org/ratatui)), um die Post-Installations-Einrichtung für Linux-Benutzer zu automatisieren.
+
+Es ist besonders nützlich, wenn Sie schnell Ihre *Lieblings-Apps* auf einem sauberen, einsatzbereiten System einrichten und verwenden möchten. (*Unterstützt derzeit Arch-, Fedora- und openSUSE-basierte Distributionen*)
 
 ## Funktionen
 <img src="https://img.icons8.com/?size=80&id=vSx5PNyFqTTo&format=png" width="50" /> 
