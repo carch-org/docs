@@ -76,11 +76,11 @@ sudo cp -r carch /usr/bin/
 ::: code-group
 
 ```sh [ 🔄 Обновить ]
-carch --update
+carch update
 ```
 
 ```sh [ 🗑️ Удалить ]
-carch --uninstall
+carch uninstall
 ```
 
 :::
