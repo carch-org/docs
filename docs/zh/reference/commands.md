@@ -17,7 +17,6 @@ carch --help
 | `--help`, `-h`     | 显示此帮助信息并退出。                                                                       |
 | `--version`, `-v`  | 显示程序版本。                                                                               |
 | `--log`            | 仅为当前会话启用日志记录，位于 `~/.config/carch/carch.log`。                                 |
-| `--no-cleanup`     | 禁用 `~/.cache/carch` 目录中模块脚本的缓存清理。                                            |
 | `check-update`     | 检查是否有新版本可用。                                                                       |
 | `update`           | 交互式更新 Carch。                                                                          |
 | `uninstall`        | 交互式卸载 Carch。

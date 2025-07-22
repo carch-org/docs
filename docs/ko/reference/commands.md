@@ -17,7 +17,6 @@ carch --help
 | `--help`, `-h`     | 이 도움말 메시지를 표시하고 종료합니다.                                                        |
 | `--version`, `-v`  | 프로그램 버전을 표시합니다.                                                                   |
 | `--log`            | 현재 세션에만 `~/.config/carch/carch.log`에 로깅을 활성화합니다.                              |
-| `--no-cleanup`     | `~/.cache/carch` 디렉토리의 모듈 스크립트 캐시 정리를 비활성화합니다.                         |
 | `check-update`     | 새 버전이 사용 가능한지 확인합니다.                                                            |
 | `update`           | Carch를 대화식으로 업데이트합니다.                                                            |
 | `uninstall`        | Carch를 대화식으로 제거합니다.
