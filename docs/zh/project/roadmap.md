@@ -29,6 +29,9 @@
    - 为核心系统设置开发适合初学者的脚本（例如包管理、用户配置）。
    - 包括指南和文档以帮助新用户。
 
+- **集成弹窗式运行脚本 TUI：**  
+  - 在 TUI 内部运行脚本，无需离开界面，去除旧的 `fzf` 弹窗样式，带来更流畅的体验。
+
 ## Carch 项目检查清单
 <img src="https://cdn-icons-png.flaticon.com/128/8090/8090840.png" width="30" />
 
@@ -57,7 +60,10 @@
   - 包管理 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
   - 初学者文档 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
 
+- **集成弹窗式运行脚本 TUI：**  
+  - 现在脚本在 TUI 内部运行，无需离开界面，已去除旧的 `fzf` 弹窗样式，体验更顺畅。 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+
 ## 时间线（暂定）📅
 
 - **Q 2025**：开发基于 Rust 的 TUI，以增强用户交互。🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **2025 年中 / 2026**： 重构现有脚本以提高稳定性，并开始扩展对发行版的支持。<img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+- **2025/2026 年中期**：重构现有脚本以提高稳定性，并开始扩展发行版支持。（仍在进行中） <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />

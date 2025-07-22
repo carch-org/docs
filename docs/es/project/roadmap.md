@@ -29,6 +29,9 @@
    - Desarrollar scripts amigables para principiantes para la configuración del sistema central (ej., gestión de paquetes, configuración de usuario).
    - Incluir guías y documentación para asistir a nuevos usuarios.
 
+- **Integrar TUI de ejecución de scripts con estilo emergente:**  
+  - Ejecutar scripts dentro de la TUI sin salir de ella, eliminando el estilo emergente `fzf` antiguo y brindando una experiencia más fluida.
+
 ## Lista de Verificación del Proyecto Carch 
 <img src="https://cdn-icons-png.flaticon.com/128/8090/8090840.png" width="30" />
 
@@ -57,7 +60,10 @@
   - Gestión de paquetes <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
   - Documentación para principiantes <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
 
+- **Integrar TUI de ejecución de scripts con estilo emergente:**  
+  - Ahora los scripts se ejecutan dentro de la TUI sin salir de ella, eliminando el estilo `fzf` antiguo y ofreciendo una experiencia más fluida. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+
 ## Cronograma (Tentativo) 📅
 
 - **Q 2025**: Desarrollar una TUI basada en Rust para mejorar la interacción del usuario. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **Mitad de 2025/2026**: Refactorizar los scripts existentes para mayor estabilidad y comenzar a ampliar el soporte para distribuciones. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+- **Q Medio 2025/2026**: Reestructurar los scripts existentes para mayor estabilidad y comenzar a ampliar el soporte de distribuciones. (todavía en proceso) <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />

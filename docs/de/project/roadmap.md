@@ -29,6 +29,9 @@
    - Anfängerfreundliche Skripte für die Kern-System-Einrichtung entwickeln (z.B. Paketverwaltung, Benutzerkonfiguration).
    - Anleitungen und Dokumentation einschließen, um neuen Benutzern zu helfen.
 
+- **Popup-Style Run Script TUI integrieren:**  
+  - Skripte innerhalb der TUI ausführen, ohne sie zu verlassen, den alten `fzf`-Popup-Stil entfernen und ein flüssigeres Erlebnis bieten.
+
 ## Carch Projekt Checkliste 
 <img src="https://cdn-icons-png.flaticon.com/128/8090/8090840.png" width="30" />
 
@@ -57,7 +60,10 @@
   - Paketverwaltung <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
   - Dokumentation für Anfänger <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
 
+- **Popup-Style Run Script TUI integrieren:**  
+  - Skripte laufen jetzt innerhalb der TUI, ohne sie zu verlassen, der alte `fzf`-Popup-Stil wurde entfernt für ein flüssigeres Erlebnis. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+
 ## Zeitplan (Vorläufig) 📅
 
 - **Q 2025**: Entwicklung einer Rust-basierten TUI zur verbesserten Benutzerinteraktion. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **Mitte 2025/2026**: Refaktorierung bestehender Skripte zur Verbesserung der Stabilität und Erweiterung der Distribution-Unterstützung. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+- **Q Mitte 2025/2026**: Vorhandene Skripte für mehr Stabilität überarbeiten und mit der Erweiterung des Distribution-Supports beginnen. (noch in Arbeit) <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
