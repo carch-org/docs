@@ -29,6 +29,9 @@
    - 핵심 시스템 설정을 위한 초보자 친화적 스크립트 개발 (예: 패키지 관리, 사용자 구성).
    - 새로운 사용자를 돕기 위한 가이드 및 문서 포함.
 
+- **팝업 스타일 실행 스크립트 TUI 통합:**  
+  - TUI를 벗어나지 않고 스크립트를 내부에서 실행하여 기존 `fzf` 팝업 스타일을 제거하고 더 부드러운 사용 경험을 제공합니다.
+
 ## Carch 프로젝트 체크리스트 
 <img src="https://cdn-icons-png.flaticon.com/128/8090/8090840.png" width="30" />
 
@@ -57,7 +60,10 @@
   - 패키지 관리 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
   - 초보자용 문서 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
 
+- **팝업 스타일 실행 스크립트 TUI 통합:**  
+  - 이제 스크립트는 TUI 내부에서 실행되어 기존 `fzf` 팝업 스타일이 제거되고 더 부드러운 사용 경험이 제공됩니다. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+
 ## 타임라인 (잠정) 📅
 
 - **Q 2025**: 사용자 상호작용 강화를 위한 Rust 기반 TUI 개발. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **2025년 중반/2026년**: 기존 스크립트를 안정성 있게 리팩토링하고 배포판 지원 확장을 시작합니다. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+- **2025/2026년 중반**: 기존 스크립트를 안정성을 위해 리팩토링하고 배포판 지원 확장을 시작합니다. (진행 중) <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />

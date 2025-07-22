@@ -29,6 +29,9 @@
    - Développer des scripts conviviaux pour débutants pour la configuration système centrale (ex. gestion de paquets, configuration utilisateur).
    - Inclure des guides et documentation pour aider les nouveaux utilisateurs.
 
+- **Intégrer une TUI d’exécution de script en mode popup :**  
+  - Exécuter les scripts à l’intérieur de la TUI sans la quitter, supprimer l’ancien style popup `fzf` et offrir une expérience plus fluide.
+
 ## Liste de Contrôle du Projet Carch 
 <img src="https://cdn-icons-png.flaticon.com/128/8090/8090840.png" width="30" />
 
@@ -57,7 +60,10 @@
   - Gestion de paquets <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
   - Documentation pour débutants <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
 
+- **Intégrer une TUI d’exécution de script en mode popup :**  
+  - Les scripts s’exécutent maintenant à l’intérieur de la TUI sans la quitter, l’ancien style `fzf` est supprimé pour une expérience plus fluide. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+
 ## Calendrier (Provisoire) 📅
 
 - **T2 2025** : Développer une interface utilisateur en ligne de commande (TUI) basée sur Rust pour améliorer l’interaction utilisateur. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **Mi-2025/2026** : Réorganiser les scripts existants pour améliorer la stabilité et commencer à étendre la prise en charge des distributions. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+- **Q Medio 2025/2026**: Reestructurar los scripts existentes para mayor estabilidad y comenzar a ampliar el soporte de distribuciones. (todavía en proceso) <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />

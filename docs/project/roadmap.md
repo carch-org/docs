@@ -24,10 +24,13 @@
   - Create a single executable binary for Carch. 
   - Develop a Rust-based TUI. 
   - Add additional Rust scripts for enhanced functionality. 
-
+  
 - **Core System Setup Scripts ⚙️**
    - Develop beginner-friendly scripts for core system setup (e.g., package management, user configuration).
    - Include guides and documentation to assist new users.
+
+- **Integrate popup-style run script TUI:**  
+  - Run Scripts inside the TUI without leaving it, removing the old `fzf` pop-out style and providing a smoother experience.
 
 ## Carch Project Checklist 
 <img src="https://cdn-icons-png.flaticon.com/128/8090/8090840.png" width="30" />
@@ -57,7 +60,10 @@
   - Package management <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
   - Documentation for beginners <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
 
+- **Integrate popup-style run script TUI:**  
+  - Scripts now run inside the TUI without leaving it, removing the old `fzf` pop-out style and providing a smoother experience. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
+
 ## Timeline (Tentative) 📅
 
 - **Q 2025**: Develop a Rust-based TUI for enhanced user interaction. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **Q Mid 2025/2026**: Refactor existing scripts for stability and begin expanding distribution support. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+- **Q Mid 2025/2026**: Refactor existing scripts for stability and begin expanding distribution support. (still on the way) <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
