@@ -12,11 +12,11 @@ Eine der Sachen, die mich wirklich inspiriert hat, war das Ansehen von [Chris Ti
 
 Am Anfang war das Projekt... nun ja, **hässlich**. Ich habe `whiptail` für das Menü benutzt. Es hat funktioniert, aber es sah super altmodisch aus und fühlte sich irgendwie klobig an. Ehrlich gesagt war es nur ein einfaches Shell-Skript mit einem Haufen zusammengeklatschter Menüs.
 
-📅 **Aktualisiert: 2025-03-21**  
+## 📅 **Aktualisiert: 2025-03-21**  
 
 Später habe ich angefangen, `gum` zu benutzen, das ich durch [ml4w](https://github.com/mylinuxforwork) gefunden habe. Es ließ die Sachen viel schöner aussehen. Aber dann habe ich `fzf` ausprobiert, und das hat einfach gepasst. Es war viel schneller und sauberer für das, was ich machen wollte. Also habe ich `gum` verlassen (liebe es trotzdem noch 💖) und bin voll auf `fzf` umgestiegen.
 
-📅 **Aktualisiert: 2025-05-01**  
+## 📅 **Aktualisiert: 2025-05-01**  
 
 🦀 Und jetzt... großer Schritt: Ich habe eine vollständige Rust-basierte TUI mit `ratatui` hinzugefügt. Keine hässlichen Menüs mehr. Das neue Interface sieht viel besser aus, läuft smoother, und ich kann endlich Features hinzufügen, die in Bash allein einfach nicht möglich waren.
 
@@ -26,7 +26,7 @@ Also ja, es ist ein Mix: Rust für das Interface, Bash für die Logik, und `fzf`
 
 Carch ist wirklich einen langen Weg gekommen von etwas super einfachem und irgendwie hässlichem zu etwas, auf das ich stolz bin. Immer noch viel zu tun, aber es wird jeden Tag cooler.
 
-📅 **Aktualisiert: 2025-07-22**
+## 📅 **Aktualisiert: 2025-07-22**
 
 Ok, das Glück ist jetzt um mich herum. Endlich haben wir eine Popup-Style Run-Script TUI in der Haupt-TUI implementiert. Jetzt muss das Skript die TUI nicht verlassen, um zu laufen. Das ist eine riesige Errungenschaft für mich in Bezug auf das, was ich weiß und mein Wissen. Jetzt kannst du einfach das Skript in der TUI selbst auswählen und laufen lassen. Alles wird jetzt innerhalb der TUI passieren und ich habe den `fzf`-Stil aus den Skripten entfernt, da wir keinen extra TUI-Stil für das Ausführen von Skripten außerhalb mehr brauchen.
 

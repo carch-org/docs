@@ -12,11 +12,11 @@ Una de las cosas que realmente me inspiró fue ver a [Chris Titus Tech](https://
 
 Al principio, el proyecto estaba... bueno, **feo**. Usé `whiptail` para el menú. Funcionaba, pero se veía súper anticuado y se sentía algo torpe. Honestamente, era solo un script básico de shell con un montón de menús pegados juntos.
 
-📅 **Actualizado: 2025-03-21**  
+## 📅 **Actualizado: 2025-03-21**  
 
 Más tarde, comencé a usar `gum`, que encontré a través de [ml4w](https://github.com/mylinuxforwork). Hizo que las cosas se vieran mucho mejor. Pero luego probé `fzf`, y eso simplemente encajó. Era mucho más rápido y limpio para lo que quería hacer. Así que dejé `gum` (aunque todavía lo amo 💖) y me fui completamente con `fzf`.
 
-📅 **Actualizado: 2025-05-01**  
+## 📅 **Actualizado: 2025-05-01**  
 
 🦀 Y ahora... gran paso: He añadido una TUI completa basada en Rust usando `ratatui`. No más menús feos. La nueva interfaz se ve mucho mejor, corre más suave, y finalmente puedo agregar características que simplemente no eran posibles solo en Bash.
 
@@ -26,7 +26,7 @@ Así que sí, es una mezcla: Rust para la interfaz, Bash para la lógica, y `fzf
 
 Carch realmente ha recorrido un largo camino desde algo súper básico y medio feo, hasta algo de lo que estoy orgulloso. Todavía hay mucho que hacer, pero se está volviendo más genial cada día.
 
-📅 **Actualizado: 2025-07-22**
+## 📅 **Actualizado: 2025-07-22**
 
 Ok, la felicidad está a mi alrededor ahora. Finalmente, hemos implementado una TUI de ejecutar script estilo popup en la TUI principal. Ahora el script no necesita salir de la TUI para ejecutarse. Este es un logro enorme para mí en términos de lo que sé y mi conocimiento. Ahora puedes simplemente seleccionar y ejecutar el script en la TUI misma. Todo sucederá ahora dentro de la TUI y he removido el estilo `fzf` de los scripts ya que no necesitamos un estilo TUI extra para ejecutar scripts afuera más.
 

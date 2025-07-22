@@ -12,11 +12,11 @@ Une des choses qui m'a vraiment inspiré était de regarder [Chris Titus Tech](h
 
 Au début, le projet était... eh bien, **moche**. J'ai utilisé `whiptail` pour le menu. Ça marchait, mais ça avait l'air super vieille école et c'était un peu maladroit. Honnêtement, c'était juste un script shell basique avec un tas de menus collés ensemble.
 
-📅 **Mis à jour : 2025-03-21**  
+## 📅 **Mis à jour : 2025-03-21**  
 
 Plus tard, j'ai commencé à utiliser `gum`, que j'ai trouvé à travers [ml4w](https://github.com/mylinuxforwork). Ça rendait les choses beaucoup plus jolies. Mais ensuite j'ai essayé `fzf`, et ça a juste collé. C'était beaucoup plus rapide et plus propre pour ce que je voulais faire. Donc j'ai abandonné `gum` (je l'aime encore quand même 💖) et je suis allé à fond avec `fzf`.
 
-📅 **Mis à jour : 2025-05-01**  
+## 📅 **Mis à jour : 2025-05-01**  
 
 🦀 Et maintenant... grande étape : J'ai ajouté une TUI complète basée sur Rust utilisant `ratatui`. Plus de menus moches. La nouvelle interface a l'air bien meilleure, fonctionne plus en douceur, et je peux enfin ajouter des fonctionnalités qui n'étaient tout simplement pas possibles en Bash seul.
 
@@ -26,7 +26,7 @@ Donc oui, c'est un mélange : Rust pour l'interface, Bash pour la logique, et `f
 
 Carch a vraiment parcouru un long chemin depuis quelque chose de super basique et un peu moche, vers quelque chose dont je suis fier. Il y a encore beaucoup à faire, mais ça devient plus cool chaque jour.
 
-📅 **Mis à jour : 2025-07-22**
+## 📅 **Mis à jour : 2025-07-22**
 
 Ok, le bonheur est autour de moi maintenant. Finalement, nous avons implémenté une TUI d'exécution de script style popup dans la TUI principale. Maintenant le script n'a pas besoin de quitter la TUI pour s'exécuter. C'est un énorme accomplissement pour moi en termes de ce que je sais et ma connaissance. Maintenant vous pouvez juste sélectionner et exécuter le script dans la TUI elle-même. Tout va maintenant se passer à l'intérieur de la TUI et j'ai supprimé le style `fzf` des scripts car nous n'avons plus besoin d'un style TUI supplémentaire pour exécuter des scripts à l'extérieur.
 

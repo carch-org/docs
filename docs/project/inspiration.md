@@ -12,11 +12,11 @@ One of the things that really inspired me was watching [Chris Titus Tech](https:
 
 In the beginning, the project was... well, **ugly**. I used `whiptail` for the menu. It worked, but it looked super old school and felt kinda clunky. Honestly, it was just a basic shell script with a bunch of menus slapped together.
 
-📅 **Updated: 2025-03-21**  
+## 📅 **Updated: 2025-03-21**  
 
 Later on, I started using `gum`, which I found through [ml4w](https://github.com/mylinuxforwork). It made things look a lot nicer. But then I tried out `fzf`, and that just clicked. It was way faster and cleaner for what I wanted to do. So I ditched `gum` (still love it tho 💖) and went all in on `fzf`.
 
-📅 **Updated: 2025-05-01**  
+## 📅 **Updated: 2025-05-01**  
 
 🦀 And now... big step: I’ve added a full Rust-based TUI using `ratatui`. No more ugly menus. The new interface looks way better, runs smoother, and I can finally add features that just weren’t possible in Bash alone.
 
@@ -26,7 +26,7 @@ So yeah, it’s a mix: Rust for the interface, Bash for the logic, and `fzf` in 
 
 Carch really came a long way from something super basic and kinda ugly, to something I’m proud of. Still lots to do, but it’s getting cooler every day.
 
-📅 **Updated: 2025-07-22**
+## 📅 **Updated: 2025-07-22**
 
 Ok, the happiness is around me for now. Finally, we have implemented a popup-style run script TUI in the main TUI. Now the script doesn’t need to leave the TUI to run. This is a huge achievement for me in terms of what I know and my knowledge. Now you can just select and run the script in the TUI itself. Everything will now happen inside the TUI and I have removed the `fzf` style from the scripts as we don’t need extra TUI style for running scripts outside anymore.
 
