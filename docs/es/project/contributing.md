@@ -26,8 +26,8 @@
 > ```
 >
 > Por cierto, antes de hacer commit, si estás cambiando algún archivo `.sh` o script bash, asegúrate de revisar el directorio `scripts/` y ejecutar `./check.sh` para cualquier espacio en blanco o vacío adicional. Si falla, ejecuta `./cleanup.sh`. También asegúrate de que los scripts de shell estén formateados por `shfmt`.
-> Para cambios en archivos Rust, asegúrate de ejecutar `cargo fmt --all --check`. Si hay sugerencias, ejecuta `cargo fmt --all`.
-> También asegúrate de ejecutar `cargo clippy` y `cargo clippy -- -D warnings` para asegurar que no queden errores. Gracias.
+>
+> Para cambios en cualquier parte de los archivos de Rust, asegúrate de ejecutar `cargo xtask ci` para verificar el formateo y otras validaciones. Asegúrate de no hacer push directamente sin verificar que no haya errores en ningún lugar.
 
 > Para más información sobre Commits Convencionales, consulta esta [guía](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 

@@ -26,8 +26,8 @@ Wir freuen uns, dass Sie daran interessiert sind, zu **Carch** beizutragen! Beit
 > ```
 >
 > Übrigens, bevor du commitest, wenn du irgendwelche `.sh` oder bash-Skript-Dateien änderst, stelle sicher, dass du das `scripts/` Verzeichnis überprüfst und `./check.sh` ausführst, um zusätzliche Leer- oder Zwischenräume zu finden. Wenn es fehlschlägt, führe `./cleanup.sh` aus. Stelle auch sicher, dass Shell-Skripte mit `shfmt` formatiert sind.
-> Für Rust-Dateiänderungen stelle sicher, dass du `cargo fmt --all --check` ausführst. Wenn es Vorschläge gibt, führe `cargo fmt --all` aus.
-> Stelle auch sicher, dass du `cargo clippy` und `cargo clippy -- -D warnings` ausführst, um sicherzustellen, dass keine Fehler übrig bleiben. Danke.
+>
+> Für Änderungen an jedem Teil der Rust-Dateien stellen Sie sicher, dass Sie `cargo xtask ci` ausführen, um die Formatierung und andere Validierungen zu überprüfen. Stellen Sie sicher, dass Sie nicht direkt pushen, ohne zu überprüfen, dass es nirgendwo Fehler gibt.
 
 > Für weitere Informationen über Conventional Commits, siehe diesen [Leitfaden](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 

@@ -26,8 +26,8 @@
 > ```
 >
 > 그런데 커밋하기 전에 `.sh` 또는 bash 스크립트 파일을 변경하는 경우, `scripts/` 디렉토리를 확인하고 추가 공백이나 빈 공간이 있는지 `./check.sh`를 실행하세요. 실패하면 `./cleanup.sh`를 실행하세요. 또한 셸 스크립트가 `shfmt`로 포맷되어 있는지 확인하세요.
-> Rust 파일 변경의 경우 `cargo fmt --all --check`를 실행하세요. 제안사항이 있으면 `cargo fmt --all`을 실행하세요.
-> 또한 `cargo clippy`와 `cargo clippy -- -D warnings`를 실행하여 남은 오류가 없는지 확인하세요. 감사합니다.
+>
+> RRust 파일의 어떤 부분에든 변경사항이 있을 때는 포맷팅과 기타 검증을 확인하기 위해 `cargo xtask ci`를 실행하세요. 어디에도 오류가 없는지 확인하지 않고 직접 푸시하지 않도록 하세요.
 
 > Conventional Commits에 대한 자세한 정보는 이 [가이드](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d)를 참고하세요.
 
