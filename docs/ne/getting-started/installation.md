@@ -13,7 +13,7 @@
 तपाईंको टर्मिनलमा निम्नलिखित कमाण्ड चलाउनुहोस्:
 
 ```sh
-bash -c "$(curl -fsSL chalishari.com.np/carchinstall)"
+bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
 ```
 
 ### 📦 Cargo Crate
