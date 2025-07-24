@@ -26,7 +26,9 @@ This is the official documentation site for the [Carch](https://github.com/haril
 
 </div>
 -->
-  
+
+The docs is using the [vitepress-theme-tui](https://github.com/enzonotario/vitepress-theme-tui) theme. Thanks to [enzonotario](https://github.com/enzonotario) for creating this theme, for the suggestions, and for your contributions.
+
 ## 📚 Build Documentation
 
 *Assuming you already installed [bun](https://bun.sh) on your system*
