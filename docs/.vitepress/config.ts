@@ -90,7 +90,23 @@ export default {
   cleanUrls: true,
   base: "/",
 
-  head: [["link", { rel: "icon", href: "/carch.png" }]],
+  head: [
+    ["link", { rel: "icon", href: "/carch.png" }],
+
+    // Google Fonts
+    [
+      'link',
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' }
+    ],
+    [
+      'link',
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }
+    ],
+    [
+      'link',
+      { href: 'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap', rel: 'stylesheet' }
+    ]
+  ],
 
   locales: {
     root: {
