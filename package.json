@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "vitepress": "^1.6.3",
-    "vitepress-theme-tui": "^0.0.6"
+    "vitepress-theme-tui": "^0.0.7"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
