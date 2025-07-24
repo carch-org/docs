@@ -25,7 +25,7 @@ Nous sommes ravis que vous souhaitiez contribuer à **Carch** ! Les contribution
 > feat: votre-message-de-commit ou fix: votre-message-de-commit.
 > ```
 >
-> Au fait, avant de commiter, si vous modifiez des fichiers `.sh` ou des scripts bash, assurez-vous de vérifier le répertoire `scripts/` et d'exécuter `./check.sh` pour détecter d'éventuels espaces blancs ou vides supplémentaires. Si cela échoue, exécutez `./cleanup.sh`. Assurez-vous également que les scripts shell sont formatés par `shfmt`.
+> Au fait, avant de valider, si vous modifiez un fichier script `.sh`, assurez-vous qu’il est formaté avec [`shfmt`](https://github.com/mvdan/sh).
 >
 > Pour les modifications apportées à n'importe quelle partie des fichiers Rust, assurez-vous d'exécuter `cargo xtask ci` pour vérifier le formatage et autres validations. Assurez-vous de ne pas pousser directement sans vérifier qu'il n'y a aucune erreur nulle part.
 

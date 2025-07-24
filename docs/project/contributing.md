@@ -25,7 +25,7 @@ We're excited that you're interested in contributing to **Carch**! Contributions
 > feat: your-commit-message or fix: your-commit-message.
 > ```
 >
-> Btw, before committing, if you are changing any `.sh` or bash script file, make sure to check the `scripts/` directory and run `./check.sh` for any extra white or blank spaces. If it fails, run `./cleanup.sh`. Also make sure shell scripts are formatted by `shfmt`.
+> Btw, before committing, if you are changing any `.sh` script file, make sure they are formatted by [`shfmt`](https://github.com/mvdan/sh).
 >
 > For changes to any part of the Rust files, make sure to run `cargo xtask ci` to check formatting and other validations. Ensure you do not push directly without verifying that there are no errors anywhere.
 

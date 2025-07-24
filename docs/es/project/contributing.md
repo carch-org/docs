@@ -25,7 +25,7 @@
 > feat: tu-mensaje-de-commit o fix: tu-mensaje-de-commit.
 > ```
 >
-> Por cierto, antes de hacer commit, si estás cambiando algún archivo `.sh` o script bash, asegúrate de revisar el directorio `scripts/` y ejecutar `./check.sh` para cualquier espacio en blanco o vacío adicional. Si falla, ejecuta `./cleanup.sh`. También asegúrate de que los scripts de shell estén formateados por `shfmt`.
+> Por cierto, antes de confirmar, si estás cambiando algún archivo de script `.sh`, asegúrate de que esté formateado con [`shfmt`](https://github.com/mvdan/sh).
 >
 > Para cambios en cualquier parte de los archivos de Rust, asegúrate de ejecutar `cargo xtask ci` para verificar el formateo y otras validaciones. Asegúrate de no hacer push directamente sin verificar que no haya errores en ningún lugar.
 
