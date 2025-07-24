@@ -26,8 +26,8 @@ Nous sommes ravis que vous souhaitiez contribuer à **Carch** ! Les contribution
 > ```
 >
 > Au fait, avant de commiter, si vous modifiez des fichiers `.sh` ou des scripts bash, assurez-vous de vérifier le répertoire `scripts/` et d'exécuter `./check.sh` pour détecter d'éventuels espaces blancs ou vides supplémentaires. Si cela échoue, exécutez `./cleanup.sh`. Assurez-vous également que les scripts shell sont formatés par `shfmt`.
-> Pour les modifications de fichiers Rust, assurez-vous d'exécuter `cargo fmt --all --check`. S'il y a des suggestions, exécutez `cargo fmt --all`.
-> Assurez-vous également d'exécuter `cargo clippy` et `cargo clippy -- -D warnings` pour vous assurer qu'il ne reste aucune erreur. Merci.
+>
+> Pour les modifications apportées à n'importe quelle partie des fichiers Rust, assurez-vous d'exécuter `cargo xtask ci` pour vérifier le formatage et autres validations. Assurez-vous de ne pas pousser directement sans vérifier qu'il n'y a aucune erreur nulle part.
 
 > Pour plus d'informations sur les Commits Conventionnels, consultez ce [guide](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 

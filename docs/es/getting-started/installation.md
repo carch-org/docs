@@ -13,7 +13,7 @@ Solo soportamos distribuciones basadas en Arch, Fedora y openSUSE, por lo que no
 Ejecuta el siguiente comando en tu terminal:
 
 ```sh
-bash -c "$(curl -fsSL chalishari.com.np/carchinstall)"
+bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
 ```
 
 ### 📦 Cargo Crate
@@ -76,11 +76,11 @@ sudo cp -r carch /usr/bin/
 ::: code-group
 
 ```sh [ 🔄 Actualizar ]
-carch --update
+carch update
 ```
 
 ```sh [ 🗑️ Desinstalar ]
-carch --uninstall
+carch uninstall
 ```
 
 :::

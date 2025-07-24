@@ -13,7 +13,7 @@ We only support Arch, Fedora, and openSUSE-based distros, so it will not work on
 Execute the following command in your terminal:
 
 ```sh
-bash -c "$(curl -fsSL chalishari.com.np/carchinstall)"
+bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
 ```
 
 ### 📦 Cargo Crate
@@ -77,11 +77,11 @@ sudo cp -r carch /usr/bin/
 ::: code-group
 
 ```sh [ 🔄 Update ]
-carch --update
+carch update
 ```
 
 ```sh [ 🗑️ Uninstall ]
-carch --uninstall
+carch uninstall
 ```
 
 :::

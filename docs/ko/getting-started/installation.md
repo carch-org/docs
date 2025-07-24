@@ -13,7 +13,7 @@ Arch, Fedora, openSUSE 기반 배포판만 지원하므로 현재 다른 배포�
 터미널에서 다음 명령을 실행하세요:
 
 ```sh
-bash -c "$(curl -fsSL chalishari.com.np/carchinstall)"
+bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
 ``` 
 
 ### 📦 Cargo Crate
@@ -76,11 +76,11 @@ sudo cp -r carch /usr/bin/
 ::: code-group
 
 ```sh [ 🔄 업데이트 ]
-carch --update
+carch update
 ```
 
 ```sh [ 🗑️ 제거 ]
-carch --uninstall
+carch uninstall
 ```
 
 :::

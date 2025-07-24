@@ -26,8 +26,8 @@
 > ```
 >
 > 顺便说一下，在提交之前，如果你正在更改任何`.sh`或bash脚本文件，请确保检查`scripts/`目录并运行`./check.sh`来检查任何多余的空白或空行。如果失败，请运行`./cleanup.sh`。还要确保shell脚本已经用`shfmt`格式化。
-> 对于Rust文件更改，请确保运行`cargo fmt --all --check`。如果有任何建议，请运行`cargo fmt --all`。
-> 还要确保运行`cargo clippy`和`cargo clippy -- -D warnings`以确保没有剩余错误。谢谢。
+>
+> 对于 Rust 文件任何部分的更改，请确保运行 cargo xtask ci 来检查格式化和其他验证。确保在没有验证任何地方都没有错误的情况下不要直接推送。
 
 > 有关约定式提交的更多信息，请参考此[指南](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d)。
 

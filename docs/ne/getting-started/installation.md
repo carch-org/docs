@@ -13,7 +13,7 @@
 तपाईंको टर्मिनलमा निम्नलिखित कमाण्ड चलाउनुहोस्:
 
 ```sh
-bash -c "$(curl -fsSL chalishari.com.np/carchinstall)"
+bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
 ```
 
 ### 📦 Cargo Crate
@@ -76,11 +76,11 @@ sudo cp -r carch /usr/bin/
 ::: code-group
 
 ```sh [ 🔄 अपडेट ]
-carch --update
+carch update
 ```
 
 ```sh [ 🗑️ अनइन्स्टल ]
-carch --uninstall
+carch uninstall
 ```
 
 :::
