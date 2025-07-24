@@ -246,3 +246,9 @@
 .dark * {
   scrollbar-color: var(--vp-c-brand-3) rgba(20, 22, 34, 0.2);
 }
+
+@layer components {
+  i[class*="devicon-"]{
+    font-family: "devicon" !important;
+  }
+}

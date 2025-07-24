@@ -10,7 +10,7 @@ export default {
   ...Theme,
   enhanceApp() {
     useTUI({
-      theme: 'plain',
+      theme: 'monokai',
     });
   },
   // Layout() {
