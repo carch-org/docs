@@ -10,7 +10,7 @@
 - *dwm is a dynamic tiling window manager for X11, known for being minimal, fast, and configurable by editing its source code. The script will apply my pre-configured dwm setup from my [harilvfs/dwm](https://github.com/harilvfs/dwm) repo and install all necessary dependencies to make the environment fully functional.*
 
 ### Hyprland
-- *Hyprland is a dynamic tiling Wayland compositor that supports modern features like animations, window effects, and flexible tiling layouts. The script lets you install pre-configured Hyprland setups from respected users - [ml4w](https://github.com/mylinuxforwork/dotfiles), [end-4](https://github.com/end-4/dots-hyprland), [Jakoolit](https://github.com/JaKooLit/Arch-Hyprland), and [prasanthrangan dots](https://github.com/prasanthrangan/hyprdots).*
+- *Hyprland is a dynamic tiling Wayland compositor that supports modern features like animations, window effects, and flexible tiling layouts. The script lets you install pre-configured Hyprland setups from respected users - [ml4w](https://github.com/mylinuxforwork/dotfiles), [end-4](https://github.com/end-4/dots-hyprland), [Jakoolit](https://github.com/JaKooLit/Arch-Hyprland), [omarchy](https://github.com/basecamp/omarchy) and [prasanthrangan dots](https://github.com/prasanthrangan/hyprdots).*
 
 ### Fonts
 - *Downloads and installs a variety of Nerd Fonts for improved readability and aesthetics in terminal applications.*

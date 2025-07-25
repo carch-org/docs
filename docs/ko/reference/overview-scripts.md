@@ -10,7 +10,7 @@
 - *dwm은 X11용 동적 타일링 윈도우 매니저로, 최소한이면서 빠르고 소스 코드를 편집하여 구성할 수 있는 것으로 알려져 있습니다. 이 스크립트는 [harilvfs/dwm](https://github.com/harilvfs/dwm) 저장소에서 미리 구성된 dwm 설정을 적용하고 환경을 완전히 작동하게 만드는 데 필요한 모든 종속성을 설치합니다.*
 
 ### Hyprland
-- *Hyprland는 애니메이션, 윈도우 효과, 유연한 타일링 레이아웃과 같은 현대적인 기능을 지원하는 동적 타일링 Wayland 컴포지터입니다. 이 스크립트를 통해 존경받는 사용자들의 미리 구성된 Hyprland 설정을 설치할 수 있습니다 - [ml4w](https://github.com/mylinuxforwork/dotfiles), [end-4](https://github.com/end-4/dots-hyprland), [Jakoolit](https://github.com/JaKooLit/Arch-Hyprland), [prasanthrangan dots](https://github.com/prasanthrangan/hyprdots).*
+- *Hyprland는 애니메이션, 창 효과, 유연한 타일 레이아웃 같은 최신 기능을 지원하는 동적 타일링 Wayland 컴포지터입니다. 이 스크립트는 신뢰할 수 있는 사용자들의 사전 설정된 Hyprland 설정을 설치할 수 있게 해줍니다 - [ml4w](https://github.com/mylinuxforwork/dotfiles), [end-4](https://github.com/end-4/dots-hyprland), [Jakoolit](https://github.com/JaKooLit/Arch-Hyprland), [omarchy](https://github.com/basecamp/omarchy), [prasanthrangan dots](https://github.com/prasanthrangan/hyprdots).*
 
 ### 폰트
 - *터미널 애플리케이션에서 가독성과 미학을 향상시키기 위해 다양한 Nerd 폰트를 다운로드하고 설치합니다.*

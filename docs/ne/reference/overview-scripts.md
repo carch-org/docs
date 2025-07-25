@@ -10,7 +10,7 @@
 - *dwm X11 को लागि एक गतिशील टाइलिङ विन्डो म्यानेजर हो, जुन न्यूनतम, छिटो र यसको स्रोत कोड सम्पादन गरेर कन्फिगर गर्न सकिने लागि चिनिन्छ। स्क्रिप्टले मेरो [harilvfs/dwm](https://github.com/harilvfs/dwm) रिपोजिटरीबाट मेरो पूर्व-कन्फिगर गरिएको dwm सेटअप लागू गर्नेछ र वातावरणलाई पूर्ण रूपमा कार्यशील बनाउन आवश्यक सबै निर्भरताहरू स्थापना गर्नेछ।*
 
 ### Hyprland
-- *Hyprland एक गतिशील टाइलिङ Wayland कम्पोसिटर हो जसले एनिमेसन, विन्डो इफेक्ट र लचिलो टाइलिङ लेआउट जस्ता आधुनिक सुविधाहरूलाई समर्थन गर्छ। स्क्रिप्टले तपाईंलाई सम्मानित प्रयोगकर्ताहरूबाट पूर्व-कन्फिगर गरिएको Hyprland सेटअप स्थापना गर्न दिन्छ - [ml4w](https://github.com/mylinuxforwork/dotfiles), [end-4](https://github.com/end-4/dots-hyprland), [Jakoolit](https://github.com/JaKooLit/Arch-Hyprland), र [prasanthrangan dots](https://github.com/prasanthrangan/hyprdots)।*
+- *Hyprland एउटा डायनामिक टाइलिङ Wayland कम्पोजिटर हो जसले एनिमेसन, विन्डो इफेक्ट्स र फ्लेक्सिबल टाइलिङ लेआउट जस्ता आधुनिक फिचरहरू समर्थन गर्छ। यस स्क्रिप्टले सम्मानित प्रयोगकर्ताबाट प्रि-कन्फिगर गरिएको Hyprland सेटअप इन्स्टल गर्न दिन्छ - [ml4w](https://github.com/mylinuxforwork/dotfiles), [end-4](https://github.com/end-4/dots-hyprland), [Jakoolit](https://github.com/JaKooLit/Arch-Hyprland), [omarchy](https://github.com/basecamp/omarchy) र [prasanthrangan dots](https://github.com/prasanthrangan/hyprdots)।*
 
 ### फन्टहरू
 - *टर्मिनल एप्लिकेसनहरूमा सुधारिएको पठनीयता र सौन्दर्यशास्त्रको लागि विभिन्न प्रकारका Nerd फन्टहरू डाउनलोड र स्थापना गर्छ।*

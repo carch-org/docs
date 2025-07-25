@@ -10,7 +10,7 @@
 - *dwm هو مدير نوافذ تبليط ديناميكي لـ X11، معروف بكونه صغير الحجم وسريع وقابل للتكوين من خلال تحرير كود المصدر. سيقوم السكريبت بتطبيق إعداد dwm المُكوَّن مسبقاً من مستودع [harilvfs/dwm](https://github.com/harilvfs/dwm) وتثبيت جميع التبعيات الضرورية لجعل البيئة تعمل بشكل كامل.*
 
 ### Hyprland
-- *Hyprland هو مؤلف Wayland للتبليط الديناميكي يدعم الميزات الحديثة مثل الرسوم المتحركة وتأثيرات النوافذ وتخطيطات التبليط المرنة. يتيح لك السكريبت تثبيت إعدادات Hyprland المُكوَّنة مسبقاً من مستخدمين محترمين - [ml4w](https://github.com/mylinuxforwork/dotfiles)، [end-4](https://github.com/end-4/dots-hyprland)، [Jakoolit](https://github.com/JaKooLit/Arch-Hyprland)، و[prasanthrangan dots](https://github.com/prasanthrangan/hyprdots).*
+- *هايبرلاند هو مركب وايلاند ديناميكي للبلاطات يدعم الميزات الحديثة مثل الرسوم المتحركة وتأثيرات النوافذ وتخطيطات البلاطات المرنة. يتيح لك هذا السكربت تثبيت إعدادات Hyprland المسبقة من مستخدمين موثوقين - [ml4w](https://github.com/mylinuxforwork/dotfiles)، [end-4](https://github.com/end-4/dots-hyprland)، [Jakoolit](https://github.com/JaKooLit/Arch-Hyprland)، [omarchy](https://github.com/basecamp/omarchy) و [prasanthrangan dots](https://github.com/prasanthrangan/hyprdots).*
 
 ### الخطوط
 - *يقوم بتنزيل وتثبيت مجموعة متنوعة من خطوط Nerd لتحسين القراءة والجماليات في تطبيقات الطرفية.*

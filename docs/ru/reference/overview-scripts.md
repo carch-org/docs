@@ -10,7 +10,7 @@
 - *dwm - это динамический тайловый оконный менеджер для X11, известный своей минималистичностью, быстротой и настраиваемостью через редактирование исходного кода. Скрипт применит мою предварительно настроенную установку dwm из моего репозитория [harilvfs/dwm](https://github.com/harilvfs/dwm) и установит все необходимые зависимости, чтобы сделать среду полностью функциональной.*
 
 ### Hyprland
-- *Hyprland - это динамический тайловый композитор Wayland, поддерживающий современные функции, такие как анимация, оконные эффекты и гибкие тайловые макеты. Скрипт позволяет устанавливать предварительно настроенные установки Hyprland от уважаемых пользователей - [ml4w](https://github.com/mylinuxforwork/dotfiles), [end-4](https://github.com/end-4/dots-hyprland), [Jakoolit](https://github.com/JaKooLit/Arch-Hyprland) и [prasanthrangan dots](https://github.com/prasanthrangan/hyprdots).*
+- *Hyprland — это динамический тайлинговый композитор Wayland, который поддерживает современные функции, такие как анимации, эффекты окон и гибкие макеты. Этот скрипт позволяет установить заранее настроенные конфигурации Hyprland от уважаемых пользователей — [ml4w](https://github.com/mylinuxforwork/dotfiles), [end-4](https://github.com/end-4/dots-hyprland), [Jakoolit](https://github.com/JaKooLit/Arch-Hyprland), [omarchy](https://github.com/basecamp/omarchy) и [prasanthrangan dots](https://github.com/prasanthrangan/hyprdots).*
 
 ### Шрифты
 - *Загружает и устанавливает различные шрифты Nerd для улучшения читаемости и эстетики в терминальных приложениях.*

@@ -10,7 +10,7 @@
 - *dwm est un gestionnaire de fenêtres de carrelage dynamique pour X11, connu pour être minimal, rapide et configurable en éditant son code source. Le script appliquera ma configuration dwm préconfigurée depuis mon dépôt [harilvfs/dwm](https://github.com/harilvfs/dwm) et installera toutes les dépendances nécessaires pour rendre l'environnement entièrement fonctionnel.*
 
 ### Hyprland
-- *Hyprland est un compositeur Wayland de carrelage dynamique qui prend en charge les fonctionnalités modernes telles que les animations, les effets de fenêtre et les dispositions de carrelage flexibles. Le script vous permet d'installer des configurations Hyprland préconfigurées d'utilisateurs respectés - [ml4w](https://github.com/mylinuxforwork/dotfiles), [end-4](https://github.com/end-4/dots-hyprland), [Jakoolit](https://github.com/JaKooLit/Arch-Hyprland), et [prasanthrangan dots](https://github.com/prasanthrangan/hyprdots).*
+- *Hyprland est un compositeur Wayland à mosaïque dynamique qui prend en charge des fonctionnalités modernes telles que les animations, les effets de fenêtre et des mises en page flexibles. Ce script vous permet d’installer des configurations Hyprland préconfigurées de la part d’utilisateurs reconnus - [ml4w](https://github.com/mylinuxforwork/dotfiles), [end-4](https://github.com/end-4/dots-hyprland), [Jakoolit](https://github.com/JaKooLit/Arch-Hyprland), [omarchy](https://github.com/basecamp/omarchy) et [prasanthrangan dots](https://github.com/prasanthrangan/hyprdots).*
 
 ### Polices
 - *Télécharge et installe une variété de Nerd Fonts pour améliorer la lisibilité et l'esthétique dans les applications de terminal.*

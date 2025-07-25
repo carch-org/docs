@@ -10,7 +10,7 @@
 - *dwm 是 X11 的动态平铺窗口管理器，以最小化、快速和通过编辑源代码进行配置而闻名。该脚本将从我的 [harilvfs/dwm](https://github.com/harilvfs/dwm) 仓库应用我预配置的 dwm 设置，并安装所有必要的依赖项以使环境完全正常工作。*
 
 ### Hyprland
-- *Hyprland 是一个动态平铺 Wayland 合成器，支持动画、窗口效果和灵活的平铺布局等现代功能。该脚本允许您安装受尊敬用户的预配置 Hyprland 设置 - [ml4w](https://github.com/mylinuxforwork/dotfiles)、[end-4](https://github.com/end-4/dots-hyprland)、[Jakoolit](https://github.com/JaKooLit/Arch-Hyprland) 和 [prasanthrangan dots](https://github.com/prasanthrangan/hyprdots)。*
+- *Hyprland 是一个动态平铺的 Wayland 合成器，支持动画、窗口特效和灵活的平铺布局等现代特性。此脚本可让你从知名用户处安装预配置的 Hyprland 设置 - [ml4w](https://github.com/mylinuxforwork/dotfiles)、[end-4](https://github.com/end-4/dots-hyprland)、[Jakoolit](https://github.com/JaKooLit/Arch-Hyprland)、[omarchy](https://github.com/basecamp/omarchy) 和 [prasanthrangan dots](https://github.com/prasanthrangan/hyprdots)。*
 
 ### 字体
 - *下载并安装各种 Nerd 字体，以提高终端应用程序的可读性和美观性。*

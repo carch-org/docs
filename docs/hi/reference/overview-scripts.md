@@ -10,7 +10,7 @@
 - *dwm X11 के लिए एक डायनामिक टाइलिंग विंडो मैनेजर है, जो न्यूनतम, तेज़ और अपने सोर्स कोड को संपादित करके कॉन्फ़िगर करने योग्य होने के लिए जाना जाता है। स्क्रिप्ट मेरे [harilvfs/dwm](https://github.com/harilvfs/dwm) रेपो से पूर्व-कॉन्फ़िगर किए गए dwm सेटअप को लागू करेगी और वातावरण को पूर्णतः कार्यशील बनाने के लिए सभी आवश्यक निर्भरताओं को इंस्टॉल करेगी।*
 
 ### Hyprland
-- *Hyprland एक डायनामिक टाइलिंग Wayland compositor है जो एनिमेशन, विंडो इफेक्ट्स और लचीले टाइलिंग लेआउट जैसी आधुनिक सुविधाओं का समर्थन करता है। स्क्रिप्ट आपको सम्मानित उपयोगकर्ताओं से पूर्व-कॉन्फ़िगर किए गए Hyprland सेटअप इंस्टॉल करने देती है - [ml4w](https://github.com/mylinuxforwork/dotfiles), [end-4](https://github.com/end-4/dots-hyprland), [Jakoolit](https://github.com/JaKooLit/Arch-Hyprland), और [prasanthrangan dots](https://github.com/prasanthrangan/hyprdots)।*
+- *Hyprland एक डायनेमिक टाइलिंग Wayland कंपोज़िटर है जो एनिमेशन, विंडो इफेक्ट्स और फ्लेक्सिबल टाइलिंग लेआउट जैसे आधुनिक फीचर्स को सपोर्ट करता है। यह स्क्रिप्ट सम्मानित यूज़र्स से प्री-कॉन्फ़िगर Hyprland सेटअप इंस्टॉल करने देती है - [ml4w](https://github.com/mylinuxforwork/dotfiles), [end-4](https://github.com/end-4/dots-hyprland), [Jakoolit](https://github.com/JaKooLit/Arch-Hyprland), [omarchy](https://github.com/basecamp/omarchy) और [prasanthrangan dots](https://github.com/prasanthrangan/hyprdots)।*
 
 ### फ़ॉन्ट्स
 - *टर्मिनल एप्लिकेशन में बेहतर पठनीयता और सौंदर्यशास्त्र के लिए विभिन्न Nerd Fonts डाउनलोड और इंस्टॉल करता है।*
