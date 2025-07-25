@@ -98,3 +98,6 @@
 
 ### Erweiterungen
 - *Empfiehlt nützliche Erweiterungen für Chromium- oder Firefox-basierte Browser.*
+
+### Bspwm
+- *Bspwm ist ein minimaler, skriptgesteuerter Tiling-Window-Manager für X11, der eine binäre Raumaufteilung verwendet und auf einen externen Hotkey-Daemon für die Tastatureingabe angewiesen ist. Das Skript installiert die Bspwm-Konfiguration von [gh0stzk/dotfiles](https://github.com/gh0stzk/dotfiles). Das Setup-Skript ist nur für Arch gedacht, für andere Distributionen siehe [Repo](https://github.com/gh0stzk/dotfiles).*

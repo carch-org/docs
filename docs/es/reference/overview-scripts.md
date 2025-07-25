@@ -98,3 +98,6 @@
 
 ### Extensiones
 - *Recomienda extensiones útiles para navegadores basados en Chromium o Firefox.*
+
+### Bspwm
+- *Bspwm es un gestor de ventanas en mosaico mínimo y programable para X11 que utiliza partición binaria del espacio y depende de un demonio de teclas de acceso rápido externo para la entrada del teclado. Este script instala la configuración de Bspwm desde [gh0stzk/dotfiles](https://github.com/gh0stzk/dotfiles). Este script de instalación es solo para Arch, para otras distribuciones revisa el [repo](https://github.com/gh0stzk/dotfiles).*

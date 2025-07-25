@@ -98,3 +98,6 @@
 
 ### 확장 프로그램
 - *Chromium 또는 Firefox 기반 브라우저를 위한 유용한 확장 프로그램을 추천합니다.*
+
+### Bspwm
+- *Bspwm은 X11을 위한 최소한의 스크립트 기반 타일링 윈도우 매니저로, 이진 공간 분할 방식을 사용하고 키보드 입력을 위해 외부 단축키 데몬에 의존합니다. 이 스크립트는 [gh0stzk/dotfiles](https://github.com/gh0stzk/dotfiles)에서 Bspwm 설정을 설치합니다. 이 설정 스크립트는 Arch 전용이므로 다른 배포판은 [repo](https://github.com/gh0stzk/dotfiles)를 확인하세요.*
