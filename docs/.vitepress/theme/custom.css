@@ -53,6 +53,16 @@
   --vp-home-hero-image-filter: blur(44px);
 
   --overlay-gradient: color-mix(in srgb, var(--vp-c-brand-1), transparent 55%);
+
+  --vp-tui-border-radius: 4px;
+  --vp-tui-inline-code-border-radius: var(--vp-tui-border-radius);
+  --vp-tui-code-group-standalone-border-radius: var(--vp-tui-border-radius);
+  --vp-tui-code-group-border-radius: 0 0 var(--vp-tui-border-radius) var(--vp-tui-border-radius);
+  --vp-tui-code-group-tabs-border-radius: var(--vp-tui-border-radius) var(--vp-tui-border-radius) 0 0;
+  --vp-tui-code-group-tabs-label-active-border-radius: 0;
+  --vp-tui-code-copy-border-radius: var(--vp-tui-border-radius);
+  --vp-tui-hero-button-border-radius: var(--vp-tui-border-radius);
+  --vp-tui-hero-feature-border-radius: var(--vp-tui-border-radius);
 }
 
 .dark {
