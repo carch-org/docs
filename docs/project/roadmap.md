@@ -3,7 +3,7 @@
 
 **Current Phase** *[ Advancing Script Development ]* <img src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png" width="20" /> 
 
-*The project is now progressing through its development phase, focusing on creating scripts to simplify the Arch & fedora linux setup process.* 🛠️
+*The project is now progressing through its development phase, focusing on expanding and modularizing the scripts to support different distros.*
 
 ## Upcoming Features and Improvements ✨
 

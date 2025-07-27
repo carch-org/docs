@@ -3,7 +3,7 @@
 
 **Aktuelle Phase** *[ Fortschreitende Skriptentwicklung ]* <img src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png" width="20" /> 
 
-*Das Projekt durchläuft nun seine Entwicklungsphase und konzentriert sich auf die Erstellung von Skripten zur Vereinfachung des Arch & Fedora Linux Setup-Prozesses.* 🛠️
+*Das Projekt befindet sich nun in der Entwicklungsphase und konzentriert sich darauf, die Skripte zu erweitern und zu modularisieren, um verschiedene Distributionen zu unterstützen.*
 
 ## Kommende Funktionen und Verbesserungen ✨
 

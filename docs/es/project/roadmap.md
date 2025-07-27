@@ -3,7 +3,7 @@
 
 **Fase Actual** *[ Avanzando en el Desarrollo de Scripts ]* <img src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png" width="20" /> 
 
-*El proyecto ahora está progresando a través de su fase de desarrollo, enfocándose en crear scripts para simplificar el proceso de configuración de Arch y fedora linux.* 🛠️
+*El proyecto está avanzando actualmente en su fase de desarrollo, centrándose en expandir y modularizar los scripts para admitir diferentes distribuciones.*
 
 ## Próximas Características y Mejoras ✨
 
