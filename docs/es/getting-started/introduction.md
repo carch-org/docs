@@ -29,7 +29,7 @@ Es especialmente útil si quieres configurar rápidamente y comenzar a usar tus 
   **¡Todas las configuraciones están diseñadas y probadas para proporcionar una experiencia perfecta, solo selecciona y ejecuta, y estarás listo!**
 
 - **Instalación de Gestores de Ventanas**  
-  *Instala y configura gestores de ventanas populares como DWM, Hyprland, i3 y Sway, con más por venir en futuras actualizaciones.*  
+  *Instala y configura gestores de ventanas populares como DWM, Hyprland y Bspwm, y muchos más llegarán en futuras actualizaciones.*
 
 ## ¿Por Qué Elegir Carch?
 <img src="https://img.icons8.com/?size=80&id=111409&format=png" width="50" />

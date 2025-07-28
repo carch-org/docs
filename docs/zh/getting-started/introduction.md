@@ -29,7 +29,7 @@
   **所有配置都经过精心制作和测试，提供无缝体验——只需选择并运行，您就可以开始使用了！**
 
 - **窗口管理器安装**  
-  *安装和配置流行的窗口管理器，如 DWM、Hyprland、i3 和 Sway，未来更新中还会有更多选择。*  
+  *安装并配置流行的窗口管理器，如 DWM、Hyprland 和 Bspwm，未来更新还会提供更多选择。*  
 
 ## 为什么选择 Carch？
 <img src="https://img.icons8.com/?size=80&id=111409&format=png" width="50" />
