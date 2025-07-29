@@ -23,7 +23,6 @@ carch [OPTIONS] [COMMAND]
 | `check-update`             | Check if a new version is available.                                                              |
 | `update`                   | Interactively update Carch.                                                                       |
 | `uninstall`                | Interactively uninstall Carch.                                                                    |
-| `completions`              | Generate shell completions.                                                                       |
 | `help`                     | Print this message or help for the given subcommand(s).                                           |
 | `--log`                    | Enable logging for the current session only. Logs are saved at `~/.config/carch/carch.log`.       |
 | `--version`, `-v`          | Show the program version.                                                                         |

@@ -23,7 +23,6 @@ carch [选项] [命令]
 | `check-update`             | 检查是否有新版本可用。                                                              |
 | `update`                   | 交互式更新 Carch。                                                                       |
 | `uninstall`                | 交互式卸载 Carch。                                                                    |
-| `completions`              | 生成 shell 补全。                                                                       |
 | `help`                     | 打印此消息或给定子命令的帮助。                                           |
 | `--log`                    | 仅为当前会话启用日志记录。日志保存在 `~/.config/carch/carch.log`。       |
 | `--version`, `-v`          | 显示程序版本。                                                                         |

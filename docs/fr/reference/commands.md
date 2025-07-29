@@ -23,7 +23,6 @@ carch [OPTIONS] [COMMANDE]
 | `check-update`             | Vérifier si une nouvelle version est disponible.                                                              |
 | `update`                   | Mettre à jour Carch de manière interactive.                                                                       |
 | `uninstall`                | Désinstaller Carch de manière interactive.                                                                    |
-| `completions`              | Générer les complétions shell.                                                                       |
 | `help`                     | Afficher ce message ou l'aide pour la/les sous-commande(s) donnée(s).                                           |
 | `--log`                    | Activer la journalisation pour la session actuelle uniquement. Les journaux sont sauvegardés à `~/.config/carch/carch.log`.       |
 | `--version`, `-v`          | Afficher la version du programme.                                                                         |

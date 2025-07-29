@@ -23,7 +23,6 @@ carch [OPTIONEN] [BEFEHL]
 | `check-update`             | Überprüfen, ob eine neue Version verfügbar ist.                                                              |
 | `update`                   | Carch interaktiv aktualisieren.                                                                       |
 | `uninstall`                | Carch interaktiv deinstallieren.                                                                    |
-| `completions`              | Shell-Vervollständigungen generieren.                                                                       |
 | `help`                     | Diese Nachricht oder Hilfe für den/die angegebenen Unterbefehl(e) anzeigen.                                           |
 | `--log`                    | Protokollierung nur für die aktuelle Sitzung aktivieren. Protokolle werden unter `~/.config/carch/carch.log` gespeichert.       |
 | `--version`, `-v`          | Programmversion anzeigen.                                                                         |
