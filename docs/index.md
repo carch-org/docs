@@ -51,13 +51,13 @@ Choose one of the following version to try Carch:
 >
 > ***Also note that Carch currently supports only*** **Arch, Fedora, and openSUSE-based distros**. ***It will not work on other distros.***
 
-#### ⭐ Stable Version
+#### ⭐ Stable Version [ Latest ]
 
 ```sh
 bash -c "$(curl -fsSL chalisehari.com.np/carch)"
 ```
 
-#### 🧪 Dev Version
+#### 🧪 Dev Version [ Pre-release ]
 
 ```sh 
 bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"

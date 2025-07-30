@@ -51,13 +51,13 @@ Elige una de las siguientes versiones para probar Carch:
 >
 > ***También ten en cuenta que Carch actualmente sólo soporta*** **distribuciones basadas en Arch, Fedora y openSUSE**. ***No funcionará en otras distribuciones.***
 
-#### ⭐ Versión estable
+#### ⭐ Versión Estable [ Última ]
 
 ```sh
 bash -c "$(curl -fsSL chalisehari.com.np/carch)"
 ```
 
-#### 🧪 Versión de desarrollo
+#### 🧪 Versión de Desarrollo [ Pre-lanzamiento ]
 
 ```sh 
 bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"

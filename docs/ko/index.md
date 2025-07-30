@@ -51,13 +51,13 @@ Carch를 사용해보려면 다음 버전 중 하나를 선택하세요:
 >
 > ***또한 Carch는 현재*** **Arch, Fedora, openSUSE 기반 배포판만 지원한다는 점을 유의하세요**. ***다른 배포판에서는 작동하지 않습니다.***
 
-#### ⭐ 안정 버전
+#### ⭐ 안정 버전 [ 최신 ]
 
 ```sh
 bash -c "$(curl -fsSL chalisehari.com.np/carch)"
 ```
 
-#### 🧪 개발 버전
+#### 🧪 개발 버전 [ 프리릴리스 ]
 
 ```sh 
 bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"

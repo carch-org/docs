@@ -51,13 +51,13 @@ features:
 >
 > ***另外请注意，Carch目前仅支持*** **基于Arch、Fedora和openSUSE的发行版**。***它不会在其他发行版上工作。***
 
-#### ⭐ 稳定版
+#### ⭐ 稳定版本 [ 最新 ]
 
 ```sh
 bash -c "$(curl -fsSL chalisehari.com.np/carch)"
 ```
 
-#### 🧪 开发版
+#### 🧪 开发版本 [ 预发布 ]
 
 ```sh 
 bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"
