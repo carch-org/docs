@@ -152,27 +152,26 @@ const closeLightbox = () => {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: transparent;
+  background-color: var(--overlay-gradient);
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1000;
-  -webkit-backdrop-filter: blur(16px);
-  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
 }
 
 .lightbox-content {
   position: relative;
-  max-width: 90vw;
-  max-height: 90vh;
+  max-width: 70vw;
+  max-height: 80vh;
 }
 
 .lightbox-image {
   display: block;
   max-width: 100%;
-  max-height: 90vh;
+  max-height: 80vh;
   border-radius: 8px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
 .close-button {
@@ -199,11 +198,11 @@ const closeLightbox = () => {
 }
 
 :root {
-  --overlay-gradient: color-mix(in srgb, var(--vp-c-brand-1), transparent 55%);
+  --overlay-gradient: color-mix(in srgb, var(--vp-c-brand-1), transparent 90%);
 }
 
 .dark {
-  --overlay-gradient: color-mix(in srgb, var(--vp-c-brand-1), transparent 85%);
+  --overlay-gradient: color-mix(in srgb, var(--vp-c-brand-1), transparent 95%);
 }
 
 .home-page {
