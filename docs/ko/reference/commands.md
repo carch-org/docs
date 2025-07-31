@@ -24,7 +24,7 @@ carch [옵션] [명령어]
 | `update`                   | Carch를 대화형으로 업데이트합니다.                                                                       |
 | `uninstall`                | Carch를 대화형으로 제거합니다.                                                                    |
 | `help`                     | 이 메시지나 주어진 하위 명령어에 대한 도움말을 출력합니다.                                           |
-| `--log`                    | 현재 세션에서만 로깅을 활성화합니다. 로그는 `~/.config/carch/carch.log`에 저장됩니다.       |
+| `--log`, `-l`              | 현재 세션에 대해서만 로깅을 활성화합니다. 로그는 `~/.config/carch/carch.log`에 저장됩니다.       |
 | `--version`, `-v`          | 프로그램 버전을 표시합니다.                                                                         |
 | `--catppuccin-mocha`, `-c` | 테마를 **Catppuccin Mocha**로 설정합니다.                                                            |
 | `--dracula`, `-d`          | 테마를 **Dracula**로 설정합니다.                                                                     |

@@ -24,7 +24,7 @@ carch [OPTIONS] [COMMAND]
 | `update`                   | Interactively update Carch.                                                                       |
 | `uninstall`                | Interactively uninstall Carch.                                                                    |
 | `help`                     | Print this message or help for the given subcommand(s).                                           |
-| `--log`                    | Enable logging for the current session only. Logs are saved at `~/.config/carch/carch.log`.       |
+| `--log`, `-l`              | Enables logging only for the current session. Logs are saved in `~/.config/carch/carch.log`.       |
 | `--version`, `-v`          | Show the program version.                                                                         |
 | `--catppuccin-mocha`, `-c` | Set the theme to **Catppuccin Mocha**.                                                            |
 | `--dracula`, `-d`          | Set the theme to **Dracula**.                                                                     |

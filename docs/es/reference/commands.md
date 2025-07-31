@@ -24,7 +24,7 @@ carch [OPCIONES] [COMANDO]
 | `update`                   | Actualizar Carch de forma interactiva.                                                                       |
 | `uninstall`                | Desinstalar Carch de forma interactiva.                                                                    |
 | `help`                     | Imprimir este mensaje o ayuda para el/los subcomando(s) dado(s).                                           |
-| `--log`                    | Habilitar registro solo para la sesión actual. Los registros se guardan en `~/.config/carch/carch.log`.       |
+| `--log`, `-l`              | Habilita el registro solo para la sesión actual. Los registros se guardan en `~/.config/carch/carch.log`.       |
 | `--version`, `-v`          | Mostrar la versión del programa.                                                                         |
 | `--catppuccin-mocha`, `-c` | Establecer el tema a **Catppuccin Mocha**.                                                            |
 | `--dracula`, `-d`          | Establecer el tema a **Dracula**.                                                                     |

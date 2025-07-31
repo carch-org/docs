@@ -24,7 +24,7 @@ carch [OPTIONEN] [BEFEHL]
 | `update`                   | Carch interaktiv aktualisieren.                                                                       |
 | `uninstall`                | Carch interaktiv deinstallieren.                                                                    |
 | `help`                     | Diese Nachricht oder Hilfe für den/die angegebenen Unterbefehl(e) anzeigen.                                           |
-| `--log`                    | Protokollierung nur für die aktuelle Sitzung aktivieren. Protokolle werden unter `~/.config/carch/carch.log` gespeichert.       |
+| `--log`, `-l`              | Aktiviert die Protokollierung nur für die aktuelle Sitzung. Protokolle werden in `~/.config/carch/carch.log` gespeichert.       |
 | `--version`, `-v`          | Programmversion anzeigen.                                                                         |
 | `--catppuccin-mocha`, `-c` | Design auf **Catppuccin Mocha** setzen.                                                            |
 | `--dracula`, `-d`          | Design auf **Dracula** setzen.                                                                     |

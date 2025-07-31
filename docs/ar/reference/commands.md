@@ -24,7 +24,7 @@ carch [OPTIONS] [COMMAND]
 | `update`                   | تحديث Carch بشكل تفاعلي.                                                                       |
 | `uninstall`                | إلغاء تثبيت Carch بشكل تفاعلي.                                                                    |
 | `help`                     | طباعة هذه الرسالة أو المساعدة للأمر الفرعي المحدد.                                           |
-| `--log`                    | تفعيل التسجيل للجلسة الحالية فقط. يتم حفظ السجلات في `~/.config/carch/carch.log`.       |
+| `--log`, `-l`              | تمكين التسجيل للجلسة الحالية فقط. يتم حفظ السجلات في `~/.config/carch/carch.log`.       |
 | `--version`, `-v`          | إظهار إصدار البرنامج.                                                                         |
 | `--catppuccin-mocha`, `-c` | تعيين السمة إلى **Catppuccin Mocha**.                                                            |
 | `--dracula`, `-d`          | تعيين السمة إلى **Dracula**.                                                                     |

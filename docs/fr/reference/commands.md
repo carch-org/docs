@@ -24,7 +24,7 @@ carch [OPTIONS] [COMMANDE]
 | `update`                   | Mettre à jour Carch de manière interactive.                                                                       |
 | `uninstall`                | Désinstaller Carch de manière interactive.                                                                    |
 | `help`                     | Afficher ce message ou l'aide pour la/les sous-commande(s) donnée(s).                                           |
-| `--log`                    | Activer la journalisation pour la session actuelle uniquement. Les journaux sont sauvegardés à `~/.config/carch/carch.log`.       |
+| `--log`, `-l`              | Active la journalisation uniquement pour la session actuelle. Les journaux sont enregistrés dans `~/.config/carch/carch.log`.       |
 | `--version`, `-v`          | Afficher la version du programme.                                                                         |
 | `--catppuccin-mocha`, `-c` | Définir le thème sur **Catppuccin Mocha**.                                                            |
 | `--dracula`, `-d`          | Définir le thème sur **Dracula**.                                                                     |
