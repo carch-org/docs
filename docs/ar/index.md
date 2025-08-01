@@ -38,10 +38,14 @@ features:
 </div>
 
 <div class="theme-showcase">
-  <h3 align="center">السمات المتاحة</h3>
+  <h3 align="center">المواضيع المتاحة</h3>
   <div class="theme-grid">
     <div v-for="theme in themes" :key="theme.name" class="theme-item" @click="openLightbox(theme)">
       <img :src="theme.image" :alt="theme.name + ' Theme Preview'">
+      <div class="theme-overlay" :style="{ backgroundColor: theme.color + 'e6' }">
+        <div>الموضوع: {{ theme.name }}</div>
+        <div style="font-size: 11px; font-weight: 400; margin-top: 4px;">(انقر للعرض)</div>
+      </div>
     </div>
   </div>
 </div>
@@ -84,11 +88,11 @@ bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"
 import { ref } from 'vue'
 
 const themes = [
-  { name: 'Catppuccin Mocha', image: '/catppuccin-mocha.png' },
-  { name: 'Dracula', image: '/dracula.png' },
-  { name: 'Gruvbox', image: '/gruvbox.png' },
-  { name: 'Nord', image: '/nord.png' },
-  { name: 'Rose Pine', image: '/rose-pine.png' }
+  { name: 'Catppuccin Mocha', image: '/catppuccin-mocha.png', color: '#74c7ec' },
+  { name: 'Dracula', image: '/dracula.png', color: '#bd93f9' },
+  { name: 'Gruvbox', image: '/gruvbox.png', color: '#fabd2f' },
+  { name: 'Nord', image: '/nord.png', color: '#88c0d0' },
+  { name: 'Rose Pine', image: '/rose-pine.png', color: '#c4a7e7' }
 ]
 
 const isLightboxOpen = ref(false)
@@ -141,6 +145,7 @@ const closeLightbox = () => {
 }
 
 .theme-item {
+  position: relative;
   border: 2px solid #fff;
   border-radius: 16px;
   overflow: hidden;
@@ -151,9 +156,12 @@ const closeLightbox = () => {
   padding: 0.1rem;
 }
 
-.theme-item:hover {
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+.theme-item:hover .theme-overlay {
+  transform: translateX(0);
+}
+
+.theme-item:hover img {
+  filter: blur(4px);
 }
 
 .theme-item img {
@@ -161,6 +169,26 @@ const closeLightbox = () => {
   height: auto;
   display: block;
   border-radius: 1px;
+  transition: filter 0.3s ease;
+}
+
+.theme-overlay {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 0;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  color: #1e1e2e;
+  padding: 0.5rem 1rem;
+  border-radius: 0 50px 50px 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  pointer-events: none;
+  white-space: nowrap;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
 .lightbox-overlay {
