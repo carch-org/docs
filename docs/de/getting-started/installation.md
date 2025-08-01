@@ -24,10 +24,10 @@ bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
 
 Carch ist auf [crates.io](https://crates.io/) verfügbar.
 
-Sie können es mit Cargo über die [carch](https://crates.io/crates/carch) Crate installieren.
+Du kannst es mit Cargo installieren:
 
 ```sh
-cargo install carch
+cargo install carch-cli
 ```
 
 Sobald das erledigt ist, können Sie es ausführen, indem Sie `carch` in Ihr Terminal eingeben.
