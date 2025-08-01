@@ -22,10 +22,10 @@ bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
 
 Carch متاح على [crates.io](https://crates.io/).
 
-يمكنك تثبيته باستخدام Cargo مع حزمة [carch](https://crates.io/crates/carch).
+يمكنك تثبيته باستخدام كارجو:
 
 ```sh
-cargo install carch
+cargo install carch-cli
 ```
 
 بمجرد الانتهاء من ذلك، يمكنك تشغيله بكتابة `carch` في الطرفية الخاصة بك.
