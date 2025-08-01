@@ -30,11 +30,12 @@ features:
     details: 正在积极改进功能，现在有基于Rust的TUI，更多更新即将到来。
 ---
 
+<div class="preview-container">
 <img
   src="https://raw.githubusercontent.com/harilvfs/carch/refs/heads/main/.github/preview.gif"
   alt="Carch preview"
-  style="max-width: 720px; width: 100%; border-radius: 12px; margin: 2rem auto; display: block;"
 />
+</div>
 
 <div class="theme-showcase">
   <h3 align="center">可用主题</h3>
@@ -106,6 +107,20 @@ const closeLightbox = () => {
 
 <style>
 
+.preview-container {
+  border: 2px solid var(--vp-c-divider);
+  border-radius: 8px;
+  background-color: var(--vp-c-bg-soft);
+  max-width: 720px;
+  margin: 2rem auto;
+  overflow: hidden;
+}
+
+.preview-container img {
+  width: 100%;
+  display: block;
+}
+
 .theme-showcase {
   margin: 4rem auto;
   padding: 2rem 0;
@@ -126,13 +141,14 @@ const closeLightbox = () => {
 }
 
 .theme-item {
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 24px;
+  border: 2px solid #fff;
+  border-radius: 16px;
   overflow: hidden;
   background-color: var(--vp-c-bg-soft);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 4px 6px rgba(0,0,0,0.05);
   cursor: pointer;
+  padding: 0.1rem;
 }
 
 .theme-item:hover {
@@ -144,6 +160,7 @@ const closeLightbox = () => {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 1px;
 }
 
 .lightbox-overlay {
