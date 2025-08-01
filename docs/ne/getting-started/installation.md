@@ -4,11 +4,9 @@
 
 हामी Arch Linux को लागि `PKGBUILD` र Fedora र openSUSE को लागि `.rpm` फाइलहरू प्रयोग गर्छौं।
 
-<div class="danger custom-block" style="padding-top: 8px">
-
+:::warning
 हामी केवल Arch, Fedora, र openSUSE-आधारित डिस्ट्रोहरूलाई समर्थन गर्छौं, त्यसैले यो अहिले अन्य डिस्ट्रोहरूमा काम गर्दैन।
-
-</div>
+:::
 
 तपाईंको टर्मिनलमा निम्नलिखित कमाण्ड चलाउनुहोस्:
 
