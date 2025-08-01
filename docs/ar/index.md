@@ -85,7 +85,7 @@ bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"
 ```
 
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 
 const themes = [
   { name: 'Catppuccin Mocha', image: '/catppuccin-mocha.png', color: '#74c7ec' },
@@ -107,6 +107,20 @@ const closeLightbox = () => {
   isLightboxOpen.value = false
   currentImageSrc.value = ''
 }
+
+const handleKeydown = (e) => {
+  if (e.key === 'Escape' && isLightboxOpen.value) {
+    closeLightbox()
+  }
+}
+
+onMounted(() => {
+  window.addEventListener('keydown', handleKeydown)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('keydown', handleKeydown)
+})
 </script>
 
 <style>
