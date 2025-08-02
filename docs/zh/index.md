@@ -81,7 +81,7 @@ bash -c "$(curl -fsSL chalisehari.com.np/carch)"
 #### 🧪 开发版本 [ 预发布 ]
 
 ```sh 
-bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"
+bash -c "$(curl -fsSL chalisehari.com.np/carch)" -- --dev
 ```
 
 <script setup>

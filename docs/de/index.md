@@ -81,7 +81,7 @@ bash -c "$(curl -fsSL chalisehari.com.np/carch)"
 #### 🧪 Entwicklungsversion [ Vorabversion ]
 
 ```sh 
-bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"
+bash -c "$(curl -fsSL chalisehari.com.np/carch)" -- --dev
 ```
 
 <script setup>
