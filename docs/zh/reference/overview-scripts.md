@@ -101,3 +101,6 @@
 
 ### Bspwm
 - *Bspwm 是一个为 X11 设计的极简可脚本化平铺窗口管理器，使用二叉空间分割，并依赖外部热键守护程序来处理键盘输入。该脚本会从 [gh0stzk/dotfiles](https://github.com/gh0stzk/dotfiles) 安装 Bspwm 配置。此安装脚本仅适用于 Arch，如需在其他发行版使用，请查看 [repo](https://github.com/gh0stzk/dotfiles)。*
+
+### Auto-Login TTY
+- *脚本会给你两个选项：要么在 TTY 中启用自动登录，要么在启用后需要时将其移除。*

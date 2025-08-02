@@ -101,3 +101,6 @@
 
 ### Bspwm
 - *Bspwm ist ein minimaler, skriptgesteuerter Tiling-Window-Manager für X11, der eine binäre Raumaufteilung verwendet und auf einen externen Hotkey-Daemon für die Tastatureingabe angewiesen ist. Das Skript installiert die Bspwm-Konfiguration von [gh0stzk/dotfiles](https://github.com/gh0stzk/dotfiles). Das Setup-Skript ist nur für Arch gedacht, für andere Distributionen siehe [Repo](https://github.com/gh0stzk/dotfiles).*
+
+### Auto-Login TTY
+- *Das Skript gibt dir zwei Optionen: Entweder du aktivierst den Autologin im TTY oder du entfernst ihn später wieder, falls du es nach der Aktivierung brauchst.*

@@ -101,3 +101,6 @@
 
 ### Bspwm
 - *Bspwm est un gestionnaire de fenêtres en mosaïque minimal et scriptable pour X11 qui utilise une partition binaire de l'espace et s'appuie sur un démon de raccourcis clavier externe pour la saisie. Ce script installe la configuration de Bspwm depuis [gh0stzk/dotfiles](https://github.com/gh0stzk/dotfiles). Ce script d'installation est uniquement pour Arch, pour d'autres distributions, consultez le [repo](https://github.com/gh0stzk/dotfiles).*
+
+### Auto-Login TTY
+- *Le script vous donnera deux options : activer la connexion automatique dans le TTY ou la supprimer plus tard si nécessaire après l’avoir activée.*
