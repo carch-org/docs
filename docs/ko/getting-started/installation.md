@@ -4,11 +4,9 @@
 
 Arch Linux용 `PKGBUILD`와 Fedora 및 openSUSE용 `.rpm` 파일을 사용합니다.
 
-<div class="danger custom-block" style="padding-top: 8px">
-
+:::warning
 Arch, Fedora, openSUSE 기반 배포판만 지원하므로 현재 다른 배포판에서는 작동하지 않습니다.
-
-</div>
+:::
 
 터미널에서 다음 명령을 실행하세요:
 

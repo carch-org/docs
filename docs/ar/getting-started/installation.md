@@ -4,11 +4,9 @@
 
 نستخدم `PKGBUILD` لـ Arch Linux وملفات `.rpm` لـ Fedora و openSUSE.
 
-<div class="danger custom-block" style="padding-top: 8px">
-
+:::warning
 نحن ندعم فقط التوزيعات المبنية على Arch و Fedora و openSUSE، لذا لن يعمل على التوزيعات الأخرى حالياً.
-
-</div>
+:::
 
 قم بتنفيذ الأمر التالي في الطرفية:
 
