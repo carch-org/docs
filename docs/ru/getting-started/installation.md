@@ -18,7 +18,7 @@ bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
 
 <br>
 
-<img src="https://img.shields.io/crates/v/carch?style=for-the-badge&logo=rust&color=f5a97f&logoColor=fe640b&labelColor=171b22" >
+<img src="https://img.shields.io/crates/v/carch-cli?style=for-the-badge&logo=rust&color=f5a97f&logoColor=fe640b&labelColor=171b22" >
 
 Carch доступен на [crates.io](https://crates.io/).
 
