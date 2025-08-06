@@ -66,4 +66,3 @@
 - **Kitty**: *Kitty is a fast, GPU-accelerated terminal emulator with modern features like ligatures, tabs, tiling layouts, and image support. The script applies my pre-configured Kitty config.*
 - **Tmux**: *Tmux is a terminal multiplexer that lets you manage multiple terminal sessions within one window. The script applies my pre-configured tmux config.*
 - **Zsh**: *Zsh (Z shell) is an advanced Unix shell with features like improved tab completion, better scripting, and powerful customization. The script installs all required dependencies and applies my custom theme.*
-

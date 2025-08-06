@@ -66,3 +66,4 @@
 - **Kitty**: *Kitty ist ein schneller, GPU-beschleunigter Terminal-Emulator mit modernen Funktionen wie Ligaturen, Tabs, Tiling-Layouts und Bildunterstützung. Das Skript wendet meine vorkonfigurierte Kitty-Konfiguration an.*
 - **Tmux**: *Tmux ist ein Terminal-Multiplexer, der es Ihnen ermöglicht, mehrere Terminal-Sitzungen innerhalb eines Fensters zu verwalten. Das Skript wendet meine vorkonfigurierte tmux-Konfiguration an.*
 - **Zsh**: *Zsh (Z shell) ist eine erweiterte Unix-Shell mit Funktionen wie verbesserter Tab-Vervollständigung, besserem Skripting und mächtiger Anpassung. Das Skript installiert alle erforderlichen Abhängigkeiten und wendet mein benutzerdefiniertes Theme an.*
+
