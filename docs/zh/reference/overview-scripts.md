@@ -9,7 +9,7 @@
 - **Bspwm**：*Bspwm 是一个极简、可脚本化的 X11 平铺式窗口管理器，使用二进制空间分割，并依赖外部热键守护程序来处理键盘输入。此脚本会从 gh0stzk/dotfiles 安装 Bspwm 配置。此安装脚本仅适用于 Arch，如需在其他发行版上使用，请查看仓库。*
 - **Dunst**：*Dunst 是一个轻量级、可自定义的 Linux 通知守护程序，可显示简洁、不打扰用户的桌面通知。脚本会应用我预配置好的 Dunst 设置。*
 - **Dwm**：*Dwm 是一个动态平铺式 X11 窗口管理器，以极简、快速、可通过修改源码配置而闻名。此脚本会从我的 harilvfs/dwm 仓库中应用我预先配置好的 dwm，并安装所有必要的依赖项以确保环境正常工作。*
-- **Hyprland**：*Hyprland 是一个动态平铺式 Wayland 合成器，支持现代特性，如动画、窗口特效及灵活的平铺布局。脚本可让你安装知名用户（ml4w、end-4、Jakoolit、omarchy 和 prasanthrangan）的预配置 Hyprland 设置。*
+- **Hyprland**：*Hyprland 是一个动态平铺式 Wayland 合成器，支持现代特性，如动画、窗口特效及灵活的平铺布局。脚本可让你安装知名用户（ml4w、end-4、Jakoolit 和 prasanthrangan）的预配置 Hyprland 设置。*
 - **Picom**：*Picom 是一个轻量级的 X11 合成器，为窗口添加透明度、阴影和动画效果。脚本提供安装我预配置好的 Picom 配置及支持 picom-ftlabs 的动画版本。*
 - **Rofi**：*Rofi 是一个轻量级的应用启动器、窗口切换器和 dmenu 替代方案，适用于 X11。脚本会应用我预配置好的 Rofi 配置。*
 - **Themes-Icons**：*安装并应用一套主题和图标，以美化桌面外观。*
