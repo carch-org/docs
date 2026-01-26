@@ -38,7 +38,7 @@ jobs:
 
       - name: Create Pull Request
         id: create_docs_pr
-        uses: peter-evans/create-pull-request@v8.0.0
+        uses: peter-evans/create-pull-request@v8.1.0
         with:
           token: ${{ secrets.PAT_TOKEN }}
           commit-message: "chore(release): update version to ${{ github.event.inputs.version }}"
