@@ -25,9 +25,12 @@ Wir freuen uns, dass Sie daran interessiert sind, zu **Carch** beizutragen! Beit
 > feat: deine-commit-nachricht oder fix: deine-commit-nachricht.
 > ```
 >
-> Übrigens, vor dem Commit, wenn du eine `.sh`-Skriptdatei änderst, stelle sicher, dass sie mit [`shfmt`](https://github.com/mvdan/sh) formatiert ist.
-> 
-> Für Änderungen an jedem Teil der Rust-Dateien stellen Sie sicher, dass Sie `cargo xtask ci` ausführen, um die Formatierung und andere Validierungen zu überprüfen. Stellen Sie sicher, dass Sie nicht direkt pushen, ohne zu überprüfen, dass es nirgendwo Fehler gibt.
+> Übrigens, vor dem Commit:
+> - Wenn Sie eine `.sh`-Scriptdatei ändern, stellen Sie sicher, dass sie mit [`shfmt`](https://github.com/mvdan/sh) formatiert ist
+> - Wenn Sie `desc.toml` (Scripts oder Beschreibungen) aktualisieren, führen Sie `cargo xtask ogen` aus, um `docs/overview.md` zu aktualisieren
+> - Bei Änderungen an Rust-Dateien führen Sie `cargo xtask ci` aus, um Formatierung und andere Validierungen zu prüfen
+>
+> Stellen Sie sicher, dass Sie nicht direkt pushen, ohne zu überprüfen, dass es nirgendwo Fehler gibt.
 
 > Für weitere Informationen über Conventional Commits, siehe diesen [Leitfaden](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 

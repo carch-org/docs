@@ -25,9 +25,12 @@
 > feat: 여러분의-커밋-메시지 또는 fix: 여러분의-커밋-메시지.
 > ```
 >
-> 참고로, 커밋하기 전에 `.sh` 스크립트 파일을 변경한다면 [`shfmt`](https://github.com/mvdan/sh)으로 포맷했는지 확인하세요.
+> 참고로, 커밋하기 전에:
+> - `.sh` 스크립트 파일을 변경하는 경우 [`shfmt`](https://github.com/mvdan/sh)로 포맷되었는지 확인하세요
+> - `desc.toml`(스크립트 또는 설명)을 업데이트할 때 `cargo xtask ogen`을 실행하여 `docs/overview.md`를 새로고침하세요
+> - Rust 파일의任何 부분을 변경할 때는 `cargo xtask ci`를 실행하여 포맷팅 및 기타 유효성 검사를 확인하세요
 >
-> RRust 파일의 어떤 부분에든 변경사항이 있을 때는 포맷팅과 기타 검증을 확인하기 위해 `cargo xtask ci`를 실행하세요. 어디에도 오류가 없는지 확인하지 않고 직접 푸시하지 않도록 하세요.
+> 오류가 없는지 확인하지 않고 직접 푸시하지 마세요.
 
 > Conventional Commits에 대한 자세한 정보는 이 [가이드](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d)를 참고하세요.
 

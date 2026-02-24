@@ -25,9 +25,12 @@
 > feat: 你的提交信息 或 fix: 你的提交信息。
 > ```
 >
-> 顺便说一下，在提交之前，如果你更改了任何 `.sh` 脚本文件，请确保它们已使用 [`shfmt`](https://github.com/mvdan/sh) 格式化。
+> 顺便说一下，在提交之前：
+> - 如果更改任何 `.sh` 脚本文件，确保它们已使用 [`shfmt`](https://github.com/mvdan/sh) 进行格式化
+> - 更新 `desc.toml`（脚本或描述）时，运行 `cargo xtask ogen` 以刷新 `docs/overview.md`
+> - 对于 Rust 文件的任何部分更改，运行 `cargo xtask ci` 检查格式和其他验证
 >
-> 对于 Rust 文件任何部分的更改，请确保运行 cargo xtask ci 来检查格式化和其他验证。确保在没有验证任何地方都没有错误的情况下不要直接推送。
+> 确保在没有验证没有任何错误的情况下不要直接推送。
 
 > 有关约定式提交的更多信息，请参考此[指南](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d)。
 

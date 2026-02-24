@@ -25,9 +25,12 @@ Nous sommes ravis que vous souhaitiez contribuer à **Carch** ! Les contribution
 > feat: votre-message-de-commit ou fix: votre-message-de-commit.
 > ```
 >
-> Au fait, avant de valider, si vous modifiez un fichier script `.sh`, assurez-vous qu’il est formaté avec [`shfmt`](https://github.com/mvdan/sh).
+> Au fait, avant de commiter :
+> - Si vous modifiez un fichier de script `.sh`, assurez-vous qu'il est formaté avec [`shfmt`](https://github.com/mvdan/sh)
+> - Lors de la mise à jour de `desc.toml` (scripts ou descriptions), exécutez `cargo xtask ogen` pour actualiser `docs/overview.md`
+> - Pour les modifications de fichiers Rust, exécutez `cargo xtask ci` pour vérifier le formatage et autres validations
 >
-> Pour les modifications apportées à n'importe quelle partie des fichiers Rust, assurez-vous d'exécuter `cargo xtask ci` pour vérifier le formatage et autres validations. Assurez-vous de ne pas pousser directement sans vérifier qu'il n'y a aucune erreur nulle part.
+> Assurez-vous de ne pas push directement sans vérifier qu'il n'y a aucune erreur nulle part.
 
 > Pour plus d'informations sur les Commits Conventionnels, consultez ce [guide](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 

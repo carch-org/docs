@@ -25,9 +25,12 @@
 > feat: tu-mensaje-de-commit o fix: tu-mensaje-de-commit.
 > ```
 >
-> Por cierto, antes de confirmar, si estás cambiando algún archivo de script `.sh`, asegúrate de que esté formateado con [`shfmt`](https://github.com/mvdan/sh).
+> Por cierto, antes de hacer commit:
+> - Si cambias algún archivo de script `.sh`, asegúrate de que esté formateado con [`shfmt`](https://github.com/mvdan/sh)
+> - Al actualizar `desc.toml` (scripts o descripciones), ejecuta `cargo xtask ogen` para actualizar `docs/overview.md`
+> - Para cambios en cualquier parte de los archivos Rust, ejecuta `cargo xtask ci` para verificar el formato y otras validaciones
 >
-> Para cambios en cualquier parte de los archivos de Rust, asegúrate de ejecutar `cargo xtask ci` para verificar el formateo y otras validaciones. Asegúrate de no hacer push directamente sin verificar que no haya errores en ningún lugar.
+> Asegúrate de no hacer push directamente sin verificar que no haya errores en ningún lado.
 
 > Para más información sobre Commits Convencionales, consulta esta [guía](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 
