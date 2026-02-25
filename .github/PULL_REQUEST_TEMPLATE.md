@@ -4,11 +4,9 @@
 This pull request adds/updates/fixes [describe the main goal or feature].
 
 ### Changes
-- [ ] Updates <!-- Added/updated config or others -->
 - [ ] Remove <!-- Bad Script/Code or others-->
-- [ ] Fixed issue #[issue number].
 - [ ] Improved <!-- optimized existing functionality -->
-- [ ] Fixes.
+- [ ] Fixes. <!--Fix Anything -->
 - [ ] Feature <!-- Added -->
 - [ ] UI/UX <!-- Enhancement CSS/Looks -->
 
@@ -30,8 +28,6 @@ Please ensure your pull request meets the following requirements:
 - [ ] I have performed a self-review of my code.
 - [ ] I have commented on my code, particularly in hard-to-understand areas.
 - [ ] My changes do not introduce new warnings.
-- [ ] I have added tests that prove my fix is effective or that my feature works.
-- [ ] New and existing unit tests pass locally with my changes.
 
 ### Screenshots 
 
@@ -40,9 +36,3 @@ Please ensure your pull request meets the following requirements:
 ### Related Issues
 
 <!-- If this PR fixes an issue, include the relevant issue number here (e.g., "Fixes #123") -->
-
-### Additional Notes
-
-<!-- Add any other context, technical details, or considerations you'd like to share. -->
-
-
