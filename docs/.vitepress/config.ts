@@ -424,6 +424,62 @@ export default {
         },
       },
     },
+    
+    ja: {
+      label: "日本語",
+      lang: "ja-JP",
+      title: "カーチ",
+      description: "Carchのドキュメントサイト",
+
+      themeConfig: {
+        siteTitle: "カーチ",
+        logo: "/carch.png",
+        outline: "deep",
+        docsDir: "/docs",
+
+        langMenuLabel: "言語",
+        returnToTopLabel: "トップに戻る",
+        sidebarMenuLabel: "メニュー",
+
+        editLink: {
+          pattern: "https://github.com/carch-org/docs/tree/main/docs/:path",
+          text: "GitHubでこのページを編集",
+        },
+
+        nav: nav("ja", {
+          home: "ホーム",
+          guide: "ガイド",
+          changelog: "変更履歴",
+          contributing: "貢献",
+        }),
+
+        sidebar: sidebar("ja", {
+          "getting-started": "はじめに",
+          "getting-started/introduction": "紹介",
+          "getting-started/installation": "インストール",
+          "reference": "リファレンス",
+          "reference/commands": "コマンド",
+//          "reference/overview-scripts": "スクリプト概要",
+          "project": "プロジェクト",
+          "project/roadmap": "ロードマップ",
+          "project/contributing": "貢献",
+          "project/codeofconduct": "行動規範",
+          "project/inspiration": "インスピレーション",
+          "project/contributors": "貢献者",
+        }),
+
+        socialLinks: [
+          { icon: "telegram", link: "https://t.me/carchx" },
+          { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
+          { icon: "github", link: "https://github.com/harilvfs/carch" },
+        ],
+
+        footer: {
+          message: "MITライセンスの下で公開されています。",
+          copyright: "著作権 © 2025 Hari Chalise",
+        },
+      },
+    },
 
     ko: {
       label: "한국어",
