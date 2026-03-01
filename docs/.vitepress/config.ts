@@ -71,7 +71,7 @@ const nav = (lang = "", override = {}) => {
     { text: override.home || "Home", link: lang ? `/${lang}/` : "/" },
     { text: override.guide || "Guide", link: guidePath },
     {
-      text: "5.3.3",
+      text: "5.3.4",
       items: [
         {
           text: override.changelog || "Changelog",
