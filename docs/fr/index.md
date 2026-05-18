@@ -24,7 +24,7 @@ features:
     details: Prend en charge les distributions comme Arch, Fedora et openSUSE.
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=80&id=mcrzTGVMglJn&format=png" alt="tweaks"/>
     title: Ajustez tout
-    details: Inclut de nombreux scripts pour configurer DWM, Hyprland et d'autres paramètres système.
+    details: Comprend un ensemble de scripts pour configurer les applications et d'autres paramètres système.
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12400/12400985.png" alt="development"/>
     title: Encore en développement
     details: Améliore activement les choses avec une TUI basée sur Rust et d'autres mises à jour à venir.

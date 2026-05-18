@@ -24,7 +24,7 @@ features:
     details: Arch, Fedora, openSUSE 등의 배포판을 지원합니다.
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=80&id=mcrzTGVMglJn&format=png" alt="tweaks"/>
     title: 모든 것을 조정하세요
-    details: DWM, Hyprland 및 기타 시스템 설정을 설정하는 많은 스크립트가 포함되어 있습니다.
+    details: 애플리케이션 구성 및 기타 시스템 설정을 설정하는 많은 스크립트가 포함되어 있습니다.
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12400/12400985.png" alt="development"/>
     title: 여전히 개발 중
     details: Rust 기반 TUI와 더 많은 업데이트가 예정되어 있어 지속적으로 개선하고 있습니다.

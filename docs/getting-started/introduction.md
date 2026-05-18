@@ -28,7 +28,7 @@ It’s especially useful if you want to quickly set up and start using your *fav
   **All configurations are crafted and tested to provide a seamless experience just select and run, and you're good to go!**
 
 - **Window Manager Installation**  
-  *Install and configure popular window managers such as DWM, Hyprland, and Bspwm, with more on the way in future updates.*  
+  *Install and configure popular window managers such as DWM, Bspwm, with more on the way in future updates.*  
 
 ## Why Choose Carch?
 <img src="https://img.icons8.com/?size=80&id=111409&format=png" width="50" />
