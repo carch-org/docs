@@ -24,7 +24,7 @@ features:
     details: 支持Arch、Fedora和openSUSE等发行版。
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=80&id=mcrzTGVMglJn&format=png" alt="tweaks"/>
     title: 调整所有内容
-    details: 包含大量脚本来设置DWM、Hyprland和其他系统设置。
+    details: 包含大量脚本，用于设置应用程序配置和其他系统设置.
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12400/12400985.png" alt="development"/>
     title: 仍在开发中
     details: 正在积极改进功能，现在有基于Rust的TUI，更多更新即将到来。

@@ -24,7 +24,7 @@ features:
     details: Arch, Fedora, र openSUSE जस्ता डिस्ट्रिब्यूशनहरूलाई समर्थन गर्छ।
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=80&id=mcrzTGVMglJn&format=png" alt="tweaks"/>
     title: सबै कुरा समायोजन गर्नुहोस्
-    details: DWM, Hyprland र अन्य सिस्टम सेटिङहरू सेटअप गर्नका लागि धेरै स्क्रिप्टहरू समावेश गर्दछ।
+    details: एप्लिकेसन कन्फिगरेसन र अन्य प्रणाली सेटिङ्हरू सेटअप गर्नको लागि धेरै स्क्रिप्टहरू समावेश गर्दछ।
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12400/12400985.png" alt="development"/>
     title: अझै विकासमा
     details: Rust-शक्तिशाली TUI र आउँदै गरेका थप अपडेटहरूसँग सक्रिय रूपमा कुराहरू सुधार गर्दै।

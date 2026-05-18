@@ -24,7 +24,7 @@ features:
     details: Supports distros like Arch, Fedora, and openSUSE.
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=80&id=mcrzTGVMglJn&format=png" alt="tweaks"/>
     title: Tweak All the Things
-    details: Includes a bunch of scripts to set up DWM, Hyprland, and other System Settings.
+    details: Includes a bunch of scripts to set up Applications config and other System Settings.
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12400/12400985.png" alt="development"/>
     title: Still Cooking
     details: Actively improving stuff now with a Rust-powered TUI and more updates coming.

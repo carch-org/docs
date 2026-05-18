@@ -24,7 +24,7 @@ features:
     details: يدعم التوزيعات مثل Arch و Fedora و openSUSE.
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=80&id=mcrzTGVMglJn&format=png" alt="tweaks"/>
     title: اضبط كل شيء
-    details: يتضمن مجموعة من السكريبتات لإعداد DWM و Hyprland وإعدادات النظام الأخرى.
+    details: يتضمن مجموعة من البرامج النصية لإعداد تكوينات التطبيقات وإعدادات النظام الأخرى.
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12400/12400985.png" alt="development"/>
     title: لا يزال قيد التطوير
     details: يتم تحسين الأشياء بنشاط الآن مع TUI مدعوم بـ Rust والمزيد من التحديثات قادمة.

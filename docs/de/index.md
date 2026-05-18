@@ -24,7 +24,7 @@ features:
     details: Unterstützt Distributionen wie Arch, Fedora und openSUSE.
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=80&id=mcrzTGVMglJn&format=png" alt="tweaks"/>
     title: Stelle alles ein
-    details: Enthält eine Menge Skripte zur Einrichtung von DWM, Hyprland und anderen Systemeinstellungen.
+    details: Enthält eine Reihe von Skripten zum Einrichten von Anwendungskonfigurationen und anderen Systemeinstellungen
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12400/12400985.png" alt="development"/>
     title: Noch in Entwicklung
     details: Verbessert aktiv Sachen mit einem Rust-gestützten TUI und weitere Updates kommen.

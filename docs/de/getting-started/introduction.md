@@ -29,7 +29,7 @@ Es ist besonders nützlich, wenn Sie schnell Ihre *Lieblings-Apps* auf einem sau
   **Alle Konfigurationen sind sorgfältig erstellt und getestet, um eine nahtlose Erfahrung zu bieten - einfach auswählen und ausführen, und Sie sind startklar!**
 
 - **Installation von Window Managern**  
-  *Installiere und konfiguriere beliebte Fenstermanager wie DWM, Hyprland und Bspwm, mit weiteren, die in zukünftigen Updates folgen.* 
+  *Installieren und konfigurieren Sie beliebte Fenstermanager wie DWM, Bspwm, mit weiteren in zukünftigen Updates.* 
 
 ## Warum Carch wählen?
 <img src="https://img.icons8.com/?size=80&id=111409&format=png" width="50" />

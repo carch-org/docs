@@ -24,7 +24,7 @@ features:
     details: Arch、Fedora、openSUSEなどのディストリビューションをサポート。
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=80&id=mcrzTGVMglJn&format=png" alt="tweaks"/>
     title: すべてをカスタマイズ
-    details: DWM、Hyprland、その他のシステム設定を行うためのスクリプトが多数含まれています。
+    details: アプリケーションの設定やその他のシステム設定をセットアップするためのスクリプトが多数含まれています.
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12400/12400985.png" alt="development"/>
     title: 開発中
     details: Rustで構築されたTUIなど、現在も積極的に改良を進めています。
