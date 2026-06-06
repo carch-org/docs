@@ -11,7 +11,7 @@
 Выполните следующую команду в вашем терминале:
 
 ```sh
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
+curl -fsSL chalisehari.com.np/carchinstall | sh
 ```
 
 ### 📦 Cargo Crate

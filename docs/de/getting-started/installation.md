@@ -11,7 +11,7 @@ Wir unterstützen nur Arch-, Fedora- und openSUSE-basierte Distributionen, daher
 Führen Sie den folgenden Befehl in Ihrem Terminal aus:
 
 ```sh
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
+curl -fsSL chalisehari.com.np/carchinstall | sh
 ```
 
 ### 📦 Cargo Crate

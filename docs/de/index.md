@@ -75,13 +75,13 @@ Wähle eine der folgenden Versionen, um Carch auszuprobieren:
 #### ⭐ Stabile Version [ Neueste ]
 
 ```sh
-bash -c "$(curl -fsSL chalisehari.com.np/carch)"
+curl -fsSL chalisehari.com.np/carch | sh
 ```
 
 #### 🧪 Entwicklungsversion [ Vorabversion ]
 
 ```sh 
-bash -c "$(curl -fsSL chalisehari.com.np/carch)" -- --dev
+curl -fsSL chalisehari.com.np/carch | sh -s -- --dev
 ```
 
 <script setup>

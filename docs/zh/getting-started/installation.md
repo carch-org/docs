@@ -11,7 +11,7 @@
 在您的终端中执行以下命令：
 
 ```sh
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
+curl -fsSL chalisehari.com.np/carchinstall | sh
 ```
 
 ### 📦 Cargo Crate

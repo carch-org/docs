@@ -11,7 +11,7 @@
 قم بتنفيذ الأمر التالي في الطرفية:
 
 ```sh
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
+curl -fsSL chalisehari.com.np/carchinstall | sh
 ```
 
 ### 📦 حزمة Cargo

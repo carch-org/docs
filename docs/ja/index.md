@@ -75,13 +75,13 @@ Carchはシステムにインストールせずに直接実行できます。
 #### ⭐ 安定版 [ 最新 ]
 
 ```sh
-bash -c "$(curl -fsSL chalisehari.com.np/carch)"
+curl -fsSL chalisehari.com.np/carch | sh
 ```
 
 #### 🧪 開発版 [ プレリリース ]
 
 ```sh
-bash -c "$(curl -fsSL chalisehari.com.np/carch)" -- --dev
+curl -fsSL chalisehari.com.np/carch | sh -s -- --dev
 ```
 
 <script setup>

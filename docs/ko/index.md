@@ -75,13 +75,13 @@ Carch를 사용해보려면 다음 버전 중 하나를 선택하세요:
 #### ⭐ 안정 버전 [ 최신 ]
 
 ```sh
-bash -c "$(curl -fsSL chalisehari.com.np/carch)"
+curl -fsSL chalisehari.com.np/carch | sh
 ```
 
 #### 🧪 개발 버전 [ 프리릴리스 ]
 
 ```sh 
-bash -c "$(curl -fsSL chalisehari.com.np/carch)" -- --dev
+curl -fsSL chalisehari.com.np/carch | sh -s -- --dev
 ```
 
 <script setup>

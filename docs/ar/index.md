@@ -75,13 +75,13 @@ features:
 #### ⭐ الإصدار المستقر [ الأحدث ]
 
 ```sh
-bash -c "$(curl -fsSL chalisehari.com.np/carch)"
+curl -fsSL chalisehari.com.np/carch | sh
 ```
 
 #### 🧪 إصدار التطوير [ ما قبل الإصدار ]
 
 ```sh 
-bash -c "$(curl -fsSL chalisehari.com.np/carch)" -- --dev
+curl -fsSL chalisehari.com.np/carch | sh -s -- --dev
 ```
 
 <script setup>

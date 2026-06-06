@@ -11,7 +11,7 @@
 तपाईंको टर्मिनलमा निम्नलिखित कमाण्ड चलाउनुहोस्:
 
 ```sh
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
+curl -fsSL chalisehari.com.np/carchinstall | sh
 ```
 
 ### 📦 Cargo Crate
