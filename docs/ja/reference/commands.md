@@ -24,7 +24,6 @@ carch [オプション] [コマンド]
 | `update`                   | 対話形式でCarchをアップデートします。                                                                       |
 | `uninstall`                | 対話形式でCarchをアンインストールします。                                                                    |
 | `help`                     | このメッセージまたは指定されたサブコマンドのヘルプを表示します。                                           |
-| `--log`, `-l`              | 現在のセッションのみログ記録を有効にします。ログは`~/.config/carch/carch.log`に保存されます。       |
 | `--version`, `-v`          | プログラムのバージョンを表示します。                                                                         |
 | `--catppuccin-mocha`, `-c` | テーマを**Catppuccin Mocha**に設定します。                                                            |
 | `--dracula`, `-d`          | テーマを**Dracula**に設定します。                                                                     |
