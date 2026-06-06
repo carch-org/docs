@@ -31,4 +31,6 @@ carch [OPTIONEN] [BEFEHL]
 | `--gruvbox`, `-g`          | Design auf **Gruvbox** setzen.                                                                     |
 | `--nord`, `-n`             | Design auf **Nord** setzen.                                                                        |
 | `--rose-pine`, `-r`        | Design auf **Rosé Pine** setzen.                                                                   |
+| `--fav <THEME>`            | Das angegebene Design als Favorit speichern und beenden.                                          |
+| `--unfav`                  | Das gespeicherte Lieblings-Design löschen.                                                         |
 | `--help`, `-h`             | Diese Hilfsnachricht anzeigen und beenden.                                                                  |

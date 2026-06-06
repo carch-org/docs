@@ -31,4 +31,6 @@ carch [OPCIONES] [COMANDO]
 | `--gruvbox`, `-g`          | Establecer el tema a **Gruvbox**.                                                                     |
 | `--nord`, `-n`             | Establecer el tema a **Nord**.                                                                        |
 | `--rose-pine`, `-r`        | Establecer el tema a **Rosé Pine**.                                                                   |
+| `--fav <THEME>`            | Guarda el tema indicado como favorito y sal.                                                       |
+| `--unfav`                  | Borra el tema favorito guardado.                                                                   |
 | `--help`, `-h`             | Mostrar este mensaje de ayuda y salir.                                                                  |

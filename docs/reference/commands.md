@@ -31,4 +31,6 @@ carch [OPTIONS] [COMMAND]
 | `--gruvbox`, `-g`          | Set the theme to **Gruvbox**.                                                                     |
 | `--nord`, `-n`             | Set the theme to **Nord**.                                                                        |
 | `--rose-pine`, `-r`        | Set the theme to **Rosé Pine**.                                                                   |
+| `--fav <THEME>`            | Save the given theme as your favorite and exit.                                                   |
+| `--unfav`                  | Clear the saved favorite theme.                                                                   |
 | `--help`, `-h`             | Show this help message and exit.                                                                  |
