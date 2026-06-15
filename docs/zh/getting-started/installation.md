@@ -11,7 +11,7 @@
 在您的终端中执行以下命令：
 
 ```sh
-curl -fsSL chalisehari.com.np/carchinstall | sh
+curl -fsSL chalisehari.com.np/carch | sh -s -- install
 ```
 
 ### 📦 Cargo Crate

@@ -11,7 +11,7 @@
 قم بتنفيذ الأمر التالي في الطرفية:
 
 ```sh
-curl -fsSL chalisehari.com.np/carchinstall | sh
+curl -fsSL chalisehari.com.np/carch | sh -s -- install
 ```
 
 ### 📦 حزمة Cargo

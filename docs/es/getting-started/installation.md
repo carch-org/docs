@@ -11,7 +11,7 @@ Solo soportamos distribuciones basadas en Arch, Fedora y openSUSE, por lo que no
 Ejecuta el siguiente comando en tu terminal:
 
 ```sh
-curl -fsSL chalisehari.com.np/carchinstall | sh
+curl -fsSL chalisehari.com.np/carch | sh -s -- install
 ```
 
 ### 📦 Cargo Crate

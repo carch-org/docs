@@ -55,7 +55,7 @@ Wähle eine der folgenden Versionen, um Carch auszuprobieren:
 #### ⭐ Stabile Version [ Neueste ]
 
 ```sh
-curl -fsSL chalisehari.com.np/carch | sh
+curl -fsSL chalisehari.com.np/carch | sh -s -- --stable
 ```
 
 #### 🧪 Entwicklungsversion [ Vorabversion ]

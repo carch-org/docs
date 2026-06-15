@@ -55,7 +55,7 @@ Carch를 사용해보려면 다음 버전 중 하나를 선택하세요:
 #### ⭐ 안정 버전 [ 최신 ]
 
 ```sh
-curl -fsSL chalisehari.com.np/carch | sh
+curl -fsSL chalisehari.com.np/carch | sh -s -- --stable
 ```
 
 #### 🧪 개발 버전 [ 프리릴리스 ]

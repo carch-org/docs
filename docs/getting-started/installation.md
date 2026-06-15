@@ -11,7 +11,7 @@ We only support Arch, Fedora, and openSUSE-based distros, so it will not work on
 Execute the following command in your terminal:
 
 ```sh
-curl -fsSL chalisehari.com.np/carchinstall | sh
+curl -fsSL chalisehari.com.np/carch | sh -s -- install
 ```
 
 ### 📦 Cargo Crate

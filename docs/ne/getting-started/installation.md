@@ -11,7 +11,7 @@
 तपाईंको टर्मिनलमा निम्नलिखित कमाण्ड चलाउनुहोस्:
 
 ```sh
-curl -fsSL chalisehari.com.np/carchinstall | sh
+curl -fsSL chalisehari.com.np/carch | sh -s -- install
 ```
 
 ### 📦 Cargo Crate

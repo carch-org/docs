@@ -55,7 +55,7 @@ features:
 #### ⭐ Стабильная Версия [ Последняя ]
 
 ```sh
-curl -fsSL chalisehari.com.np/carch | sh
+curl -fsSL chalisehari.com.np/carch | sh -s -- --stable
 ```
 
 #### 🧪 Версия Разработки [ Предварительная ]
