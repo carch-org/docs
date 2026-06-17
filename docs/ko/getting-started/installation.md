@@ -1,9 +1,5 @@
 # 🛠️ 설치
 
-### 📦 패키지
-
-Arch Linux용 `PKGBUILD`와 Fedora 및 openSUSE용 `.rpm` 파일을 사용합니다.
-
 :::warning
 Arch, Fedora, openSUSE 기반 배포판만 지원하므로 현재 다른 배포판에서는 작동하지 않습니다.
 :::

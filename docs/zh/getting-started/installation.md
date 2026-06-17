@@ -1,9 +1,5 @@
 # 🛠️ 安装
 
-### 📦 软件包
-
-我们为 Arch Linux 使用 `PKGBUILD`，为 Fedora 和 openSUSE 使用 `.rpm` 文件。
-
 :::warning
 我们只支持基于 Arch、Fedora 和 openSUSE 的发行版，所以目前在其他发行版上无法运行。
 :::
