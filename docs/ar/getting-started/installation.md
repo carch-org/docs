@@ -1,9 +1,5 @@
 # 🛠️ التثبيت
 
-### 📦 الحزمة
-
-نستخدم `PKGBUILD` لـ Arch Linux وملفات `.rpm` لـ Fedora و openSUSE.
-
 :::warning
 نحن ندعم فقط التوزيعات المبنية على Arch و Fedora و openSUSE، لذا لن يعمل على التوزيعات الأخرى حالياً.
 :::

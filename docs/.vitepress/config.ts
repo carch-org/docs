@@ -1,5 +1,12 @@
 // .vitepress/config.ts
 
+const latestVersion = await fetch(
+  "https://api.github.com/repos/harilvfs/carch/releases/latest"
+)
+  .then((r) => r.json())
+  .then((d) => d.tag_name)
+  .catch(() => "unknown");
+
 const sidebar = (lang = "", override = {}) => {
   const prefix = lang ? `/${lang}` : "";
 
@@ -71,7 +78,7 @@ const nav = (lang = "", override = {}) => {
     { text: override.home || "Home", link: lang ? `/${lang}/` : "/" },
     { text: override.guide || "Guide", link: guidePath },
     {
-      text: "5.4.1",
+      text: latestVersion,
       items: [
         {
           text: override.changelog || "Changelog",
