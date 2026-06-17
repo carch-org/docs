@@ -21,6 +21,7 @@ carch [OPCIONES] [COMANDO]
 | 🏷️ Comando                 | 📄 Descripción                                                                                   |
 |----------------------------|---------------------------------------------------------------------------------------------------|
 | `check-update`             | Verificar si hay una nueva versión disponible.                                                              |
+| `completions <SHELL>`      | Generar completaciones de shell para bash, zsh o fish.                                                |
 | `update`                   | Actualizar Carch de forma interactiva.                                                                       |
 | `uninstall`                | Desinstalar Carch de forma interactiva.                                                                    |
 | `help`                     | Imprimir este mensaje o ayuda para el/los subcomando(s) dado(s).                                           |
