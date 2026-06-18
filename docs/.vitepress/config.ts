@@ -1,96 +1,95 @@
 // .vitepress/config.ts
+import { defineConfig } from "vitepress";
 
-const latestVersion = await fetch(
-  "https://api.github.com/repos/harilvfs/carch/releases/latest"
-)
-  .then((r) => r.json())
-  .then((d) => d.tag_name)
-  .catch(() => "unknown");
+export default defineConfig(async () => {
+  const latestVersion = await fetch(
+    "https://api.github.com/repos/harilvfs/carch/releases/latest"
+  )
+    .then((r) => r.json())
+    .then((d) => d.tag_name)
+    .catch(() => "unknown");
 
-const sidebar = (lang = "", override = {}) => {
-  const prefix = lang ? `/${lang}` : "";
+  const sidebar = (lang = "", override = {}) => {
+    const prefix = lang ? `/${lang}` : "";
 
-  return [
-    {
-      text: override["getting-started"] || "Getting Started",
-//      collapsed: false,
-      items: [
-        {
-          text: override["getting-started/introduction"] || "Introduction",
-          link: `${prefix}/getting-started/introduction`,
-        },
-        {
-          text: override["getting-started/installation"] || "Installation",
-          link: `${prefix}/getting-started/installation`,
-        },
-      ],
-    },
-    {
-      text: override["reference"] || "Reference",
-//      collapsed: false,
-      items: [
-        {
-          text: override["reference/commands"] || "Commands",
-          link: `${prefix}/reference/commands`,
-        },
-        {
-          text: override["reference/keybindings"] || "Tui Keybindings",
-          link: `${prefix}/reference/keybindings`,
-        },
-      ],
-    },
-    {
-      text: override["project"] || "Project",
-//      collapsed: false,
-      items: [
-        {
-          text: override["project/roadmap"] || "Roadmap",
-          link: `${prefix}/project/roadmap`,
-        },
-        {
-          text: override["project/contributing"] || "Contributing",
-          link: `${prefix}/project/contributing`,
-        },
-        {
-          text: override["project/codeofconduct"] || "Code of Conduct",
-          link: `${prefix}/project/codeofconduct`,
-        },
-        {
-          text: override["project/inspiration"] || "Inspiration",
-          link: `${prefix}/project/inspiration`,
-        },
-        {
-          text: override["project/contributors"] || "Contributions",
-          link: `${prefix}/project/contributors`,
-        },
-      ],
-    },
-  ];
-};
+    return [
+      {
+        text: override["getting-started"] || "Getting Started",
+        items: [
+          {
+            text: override["getting-started/introduction"] || "Introduction",
+            link: `${prefix}/getting-started/introduction`,
+          },
+          {
+            text: override["getting-started/installation"] || "Installation",
+            link: `${prefix}/getting-started/installation`,
+          },
+        ],
+      },
+      {
+        text: override["reference"] || "Reference",
+        items: [
+          {
+            text: override["reference/commands"] || "Commands",
+            link: `${prefix}/reference/commands`,
+          },
+          {
+            text: override["reference/keybindings"] || "Tui Keybindings",
+            link: `${prefix}/reference/keybindings`,
+          },
+        ],
+      },
+      {
+        text: override["project"] || "Project",
+        items: [
+          {
+            text: override["project/roadmap"] || "Roadmap",
+            link: `${prefix}/project/roadmap`,
+          },
+          {
+            text: override["project/contributing"] || "Contributing",
+            link: `${prefix}/project/contributing`,
+          },
+          {
+            text: override["project/codeofconduct"] || "Code of Conduct",
+            link: `${prefix}/project/codeofconduct`,
+          },
+          {
+            text: override["project/inspiration"] || "Inspiration",
+            link: `${prefix}/project/inspiration`,
+          },
+          {
+            text: override["project/contributors"] || "Contributions",
+            link: `${prefix}/project/contributors`,
+          },
+        ],
+      },
+    ];
+  };
 
-const nav = (lang = "", override = {}) => {
-  let guidePath = "/getting-started/introduction";
-  let contributingPath = "/project/contributing";
-  if (lang) guidePath = `/${lang}/getting-started/introduction`;
-  if (lang) contributingPath = `/${lang}/project/contributing`;
+  const nav = (lang = "", override = {}) => {
+    let guidePath = "/getting-started/introduction";
+    let contributingPath = "/project/contributing";
+    if (lang) guidePath = `/${lang}/getting-started/introduction`;
+    if (lang) contributingPath = `/${lang}/project/contributing`;
 
-  return [
-    { text: override.home || "Home", link: lang ? `/${lang}/` : "/" },
-    { text: override.guide || "Guide", link: guidePath },
-    {
-      text: latestVersion,
-      items: [
-        {
-          text: override.changelog || "Changelog",
-          link: "https://github.com/harilvfs/carch/blob/main/CHANGELOG.md",
-        },
-        { text: override.contributing || "Contributing", link: contributingPath },
-      ],
-    },
-  ];
-};
+    return [
+      { text: override.home || "Home", link: lang ? `/${lang}/` : "/" },
+      { text: override.guide || "Guide", link: guidePath },
+      {
+        text: latestVersion,
+        items: [
+          {
+            text: override.changelog || "Changelog",
+            link: "https://github.com/harilvfs/carch/blob/main/CHANGELOG.md",
+          },
+          { text: override.contributing || "Contributing", link: contributingPath },
+        ],
+      },
+    ];
+  };
 
-export default {
+  return {
   title: "Carch",
   description: "Documentation website of Carch",
   lastUpdated: true,
@@ -724,4 +723,5 @@ export default {
       { icon: "github", link: "https://github.com/harilvfs/carch" },
     ],
   },
-};
+  };
+});
