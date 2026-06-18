@@ -9,11 +9,11 @@
 
 - **Étendre la Fonctionnalité pour Différentes Distributions 🌐**
    - Ajouter un support complet pour les distributions populaires :
-     - **Arch** <img src="https://img.icons8.com/?size=48&id=uIXgLv5iSlLJ&format=png" width="20" />
-     - **Debian** <img src="https://img.icons8.com/?size=48&id=17838&format=png" width="20" /> 
-     - **Fedora** <img src="https://img.icons8.com/?size=48&id=ZbBhBW0N2q3D&format=png" width="20" />
-     - **openSUSE** <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/suse/opensuse.png" width="20" /> 
-     - **Void** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Void_Linux_logo.svg/256px-Void_Linux_logo.svg.png" width="20" /> 
+     - **Arch** <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/carch-docs/arch.png" width="20" />
+     - **Debian** <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/carch-docs/debian.png" width="20" /> 
+     - **Fedora** <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/carch-docs/fedora.png" width="20" />
+     - **openSUSE** <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/carch-docs/opensuse.png" width="20" /> 
+     - **Void** <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/carch-docs/Void_Linux_logo.svg.png" width="20" /> 
    - Développer des scripts de configuration spécifiques à chaque distribution.
 
 - **Améliorer la Stabilité des Scripts 🔧**
@@ -37,10 +37,10 @@
 
 - **Étendre le support pour les distributions populaires :**
 
-  - Arch <img src="https://img.icons8.com/?size=48&id=uIXgLv5iSlLJ&format=png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - Fedora <img src="https://img.icons8.com/?size=48&id=ZbBhBW0N2q3D&format=png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - Arch <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/carch-docs/arch.png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
+  - Fedora <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/carch-docs/fedora.png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
   - Debian <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" /> 
-  - openSUSE <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/suse/opensuse.png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />  
+  - openSUSE <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/carch-docs/opensuse.png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />  
   - Void <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **Refactoriser les scripts pour la stabilité :**

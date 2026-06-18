@@ -9,11 +9,11 @@
 
 - **다양한 배포판에 대한 기능 확장 🌐**
    - 인기 배포판에 대한 완전한 지원 추가:
-     - **Arch** <img src="https://img.icons8.com/?size=48&id=uIXgLv5iSlLJ&format=png" width="20" />
-     - **Debian** <img src="https://img.icons8.com/?size=48&id=17838&format=png" width="20" /> 
-     - **Fedora** <img src="https://img.icons8.com/?size=48&id=ZbBhBW0N2q3D&format=png" width="20" />
-     - **openSUSE** <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/suse/opensuse.png" width="20" /> 
-     - **Void** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Void_Linux_logo.svg/256px-Void_Linux_logo.svg.png" width="20" /> 
+     - **Arch** <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/carch-docs/arch.png" width="20" />
+     - **Debian** <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/carch-docs/debian.png" width="20" /> 
+     - **Fedora** <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/carch-docs/fedora.png" width="20" />
+     - **openSUSE** <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/carch-docs/opensuse.png" width="20" /> 
+     - **Void** <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/carch-docs/Void_Linux_logo.svg.png" width="20" /> 
    - 배포판별 맞춤 설정 스크립트 개발.
 
 - **스크립트 안정성 향상 🔧**
@@ -37,10 +37,10 @@
 
 - **인기 배포판 지원 확장:**
 
-  - Arch <img src="https://img.icons8.com/?size=48&id=uIXgLv5iSlLJ&format=png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - Fedora <img src="https://img.icons8.com/?size=48&id=ZbBhBW0N2q3D&format=png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - Arch <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/carch-docs/arch.png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
+  - Fedora <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/carch-docs/fedora.png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
   - Debian <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" /> 
-  - openSUSE <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/suse/opensuse.png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />  
+  - openSUSE <img src="https://raw.githubusercontent.com/harilvfs/assets/refs/heads/main/carch-docs/opensuse.png" width="20" /> <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />  
   - Void <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **안정성을 위한 스크립트 리팩토링:**
