@@ -26,9 +26,10 @@ We're excited that you're interested in contributing to **Carch**! Contributions
 > ```
 >
 > Btw, before committing:
-> - If changing any `.sh` script file, make sure they are formatted by [`shfmt`](https://github.com/mvdan/sh)
+> - If changing any `.sh` script file, make sure they are formatted by [`shfmt`](https://github.com/mvdan/sh) and pass [`shellcheck`](https://www.shellcheck.net/)
 > - When updating `desc.toml` (scripts or descriptions), run `cargo xtask ogen` to refresh `docs/overview.md`
 > - For changes to any part of the Rust files, run `cargo xtask ci` to check formatting and other validations
+> - If introducing a new function that directly touches the Carch core codebase, you must write unit tests for it. Simple changes that do not affect the core logic are exempt from this requirement.
 >
 > Ensure you do not push directly without verifying that there are no errors anywhere.
 

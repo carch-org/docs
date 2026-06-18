@@ -26,9 +26,10 @@
 > ```
 >
 > 참고로, 커밋하기 전에:
-> - `.sh` 스크립트 파일을 변경하는 경우 [`shfmt`](https://github.com/mvdan/sh)로 포맷되었는지 확인하세요
+> - `.sh` 스크립트 파일을 변경하는 경우 [`shfmt`](https://github.com/mvdan/sh)로 포맷되었는지 확인하고 [`shellcheck`](https://www.shellcheck.net/)를 통과하는지 확인하세요
 > - `desc.toml`(스크립트 또는 설명)을 업데이트할 때 `cargo xtask ogen`을 실행하여 `docs/overview.md`를 새로고침하세요
 > - Rust 파일의任何 부분을 변경할 때는 `cargo xtask ci`를 실행하여 포맷팅 및 기타 유효성 검사를 확인하세요
+> - Carch의 코어 코드베이스에 직접 영향을 미치는 새로운 함수를 도입하는 경우, 해당 함수에 대한 유닛 테스트를 작성해야 합니다. 코어 로직에 영향을 미치지 않는 간단한 변경은 이 요구 사항에서 면제됩니다.
 >
 > 오류가 없는지 확인하지 않고 직접 푸시하지 마세요.
 

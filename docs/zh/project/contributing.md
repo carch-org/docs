@@ -26,9 +26,10 @@
 > ```
 >
 > 顺便说一下，在提交之前：
-> - 如果更改任何 `.sh` 脚本文件，确保它们已使用 [`shfmt`](https://github.com/mvdan/sh) 进行格式化
+> - 如果更改任何 `.sh` 脚本文件，确保它们已使用 [`shfmt`](https://github.com/mvdan/sh) 进行格式化并通过 [`shellcheck`](https://www.shellcheck.net/)
 > - 更新 `desc.toml`（脚本或描述）时，运行 `cargo xtask ogen` 以刷新 `docs/overview.md`
 > - 对于 Rust 文件的任何部分更改，运行 `cargo xtask ci` 检查格式和其他验证
+> - 如果引入直接触及 Carch 核心代码库的新函数，则必须为其编写单元测试。不影响核心逻辑的简单更改可豁免此要求。
 >
 > 确保在没有验证没有任何错误的情况下不要直接推送。
 

@@ -26,9 +26,10 @@ Wir freuen uns, dass Sie daran interessiert sind, zu **Carch** beizutragen! Beit
 > ```
 >
 > Übrigens, vor dem Commit:
-> - Wenn Sie eine `.sh`-Scriptdatei ändern, stellen Sie sicher, dass sie mit [`shfmt`](https://github.com/mvdan/sh) formatiert ist
+> - Wenn Sie eine `.sh`-Scriptdatei ändern, stellen Sie sicher, dass sie mit [`shfmt`](https://github.com/mvdan/sh) formatiert ist und [`shellcheck`](https://www.shellcheck.net/) besteht
 > - Wenn Sie `desc.toml` (Scripts oder Beschreibungen) aktualisieren, führen Sie `cargo xtask ogen` aus, um `docs/overview.md` zu aktualisieren
 > - Bei Änderungen an Rust-Dateien führen Sie `cargo xtask ci` aus, um Formatierung und andere Validierungen zu prüfen
+> - Wenn Sie eine neue Funktion einführen, die direkt den Carch-Core-Codebase berührt, müssen Sie dafür Unit-Tests schreiben. Einfache Änderungen, die die Kernlogik nicht beeinträchtigen, sind von dieser Anforderung ausgenommen.
 >
 > Stellen Sie sicher, dass Sie nicht direkt pushen, ohne zu überprüfen, dass es nirgendwo Fehler gibt.
 

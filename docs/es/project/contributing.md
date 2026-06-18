@@ -26,9 +26,10 @@
 > ```
 >
 > Por cierto, antes de hacer commit:
-> - Si cambias algún archivo de script `.sh`, asegúrate de que esté formateado con [`shfmt`](https://github.com/mvdan/sh)
+> - Si cambias algún archivo de script `.sh`, asegúrate de que esté formateado con [`shfmt`](https://github.com/mvdan/sh) y pase [`shellcheck`](https://www.shellcheck.net/)
 > - Al actualizar `desc.toml` (scripts o descripciones), ejecuta `cargo xtask ogen` para actualizar `docs/overview.md`
 > - Para cambios en cualquier parte de los archivos Rust, ejecuta `cargo xtask ci` para verificar el formato y otras validaciones
+> - Si introduces una función nueva que toque directamente el código base de Carch, debes escribir pruebas unitarias para ella. Los cambios simples que no afectan la lógica central están exentos de este requisito.
 >
 > Asegúrate de no hacer push directamente sin verificar que no haya errores en ningún lado.
 

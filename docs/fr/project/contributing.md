@@ -26,9 +26,10 @@ Nous sommes ravis que vous souhaitiez contribuer à **Carch** ! Les contribution
 > ```
 >
 > Au fait, avant de commiter :
-> - Si vous modifiez un fichier de script `.sh`, assurez-vous qu'il est formaté avec [`shfmt`](https://github.com/mvdan/sh)
+> - Si vous modifiez un fichier de script `.sh`, assurez-vous qu'il est formaté avec [`shfmt`](https://github.com/mvdan/sh) et passe [`shellcheck`](https://www.shellcheck.net/)
 > - Lors de la mise à jour de `desc.toml` (scripts ou descriptions), exécutez `cargo xtask ogen` pour actualiser `docs/overview.md`
 > - Pour les modifications de fichiers Rust, exécutez `cargo xtask ci` pour vérifier le formatage et autres validations
+> - Si vous introduisez une nouvelle fonction qui touche directement le code source de Carch, vous devez écrire des tests unitaires pour celle-ci. Les modifications simples qui n'affectent pas la logique principale sont exemptées de cette exigence.
 >
 > Assurez-vous de ne pas push directement sans vérifier qu'il n'y a aucune erreur nulle part.
 
