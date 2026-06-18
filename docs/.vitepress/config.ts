@@ -1,14 +1,7 @@
 // .vitepress/config.ts
 import { defineConfig } from "vitepress";
 
-export default defineConfig(async () => {
-  const latestVersion = await fetch(
-    "https://api.github.com/repos/harilvfs/carch/releases/latest"
-  )
-    .then((r) => r.json())
-    .then((d) => d.tag_name)
-    .catch(() => "unknown");
-
+export default defineConfig(() => {
   const sidebar = (lang = "", override = {}) => {
     const prefix = lang ? `/${lang}` : "";
 
@@ -77,7 +70,7 @@ export default defineConfig(async () => {
       { text: override.home || "Home", link: lang ? `/${lang}/` : "/" },
       { text: override.guide || "Guide", link: guidePath },
       {
-        text: latestVersion,
+        text: override.links || "Links",
         items: [
           {
             text: override.changelog || "Changelog",
