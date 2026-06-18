@@ -168,6 +168,7 @@ export default defineConfig(() => {
         nav: nav("ar", {
           home: "الرئيسية",
           guide: "الدليل",
+          links: "روابط",
           changelog: "سجل التغييرات",
           contributing: "المساهمة",
         }),
@@ -224,6 +225,7 @@ export default defineConfig(() => {
         nav: nav("de", {
           home: "Startseite",
           guide: "Anleitung",
+          links: "Links",
           changelog: "Änderungsprotokoll",
           contributing: "Mitwirken",
         }),
@@ -280,6 +282,7 @@ export default defineConfig(() => {
         nav: nav("es", {
           home: "Inicio",
           guide: "Guía",
+          links: "Enlaces",
           changelog: "Registro de cambios",
           contributing: "Contribuir",
         }),
@@ -336,6 +339,7 @@ export default defineConfig(() => {
         nav: nav("fr", {
           home: "Accueil",
           guide: "Guide",
+          links: "Liens",
           changelog: "Historique",
           contributing: "Contribuer",
         }),
@@ -392,6 +396,7 @@ export default defineConfig(() => {
         nav: nav("hi", {
           home: "होम",
           guide: "गाइड",
+          links: "लिंक",
           changelog: "चेंजलॉग",  
           contributing: "योगदान",
         }),
@@ -448,6 +453,7 @@ export default defineConfig(() => {
         nav: nav("ja", {
           home: "ホーム",
           guide: "ガイド",
+          links: "リンク",
           changelog: "変更履歴",
           contributing: "貢献",
         }),
@@ -504,6 +510,7 @@ export default defineConfig(() => {
         nav: nav("ko", {
           home: "홈",
           guide: "가이드",
+          links: "링크",
           changelog: "변경 로그", 
           contributing: "기여하기",
         }),
@@ -560,6 +567,7 @@ export default defineConfig(() => {
         nav: nav("ne", {
           home: "घर",
           guide: "गाइड",
+          links: "लिंकहरू",
           changelog: "परिवर्तन लग",
           contributing: "योगदान",
         }),
@@ -616,6 +624,7 @@ export default defineConfig(() => {
         nav: nav("ru", {
           home: "Главная",
           guide: "Руководство",
+          links: "Ссылки",
           changelog: "Журнал изменений",
           contributing: "Участие",
         }),
@@ -672,6 +681,7 @@ export default defineConfig(() => {
         nav: nav("zh", {
           home: "主页",
           guide: "指南",
+          links: "链接",
           changelog: "更新日志",
           contributing: "贡献",
         }),
