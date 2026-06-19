@@ -1,10 +1,10 @@
 # 📑 Inhaltsverzeichnis
 
 - [Beitrag zu Carch](#beitrag-zu-carch)
-  - [Die Codebasis verstehen](#📌-die-codebasis-verstehen)
+  - [Die Codebasis verstehen](#die-codebasis-verstehen)
   - [Schritte zum Beitragen](#schritte-zum-beitragen)
 
-- [Beitrag zur Carch-Dokumentation](#📚-beitrag-zur-carch-dokumentation)
+- [Beitrag zur Dokumentation](#beitrag-zur-dokumentation)
 
 - [Richtlinien](#richtlinien)
 
@@ -15,7 +15,7 @@ Wir freuen uns, dass Sie daran interessiert sind, zu **Carch** beizutragen! Beit
 > [!WARNING]  
 > **Bevor Sie Beiträge leisten**, öffnen Sie zunächst ein Issue im Bereich **[Feature Request](https://github.com/harilvfs/carch/issues/new?template=feature-reqests.yml)**. Wir werden dort über die Änderungen diskutieren, bevor wir mit der Implementierung fortfahren.
 
-## 📌 Die Codebasis verstehen
+## Die Codebasis verstehen
 
 > [!IMPORTANT]
 > Zuerst **analysiere, wie das Skript funktioniert**, bevor du Änderungen vornimmst. Wenn du das Projekt verbessern oder erweitern möchtest, stelle sicher, dass du **die Struktur verstehst** und wie jeder Teil interagiert. Das wird dir helfen, auf eine Weise beizutragen, die mit dem Design des Projekts übereinstimmt.
@@ -36,16 +36,16 @@ Wir freuen uns, dass Sie daran interessiert sind, zu **Carch** beizutragen! Beit
 > Für weitere Informationen über Conventional Commits, siehe diesen [Leitfaden](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 
 Wenn Sie Fragen haben oder Hilfe benötigen, zögern Sie nicht, **uns zu kontaktieren**:  
-📧 E-Mail: <a href="mailto:harilvfs@chalisehari.com.np">harilvfs@chalisehari.com.np</a>  
-💬 Discord: <a href="https://discord.com/invite/8NJWstnUHd">Hier beitreten</a>  
+ E-Mail: <a href="mailto:harilvfs@chalisehari.com.np">harilvfs@chalisehari.com.np</a>  
+ Discord: <a href="https://discord.com/invite/8NJWstnUHd">Hier beitreten</a>  
 
 ## Schritte zum Beitragen
 
-### 1. 🍽️ Repository forken
+### 1.  Repository forken
 - Gehen Sie zur **Carch** GitHub-Seite.
 - Klicken Sie auf die **Fork**-Schaltfläche in der oberen rechten Ecke, um Ihre eigene Kopie des Repositories zu erstellen.
 
-### 2. 🌿 Das geforkte Repository klonen
+### 2.  Das geforkte Repository klonen
 - Verwenden Sie den folgenden Befehl, um das Repository auf Ihr lokales System zu klonen:
 
   ```bash
@@ -58,7 +58,7 @@ Wenn Sie Fragen haben oder Hilfe benötigen, zögern Sie nicht, **uns zu kontakt
 **Sie können auch GUI-Tools wie `GitHub Desktop` oder sogar die GitHub-Web-Oberfläche verwenden, um Repositories zu forken und zu klonen. Diese Tools bieten eine benutzerfreundliche visuelle Oberfläche für die Verwaltung Ihrer Beiträge.**
 :::
 
-### 3. 🌱 Das ursprüngliche Repository als Upstream setzen
+### 3.  Das ursprüngliche Repository als Upstream setzen
 - Fügen Sie das ursprüngliche **Carch**-Repository als Upstream-Remote hinzu, um Ihren Fork aktuell zu halten:
 
    ```bash
@@ -69,7 +69,7 @@ Wenn Sie Fragen haben oder Hilfe benötigen, zögern Sie nicht, **uns zu kontakt
    git remote add upstream https://github.com/original-author/carch.git
    ```
 
-### 4. 🍇 Einen neuen Feature-Branch erstellen
+### 4.  Einen neuen Feature-Branch erstellen
 - Bevor Sie Änderungen vornehmen, erstellen Sie einen neuen Branch mit einem beschreibenden Namen:
 
    ```bash
@@ -80,11 +80,11 @@ Wenn Sie Fragen haben oder Hilfe benötigen, zögern Sie nicht, **uns zu kontakt
   - `feature/add-new-script`
   - `bugfix/fix-installation-issue`
 
-### 5. 🔧 Ihre Änderungen vornehmen
+### 5.  Ihre Änderungen vornehmen
 - Implementieren Sie die notwendigen Änderungen am Code oder der Dokumentation.
 - Stellen Sie sicher, dass Ihre Änderungen klar, getestet und den Coding-Standards des Projekts entsprechend sind.
 
-### 6. 📝 Ihre Änderungen stagen und committen
+### 6.  Ihre Änderungen stagen und committen
 - Fügen Sie die geänderten Dateien zur Staging-Area hinzu:
 
    ```bash
@@ -97,43 +97,43 @@ Wenn Sie Fragen haben oder Hilfe benötigen, zögern Sie nicht, **uns zu kontakt
    git commit -m "Add: [kurze Beschreibung Ihrer Änderungen]"
    ```
 
-### 7. 🚀 Die Änderungen zu Ihrem Fork pushen
+### 7.  Die Änderungen zu Ihrem Fork pushen
 - Pushen Sie Ihren Branch zu Ihrem geforkten Repository:
 
    ```bash
    git push origin feature/your-branch-name
    ```
 
-### 8. 📥 Einen Pull Request (PR) einreichen
+### 8.  Einen Pull Request (PR) einreichen
 - Gehen Sie zum ursprünglichen **Carch**-Repository auf GitHub.
 - Klicken Sie auf **New Pull Request**.
 - Wählen Sie Ihren Branch aus dem Dropdown-Menü und beschreiben Sie Ihre Änderungen im Detail.
 - Reichen Sie den PR zur Überprüfung ein!
 
-## 📚 Beitrag zur Carch-Dokumentation
+## Beitrag zur Dokumentation
 
-#### **Carch Docs** ist ➥ [Hier live](https://github.com/carch-org/docs)  
+#### **Carch Docs** ist  [Hier live](https://github.com/carch-org/docs)  
 
-### 🚀 Möglichkeiten beizutragen
+### Möglichkeiten beizutragen
 
 Sie können beitragen durch:
 
-- 🪛 Behebung von Tippfehlern oder Fehlern in bestehenden Leitfäden  
-- 🌐 Übersetzung der Dokumentation in andere Sprachen (**sehr erwünscht!**)  
+-  Behebung von Tippfehlern oder Fehlern in bestehenden Leitfäden  
+-  Übersetzung der Dokumentation in andere Sprachen (**sehr erwünscht!**)  
 
-### 🌍 Dokumentation übersetzen
+### Dokumentation übersetzen
 
 #### Möchten Sie helfen, Carch für Benutzer weltweit zugänglich zu machen? Helfen Sie uns bei der Übersetzung der Dokumentation!
 
 Wenn Sie eine **neue Sprache** beitragen, folgen Sie diesen Schritten:
 
-1. 📁 Erstellen Sie einen neuen Ordner für Ihre Sprache im `docs/`-Verzeichnis. Verwenden Sie [ISO 639-1-Codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (z.B. `fr`, `es`, `hi`, usw.).  
-2. 🛠️ Übersetzen Sie den Markdown-Inhalt im neuen Ordner.  
-3. 🧩 Ändern Sie `docs/.vitepress/config.ts`:  
+1.  Erstellen Sie einen neuen Ordner für Ihre Sprache im `docs/`-Verzeichnis. Verwenden Sie [ISO 639-1-Codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (z.B. `fr`, `es`, `hi`, usw.).  
+2.  Übersetzen Sie den Markdown-Inhalt im neuen Ordner.  
+3.  Ändern Sie `docs/.vitepress/config.ts`:  
    - Fügen Sie Ihre Sprache im `locales`-Bereich hinzu.  
    - Geben Sie ein `label`, `lang` und `link` für die Navigation an.  
 
-### 🧪 Ihre Änderungen lokal testen
+### Ihre Änderungen lokal testen
 
 Um Ihre Änderungen in der Vorschau zu sehen:
 
@@ -145,7 +145,7 @@ bun run docs:dev
 > [!IMPORTANT]
 > Bitte öffnen Sie zuerst ein Issue, wenn Sie größere strukturelle oder organisatorische Änderungen einführen möchten. Wir würden gerne vorab darüber diskutieren und zusammenarbeiten!
 
-### 🧾 Commit-Stil
+### Commit-Stil
 
 Verwenden Sie klare Commit-Nachrichten wie:
 
@@ -156,7 +156,7 @@ git commit -m "feat(docs): Deutsche Übersetzung hinzufügen"
 
 Mehr über [Conventional Commits](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 
-#### 🙌 Danke, dass Sie bei der Verbesserung der Dokumentation helfen!
+#### Danke, dass Sie bei der Verbesserung der Dokumentation helfen!
 
 ## Richtlinien
 

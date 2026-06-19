@@ -1,10 +1,10 @@
 # 📑 Table of Contents
 
 - [Contributing to Carch](#contributing-to-carch)
-  - [Understand the Codebase](#📌-understand-the-codebase)
+  - [Understand the Codebase](#understand-the-codebase)
   - [Steps to Contribute](#steps-to-contribute)
 
-- [Contributing to Carch Docs](#📚-contributing-to-carch-docs)
+- [Contributing to Docs](#contributing-to-docs)
 
 - [Guidelines](#guidelines)
 
@@ -15,7 +15,7 @@ We're excited that you're interested in contributing to **Carch**! Contributions
 > [!WARNING]  
 > **Before making any contributions**, first open an issue in the **[Feature Request](https://github.com/harilvfs/carch/issues/new?template=feature-reqests.yml)** section. We will discuss the changes there before proceeding with implementation. 
 
-## 📌 Understand the Codebase
+## Understand the Codebase
 
 > [!IMPORTANT]
 > First, **analyze how the script works** before making any changes. If you want to improve or add to the project, make sure you **understand the structure** and how each piece interacts. This will help you contribute in a way that is consistent with the project's design. 
@@ -36,16 +36,16 @@ We're excited that you're interested in contributing to **Carch**! Contributions
 > For more information about Conventional Commits, prefer this [guide](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 
 If you have questions or need help, feel free to **contact us**:  
-📧 Email: <a href="mailto:harilvfs@chalisehari.com.np">harilvfs@chalisehari.com.np</a>  
-💬 Discord: <a href="https://discord.com/invite/8NJWstnUHd">Join Here</a>  
+ Email: <a href="mailto:harilvfs@chalisehari.com.np">harilvfs@chalisehari.com.np</a>  
+ Discord: <a href="https://discord.com/invite/8NJWstnUHd">Join Here</a>  
 
 ## Steps to Contribute 
 
-### 1. 🍽️ Fork the Repository
+### 1.  Fork the Repository
 - Go to the **Carch** GitHub page.
 - Click the **Fork** button in the top-right corner to create your own copy of the repository.
 
-### 2. 🌿 Clone the Forked Repository
+### 2.  Clone the Forked Repository
 - Use the following command to clone the repository to your local system:
 
   ```bash
@@ -58,7 +58,7 @@ If you have questions or need help, feel free to **contact us**:
 **You can also use GUI tools like `GitHub Desktop` or even the GitHub web interface to fork and clone repositories. These tools provide an easy-to-use visual interface for managing your contributions.**
 :::
 
-### 3. 🌱 Set the Original Repository as Upstream
+### 3.  Set the Original Repository as Upstream
 - Add the original **Carch** repository as an upstream remote to keep your fork up to date:
 
    ```bash
@@ -69,7 +69,7 @@ If you have questions or need help, feel free to **contact us**:
    git remote add upstream https://github.com/original-author/carch.git
    ```
 
-### 4. 🍇 Create a New Feature Branch
+### 4.  Create a New Feature Branch
 - Before making changes, create a new branch with a descriptive name:
 
    ```bash
@@ -80,11 +80,11 @@ If you have questions or need help, feel free to **contact us**:
   - `feature/add-new-script`
   - `bugfix/fix-installation-issue`
 
-### 5. 🔧 Make Your Changes
+### 5.  Make Your Changes
 - Implement the necessary changes to the code or documentation.
 - Ensure that your changes are clear, tested, and follow the project's coding standards.
 
-### 6. 📝 Stage and Commit Your Changes
+### 6.  Stage and Commit Your Changes
 - Add the modified files to the staging area:
 
    ```bash
@@ -97,43 +97,43 @@ If you have questions or need help, feel free to **contact us**:
    git commit -m "Add: [brief description of your changes]"
    ```
 
-### 7. 🚀 Push the Changes to Your Fork
+### 7.  Push the Changes to Your Fork
 - Push your branch to your forked repository:
 
    ```bash
    git push origin feature/your-branch-name
    ```
 
-### 8. 📥 Submit a Pull Request (PR)
+### 8.  Submit a Pull Request (PR)
 - Go to the original **Carch** repository on GitHub.
 - Click on **New Pull Request**.
 - Select your branch from the dropdown and describe your changes in detail.
 - Submit the PR for review!
 
-## 📚 Contributing to Carch Docs
+## Contributing to Docs
 
-#### **Carch Docs** is ➥ [Live Here](https://github.com/carch-org/docs)  
+#### **Carch Docs** is  [Live Here](https://github.com/carch-org/docs)  
 
-### 🚀 Ways to Contribute
+### Ways to Contribute
 
 You can contribute by:
 
-- 🪛 Fixing typos or mistakes in existing guides  
-- 🌐 Translating the documentation into other languages (**highly encouraged!**)  
+-  Fixing typos or mistakes in existing guides  
+-  Translating the documentation into other languages (**highly encouraged!**)  
 
-### 🌍 Translating Documentation
+### Translating Documentation
 
 #### Want to help make Carch accessible to users worldwide? Help us translate the docs!
 
 If you're contributing a **new language**, follow these steps:
 
-1. 📁 Create a new folder for your language inside the `docs/` directory. Use [ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (e.g. `fr`, `es`, `hi`, etc.).  
-2. 🛠️ Translate the Markdown content inside the new folder.  
-3. 🧩 Modify `docs/.vitepress/config.ts`:  
+1.  Create a new folder for your language inside the `docs/` directory. Use [ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (e.g. `fr`, `es`, `hi`, etc.).  
+2.  Translate the Markdown content inside the new folder.  
+3.  Modify `docs/.vitepress/config.ts`:  
    - Add your language in the `locales` section.  
    - Provide a `label`, `lang`, and `link` for navigation.  
 
-### 🧪 Testing Your Changes Locally
+### Testing Your Changes Locally
 
 To preview your changes:
 
@@ -145,7 +145,7 @@ bun run docs:dev
 > [!IMPORTANT]
 > Please open an issue first if you plan to introduce major structural or organizational changes. We’d love to discuss and collaborate on it beforehand!
 
-### 🧾 Commit Style
+### Commit Style
 
 Use clear commit messages like:
 
@@ -156,7 +156,7 @@ git commit -m "feat(docs): add Hindi translation"
 
 More on [Conventional Commits](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 
-#### 🙌 Thanks for helping improve the documentation!
+#### Thanks for helping improve the documentation!
 
 ## Guidelines
 
