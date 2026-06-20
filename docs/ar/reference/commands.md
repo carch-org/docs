@@ -26,11 +26,5 @@ carch [OPTIONS] [COMMAND]
 | `uninstall`                | إلغاء تثبيت Carch بشكل تفاعلي.                                                                    |
 | `help`                     | طباعة هذه الرسالة أو المساعدة للأمر الفرعي المحدد.                                           |
 | `--version`, `-v`          | إظهار إصدار البرنامج.                                                                         |
-| `--catppuccin-mocha`, `-c` | تعيين السمة إلى **Catppuccin Mocha**.                                                            |
-| `--dracula`, `-d`          | تعيين السمة إلى **Dracula**.                                                                     |
-| `--gruvbox`, `-g`          | تعيين السمة إلى **Gruvbox**.                                                                     |
-| `--nord`, `-n`             | تعيين السمة إلى **Nord**.                                                                        |
-| `--rose-pine`, `-r`        | تعيين السمة إلى **Rosé Pine**.                                                                   |
-| `--fav <THEME>`            | احفظ السمة المحددة كمفضلة واخرج.                                                                  |
-| `--unfav`                  | امسح السمة المفضلة المحفوظة.                                                                      |
+| `--set-theme <THEME>`      | عيّن الموضوع الافتراضي واحفظه (catppuccin-mocha، dracula، gruvbox، nord، rose-pine، أو default للإعادة)  |
 | `--help`, `-h`             | إظهار رسالة المساعدة هذه والخروج.                                                                  |

@@ -26,11 +26,5 @@ carch [选项] [命令]
 | `uninstall`                | 交互式卸载 Carch。                                                                    |
 | `help`                     | 打印此消息或给定子命令的帮助。                                           |
 | `--version`, `-v`          | 显示程序版本。                                                                         |
-| `--catppuccin-mocha`, `-c` | 将主题设置为 **Catppuccin Mocha**。                                                            |
-| `--dracula`, `-d`          | 将主题设置为 **Dracula**。                                                                     |
-| `--gruvbox`, `-g`          | 将主题设置为 **Gruvbox**。                                                                     |
-| `--nord`, `-n`             | 将主题设置为 **Nord**。                                                                        |
-| `--rose-pine`, `-r`        | 将主题设置为 **Rosé Pine**。                                                                   |
-| `--fav <THEME>`            | 将指定主题保存为收藏并退出。                                                                    |
-| `--unfav`                  | 清除已保存的收藏主题。                                                                          |
+| `--set-theme <THEME>`      | 设置并保存默认主题（catppuccin-mocha、dracula、gruvbox、nord、rose-pine 或 default 重置）  |
 | `--help`, `-h`             | 显示此帮助消息并退出。                                                                  |

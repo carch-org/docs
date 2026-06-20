@@ -26,11 +26,5 @@ carch [オプション] [コマンド]
 | `uninstall`                | 対話形式でCarchをアンインストールします。                                                                    |
 | `help`                     | このメッセージまたは指定されたサブコマンドのヘルプを表示します。                                           |
 | `--version`, `-v`          | プログラムのバージョンを表示します。                                                                         |
-| `--catppuccin-mocha`, `-c` | テーマを**Catppuccin Mocha**に設定します。                                                            |
-| `--dracula`, `-d`          | テーマを**Dracula**に設定します。                                                                     |
-| `--gruvbox`, `-g`          | テーマを**Gruvbox**に設定します。                                                                     |
-| `--nord`, `-n`             | テーマを**Nord**に設定します。                                                                        |
-| `--rose-pine`, `-r`        | テーマを**Rosé Pine**に設定します。                                                                   |
-| `--fav <THEME>`            | 指定されたテーマをお気に入りとして保存して終了します。                                                 |
-| `--unfav`                  | 保存されたお気に入りテーマをクリアします。                                                           |
+| `--set-theme <THEME>`      | デフォルトテーマを設定して保存します（catppuccin-mocha、dracula、gruvbox、nord、rose-pine、またはdefaultでリセット）  |
 | `--help`, `-h`             | このヘルプメッセージを表示して終了します。                                                                  |

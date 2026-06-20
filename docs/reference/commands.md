@@ -26,11 +26,5 @@ carch [OPTIONS] [COMMAND]
 | `uninstall`                | Interactively uninstall Carch.                                                                    |
 | `help`                     | Print this message or help for the given subcommand(s).                                           |
 | `--version`, `-v`          | Show the program version.                                                                         |
-| `--catppuccin-mocha`, `-c` | Set the theme to **Catppuccin Mocha**.                                                            |
-| `--dracula`, `-d`          | Set the theme to **Dracula**.                                                                     |
-| `--gruvbox`, `-g`          | Set the theme to **Gruvbox**.                                                                     |
-| `--nord`, `-n`             | Set the theme to **Nord**.                                                                        |
-| `--rose-pine`, `-r`        | Set the theme to **Rosé Pine**.                                                                   |
-| `--fav <THEME>`            | Save the given theme as your favorite and exit.                                                   |
-| `--unfav`                  | Clear the saved favorite theme.                                                                   |
+| `--set-theme <THEME>`      | Set and persist the default theme (`catppuccin-mocha`, `dracula`, `gruvbox`, `nord`, `rose-pine`, or `default` to reset). |
 | `--help`, `-h`             | Show this help message and exit.                                                                  |
