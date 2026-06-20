@@ -26,11 +26,5 @@ carch [OPTIONEN] [BEFEHL]
 | `uninstall`                | Carch interaktiv deinstallieren.                                                                    |
 | `help`                     | Diese Nachricht oder Hilfe für den/die angegebenen Unterbefehl(e) anzeigen.                                           |
 | `--version`, `-v`          | Programmversion anzeigen.                                                                         |
-| `--catppuccin-mocha`, `-c` | Design auf **Catppuccin Mocha** setzen.                                                            |
-| `--dracula`, `-d`          | Design auf **Dracula** setzen.                                                                     |
-| `--gruvbox`, `-g`          | Design auf **Gruvbox** setzen.                                                                     |
-| `--nord`, `-n`             | Design auf **Nord** setzen.                                                                        |
-| `--rose-pine`, `-r`        | Design auf **Rosé Pine** setzen.                                                                   |
-| `--fav <THEME>`            | Das angegebene Design als Favorit speichern und beenden.                                          |
-| `--unfav`                  | Das gespeicherte Lieblings-Design löschen.                                                         |
+| `--set-theme <THEME>`      | Setze und speichere das Standard-Design (catppuccin-mocha, dracula, gruvbox, nord, rose-pine, oder default zum Zurücksetzen)  |
 | `--help`, `-h`             | Diese Hilfsnachricht anzeigen und beenden.                                                                  |

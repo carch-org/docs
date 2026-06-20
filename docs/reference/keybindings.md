@@ -31,17 +31,12 @@ You can prefer vim keys or arrow keys, whatever feels comfortable for you.
 For quick actions like running a script:
 
 - Navigate to any script on the right side and press `Enter` to run it.  
-- If you are a Neovim enthusiast, you can also press `l` to run it.  
+- If you are a Neovim enthusiast, you can also press `l` or `→` to run it.  
 
-When the `y/n` prompt appears:
+When the confirmation prompt appears:
 
-- Press `l` to accept (yes) and run it.  
-- Press `h` to go back to the previous screen.
-
-In short:
-
-- `l` works the same as `Enter`  
-- `h` works the same as `Esc`
+- Press `y`, `l`, or `→` to confirm and run it.  
+- Press `n`, `h`, `Esc`, `q`, or `←` to cancel.
 
 ---
 
@@ -54,6 +49,7 @@ To use multiselect:
 - Press `m` to enter multiselect mode  
 - Press `Space` to select scripts  
 - Press `Enter` to run them  
+- Press `Esc` or `q` to exit multiselect mode  
 
 They will execute one by one after each finishes.
 
@@ -61,11 +57,14 @@ They will execute one by one after each finishes.
 
 ## Themes
 
-Carch TUI also has multiple themes.
+Carch TUI also has multiple themes. You can set a default theme that will be remembered across sessions.
 
-- Press `t` to change themes  
+- Press `t` to open the theme selector popup
+- Use `j`/`k` or `↑`/`↓` to navigate themes
+- Press `Enter` to set the selected theme as your default
+- Press `Esc`, `q`, or `t` to close without changing
 
-You can also check the commands in the docs if you want to directly launch carch with your favorite theme.
+The chosen theme is saved and will be used on future launches. You can also use the `--set-theme` CLI flag to set it from the terminal.
 
 ---
 
@@ -96,9 +95,20 @@ Description mode shows short info about the script. This is helpful especially f
 
 - Go to the right side where the script list is  
 - Press `d` to see the description of the selected script  
+- Press `Esc`, `q`, or `d` to close  
 
 ---
 
-That’s all for now. If I missed something, you can always press `?` inside carch TUI to check all keybindings.
+## Help
 
-Hope this helps. Thanks for reading.
+- Press `?` at any time to open the help popup showing all keybindings  
+- Press `Esc`, `q`, or `?` to close  
+
+---
+
+## Quick Navigation
+
+- Press `Home` to jump to the top of the current list  
+- Press `End` to jump to the bottom  
+
+---

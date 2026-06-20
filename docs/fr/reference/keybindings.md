@@ -33,15 +33,10 @@ Pour des actions rapides comme exécuter un script :
 - Naviguez vers n'importe quel script sur le côté droit et appuyez sur `Entrée` pour l'exécuter.
 - Si vous êtes un passionné de Neovim, vous pouvez également appuyer sur `l` pour l'exécuter.
 
-Lorsque l'invite `y/n` apparaît :
+Lorsque la confirmation s'affiche :
 
-- Appuyez sur `l` pour accepter (oui) et l'exécuter.
-- Appuyez sur `h` pour revenir à l'écran précédent.
-
-En bref :
-
-- `l` fonctionne comme `Entrée`
-- `h` fonctionne comme `Échap`
+- Appuyez sur `y`, `l` ou `→` pour confirmer et executer.
+- Appuyez sur `n`, `h`, `Esc`, `q` ou `←` pour annuler.
 
 ---
 
@@ -54,18 +49,22 @@ Pour utiliser la sélection multiple :
 - Appuyez sur `m` pour entrer en mode sélection multiple
 - Appuyez sur `Espace` pour sélectionner des scripts
 - Appuyez sur `Entrée` pour les exécuter
+- Appuyez sur `Esc` ou `q` pour quitter le mode de selection multiple
 
 Ils s'exécuteront un par un après la fin de chacun.
 
 ---
 
-## Thèmes
+## Themes
 
-L'interface TUI de carch dispose également de plusieurs thèmes.
+Carch TUI propose egalement plusieurs themes. Vous pouvez definir un theme par defaut qui sera memorise entre les sessions.
 
-- Appuyez sur `t` pour changer de thème
+- Appuyez sur `t` pour ouvrir le selecteur de theme
+- Utilisez `j`/`k` ou `↑`/`↓` pour naviguer
+- Appuyez sur `Enter` pour definir le theme selectionne par defaut
+- Appuyez sur `Esc`, `q` ou `t` pour fermer sans modifier
 
-Vous pouvez également consulter les commandes dans la documentation si vous souhaitez lancer carch directement avec votre thème préféré.
+Le theme choisi est sauvegarde et sera utilise lors des prochains lancements. Vous pouvez aussi utiliser le flag `--set-theme` en CLI pour le definir depuis le terminal.
 
 ---
 
@@ -96,9 +95,16 @@ Le mode description affiche de brèves informations sur le script. Ceci est part
 
 - Allez sur le côté droit où se trouve la liste des scripts
 - Appuyez sur `d` pour voir la description du script sélectionné
+- Appuyez sur `Esc`, `q` ou `d` pour fermer
 
 ---
 
-C'est tout pour le moment. Si j'ai oublié quelque chose, vous pouvez toujours appuyer sur `?` dans l'interface TUI de carch pour vérifier tous les raccourcis clavier.
+## Aide
 
-J'espère que cela vous aide. Merci d'avoir lu.
+- Appuyez sur `?` a tout moment pour ouvrir la fenetre d'aide avec tous les raccourcis clavier
+- Appuyez sur `Esc`, `q` ou `?` pour fermer
+
+## Navigation rapide
+
+- Appuyez sur `Home` pour aller au debut de la liste actuelle
+- Appuyez sur `End` pour aller a la fin

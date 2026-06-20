@@ -33,15 +33,10 @@ Für schnelle Aktionen wie das Ausführen eines Skripts:
 - Navigiere zu einem beliebigen Skript auf der rechten Seite und drücke `Enter`, um es auszuführen.
 - Wenn du ein Neovim-Enthusiast bist, kannst du auch `l` drücken, um es auszuführen.
 
-Wenn die `y/n`-Eingabeaufforderung erscheint:
+Wenn die Bestätigungsaufforderung erscheint:
 
-- Drücke `l`, um zuzustimmen (ja) und es auszuführen.
-- Drücke `h`, um zum vorherigen Bildschirm zurückzukehren.
-
-Kurz gesagt:
-
-- `l` funktioniert wie `Enter`
-- `h` funktioniert wie `Esc`
+- Drücke `y`, `l` oder `→` zum Bestätigen und Ausführen.
+- Drücke `n`, `h`, `Esc`, `q` oder `←` zum Abbrechen.
 
 ---
 
@@ -54,6 +49,7 @@ So verwendest du die Mehrfachauswahl:
 - Drücke `m`, um den Mehrfachauswahl-Modus zu aktivieren
 - Drücke `Leertaste`, um Skripte auszuwählen
 - Drücke `Enter`, um sie auszuführen
+- Drücke `Esc` oder `q`, um den Mehrfachauswahl-Modus zu verlassen
 
 Sie werden nacheinander ausgeführt, nachdem jedes abgeschlossen ist.
 
@@ -61,11 +57,14 @@ Sie werden nacheinander ausgeführt, nachdem jedes abgeschlossen ist.
 
 ## Designs (Themes)
 
-Die Carch-TUI hat auch mehrere Designs.
+Das Carch TUI hat auch mehrere Designs. Du kannst ein Standard-Design festlegen, das über Sitzungen hinweg gespeichert wird.
 
-- Drücke `t`, um das Design zu ändern
+- Drücke `t`, um den Design-Auswahl-Popup zu öffnen
+- Verwende `j`/`k` oder `↑`/`↓` zum Navigieren
+- Drücke `Enter`, um das ausgewählte Design als Standard zu setzen
+- Drücke `Esc`, `q` oder `t`, um ohne Änderung zu schließen
 
-Du kannst auch die Befehle in der Dokumentation überprüfen, wenn du Carch direkt mit deinem Lieblingsdesign starten möchtest.
+Das gewählte Design wird gespeichert und bei zukünftigen Starts verwendet. Du kannst auch das `--set-theme` CLI-Flag verwenden, um es vom Terminal aus zu setzen.
 
 ---
 
@@ -96,9 +95,16 @@ Der Beschreibungsmodus zeigt kurze Informationen über das Skript an. Dies ist b
 
 - Gehe auf die rechte Seite, wo die Skriptliste ist
 - Drücke `d`, um die Beschreibung des ausgewählten Skripts zu sehen
+- Drücke `Esc`, `q` oder `d`, um zu schließen
 
 ---
 
-Das ist alles für jetzt. Falls ich etwas vergessen habe, kannst du jederzeit `?` innerhalb der Carch-TUI drücken, um alle Tastenkombinationen zu überprüfen.
+## Hilfe
 
-Ich hoffe, das hilft. Danke fürs Lesen.
+- Drücke `?`, um jederzeit das Hilfe-Popup mit allen Tastenkombinationen zu öffnen
+- Drücke `Esc`, `q` oder `?`, um zu schließen
+
+## Schnellnavigation
+
+- Drücke `Home`, um zum Anfang der aktuellen Liste zu springen
+- Drücke `End`, um zum Ende zu springen

@@ -33,15 +33,10 @@ Para acciones rápidas como ejecutar un script:
 - Navega a cualquier script en el lado derecho y presiona `Enter` para ejecutarlo.
 - Si eres un entusiasta de Neovim, también puedes presionar `l` para ejecutarlo.
 
-Cuando aparezca el mensaje `y/n`:
+Cuando aparezca la confirmacion:
 
-- Presiona `l` para aceptar (sí) y ejecutarlo.
-- Presiona `h` para volver a la pantalla anterior.
-
-En resumen:
-
-- `l` funciona igual que `Enter`
-- `h` funciona igual que `Esc`
+- Presiona `y`, `l` o `→` para confirmar y ejecutar.
+- Presiona `n`, `h`, `Esc`, `q` o `←` para cancelar.
 
 ---
 
@@ -54,6 +49,7 @@ Para usar la selección múltiple:
 - Presiona `m` para entrar al modo de selección múltiple
 - Presiona `Espacio` para seleccionar scripts
 - Presiona `Enter` para ejecutarlos
+- Presiona `Esc` o `q` para salir del modo de seleccion multiple
 
 Se ejecutarán uno por uno después de que cada uno termine.
 
@@ -61,11 +57,14 @@ Se ejecutarán uno por uno después de que cada uno termine.
 
 ## Temas
 
-La TUI de carch también tiene múltiples temas.
+Carch TUI tambien tiene multiples temas. Puedes establecer un tema por defecto que se recordara entre sesiones.
 
-- Presiona `t` para cambiar temas
+- Presiona `t` para abrir el selector de temas
+- Usa `j`/`k` o `↑`/`↓` para navegar temas
+- Presiona `Enter` para establecer el tema seleccionado como predeterminado
+- Presiona `Esc`, `q` o `t` para cerrar sin cambiar
 
-También puedes revisar los comandos en la documentación si quieres iniciar carch directamente con tu tema favorito.
+El tema elegido se guarda y se usara en futuros lanzamientos. Tambien puedes usar la opcion `--set-theme` en CLI para establecerlo desde la terminal.
 
 ---
 
@@ -96,9 +95,16 @@ El modo de descripción muestra información breve sobre el script. Esto es úti
 
 - Ve al lado derecho donde está la lista de scripts
 - Presiona `d` para ver la descripción del script seleccionado
+- Presiona `Esc`, `q` o `d` para cerrar
 
 ---
 
-Eso es todo por ahora. Si me faltó algo, siempre puedes presionar `?` dentro de la TUI de carch para verificar todas las combinaciones de teclas.
+## Ayuda
 
-Espero que esto ayude. Gracias por leer.
+- Presiona `?` en cualquier momento para abrir la ventana de ayuda con todas las combinaciones de teclas
+- Presiona `Esc`, `q` o `?` para cerrar
+
+## Navegacion rapida
+
+- Presiona `Home` para ir al principio de la lista actual
+- Presiona `End` para ir al final

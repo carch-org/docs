@@ -26,11 +26,5 @@ carch [옵션] [명령어]
 | `uninstall`                | Carch를 대화형으로 제거합니다.                                                                    |
 | `help`                     | 이 메시지나 주어진 하위 명령어에 대한 도움말을 출력합니다.                                           |
 | `--version`, `-v`          | 프로그램 버전을 표시합니다.                                                                         |
-| `--catppuccin-mocha`, `-c` | 테마를 **Catppuccin Mocha**로 설정합니다.                                                            |
-| `--dracula`, `-d`          | 테마를 **Dracula**로 설정합니다.                                                                     |
-| `--gruvbox`, `-g`          | 테마를 **Gruvbox**로 설정합니다.                                                                     |
-| `--nord`, `-n`             | 테마를 **Nord**로 설정합니다.                                                                        |
-| `--rose-pine`, `-r`        | 테마를 **Rosé Pine**으로 설정합니다.                                                                   |
-| `--fav <THEME>`            | 지정한 테마를 즐겨찾기로 저장하고 종료합니다.                                                         |
-| `--unfav`                  | 저장된 즐겨찾기 테마를 지웁니다.                                                                      |
+| `--set-theme <THEME>`      | 기본 테마를 설정하고 저장합니다 (catppuccin-mocha, dracula, gruvbox, nord, rose-pine, 또는 default로 초기화)  |
 | `--help`, `-h`             | 이 도움말 메시지를 표시하고 종료합니다.                                                                  |
