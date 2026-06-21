@@ -25,6 +25,8 @@
 > feat: あなたのコミットメッセージ または fix: あなたのコミットメッセージ
 > ```
 >
+> すべてのコミットはGPG署名され、検証されている必要があります。検証されていないコミットは受け入れられません。
+>
 > ところで、コミットする前に：
 > - `.sh`スクリプトファイルを変更する場合は、[`shfmt`](https://github.com/mvdan/sh)でフォーマットされていることを確認し、[`shellcheck`](https://www.shellcheck.net/)に合格していることを確認してください
 > - `desc.toml`（スクリプトまたは説明）を更新する場合は、`cargo xtask ogen`を実行して`docs/overview.md`を更新してください
@@ -153,6 +155,8 @@ bun run docs:dev
 git commit -m "fix(docs): インストールガイドのタイプミスを修正"
 git commit -m "feat(docs): ヒンディー語翻訳を追加"
 ```
+
+すべてのコミットはGPG署名され、検証されている必要があります。検証されていないコミットは受け入れられません。
 
 [従来のコミット](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d)の詳細はこちら。
 

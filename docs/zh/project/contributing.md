@@ -25,6 +25,8 @@
 > feat: 你的提交信息 或 fix: 你的提交信息。
 > ```
 >
+> 所有提交都必须经过 GPG 签名和验证。未验证的提交将不被接受。
+>
 > 顺便说一下，在提交之前：
 > - 如果更改任何 `.sh` 脚本文件，确保它们已使用 [`shfmt`](https://github.com/mvdan/sh) 进行格式化并通过 [`shellcheck`](https://www.shellcheck.net/)
 > - 更新 `desc.toml`（脚本或描述）时，运行 `cargo xtask ogen` 以刷新 `docs/overview.md`
@@ -153,6 +155,8 @@ bun run docs:dev
 git commit -m "fix(docs): correct typo in installation guide"
 git commit -m "feat(docs): add Hindi translation"
 ```
+
+所有提交都必须经过 GPG 签名和验证。未验证的提交将不被接受。
 
 更多关于[约定式提交](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d)的信息。
 

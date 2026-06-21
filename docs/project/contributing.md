@@ -25,6 +25,8 @@ We're excited that you're interested in contributing to **Carch**! Contributions
 > feat: your-commit-message or fix: your-commit-message.
 > ```
 >
+> Commits must be GPG-signed and verified. Unverified commits will not be accepted.
+>
 > Btw, before committing:
 > - If changing any `.sh` script file, make sure they are formatted by [`shfmt`](https://github.com/mvdan/sh) and pass [`shellcheck`](https://www.shellcheck.net/)
 > - When updating `desc.toml` (scripts or descriptions), run `cargo xtask ogen` to refresh `docs/overview.md`
@@ -153,6 +155,8 @@ Use clear commit messages like:
 git commit -m "fix(docs): correct typo in installation guide"
 git commit -m "feat(docs): add Hindi translation"
 ```
+
+Commits must be GPG-signed and verified. Unverified commits will not be accepted.
 
 More on [Conventional Commits](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 

@@ -25,6 +25,8 @@
 > feat: 여러분의-커밋-메시지 또는 fix: 여러분의-커밋-메시지.
 > ```
 >
+> 모든 커밋은 GPG 서명 및 확인되어야 합니다. 확인되지 않은 커밋은 수락되지 않습니다.
+>
 > 참고로, 커밋하기 전에:
 > - `.sh` 스크립트 파일을 변경하는 경우 [`shfmt`](https://github.com/mvdan/sh)로 포맷되었는지 확인하고 [`shellcheck`](https://www.shellcheck.net/)를 통과하는지 확인하세요
 > - `desc.toml`(스크립트 또는 설명)을 업데이트할 때 `cargo xtask ogen`을 실행하여 `docs/overview.md`를 새로고침하세요
@@ -153,6 +155,8 @@ bun run docs:dev
 git commit -m "fix(docs): 설치 가이드의 오타 수정"
 git commit -m "feat(docs): 한국어 번역 추가"
 ```
+
+모든 커밋은 GPG 서명 및 확인되어야 합니다. 확인되지 않은 커밋은 수락되지 않습니다.
 
 [Conventional Commits](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d)에 대한 자세한 정보.
 

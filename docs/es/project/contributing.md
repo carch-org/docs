@@ -25,6 +25,8 @@
 > feat: tu-mensaje-de-commit o fix: tu-mensaje-de-commit.
 > ```
 >
+> Todos los commits deben estar firmados con GPG y verificados. Los commits no verificados no serán aceptados.
+>
 > Por cierto, antes de hacer commit:
 > - Si cambias algún archivo de script `.sh`, asegúrate de que esté formateado con [`shfmt`](https://github.com/mvdan/sh) y pase [`shellcheck`](https://www.shellcheck.net/)
 > - Al actualizar `desc.toml` (scripts o descripciones), ejecuta `cargo xtask ogen` para actualizar `docs/overview.md`
@@ -153,6 +155,8 @@ Usa mensajes de commit claros como:
 git commit -m "fix(docs): corregir error tipográfico en la guía de instalación"
 git commit -m "feat(docs): añadir traducción al hindi"
 ```
+
+Todos los commits deben estar firmados con GPG y verificados. Los commits no verificados no serán aceptados.
 
 Más sobre [Commits Convencionales](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 

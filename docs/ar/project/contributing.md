@@ -25,6 +25,8 @@
 > feat: رسالة-الالتزام-الخاصة-بك أو fix: رسالة-الالتزام-الخاصة-بك.
 > ```
 >
+> جميع الالتزامات يجب أن تكون موقعة بـ GPG ومتحقق منها. الالتزامات غير الموثقة لن يتم قبولها.
+>
 > بالمناسبة، قبل الالتزام:
 > - إذا قمت بتغيير أي ملف script `.sh`، تأكد من تنسيقها باستخدام [`shfmt`](https://github.com/mvdan/sh) واجتياز [`shellcheck`](https://www.shellcheck.net/)
 > - عند تحديث `desc.toml` (الـ scripts أو الأوصاف)، قم بتشغيل `cargo xtask ogen` لتحديث ملف `docs/overview.md`
@@ -153,6 +155,8 @@ bun run docs:dev
 git commit -m "fix(docs): تصحيح خطأ مطبعي في دليل التثبيت"
 git commit -m "feat(docs): إضافة الترجمة العربية"
 ```
+
+جميع الالتزامات يجب أن تكون موقعة بـ GPG ومتحقق منها. الالتزامات غير الموثقة لن يتم قبولها.
 
 المزيد عن [Conventional Commits](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 

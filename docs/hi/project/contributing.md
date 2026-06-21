@@ -25,6 +25,8 @@
 > feat: आपका-कमिट-संदेश या fix: आपका-कमिट-संदेश।
 > ```
 >
+> सभी कमिट GPG-हस्ताक्षरित और सत्यापित होने चाहिए। असत्यापित कमिट स्वीकार नहीं किए जाएंगे।
+>
 > वैसे, commit करने से पहले:
 > - यदि कोई `.sh` स्क्रिप्ट फ़ाइल बदल रहे हैं, तो सुनिश्चित करें कि वे [`shfmt`](https://github.com/mvdan/sh) द्वारा फॉर्मेट की गई हैं और [`shellcheck`](https://www.shellcheck.net/) पास करें
 > - `desc.toml` (स्क्रिप्ट या विवरण) अपडेट करते समय, `docs/overview.md` को रीफ्रेश करने के लिए `cargo xtask ogen` चलाएँ
@@ -153,6 +155,8 @@ bun run docs:dev
 git commit -m "fix(docs): इंस्टॉलेशन गाइड में टाइपो ठीक करें"
 git commit -m "feat(docs): हिंदी अनुवाद जोड़ें"
 ```
+
+सभी कमिट GPG-हस्ताक्षरित और सत्यापित होने चाहिए। असत्यापित कमिट स्वीकार नहीं किए जाएंगे।
 
 [Conventional Commits](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d) पर अधिक।
 

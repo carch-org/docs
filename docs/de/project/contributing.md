@@ -25,6 +25,8 @@ Wir freuen uns, dass Sie daran interessiert sind, zu **Carch** beizutragen! Beit
 > feat: deine-commit-nachricht oder fix: deine-commit-nachricht.
 > ```
 >
+> Alle Commits müssen GPG-signiert und verifiziert sein. Nicht verifizierte Commits werden nicht akzeptiert.
+>
 > Übrigens, vor dem Commit:
 > - Wenn Sie eine `.sh`-Scriptdatei ändern, stellen Sie sicher, dass sie mit [`shfmt`](https://github.com/mvdan/sh) formatiert ist und [`shellcheck`](https://www.shellcheck.net/) besteht
 > - Wenn Sie `desc.toml` (Scripts oder Beschreibungen) aktualisieren, führen Sie `cargo xtask ogen` aus, um `docs/overview.md` zu aktualisieren
@@ -153,6 +155,8 @@ Verwenden Sie klare Commit-Nachrichten wie:
 git commit -m "fix(docs): Tippfehler in der Installationsanleitung korrigieren"
 git commit -m "feat(docs): Deutsche Übersetzung hinzufügen"
 ```
+
+Alle Commits müssen GPG-signiert und verifiziert sein. Nicht verifizierte Commits werden nicht akzeptiert.
 
 Mehr über [Conventional Commits](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 

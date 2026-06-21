@@ -25,6 +25,8 @@ Nous sommes ravis que vous souhaitiez contribuer à **Carch** ! Les contribution
 > feat: votre-message-de-commit ou fix: votre-message-de-commit.
 > ```
 >
+> Tous les commits doivent être signés avec GPG et vérifiés. Les commits non vérifiés ne seront pas acceptés.
+>
 > Au fait, avant de commiter :
 > - Si vous modifiez un fichier de script `.sh`, assurez-vous qu'il est formaté avec [`shfmt`](https://github.com/mvdan/sh) et passe [`shellcheck`](https://www.shellcheck.net/)
 > - Lors de la mise à jour de `desc.toml` (scripts ou descriptions), exécutez `cargo xtask ogen` pour actualiser `docs/overview.md`
@@ -153,6 +155,8 @@ Utilisez des messages de commit clairs comme :
 git commit -m "fix(docs): corriger faute de frappe dans le guide d'installation"
 git commit -m "feat(docs): ajouter traduction Hindi"
 ```
+
+Tous les commits doivent être signés avec GPG et vérifiés. Les commits non vérifiés ne seront pas acceptés.
 
 Plus d'infos sur les [Commits Conventionnels](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
 
