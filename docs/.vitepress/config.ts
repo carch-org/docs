@@ -125,7 +125,7 @@ export default defineConfig(() => {
         sidebar: sidebar("", {}),
 
         socialLinks: [
-          { icon: "telegram", link: "https://t.me/carchx" },
+
           { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
           { icon: "github", link: "https://github.com/harilvfs/carch" },
         ],
@@ -184,7 +184,7 @@ export default defineConfig(() => {
         }),
 
         socialLinks: [
-          { icon: "telegram", link: "https://t.me/carchx" },
+
           { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
           { icon: "github", link: "https://github.com/harilvfs/carch" },
         ],
@@ -240,7 +240,7 @@ export default defineConfig(() => {
         }),
 
         socialLinks: [
-          { icon: "telegram", link: "https://t.me/carchx" },
+
           { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
           { icon: "github", link: "https://github.com/harilvfs/carch" },
         ],
@@ -296,7 +296,7 @@ export default defineConfig(() => {
         }),
 
         socialLinks: [
-          { icon: "telegram", link: "https://t.me/carchx" },
+
           { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
           { icon: "github", link: "https://github.com/harilvfs/carch" },
         ],
@@ -352,7 +352,7 @@ export default defineConfig(() => {
         }),
 
         socialLinks: [
-          { icon: "telegram", link: "https://t.me/carchx" },
+
           { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
           { icon: "github", link: "https://github.com/harilvfs/carch" },
         ],
@@ -408,7 +408,7 @@ export default defineConfig(() => {
         }),
 
         socialLinks: [
-          { icon: "telegram", link: "https://t.me/carchx" },
+
           { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
           { icon: "github", link: "https://github.com/harilvfs/carch" },
         ],
@@ -464,7 +464,7 @@ export default defineConfig(() => {
         }),
 
         socialLinks: [
-          { icon: "telegram", link: "https://t.me/carchx" },
+
           { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
           { icon: "github", link: "https://github.com/harilvfs/carch" },
         ],
@@ -520,7 +520,7 @@ export default defineConfig(() => {
         }),
 
         socialLinks: [
-          { icon: "telegram", link: "https://t.me/carchx" },
+
           { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
           { icon: "github", link: "https://github.com/harilvfs/carch" },
         ],
@@ -576,7 +576,7 @@ export default defineConfig(() => {
         }),
 
         socialLinks: [
-          { icon: "telegram", link: "https://t.me/carchx" },
+
           { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
           { icon: "github", link: "https://github.com/harilvfs/carch" },
         ],
@@ -632,7 +632,7 @@ export default defineConfig(() => {
         }),
 
         socialLinks: [
-          { icon: "telegram", link: "https://t.me/carchx" },
+
           { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
           { icon: "github", link: "https://github.com/harilvfs/carch" },
         ],
@@ -688,7 +688,7 @@ export default defineConfig(() => {
         }),
 
         socialLinks: [
-          { icon: "telegram", link: "https://t.me/carchx" },
+
           { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
           { icon: "github", link: "https://github.com/harilvfs/carch" },
         ],
@@ -707,7 +707,6 @@ export default defineConfig(() => {
       provider: "local",
     },
     socialLinks: [
-      { icon: "telegram", link: "https://t.me/carchx" },
       { icon: "discord", link: "https://discord.com/invite/8NJWstnUHd" },
       { icon: "github", link: "https://github.com/harilvfs/carch" },
     ],
