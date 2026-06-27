@@ -17,8 +17,8 @@ hero:
       link: /zh/getting-started/installation
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
-    title: Bash脚本，轻松生活
-    details: 设置仍然由简单的Bash脚本驱动 - 快速、干净、无冗余。
+    title: Bash脚本
+    details: 设置仍然由简单的Bash脚本驱动, 快速且干净。
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12969/12969897.png" alt="distro"/>
     title: 多发行版支持
     details: 支持Arch、Fedora和openSUSE等发行版。

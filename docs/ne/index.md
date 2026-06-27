@@ -17,8 +17,8 @@ hero:
       link: /ne/getting-started/installation
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
-    title: Bash स्क्रिप्टहरू, सजिलो जीवन
-    details: सेटअप अझै पनि सरल Bash स्क्रिप्टहरूद्वारा चलाइएको छ - छिटो, सफा र फालतू कुरा बिना।
+    title: Bash स्क्रिप्टहरू
+    details: सेटअप अझै पनि सरल Bash स्क्रिप्टहरूद्वारा चलाइएको छ, छिटो र सफा।
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12969/12969897.png" alt="distro"/>
     title: बहु-डिस्ट्रो समर्थन
     details: Arch, Fedora, र openSUSE जस्ता डिस्ट्रिब्यूशनहरूलाई समर्थन गर्छ।

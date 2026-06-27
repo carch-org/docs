@@ -17,8 +17,8 @@ hero:
       link: /ko/getting-started/installation
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
-    title: Bash 스크립트, 쉬운 삶
-    details: 설정은 여전히 간단한 Bash 스크립트로 구동됩니다 - 빠르고 깔끔하며 불필요한 것이 없습니다.
+    title: Bash 스크립트
+    details: 설정은 여전히 간단한 Bash 스크립트로 구동됩니다, 빠르고 깔끔합니다.
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12969/12969897.png" alt="distro"/>
     title: 다중 배포판 지원
     details: Arch, Fedora, openSUSE 등의 배포판을 지원합니다.

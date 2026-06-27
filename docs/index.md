@@ -17,8 +17,8 @@ hero:
       link: /getting-started/installation
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
-    title: Bash Scripts, Easy Life
-    details: Setup is still powered by simple Bash scripts fast, clean, and no fluff.
+    title: Bash Scripts
+    details: Setup is still powered by simple Bash scripts, fast and clean.
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12969/12969897.png" alt="distro"/>
     title: Multi-distro Support
     details: Supports distros like Arch, Fedora, and openSUSE.
@@ -27,7 +27,7 @@ features:
     details: Includes a bunch of scripts to set up Applications config and other System Settings.
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12400/12400985.png" alt="development"/>
     title: Still Cooking
-    details: Actively improving stuff now with a Rust-powered TUI and more updates coming.
+    details: Actively improving stuff and TUI and more updates coming.
 ---
 
 <div class="preview-container">

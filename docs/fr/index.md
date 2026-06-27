@@ -17,8 +17,8 @@ hero:
       link: /fr/getting-started/installation
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
-    title: Scripts Bash, vie facile
-    details: La configuration fonctionne toujours avec des scripts Bash simples - rapide, propre et sans fioritures.
+    title: Scripts Bash
+    details: La configuration fonctionne toujours avec des scripts Bash simples, rapide et propre.
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12969/12969897.png" alt="distro"/>
     title: Support multi-distributions
     details: Prend en charge les distributions comme Arch, Fedora et openSUSE.

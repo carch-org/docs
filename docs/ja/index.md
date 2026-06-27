@@ -17,8 +17,8 @@ hero:
       link: /ja/getting-started/installation
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
-    title: Bashスクリプト、シンプルライフ
-    details: セットアップは今でもシンプルなBashスクリプトで動作 - 高速、クリーン、無駄なし。
+    title: Bashスクリプト
+    details: セットアップは今でもシンプルなBashスクリプトで動作, 高速でクリーン。
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12969/12969897.png" alt="distro"/>
     title: マルチディストリビューション対応
     details: Arch、Fedora、openSUSEなどのディストリビューションをサポート。
