@@ -86,3 +86,6 @@ carch uninstall
 ```
 
 :::
+
+- **Update**: Folgt der ursprünglich verwendeten Installationsmethode: cargo, cargo-binstall oder Installationsskript.
+- **Deinstallieren**: Die Auswahl von "cargo" entfernt auch Binaries, die mit `cargo binstall` installiert wurden, da beide in `~/.cargo/bin/` installieren.

@@ -86,3 +86,6 @@ carch uninstall
 ```
 
 :::
+
+- **업데이트**: 원래 사용한 설치 방법을 따릅니다: cargo, cargo-binstall 또는 설치 스크립트.
+- **제거**: "cargo"를 선택하면 `cargo binstall`로 설치된 바이너리도 제거됩니다. 둘 다 `~/.cargo/bin/`에 설치되기 때문입니다.

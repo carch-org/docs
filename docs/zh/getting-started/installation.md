@@ -86,3 +86,6 @@ carch uninstall
 ```
 
 :::
+
+- **更新**: 遵循您最初使用的安装方法：cargo、cargo-binstall 或安装脚本。
+- **卸载**: 选择 "cargo" 也会删除由 `cargo binstall` 安装的二进制文件，因为两者都安装在 `~/.cargo/bin/` 中。
