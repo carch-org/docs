@@ -10,15 +10,23 @@
 curl -fsSL chalisehari.com.np/carch | sh -s -- install
 ```
 
-### 📦 Cargoクレート
+インストール後、`carch setup` を実行してシェル補完、manページ、デスクトップファイルをインストールしてください。
+
+### 📦 Cargo Binstall
 
 <br>
 
 <img src="https://img.shields.io/crates/v/carch-cli?style=for-the-badge&logo=rust&color=f5a97f&logoColor=fe640b&labelColor=171b22" >
 
-Carchは[crates.io](https://crates.io/)で利用可能です。
+Carchは[crates.io](https://crates.io/)で利用可能で、プリビルドバイナリ用の [cargo-binstall](https://github.com/cargo-bins/cargo-binstall) をサポートしています：
 
-Cargoを使用してインストールできます：
+```sh
+cargo binstall carch-cli
+```
+
+### 📦 Cargo Install
+
+Cargoを使用してインストールすることもできます：
 
 ```sh
 cargo install carch-cli

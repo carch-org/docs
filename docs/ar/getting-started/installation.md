@@ -10,15 +10,23 @@
 curl -fsSL chalisehari.com.np/carch | sh -s -- install
 ```
 
-### 📦 حزمة Cargo
+بمجرد التثبيت، قم بتشغيل `carch setup` لتثبيت إكمالات الطرفية وصفحة الدليل وملف سطح المكتب.
+
+### 📦 حزمة Cargo Binstall
 
 <br>
 
 <img src="https://img.shields.io/crates/v/carch-cli?style=for-the-badge&logo=rust&color=f5a97f&logoColor=fe640b&labelColor=171b22" >
 
-Carch متاح على [crates.io](https://crates.io/).
+Carch متاح على [crates.io](https://crates.io/) ويدعم [cargo-binstall](https://github.com/cargo-bins/cargo-binstall) للbinaries المجمعة مسبقاً:
 
-يمكنك تثبيته باستخدام كارجو:
+```sh
+cargo binstall carch-cli
+```
+
+### 📦 حزمة Cargo
+
+يمكنك أيضاً التثبيت باستخدام كارجو:
 
 ```sh
 cargo install carch-cli

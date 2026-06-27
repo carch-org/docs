@@ -10,15 +10,23 @@ Ejecuta el siguiente comando en tu terminal:
 curl -fsSL chalisehari.com.np/carch | sh -s -- install
 ```
 
-### 📦 Cargo Crate
+Una vez instalado, ejecuta `carch setup` para instalar las completaciones de shell, la página del manual y el archivo de escritorio.
+
+### 📦 Cargo Binstall
 
 <br>
 
 <img src="https://img.shields.io/crates/v/carch-cli?style=for-the-badge&logo=rust&color=f5a97f&logoColor=fe640b&labelColor=171b22" >
 
-Carch está disponible en [crates.io](https://crates.io/).
+Carch está disponible en [crates.io](https://crates.io/) y soporta [cargo-binstall](https://github.com/cargo-bins/cargo-binstall) para binarios pre-compilados:
 
-Puedes instalarlo usando Cargo:
+```sh
+cargo binstall carch-cli
+```
+
+### 📦 Cargo Install
+
+También puedes instalarlo usando Cargo:
 
 ```sh
 cargo install carch-cli

@@ -20,6 +20,7 @@ carch [OPTIONS] [COMMAND]
 
 | 🏷️ Command                 | 📄 Description                                                                                   |
 |----------------------------|---------------------------------------------------------------------------------------------------|
+| `setup`                    | Install shell completions, man page, and desktop file.                                            |
 | `check-update`             | Check if a new version is available.                                                              |
 | `completions <SHELL>`      | Generate shell completions for bash, zsh, or fish.                                                |
 | `update`                   | Interactively update Carch.                                                                       |
