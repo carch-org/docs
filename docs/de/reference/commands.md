@@ -20,6 +20,7 @@ carch [OPTIONEN] [BEFEHL]
 
 | 🏷️ Befehl                  | 📄 Beschreibung                                                                                   |
 |----------------------------|---------------------------------------------------------------------------------------------------|
+| `setup`                    | Shell-Vervollständigungen, Manpage und Desktop-Datei installieren.                                |
 | `check-update`             | Überprüfen, ob eine neue Version verfügbar ist.                                                              |
 | `completions <SHELL>`      | Shell-Vervollständigungen für bash, zsh oder fish generieren.                                                |
 | `update`                   | Carch interaktiv aktualisieren.                                                                       |

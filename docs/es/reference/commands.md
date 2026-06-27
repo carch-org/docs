@@ -20,6 +20,7 @@ carch [OPCIONES] [COMANDO]
 
 | 🏷️ Comando                 | 📄 Descripción                                                                                   |
 |----------------------------|---------------------------------------------------------------------------------------------------|
+| `setup`                    | Instalar completaciones de shell, página del manual y archivo de escritorio.                       |
 | `check-update`             | Verificar si hay una nueva versión disponible.                                                              |
 | `completions <SHELL>`      | Generar completaciones de shell para bash, zsh o fish.                                                |
 | `update`                   | Actualizar Carch de forma interactiva.                                                                       |

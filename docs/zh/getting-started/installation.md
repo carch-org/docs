@@ -10,15 +10,23 @@
 curl -fsSL chalisehari.com.np/carch | sh -s -- install
 ```
 
-### 📦 Cargo Crate
+安装完成后，运行 `carch setup` 安装 shell 补全、man 手册和桌面文件。
+
+### 📦 Cargo Binstall
 
 <br>
 
 <img src="https://img.shields.io/crates/v/carch-cli?style=for-the-badge&logo=rust&color=f5a97f&logoColor=fe640b&labelColor=171b22" >
 
-Carch 在 [crates.io](https://crates.io/) 上可用。
+Carch 在 [crates.io](https://crates.io/) 上可用，并支持 [cargo-binstall](https://github.com/cargo-bins/cargo-binstall) 用于预编译二进制文件：
 
-你可以使用 Cargo 来安装它：
+```sh
+cargo binstall carch-cli
+```
+
+### 📦 Cargo Install
+
+你也可以使用 Cargo 来安装它：
 
 ```sh
 cargo install carch-cli
