@@ -7,7 +7,7 @@ hero:
   image:
     alt: null 
     style: "width: 200px; height: auto;"
-  tagline: 自动化您的Linux系统设置
+  tagline: 自动化您的Linux安装后设置
   actions:
     - theme: brand
       text: 开始使用 ⇢
@@ -18,7 +18,7 @@ hero:
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
     title: Bash脚本
-    details: 设置仍然由简单的Bash脚本驱动, 快速且干净。
+    details: 由 Rust TUI 驱动的模块化Bash脚本, 快速且干净。
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12969/12969897.png" alt="distro"/>
     title: 多发行版支持
     details: 支持Arch、Fedora和openSUSE等发行版。

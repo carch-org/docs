@@ -7,7 +7,7 @@ hero:
   image:
     alt: null 
     style: "width: 200px; height: auto;"
-  tagline: Linux 시스템 설정을 자동화하세요
+  tagline: Linux 설치 후 설정을 자동화하세요
   actions:
     - theme: brand
       text: 시작하기 ⇢
@@ -18,7 +18,7 @@ hero:
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
     title: Bash 스크립트
-    details: 설정은 여전히 간단한 Bash 스크립트로 구동됩니다, 빠르고 깔끔합니다.
+    details: Rust TUI로 구동되는 모듈식 Bash 스크립트, 빠르고 깔끔합니다.
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12969/12969897.png" alt="distro"/>
     title: 다중 배포판 지원
     details: Arch, Fedora, openSUSE 등의 배포판을 지원합니다.

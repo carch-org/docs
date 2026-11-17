@@ -7,7 +7,7 @@ hero:
   image:
     alt: null 
     style: "width: 200px; height: auto;"
-  tagline: तपाईंको Linux सिस्टम सेटअप स्वचालित गर्नुहोस्
+  tagline: तपाईंको Linux पोस्ट-इन्स्टलेसन सेटअप स्वचालित गर्नुहोस्
   actions:
     - theme: brand
       text: सुरु गर्नुहोस् ⇢
@@ -18,7 +18,7 @@ hero:
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
     title: Bash स्क्रिप्टहरू
-    details: सेटअप अझै पनि सरल Bash स्क्रिप्टहरूद्वारा चलाइएको छ, छिटो र सफा।
+    details: Rust TUI द्वारा सञ्चालित मोड्युलर Bash स्क्रिप्टहरू, छिटो र सफा।
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12969/12969897.png" alt="distro"/>
     title: बहु-डिस्ट्रो समर्थन
     details: Arch, Fedora, र openSUSE जस्ता डिस्ट्रिब्यूशनहरूलाई समर्थन गर्छ।

@@ -7,7 +7,7 @@ hero:
   image:
     alt: null 
     style: "width: 200px; height: auto;"
-  tagline: Automate Your Linux System Setup
+  tagline: Automate Your Linux Post-Install Setup
   actions:
     - theme: brand
       text: Getting Started ⇢
@@ -18,7 +18,7 @@ hero:
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
     title: Bash Scripts
-    details: Setup is still powered by simple Bash scripts, fast and clean.
+    details: Modular Bash scripts driven by a Rust TUI, fast and clean.
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12969/12969897.png" alt="distro"/>
     title: Multi-distro Support
     details: Supports distros like Arch, Fedora, and openSUSE.

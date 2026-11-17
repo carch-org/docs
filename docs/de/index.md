@@ -7,7 +7,7 @@ hero:
   image:
     alt: null 
     style: "width: 200px; height: auto;"
-  tagline: Automatisiere dein Linux-System-Setup
+  tagline: Automatisiere dein Linux Post-Install-Setup
   actions:
     - theme: brand
       text: Erste Schritte ⇢
@@ -18,7 +18,7 @@ hero:
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
     title: Bash-Skripte
-    details: Setup wird immer noch von einfachen Bash-Skripten angetrieben, schnell und sauber.
+    details: Modulare Bash-Skripte, gesteuert von einer Rust-TUI, schnell und sauber.
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12969/12969897.png" alt="distro"/>
     title: Multi-Distro-Support
     details: Unterstützt Distributionen wie Arch, Fedora und openSUSE.

@@ -7,7 +7,7 @@ hero:
   image:
     alt: null 
     style: "width: 200px; height: auto;"
-  tagline: Automatisez la configuration de votre système Linux
+  tagline: Automatisez la configuration post-installation de votre Linux
   actions:
     - theme: brand
       text: Commencer ⇢
@@ -18,7 +18,7 @@ hero:
 features:
   - icon: <img width="35" height="35" src="https://img.icons8.com/?size=48&id=hFuGKe550WR3&format=png" alt="scripts"/>
     title: Scripts Bash
-    details: La configuration fonctionne toujours avec des scripts Bash simples, rapide et propre.
+    details: Scripts Bash modulaires pilotés par une TUI en Rust, rapide et propre.
   - icon: <img width="35" height="35" src="https://cdn-icons-png.flaticon.com/128/12969/12969897.png" alt="distro"/>
     title: Support multi-distributions
     details: Prend en charge les distributions comme Arch, Fedora et openSUSE.
