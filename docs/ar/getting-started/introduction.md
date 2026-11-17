@@ -7,7 +7,7 @@
 
 <h1>ما هو Carch؟</h1>
 
-*[Carch](https://carch.chalisehari.com.np)* هو **مجموعة** من نصوص Bash المعيارية مع واجهة مستخدم نصية جميلة (*مبنية باستخدام* [`ratatui`](https://github.com/ratatui-org/ratatui)) لأتمتة إعداد ما بعد التثبيت لمستخدمي Linux.
+*[Carch](https://carch.chalisehari.com.np)* هو **واجهة TUI مبنية بـ Rust** (*باستخدام* [`ratatui`](https://github.com/ratatui-org/ratatui)) تعمل على أتمتة **إعداد ما بعد التثبيت والتخصيص** على Arch وFedora وopenSUSE، من خلال تشغيل مجموعة من نصوص Bash المعيارية عبر واجهة بديهية.
 إنه مفيد بشكل خاص إذا كنت تريد إعداد وبدء استخدام *تطبيقاتك المفضلة* بسرعة على نظام نظيف وجاهز للاستخدام. (*يدعم حاليًا التوزيعات المبنية على Arch وFedora وopenSUSE*)
 
 ## الميزات

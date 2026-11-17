@@ -7,7 +7,7 @@
 
 <h1>Carchとは？</h1>
 
-*[Carch](https://carch.chalisehari.com.np)*は、Linuxユーザーのインストール後セットアップを自動化するための、美しいTUI（*[`ratatui`](https://github.com/ratatui-org/ratatui)で構築*）を備えたモジュール式Bashスクリプトの**コレクション**です。
+*[Carch](https://carch.chalisehari.com.np)*は、Arch、Fedora、openSUSE向けの**インストール後セットアップとテーマ設定**を自動化する**Rust製TUI**（*[`ratatui`](https://github.com/ratatui-org/ratatui)で構築*）です。直感的なインターフェースを通じて、モジュール式Bashスクリプトの**コレクション**を実行します。
 クリーンですぐに使えるシステム上で、*お気に入りのアプリケーション*を素早くセットアップして使い始めたい場合に特に便利です。（*現在はArch、Fedora、openSUSEベースのディストリビューションをサポート*）
 
 ## 機能
