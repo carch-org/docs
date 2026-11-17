@@ -2,11 +2,11 @@
   "name": "carch-docs",
   "type": "module",
   "dependencies": {
-    "bun": "^1.2.5",
-    "devicon": "^2.16.0"
+    "bun": "^1.4.4",
+    "devicon": "^2.18.0"
   },
   "devDependencies": {
-    "vitepress": "^1.6.3",
+    "vitepress": "^1.6.4",
     "vitepress-theme-tui": "^0.0.13"
   },
   "scripts": {
